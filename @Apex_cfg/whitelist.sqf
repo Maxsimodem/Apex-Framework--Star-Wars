@@ -19,6 +19,7 @@ Comment:
 	For staff IDs, ensure ID is in only one list. For instance, either moderator, admin or developer, but not all of them together.
 	
 	They DO all have to be in the 'ALL' list though.
+
 __________________________________________________________________________/*/
 
 _type = param [0,''];
@@ -38,7 +39,7 @@ if (_type isEqualTo 'S3') then {
 if (_type isEqualTo 'CAS') then {
 	/*/These IDs have access to fixed-wing Jets, subject to mission parameters/*/
 	_return = [
-		'76561100000000000',
+		'76561198048735155', //Maxsimodem, testing only
 		'76561100000000000'
 	];
 };
@@ -62,7 +63,7 @@ if (_type isEqualTo 'OPFOR') then {
 if (_type isEqualTo 'ALL') then {
 	/*/ All staff UIDs (does not grant permissions/menus, that stuff is below). Robocop reports trolling events and hacking events to these people though./*/
 	_return = [
-		'76561100000000000',
+		'76561198048735155', //Maxsimodem, testing only
 		'76561100000000000'
 	];
 };
@@ -70,7 +71,7 @@ if (_type isEqualTo 'ALL') then {
 if (_type isEqualTo 'ADMIN') then {
 	/*/ Admin UIDs. These IDs have access to all admin tools below Developer access. They do not have Debug Console.  - remove ID from MODERATOR IDs/*/
 	_return = [
-		'76561100000000000',
+		'76561198048735155', //Maxsimodem, testing only
 		'76561100000000000'
 	];
 };
@@ -78,7 +79,7 @@ if (_type isEqualTo 'ADMIN') then {
 if (_type isEqualTo 'MODERATOR') then {
 	/*/ Moderator IDs - remove ID from ADMIN IDs/*/
 	_return = [
-		'76561100000000000',
+		'76561198048735155', //Maxsimodem, testing only
 		'76561100000000000'
 	];
 };
@@ -94,7 +95,7 @@ if (_type isEqualTo 'TRUSTED') then {
 if (_type isEqualTo 'MEDIA') then {
 	/*/ Media. These IDs will have access to a limited Splendid Camera (which is normally only availabe to Developers), but no other options. May be required to be in 'ALL' first./*/
 	_return = [
-		'76561100000000000',
+		'76561198048735155', //Maxsimodem, testing only
 		'76561100000000000'
 	];
 };
@@ -102,7 +103,7 @@ if (_type isEqualTo 'MEDIA') then {
 if (_type isEqualTo 'CURATOR') then {
 	/*/Zeus. These IDs have access to Zeus and mission curation functionality. They can suspend side missions and main missions, and cycle main missions (this is done on "air defense laptop" at base)./*/
 	_return = [
-		'76561100000000000',
+		'76561198048735155', //Maxsimodem, testing only
 		'76561100000000000'
 	];
 };
@@ -110,7 +111,7 @@ if (_type isEqualTo 'CURATOR') then {
 if (_type isEqualTo 'DEVELOPER') then {
 	/*/ Developer UIDs. These IDs have access to integrated Debug Console (execution is logged and filtered) and all other ingame tools./*/
 	_return = [
-		'76561100000000000',
+		'76561198048735155', //Maxsimodem, testing only
 		'76561100000000000'
 	];
 };

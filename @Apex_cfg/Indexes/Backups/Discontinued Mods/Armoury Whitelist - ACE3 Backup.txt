@@ -1,0 +1,374 @@
+==================
+TEMPLATE CATEGORY:
+==================
+
+		//============================================= Template Sub-Category:
+
+				Vanilla:
+						-Example Name,																			example_class,															Example Expansion,											whitelisted
+
+				Workshop Mods:
+						-Example Name,																			example_class,															Example Expansion,											whitelisted
+					
+========
+WEAPONS:
+========
+
+		//============================================= Pistols:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+						
+		//============================================= Sub-Machine Guns:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Light Machine Guns:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Assault Rifles:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Underbarrel Grenade Launcher Rifles:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+				
+		//============================================= Designated Marksman/Battle Rifles:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Sniper Rifles:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Shotguns:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Light Rocket Launchers:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Heavy Rocket Launchers:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+========
+WEAPON ATTACHMENTS:
+========
+
+		//============================================= Reflex Sights:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+						
+		//============================================= ACOG Sights:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+						
+		//============================================= Sniper Sights:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+==========
+Magazines:
+==========
+
+		//============================================= Pistol Magazines
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+		
+		//============================================= Submachine Gun Magazines:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+		
+		//============================================= Light Machine Gun Magazines:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Assault Rifle Magazines:
+		
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+		
+		//============================================= DMR/Battle Rifle Magazines:
+		
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+				
+		//============================================= Sniper Rifle Magazines:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+						
+		//============================================= Shotgun Magazines:
+		
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+				
+		//============================================= Light Rockets:
+				
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Heavy Rockets:
+				
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+						
+		//============================================= Grenades:
+				
+				Vanilla
+						-,																						,																		,															whitelisted
+				
+				Workshop Mods:
+						-Chemlight (Hi Blue),																	ACE_Chemlight_HiBlue,													ACE3,														whitelisted
+						-Chemlight (Hi Green),																	ACE_Chemlight_HiGreen,													ACE3,														whitelisted
+						-Chemlight (Hi Red),																	ACE_Chemlight_HiRed,													ACE3,														whitelisted
+						-Chemlight (Hi White),																	ACE_Chemlight_HiWhite,													ACE3,														whitelisted
+						-Chemlight (Hi Yellow),																	ACE_Chemlight_HiYellow,													ACE3,														whitelisted
+						-Chemlight (IR),																		ACE_Chemlight_IR,														ACE3,														whitelisted
+						-Chemlight (Orange),																	ACE_Chemlight_Orange,													ACE3,														whitelisted
+						-Chemlight (Ultra-hi Orange),															ACE_Chemlight_UltraHiOrange,											ACE3,														whitelisted
+						-Chemlight (White),																		ACE_Chemlight_White,													ACE3,														whitelisted
+						-M84Stun Grenade,																		ACE_M84,																ACE3,														whitelisted
+						
+		//============================================= Shields:
+				
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Explosives:
+				
+				Vanilla:
+						-,																						,																		,															whitelisted
+				
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+						
+		//============================================= Special Explosives:
+				
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+		
+=================
+UNIFORM ELEMENTS:
+=================
+			
+		//============================================= Helmet Attachments:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Cloth Coverings:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Masks:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+						
+		//============================================= Formalwear/Uniforms:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Combat Fatigues:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Coveralls:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+					
+======
+VESTS:
+======
+
+		//============================================= Heavy Combat Vests:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Light Combat Vests:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Crew Vests:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Straps, Harnesses, and Bandoliers:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Rebreathers:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+==========
+BACKPACKS:
+==========
+
+		//============================================= Packs:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+					
+		//============================================= Radios:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+					
+		//============================================= Respirators:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+					
+		//============================================= Parachutes:
+
+				Vanilla:
+						-,																						,																		,															whitelisted
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+						
+		//============================================= Static Machine Guns:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+			
+		//============================================= Mortars:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+					
+		//============================================= Bipods and Tripods:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+					
+		//============================================= UAVs:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+					
+		//============================================= Deployable Cover
+				
+				Vanilla:
+						-,																						,																		,															whitelisted
+				
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+						
+==========
+HEAD GEAR:
+==========
+
+		//============================================= Combat Helmets:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+						
+		//============================================= Stealth Helmets:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Non-Combat Helmets:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Pilot Helmets:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Hats:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+==========
+EQUIPMENT:
+==========
+
+		//============================================= Night Vision Goggles:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Binoculars:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+			
+		//============================================= Maps:
+
+				Vanilla:
+						-,																						,																		,															whitelisted
+
+		//============================================= Terminals:
+
+				Vanilla:
+						-,																						,																		,															whitelisted
+
+		//============================================= Radios:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Navigation:
+
+				Vanilla:
+						-,																						,																		,															whitelisted
+
+		//============================================= Watches:
+
+				Vanilla:
+						-
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+						
+		//============================================= Inventory Items
+
+				Vanilla:
+						-,																						,																		,															whitelisted
+
+				Workshop Mods:
+						-82mm Rangetable,																		ACE_RangeTable_82mm,													ACE3,														whitelisted
+						-Artillery Rangetable,																	ACE_artilleryTable,														ACE3,														whitelisted
+						-Cable Tie,																				ACE_CableTie,															ACE3,														whitelisted
+						-Defusal Kit,																			ACE_DefusalKit,															ACE3,														whitelisted
+						-Earplugs,																				ACE_EarPlugs,															ACE3,														whitelisted
+						-Entrenching Tool,																		ACE_EntrenchingTool,													ACE3,														whitelisted
+						-M152 Firing Device,																	ACE_M26_Clacker,														ACE3,														whitelisted
+						-M57 Firing Device																		ACE_Clacker,															ACE3,														whitelisted
+						-Fortify Tool,																			ACE_Fortify,															ACE3,														whitelisted
+						-Maglite XL50,																			ACE_Flashlight_XL50,													ACE3,														whitelisted
+						-Wirecutter,																			ACE_wirecutter,															ACE3,														whitelisted

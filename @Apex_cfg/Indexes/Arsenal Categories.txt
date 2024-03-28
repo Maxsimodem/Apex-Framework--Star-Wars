@@ -1,0 +1,82 @@
+	_weaponsAll
+	_attachmentsAll
+	_magazinesAll
+	_grenadesAll
+	_explosivesAll
+	_uniformsAll
+	_vestsAll
+	_backpacksAll
+	_helmetsAll
+	
+	_pistolsPlasma
+	_carbinesPlasma
+	_riflesPlasma
+	_blastersSquadAutomatic
+	_blastersAssault
+	_blastersUGL
+	_launchersGrenade
+	_blastersSniper
+	_blastersScatter
+	_launchersDisposable
+	_launchersUnguided
+	_launchersGuided
+	
+	_attachmentsSniper
+	_attachmentsRifle
+	
+	_magazinesPistol
+	_magazinesCarbine
+	_magazinesRifle
+	_magazinesRepeater
+	_magazinesAssault
+	_magazinesUGL
+	_magazinesGrenade
+	_magazinesSniper
+	_magazinesScatter
+	_magazinesStun
+	_magazinesAntiTank
+	_rocketsUnguided
+	_rocketsGuided
+	
+	_grenadesChemlights
+	_grenadesSmoke
+	_grenadesOffensive
+	_grenadesShield
+	_explosivesInfantry
+	_explosivesEngineer
+	
+	_attachmentsHelmet
+	_uniformsClothCovering
+	_uniformsMasks
+	_uniformsFormal
+	_uniformsArmour
+	_uniformsMedic
+	_uniformsCoveralls
+	
+	_vestsHeavy
+	_vestsLight
+	_vestsMedic
+	_vestsCrew
+	_vestsStrapsBandoliers
+	
+	_backpacksCarrier
+	_backpacksMedic
+	_backpacksRadio
+	_backpacksJet
+	_backpacksRespirator
+	_backpacksParachute
+	_backpacksTurret
+	_backpacksMortar
+	_backpacksUAV
+	
+	_helmetsCombat
+	_helmetsStealth
+	_helmetsPilot
+	
+	_equipmentAssignedItems
+	_equipmentOther
+	_equipmentNVGs
+	_equipmentBinoculars
+	_equipmentMedic
+	_equipmentEngineer
+	_equipmentUAV

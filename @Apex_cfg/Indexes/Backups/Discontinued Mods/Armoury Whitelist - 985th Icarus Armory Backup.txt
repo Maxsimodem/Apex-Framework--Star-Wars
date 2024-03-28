@@ -1,0 +1,492 @@
+==================
+TEMPLATE CATEGORY:
+==================
+
+		//============================================= Template Sub-Category:
+
+				Vanilla:
+						-Example Name,																			example_class,															Example Expansion,											whitelisted
+
+				Workshop Mods:
+						-Example Name,																			example_class,															Example Expansion,											whitelisted
+					
+========
+WEAPONS:
+========
+
+		//============================================= Pistols:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+						
+		//============================================= Sub-Machine Guns:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Light Machine Guns:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Assault Rifles:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+		//============================================= Underbarrel Grenade Launcher Rifles:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+				
+		//============================================= Designated Marksman/Battle Rifles:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Sniper Rifles:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Shotguns:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Light Rocket Launchers:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Heavy Rocket Launchers:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+========
+WEAPON ATTACHMENTS:
+========
+
+		//============================================= Reflex Sights:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+						
+		//============================================= ACOG Sights:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+						
+		//============================================= Sniper Sights:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+						
+
+==========
+Magazines:
+==========
+
+		//============================================= Pistol Magazines
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+		
+		//============================================= Submachine Gun Magazines:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+		
+		//============================================= Light Machine Gun Magazines:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Assault Rifle Magazines:
+		
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+		
+		//============================================= DMR/Battle Rifle Magazines:
+		
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+				
+		//============================================= Sniper Rifle Magazines:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+						
+		//============================================= Shotgun Magazines:
+		
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+				
+		//============================================= Light Rockets:
+				
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Heavy Rockets:
+				
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+						
+		//============================================= Grenades:
+				
+				Vanilla
+						-,																						,																		,															whitelisted
+				
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+						
+		//============================================= Shields:
+				
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Explosives:
+				
+				Vanilla:
+						-,																						,																		,															whitelisted
+				
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+						
+		//============================================= Special Explosives:
+				
+				Vanilla:
+						-,																						,																		,															whitelisted
+				
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+		
+=================
+UNIFORM ELEMENTS:
+=================
+			
+		//============================================= Helmet Attachments:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Cloth Coverings:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Masks:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+						
+		//============================================= Formalwear/Uniforms:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Combat Fatigues:
+
+				Workshop Mods:
+						-Clone Uniform (104th Reg),																985_Uniform_104_1,														985th Core - Icarus Armoury,								whitelisted
+						-Clone Uniform (212th Reg),																985_Uniform_212_1,														985th Core - Icarus Armoury,								whitelisted
+						-Clone Uniform (327th Reg),																985_Uniform_327_1,														985th Core - Icarus Armoury,								whitelisted
+						-Clone Uniform (501st Reg),																985_Uniform_501_1,														985th Core - Icarus Armoury,								whitelisted
+						-Clone Uniform (Shiny CC),																985_Uniform_shiny_4,													985th Core - Icarus Armoury,								whitelisted
+						-Clone Uniform (Shiny CPT),																985_Uniform_shiny_3,													985th Core - Icarus Armoury,								whitelisted
+						-Clone Uniform (Shiny LT),																985_Uniform_shiny_2,													985th Core - Icarus Armoury,								whitelisted
+						-Clone Uniform (Shiny SGT),																985_Uniform_shiny_1,													985th Core - Icarus Armoury,								whitelisted
+						-Clone Uniform P2 (985th 1-1),															985_Uniform_S1,															985th Core - Icarus Armoury,								whitelisted
+						-Clone Uniform P2 (985th 1-2),															985_Uniform_S2,															985th Core - Icarus Armoury,								whitelisted
+						-Clone Uniform P2 (985th 1-3),															985_Uniform_S3,															985th Core - Icarus Armoury,								whitelisted
+						-Clone Uniform P2 (985th Airborne),														985_Uniform_airborne,													985th Core - Icarus Armoury,								whitelisted
+						-Clone Uniform P2 (985th Cents),														985_Uniform_cents,														985th Core - Icarus Armoury,								whitelisted
+						-Clone Uniform P2 (985th CT),															985_Uniform_985_1,														985th Core - Icarus Armoury,								whitelisted
+						-Clone Uniform P2 (985th Davies),														985_Uniform_davies,														985th Core - Icarus Armoury,								whitelisted
+						-Clone Uniform P2 (985th Drethapid),													985_Uniform_drethapid,													985th Core - Icarus Armoury,								whitelisted
+						-Clone Uniform P2 (985th EOD),															985_Uniform_985_EOD,													985th Core - Icarus Armoury,								whitelisted
+						-Clone Uniform P2 (985th Epsilon),														985_Uniform_epsilon,													985th Core - Icarus Armoury,								whitelisted
+						-Clone Uniform P2 (985th Exile),														985_Uniform_exile,														985th Core - Icarus Armoury,								whitelisted
+						-Clone Uniform P2 (985th Gundark),														985_Uniform_985_gundark,												985th Core - Icarus Armoury,								whitelisted
+						-Clone Uniform P2 (985th Icarus),														985_Uniform_icarus,														985th Core - Icarus Armoury,								whitelisted
+						-Clone Uniform P2 (985th Joshv),														985_Uniform_joshv,														985th Core - Icarus Armoury,								whitelisted
+						-Clone Uniform P2 (985th Kellogs),														985_Uniform_kellogs,													985th Core - Icarus Armoury,								whitelisted
+						-Clone Uniform P2 (985th Kom'rk),														985_Uniform_komrk,														985th Core - Icarus Armoury,								whitelisted
+						-Clone uniform P2 (985th Larko),														985_Uniform_larko,														985th Core - Icarus Armoury,								whitelisted
+						-Clone Uniform P2 (985th Lister),														985_Uniform_lister,														985th Core - Icarus Armoury,								whitelisted
+						-Clone Uniform P2 (985th Marlu),														985_Uniform_marlu,														985th Core - Icarus Armoury,								whitelisted
+						-Clone Uniform P2 (985th Medic),														985_Uniform_985_M,														985th Core - Icarus Armoury,								whitelisted
+						-Clone Uniform P2 (985th NCO),															985_Uniform_985_3,														985th Core - Icarus Armoury,								whitelisted
+						-Clone Uniform P2 (985th Officer),														985_Uniform_985_4,														985th Core - Icarus Armoury,								whitelisted
+						-Clone Uniform P2 (985th Praetorian),													985_Uniform_praetorian,													985th Core - Icarus Armoury,								whitelisted
+						-Clone Uniform P2 (985th Rads),															985_Uniform_rads,														985th Core - Icarus Armoury,								whitelisted
+						-Clone Uniform P2 (985th SCT),															985_Uniform_985_2,														985th Core - Icarus Armoury,								whitelisted
+						-Clone Uniform P2 (985th Shad),															985_Uniform_shad,														985th Core - Icarus Armoury,								whitelisted
+						-Clone Uniform P2 (985th Shyrack),														985_Uniform_985_Shyrack,												985th Core - Icarus Armoury,								whitelisted
+						-Clone Uniform P2 (985th Simon),														985_Uniform_simon,														985th Core - Icarus Armoury,								whitelisted
+						-Clone Uniform P2 (985th Sm0key),														985_Uniform_smokey,														985th Core - Icarus Armoury,								whitelisted
+						-Clone Uniform P2 (985th Smiles),														985_Uniform_smiles,														985th Core - Icarus Armoury,								whitelisted
+						-Clone Uniform P2 (985th Snow),															985_Uniform_snow,														985th Core - Icarus Armoury,								whitelisted
+						-Clone Uniform P2 (985th Spectre),														985_Uniform_spectre,													985th Core - Icarus Armoury,								whitelisted
+						-Clone Uniform P2 (985th Stewie),														985_Uniform_stewie,														985th Core - Icarus Armoury,								whitelisted
+						-Clone Uniform P2 (GD CT),																985_Uniform_GD_1,														985th Core - Icarus Armoury,								whitelisted
+						-Clone Uniform P2 (GD Medic),															985_Uniform_GD_M,														985th Core - Icarus Armoury,								whitelisted
+						-Clone Uniform P2 (GD Officer),															985_Uniform_GD_2,														985th Core - Icarus Armoury,								whitelisted
+						-Clone Uniform P2 (Shadow),																985_Uniform_shadow,														985th Core - Icarus Armoury,								whitelisted
+						-Clone Uniform P2 (Shiny),																985_UniformBase,														985th Core - Icarus Armoury,								whitelisted
+						-Petrov Uniform,																		Petrov_Uniform_1,														985th Core - Icarus Armoury,								blacklisted //OPFOR
+						-Recreational Uniform (Aussies),														985_Uniform_Aussies_1,													985th Core - Icarus Armoury,								whitelisted
+						-Recreational Uniform (Kiwi),															985_Uniform_Kiwi_1,														985th Core - Icarus Armoury,								whitelisted
+
+		//============================================= Coveralls:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+					
+======
+VESTS:
+======
+
+		//============================================= Heavy Combat Vests:
+
+				Workshop Mods:
+						-Clone ARC Vest,																		985_Vest_ARC,															985th Core - Icarus Armoury,								whitelisted
+						-Clone ARC Vest Kellogs,																985_vest_kellogs,														985th Core - Icarus Armoury,								whitelisted
+						-Clone ARC Vest Larko,																	985_vest_Larko,															985th Core - Icarus Armoury,								whitelisted
+						-Clone ARC Vest Long,																	985_vest_Long,															985th Core - Icarus Armoury,								whitelisted
+						-Clone ARC Vest Simon,																	985_vest_Simon,															985th Core - Icarus Armoury,								whitelisted
+						-Clone ARC Vest Smiles,																	985_vest_Smiles,														985th Core - Icarus Armoury,								whitelisted
+						-Clone ARC Vest Spectre,																985_vest_Spectre,														985th Core - Icarus Armoury,								whitelisted
+						-Clone Commander Set,																	985_Vest_Pauldron,														985th Core - Icarus Armoury,								whitelisted
+						-Clone Commander Vest Davies,															985_CDRvest_Davies,														985th Core - Icarus Armoury,								whitelisted
+						-Clone Commander Vest Icarus,															985_CDRvest_Icarus,														985th Core - Icarus Armoury,								whitelisted
+						-Clone Commander Vest Joshv,															985_CDRvest_Joshv,														985th Core - Icarus Armoury,								whitelisted
+						-Petrov Vest,																			Petrov_Vest_1,															985th Core - Icarus Armoury,								blacklisted //OPFOR
+
+		//============================================= Light Combat Vests:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Crew Vests:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Straps, Harnesses, and Bandoliers:
+
+				Workshop Mods:
+						-Clone NCO Kama,																		985_Vest_Kama,															985th Core - Icarus Armoury,								whitelisted
+
+		//============================================= Rebreathers:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+==========
+BACKPACKS:
+==========
+
+		//============================================= Packs:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+		//============================================= Radios:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+					
+		//============================================= Respirators:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+					
+		//============================================= Parachutes:
+
+				Vanilla:
+						-,																						,																		,															whitelisted
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+						
+		//============================================= Static Machine Guns:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+			
+		//============================================= Mortars:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+					
+		//============================================= Bipods and Tripods:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+					
+		//============================================= UAVs:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+					
+		//============================================= Deployable Cover
+				
+				Vanilla:
+						-,																						,																		,															whitelisted
+				
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+						
+==========
+HEAD GEAR:
+==========
+
+		//============================================= Combat Helmets:
+
+				Workshop Mods:
+						--Clone Helmet Airborne (985th CT),														985_Helmet_Airborne_CT,													985th Core - Icarus Armoury,								whitelisted
+						-Clone Helmet Airborne (985th Medic),													985_Helmet_Airborne_Medic,												985th Core - Icarus Armoury,								whitelisted
+						-Clone Helmet Airborne (985th NCO),														985_Helmet_Airborne_NCO,												985th Core - Icarus Armoury,								whitelisted
+						-Clone Helmet Airborne (985th Officer),													985_Helmet_Airborne_OFF,												985th Core - Icarus Armoury,								whitelisted
+						-Clone Helmet Airborne (Purge),															985_Helmet_Airborne_Purge,												985th Core - Icarus Armoury,								whitelisted
+						-Clone Helmet Airborne (Shiny),															985_HelmetBase_Airborne,												985th Core - Icarus Armoury,								whitelisted
+						-Clone Helmet ARC (985th Kellogs),														985_Helmet_ARC_Kellogs,													985th Core - Icarus Armoury,								whitelisted
+						-Clone Helmet ARC (985th Karko),														985_Helmet_ARC_Larko,													985th Core - Icarus Armoury,								whitelisted
+						-Clone Helmet ARC (985th NCO),															985_Helmet_ARC_985_NCO,													985th Core - Icarus Armoury,								whitelisted
+						-Clone Helmet ARC (985th Shad),															985_Helmet_P2_shad,														985th Core - Icarus Armoury,								whitelisted
+						-Clone Helmet ARC (985th Smiles),														985_Helmet_ARC_Smiles,													985th Core - Icarus Armoury,								whitelisted
+						-Clone Helmet ARC (Shiny),																985_HelmetBase_P2_ARC,													985th Core - Icarus Armoury,								whitelisted
+						-Clone Helmet P1 (985th CT),															985_Helmet_P1_985_CT,													985th Core - Icarus Armoury,								whitelisted
+						-Clone Helmet P1 (GD CT),																985_Helmet_P1_GD_1,														985th Core - Icarus Armoury,								whitelisted
+						-Clone Helmet P1 (GD NCO),																985_Helmet_P1_GD_3,														985th Core - Icarus Armoury,								whitelisted
+						-Clone Helmet P1 (GD Officer),															985_Helmet_P1_GD_4,														985th Core - Icarus Armoury,								whitelisted
+						-Clone Helmet P1 (GD SCT),																985_Helmet_P1_GD_2,														985th Core - Icarus Armoury,								whitelisted
+						-Clone Helmet P1 (Shiny CC),															985_Helmet_P1_Shiny_4,													985th Core - Icarus Armoury,								whitelisted
+						-Clone Helmet P1 (Shiny CPT),															985_Helmet_P1_Shiny_3,													985th Core - Icarus Armoury,								whitelisted
+						-Clone Helmet P1 (Shiny LT),															985_Helmet_P1_Shiny_2,													985th Core - Icarus Armoury,								whitelisted
+						-Clone Helmet P1 (Shiny SGT),															985_Helmet_P1_Shiny_1,													985th Core - Icarus Armoury,								whitelisted
+						-Clone Helmet P1 (Shiny),																985_HelmetBase_P1,														985th Core - Icarus Armoury,								whitelisted
+						-Clone Helmet P2 (104th Reg),															985_Helmet_P2_104_1,													985th Core - Icarus Armoury,								whitelisted
+						-Clone Helmet P2 (212th Reg),															985_Helmet_P2_212_1,													985th Core - Icarus Armoury,								whitelisted
+						-Clone Helmet P2 (327th Reg),															985_Helmet_P2_327_1,													985th Core - Icarus Armoury,								whitelisted
+						-Clone Helmet P2 (501st Reg),															985_Helmet_P2_501_1,													985th Core - Icarus Armoury,								whitelisted
+						-Clone Helmet P2 (985th Atlas),															985_Helmet_P2_atlas,													985th Core - Icarus Armoury,								whitelisted
+						-Clone Helmet P2 (985th Bevo),															985_Helmet_P2_bevo,														985th Core - Icarus Armoury,								whitelisted
+						-Clone Helmet P2 (985th Cents),															985_Helmet_P2_cents,													985th Core - Icarus Armoury,								whitelisted
+						-Clone Helmet P2 (985th Cerberus),														985_Helmet_P2_cerberus,													985th Core - Icarus Armoury,								whitelisted
+						-Clone Helmet P2 (985th Checker),														985_Helmet_P2_checker,													985th Core - Icarus Armoury,								whitelisted
+						-Clone Helmet P2 (985th Crux),															985_Helmet_P2_crux,														985th Core - Icarus Armoury,								whitelisted
+						-Clone Helmet P2 (985th CT),															985_Helmet_P2_985_CT,													985th Core - Icarus Armoury,								whitelisted
+						-Clone Helmet P2 (985th Davies),														985_Helmet_P2_davies,													985th Core - Icarus Armoury,								whitelisted
+						-Clone Helmet P2 (985th Drethapid),														985_Helmet_P2_drethapid,												985th Core - Icarus Armoury,								whitelisted
+						-Clone Helmet P2 (985th EOD),															985_Helmet_P2_EOD,														985th Core - Icarus Armoury,								whitelisted
+						-Clone Helmet P2 (985th Epsilon),														985_Helmet_ARC_Epsilon,													985th Core - Icarus Armoury,								whitelisted
+						-Clone Helmet P2 (985th Exile),															985_Helmet_P2_exile,													985th Core - Icarus Armoury,								whitelisted
+						-Clone Helmet P2 (985th Frost),															985_Helmet_P2_frost,													985th Core - Icarus Armoury,								whitelisted
+						-Clone Helmet P2 (985th Gundark CT),													985_Helmet_P2_985_Gundark_CT,											985th Core - Icarus Armoury,								whitelisted
+						-Clone Helmet P2 (985th Gundark NCO),													985_Helmet_P2_Gundark_NCO,												985th Core - Icarus Armoury,								whitelisted
+						-Clone Helmet P2 (985th Haz),															985_Helmet_P2_haz,														985th Core - Icarus Armoury,								whitelisted
+						-Clone Helmet P2 (985th Icarus),														985_Helmet_P2_icarus,													985th Core - Icarus Armoury,								whitelisted
+						-Clone Helmet P2 (985th Inverted),														985_Helmet_P2_inverted,													985th Core - Icarus Armoury,								whitelisted
+						-Clone Helmet P2 (985th Joshv),															985_Helmet_P2_joshv,													985th Core - Icarus Armoury,								whitelisted
+						-Clone Helmet P2 (985th Ketts),															985_Helmet_P2_ketts,													985th Core - Icarus Armoury,								whitelisted
+						-Clone Helmet P2 (985th Knox),															985_Helmet_P2_knox,														985th Core - Icarus Armoury,								whitelisted
+						-Clone Helmet P2 (985th Kom'rk),														985_Helmet_P2_komrk,													985th Core - Icarus Armoury,								whitelisted
+						-Clone Helmet P2 (985th Larko),															985_Helmet_P2_larko,													985th Core - Icarus Armoury,								whitelisted
+						-Clone Helmet P2 (985th Lister),														985_Helmet_P2_lister,													985th Core - Icarus Armoury,								whitelisted
+						-Clone Helmet P2 (985th Marlu),															985_Helmet_P2_marlu,													985th Core - Icarus Armoury,								whitelisted
+						-Clone Helmet P2 (985th Maxdavant),														985_Helmet_P2_maxdavant,												985th Core - Icarus Armoury,								whitelisted
+						-Clone Helmet P2 (985th Medic CT),														985_Helmet_P2_985_Medic_CT,												985th Core - Icarus Armoury,								whitelisted
+						-Clone Helmet P2 (985th Medic NCO),														985_Helmet_P2_985_Medic_NCO,											985th Core - Icarus Armoury,								whitelisted
+						-Clone Helmet P2 (985th NCO),															985_Helmet_P2_985_NCO,													985th Core - Icarus Armoury,								whitelisted
+						-Clone Helmet P2 (985th Officer),														985_Helmet_P2_985_OFF,													985th Core - Icarus Armoury,								whitelisted
+						-Clone Helmet P2 (985th Orochi),														985_Helmet_P2_orochi,													985th Core - Icarus Armoury,								whitelisted
+						-Clone Helmet P2 (985th Praetorian),													985_Helmet_P2_praetorian,												985th Core - Icarus Armoury,								whitelisted
+						-Clone Helmet P2 (985th Rads),															985_Helmet_P2_rads,														985th Core - Icarus Armoury,								whitelisted
+						-Clone Helmet P2 (985th Reaper),														985_Helmet_P2_reaper,													985th Core - Icarus Armoury,								whitelisted
+						-Clone Helmet P2 (985th SCT),															985_Helmet_P2_985_SCT,													985th Core - Icarus Armoury,								whitelisted
+						-Clone Helmet P2 (985th Sheppard),														985_Helmet_P2_sheppard,													985th Core - Icarus Armoury,								whitelisted
+						-Clone Helmet P2 (985th Simon),															985_Helmet_P2_simon,													985th Core - Icarus Armoury,								whitelisted
+						-Clone Helmet P2 (985th Sm0key),														985_Helmet_P2_smokey,													985th Core - Icarus Armoury,								whitelisted
+						-Clone Helmet P2 (985th Smiles),														985_Helmet_P2_smiles,													985th Core - Icarus Armoury,								whitelisted
+						-Clone Helmet P2 (985th Snow),															985_Helmet_P2_snow,														985th Core - Icarus Armoury,								whitelisted
+						-Clone Helmet P2 (985th Spectre),														985_Helmet_P2_spectre,													985th Core - Icarus Armoury,								whitelisted
+						-Clone Helmet P2 (985th Stewie),														985_Helmet_P2_stewie,													985th Core - Icarus Armoury,								whitelisted
+						-Clone Helmet P2 (985th Swallows),														985_Helmet_P2_swallows,													985th Core - Icarus Armoury,								whitelisted
+						-Clone Helmet P2 (985th Sydney),														985_Helmet_P2_sydeny,													985th Core - Icarus Armoury,								whitelisted
+						-Clone Helmet P2 (985th Viper),															985_Helmet_P2_viper,													985th Core - Icarus Armoury,								whitelisted
+						-Clone Helmet P2 (Shadow),																985_Helmet_P2_shadow,													985th Core - Icarus Armoury,								whitelisted
+						-Clone Helmet P2 (Shiny),																985_HelmetBase_P2,														985th Core - Icarus Armoury,								whitelisted
+						
+		//============================================= Stealth Helmets:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Non-Combat Helmets:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Pilot Helmets:
+
+				Workshop Mods:
+						-Clone Helmet Pilot (985th Cents),														985_Helmet_Pilot_cents,													985th Core - Icarus Armoury,								whitelisted
+						-Clone Helmet Pilot (985th Marlu),														985_Helmet_Pilot_Marlu,													985th Core - Icarus Armoury,								whitelisted
+						-Clone Helmet Pilot (985th Shyrack),													985_Helmet_Shyrack_985,													985th Core - Icarus Armoury,								whitelisted
+						-Clone Helmet Pilot (985th Viper),														985_Helmet_Pilot_viper,													985th Core - Icarus Armoury,								whitelisted
+						-Clone Helmet Pilot (Shiny),															985_HelmetBase_Pilot,													985th Core - Icarus Armoury,								whitelisted
+
+		//============================================= Hats:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+==========
+EQUIPMENT:
+==========
+
+		//============================================= Night Vision Goggles:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Binoculars:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+			
+		//============================================= Maps:
+
+				Vanilla:
+						-,																						,																		,															whitelisted
+
+		//============================================= Terminals:
+
+				Vanilla:
+						-,																						,																		,															whitelisted
+
+		//============================================= Radios:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Navigation:
+
+				Vanilla:
+						-,																						,																		,															whitelisted
+
+		//============================================= Watches:
+
+				Vanilla:
+						-,																						,																		,															whitelisted
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+						
+		//============================================= Inventory Items
+
+				Vanilla:
+						-,																						,																		,															whitelisted
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted

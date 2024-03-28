@@ -1,0 +1,558 @@
+//Invade and Annex: Apex Edition Default Role loadouts
+
+//Created by Maxsimodem, 2021-10-23
+//Written in Notepad++
+
+//Last modification made by/on:	-Maxsimodem, 2021-12-12
+
+/*Modification description(s):
+*
+*						-Modified loadouts to use Star Wars weapons and gear
+*/
+
+//Full CHANGELOG at bottom of document
+
+/*This file is used as an example of default role loadouts.
+*It is to be used in reference to Invade and Annex: Apex Edition
+*and was created to make sense of the roles.sqf file as well as
+*make editing default loadouts easier.*/
+
+/*NOTICE:
+*THIS IS NOT FUNCTIONING CODE DESPITE USING PROGRAMMER NOTE SYNTAX
+*DO NOT USE THIS AS THE ROLES.SQF*/
+
+/*notes:
+*	1. Starting with a template, each role is defined by a Legion, and then role name
+*	2. Each role will have two lists that must be copied into roles.sqf; a condensed version and a more readable version.
+*	3. It is recommended that the more readable version be edited first and then condensed into a version to paste in roles.sqf.
+*	4. You can get the variables you need by exporting a loadout from the in-game BI Virtual Arsenal and pasting as text.
+*	5. The actual loadout exists twice in the code for use on different Arma 3 Maps. Do not delete the second loadout.
+*	6. Editing the First loadout will affect Altis, Stratis and Malden 2035, while editing the second loadout will affect Tanoa.*/
+
+Template
+[
+	['',([[['arifle_MX_F','','','optic_Hamr',['30Rnd_65x39_caseless_mag_Tracer',30],[],''],[],['hgun_P07_F','','','',['16Rnd_9x21_Mag',16],[],''],['U_B_CombatUniform_mcam',[['FirstAidKit',2],['16Rnd_9x21_Mag',3,16]]],['V_PlateCarrier1_rgr',[['30Rnd_65x39_caseless_mag_Tracer',10,30],['SmokeShell',2,1],['HandGrenade',2,1]]],['B_AssaultPack_mcamo',[]],'H_HelmetB_light','G_Combat',['Binocular','','','',[],[],''],['ItemMap','ItemGPS','ItemRadio','ItemCompass','ItemWatch','NVGoggles']],		[['arifle_MX_khk_F','','','optic_Hamr_khk_F',['30rnd_65x39_caseless_khaki_mag_tracer',30],[],''],[],['hgun_P07_khk_F','','','',['16Rnd_9x21_Mag',16],[],''],['U_B_T_Soldier_F',[['FirstAidKit',2],['16Rnd_9x21_Mag',3,16]]],['V_PlateCarrier1_tna_F',[['SmokeShell',2,1],['HandGrenade',2,1],['30rnd_65x39_caseless_khaki_mag_tracer',10,30]]],['B_AssaultPack_tna_F',[]],'H_HelmetB_Light_tna_F','G_Combat_Goggles_tna_F',['Binocular','','','',[],[],''],['ItemMap','ItemGPS','ItemRadio','ItemCompass','ItemWatch','NVGoggles_tna_F']]] select _tropical)],
+	['rifleman',([[['JLTS_DC15A_plastic','','','',['JLTS_DC15A_mag',60],[],''],[],['JLTS_DC17SA','','','',['JLTS_DC17SA_mag',20],[],''],['JLTS_CloneArmor_501_501',[['ACE_Flashlight_XL50',1],['ACE_EntrenchingTool',1],['JLTS_DC15A_mag',5,60],['JLTS_DC17SA_mag',5,20],['3AS_ThermalDetonator',3,1],['ACE_M84',3,1],['SmokeShell',3,1]]],['JLTS_CloneVestHolster',[]],['SDT_Invis_backpack',[['FirstAidKit',10],['JLTS_DC15A_mag',5,60]]],'JLTS_CloneHelmetP2_501','JLTS_Clone_helmetInterior_P2',['JLTS_CloneBinocular','','','',['Laserbatteries',1],[],''],['ItemMap','ItemGPS','JLTS_clone_comlink','ItemCompass','ItemWatch','']],		[['JLTS_DC15A_plastic','','','',['JLTS_DC15A_mag',60],[],''],[],['JLTS_DC17SA','','','',['JLTS_DC17SA_mag',20],[],''],['JLTS_CloneArmor_501_501',[['ACE_Flashlight_XL50',1],['ACE_EntrenchingTool',1],['JLTS_DC15A_mag',5,60],['JLTS_DC17SA_mag',5,20],['3AS_ThermalDetonator',3,1],['ACE_M84',3,1],['SmokeShell',3,1]]],['JLTS_CloneVestHolster',[]],['SDT_Invis_backpack',[['FirstAidKit',10],['JLTS_DC15A_mag',5,60]]],'JLTS_CloneHelmetP2_501','JLTS_Clone_helmetInterior_P2',['JLTS_CloneBinocular','','','',['Laserbatteries',1],[],''],['ItemMap','ItemGPS','JLTS_clone_comlink','ItemCompass','ItemWatch','']]]select _tropical)],
+	['autorifleman',([[['JLTS_DC15S','','','',['JLTS_DC15S_mag',80],[],''],[],['JLTS_DC17SA','','','',['JLTS_DC17SA_mag',20],[],''],['JLTS_CloneArmor_501_501',[['ACE_Flashlight_XL50',1],['ACE_EntrenchingTool',1],['JLTS_DC15S_mag',5,80],['JLTS_DC17SA_mag',5,20],['3AS_ThermalDetonator',3,1],['ACE_M84',3,1],['SmokeShell',3,1]]],['JLTS_CloneVestHolster',[]],['SDT_Invis_backpack',[['FirstAidKit',10],['JLTS_DC15S_mag',5,80]]],'JLTS_CloneHelmetP2_501','JLTS_Clone_helmetInterior_P2',['JLTS_CloneBinocular','','','',['Laserbatteries',1],[],''],['ItemMap','ItemGPS','JLTS_clone_comlink','ItemCompass','ItemWatch','']],		[['JLTS_DC15S','','','',['JLTS_DC15S_mag',80],[],''],[],['JLTS_DC17SA','','','',['JLTS_DC17SA_mag',20],[],''],['JLTS_CloneArmor_501_501',[['ACE_Flashlight_XL50',1],['ACE_EntrenchingTool',1],['JLTS_DC15S_mag',5,80],['JLTS_DC17SA_mag',5,20],['3AS_ThermalDetonator',3,1],['ACE_M84',3,1],['SmokeShell',3,1]]],['JLTS_CloneVestHolster',[]],['SDT_Invis_backpack',[['FirstAidKit',10],['JLTS_DC15S_mag',5,80]]],'JLTS_CloneHelmetP2_501','JLTS_Clone_helmetInterior_P2',['JLTS_CloneBinocular','','','',['Laserbatteries',1],[],''],['ItemMap','ItemGPS','JLTS_clone_comlink','ItemCompass','ItemWatch','']]]select _tropical)],
+	['machine_gunner',([[['JLTS_DC15S','','','',['JLTS_DC15S_mag',80],[],''],['SWLW_Z7','','','',['SWLW_Z7_mag',500],[],''],['JLTS_DC17SA','','','',['JLTS_DC17SA_mag',20],[],''],['lsd_gar_phase2Insulated_uniform',[['ACE_Flashlight_XL50',1],['ACE_EntrenchingTool',1],['JLTS_DC15S_mag',5,80],['JLTS_DC17SA_mag',5,20],['3AS_ThermalDetonator',3,1],['ACE_M84',3,1],['SmokeShell',3,1]]],['lsd_gar_marine_vest',[]],['lsd_gar_marine_backpack',[['FirstAidKit',10],['SWLW_Z7_mag',3,500]]],'ls_gar_galacticMarine_helmet','JLTS_Clone_helmetInterior_P2',['JLTS_CloneBinocular','','','',['Laserbatteries',1],[],''],['ItemMap','ItemGPS','JLTS_clone_comlink','ItemCompass','ItemWatch','']],		[['JLTS_DC15S','','','',['JLTS_DC15S_mag',80],[],''],['SWLW_Z7','','','',['SWLW_Z7_mag',500],[],''],['JLTS_DC17SA','','','',['JLTS_DC17SA_mag',20],[],''],['lsd_gar_phase2Insulated_uniform',[['ACE_Flashlight_XL50',1],['ACE_EntrenchingTool',1],['JLTS_DC15S_mag',5,80],['JLTS_DC17SA_mag',5,20],['3AS_ThermalDetonator',3,1],['ACE_M84',3,1],['SmokeShell',3,1]]],['lsd_gar_marine_vest',[]],['lsd_gar_marine_backpack',[['FirstAidKit',10],['SWLW_Z7_mag',3,500]]],'ls_gar_galacticMarine_helmet','JLTS_Clone_helmetInterior_P2',['JLTS_CloneBinocular','','','',['Laserbatteries',1],[],''],['ItemMap','ItemGPS','JLTS_clone_comlink','ItemCompass','ItemWatch','']]]select _tropical)],
+	['rifleman_lat',([[['JLTS_DC15S','','','',['JLTS_DC15S_mag',80],[],''],['JLTS_RPS6','','','',['JLTS_RPS6_mag',1],[],''],['JLTS_DC17SA','','','',['JLTS_DC17SA_mag',20],[],''],['JLTS_CloneArmor_501',[['ACE_Flashlight_XL50',1],['ACE_EntrenchingTool',1],['JLTS_DC15S_mag',5,80],['JLTS_DC17SA_mag',5,20],['3AS_ThermalDetonator',3,1],['ACE_M84',3,1],['SmokeShell',3,1]]],['JLTS_CloneVestAirborneNCO',[]],['JLTS_Clone_backpack_eod',[['MineDetector',1],['FirstAidKit',10],['JLTS_RPS6_mag',2,1]]],'JLTS_CloneHelmetP2_501','SDT_bacara_plating',['JLTS_CloneBinocular','','','',['Laserbatteries',1],[],''],['ItemMap','ItemGPS','JLTS_clone_comlink','ItemCompass','ItemWatch','']],		[['JLTS_DC15S','','','',['JLTS_DC15S_mag',80],[],''],['JLTS_RPS6','','','',['JLTS_RPS6_mag',1],[],''],['JLTS_DC17SA','','','',['JLTS_DC17SA_mag',20],[],''],['JLTS_CloneArmor_501',[['ACE_Flashlight_XL50',1],['ACE_EntrenchingTool',1],['JLTS_DC15S_mag',5,80],['JLTS_DC17SA_mag',5,20],['3AS_ThermalDetonator',3,1],['ACE_M84',3,1],['SmokeShell',3,1]]],['JLTS_CloneVestAirborneNCO',[]],['JLTS_Clone_backpack_eod',[['MineDetector',1],['FirstAidKit',10],['JLTS_RPS6_mag',2,1]]],'JLTS_CloneHelmetP2_501','SDT_bacara_plating',['JLTS_CloneBinocular','','','',['Laserbatteries',1],[],''],['ItemMap','ItemGPS','JLTS_clone_comlink','ItemCompass','ItemWatch','']]]select _tropical)],
+	['rifleman_hat',([[['JLTS_DC15S','','','',['JLTS_DC15S_mag',80],[],''],['JLTS_PLX1_AT','','','',['JLTS_PLX1_AT_mag',1],[],''],['JLTS_DC17SA','','','',['JLTS_DC17SA_mag',20],[],''],['JLTS_CloneArmor_501',[['ACE_Flashlight_XL50',1],['ACE_EntrenchingTool',1],['JLTS_DC15S_mag',5,80],['JLTS_DC17SA_mag',5,20],['3AS_ThermalDetonator',3,1],['ACE_M84',3,1],['SmokeShell',3,1]]],['JLTS_CloneVestAirborneNCO',[]],['JLTS_Clone_backpack_eod',[['MineDetector',1],['FirstAidKit',10],['JLTS_PLX1_AT_mag',1,1],['JLTS_PLX1_AP_mag',1,1]]],'JLTS_CloneHelmetP2_501','SDT_bacara_plating',['JLTS_CloneBinocular','','','',['Laserbatteries',1],[],''],['ItemMap','ItemGPS','JLTS_clone_comlink','ItemCompass','ItemWatch','']],		[['JLTS_DC15S','','','',['JLTS_DC15S_mag',80],[],''],['JLTS_PLX1_AT','','','',['JLTS_PLX1_AT_mag',1],[],''],['JLTS_DC17SA','','','',['JLTS_DC17SA_mag',20],[],''],['JLTS_CloneArmor_501',[['ACE_Flashlight_XL50',1],['ACE_EntrenchingTool',1],['JLTS_DC15S_mag',5,80],['JLTS_DC17SA_mag',5,20],['3AS_ThermalDetonator',3,1],['ACE_M84',3,1],['SmokeShell',3,1]]],['JLTS_CloneVestAirborneNCO',[]],['JLTS_Clone_backpack_eod',[['MineDetector',1],['FirstAidKit',10],['JLTS_PLX1_AT_mag',1,1],['JLTS_PLX1_AP_mag',1,1]]],'JLTS_CloneHelmetP2_501','SDT_bacara_plating',['JLTS_CloneBinocular','','','',['Laserbatteries',1],[],''],['ItemMap','ItemGPS','JLTS_clone_comlink','ItemCompass','ItemWatch','']]]select _tropical)],
+	['engineer',([[['JLTS_DP23','','','',['JLTS_DP23_mag',20],[],''],[],['JLTS_DC17SA','','','',['JLTS_DC17SA_mag',20],[],''],['JLTS_CloneArmor_501',[['ACE_Flashlight_XL50',1],['ACE_EntrenchingTool',1],['JLTS_DP23_mag',5,20],['JLTS_DC17SA_mag',5,20],['3AS_ThermalDetonator',3,1],['ACE_M84',3,1],['SmokeShell',3,1]]],['JLTS_CloneVestSuspender',[]],['JLTS_Clone_ARC_backpack',[['ToolKit',1],['MineDetector',1],['ACE_Clacker',1],['FirstAidKit',10],['DemoCharge_Remote_Mag',3]]],'GD_Helmet_Engineer_Base','JLTS_Clone_helmetInterior_P2',['JLTS_CloneBinocular','','','',['Laserbatteries',1],[],''],['ItemMap','ItemGPS','JLTS_clone_comlink','ItemCompass','ItemWatch','']],		[['JLTS_DP23','','','',['JLTS_DP23_mag',20],[],''],[],['JLTS_DC17SA','','','',['JLTS_DC17SA_mag',20],[],''],['JLTS_CloneArmor_501',[['ACE_Flashlight_XL50',1],['ACE_EntrenchingTool',1],['JLTS_DP23_mag',5,20],['JLTS_DC17SA_mag',5,20],['3AS_ThermalDetonator',3,1],['ACE_M84',3,1],['SmokeShell',3,1]]],['JLTS_CloneVestSuspender',[]],['JLTS_Clone_ARC_backpack',[['ToolKit',1],['MineDetector',1],['ACE_Clacker',1],['FirstAidKit',10],['DemoCharge_Remote_Mag',3]]],'GD_Helmet_Engineer_Base','JLTS_Clone_helmetInterior_P2',['JLTS_CloneBinocular','','','',['Laserbatteries',1],[],''],['ItemMap','ItemGPS','JLTS_clone_comlink','ItemCompass','ItemWatch','']]]select _tropical)],
+	['medic',([[['3AS_DC15C_F','','','3AS_optic_acog_DC15C',['3AS_40Rnd_EC40_Mag',40],[],''],[],['JLTS_DC17SA','','','',['JLTS_DC17SA_mag',20],[],''],['JLTS_CloneArmor_501_501_medic',[['ACE_Flashlight_XL50',1],['ACE_EntrenchingTool',1],['FirstAidKit',5],['3AS_40Rnd_EC40_Mag',5,40],['JLTS_DC17SA_mag',5,20],['3AS_ThermalDetonator',3,1],['ACE_M84',3,1],['SmokeShell',3,1]]],['JLTS_CloneVestAirborne_501',[]],['JLTS_Clone_backpack_medic',[['MineDetector',1],['Medikit',1],['FirstAidKit',20],[]]],'JLTS_CloneHelmetP2_501','JLTS_Clone_helmetInterior_P2',['JLTS_CloneBinocular','','','',['Laserbatteries',1],[],''],		['ItemMap','ItemGPS','JLTS_clone_comlink','ItemCompass','ItemWatch','']],[['3AS_DC15C_F','','','3AS_optic_acog_DC15C',['3AS_40Rnd_EC40_Mag',40],[],''],[],['JLTS_DC17SA','','','',['JLTS_DC17SA_mag',20],[],''],['JLTS_CloneArmor_501_501_medic',[['ACE_Flashlight_XL50',1],['ACE_EntrenchingTool',1],['FirstAidKit',5],['3AS_40Rnd_EC40_Mag',5,40],['JLTS_DC17SA_mag',5,20],['3AS_ThermalDetonator',3,1],['ACE_M84',3,1],['SmokeShell',3,1]]],['JLTS_CloneVestAirborne_501',[]],['JLTS_Clone_backpack_medic',[['MineDetector',1],['Medikit',1],['FirstAidKit',20],[]]],'JLTS_CloneHelmetP2_501','JLTS_Clone_helmetInterior_P2',['JLTS_CloneBinocular','','','',['Laserbatteries',1],[],''],['ItemMap','ItemGPS','JLTS_clone_comlink','ItemCompass','ItemWatch','']]]select _tropical)],
+	['sniper',([[['JLTS_DC15S','','','',['JLTS_DC15S_mag',80],[],''],[],['JLTS_DC17SA','','','',['JLTS_DC17SA_mag',20],[],''],['JLTS_CloneArmor_501',[['ACE_Flashlight_XL50',1],['ACE_EntrenchingTool',1],['JLTS_DC15S_mag',5,80],['JLTS_DC17SA_mag',5,20],['3AS_ThermalDetonator',3,1],['ACE_M84',3,1],['SmokeShell',3,1]]],['JLTS_CloneVestAirborneNCO_501',[]],['SDT_Invis_backpack',[['MineDetector',1],['FirstAidKit',10]]],'JLTS_CloneHelmetAB_501','JLTS_Clone_helmetInterior_AB',['JLTS_CloneBinocular','','','',['Laserbatteries',1],[],''],['ItemMap','ItemGPS','JLTS_clone_comlink','ItemCompass','ItemWatch','']],		[['JLTS_DC15S','','','',['JLTS_DC15S_mag',80],[],''],[],['JLTS_DC17SA','','','',['JLTS_DC17SA_mag',20],[],''],['JLTS_CloneArmor_501',[['ACE_Flashlight_XL50',1],['ACE_EntrenchingTool',1],['JLTS_DC15S_mag',5,80],['JLTS_DC17SA_mag',5,20],['3AS_ThermalDetonator',3,1],['ACE_M84',3,1],['SmokeShell',3,1]]],['JLTS_CloneVestAirborneNCO_501',[]],['SDT_Invis_backpack',[['MineDetector',1],['FirstAidKit',10]]],'JLTS_CloneHelmetAB_501','JLTS_Clone_helmetInterior_AB',['JLTS_CloneBinocular','','','',['Laserbatteries',1],[],''],['ItemMap','ItemGPS','JLTS_clone_comlink','ItemCompass','ItemWatch','']]]select _tropical)],
+	['crewman',([[['SMG_03C_khaki','','','',['50Rnd_570x28_SMG_03',50],[],''],[],['hgun_P07_F','','','',['16Rnd_9x21_Mag',16],[],''],['U_B_CombatUniform_mcam',[['16Rnd_9x21_Mag',2,16],['50Rnd_570x28_SMG_03',2,50]]],[],[],'H_HelmetCrew_B','G_Combat',['Binocular','','','',[],[],''],['ItemMap','ItemGPS','ItemRadio','ItemCompass','ItemWatch','NVGoggles']],		[['SMG_03C_black','','','',['50Rnd_570x28_SMG_03',50],[],''],[],['hgun_P07_khk_F','','','',['16Rnd_9x21_Mag',16],[],''],['U_B_T_Soldier_F',[['50Rnd_570x28_SMG_03',2,50],['16Rnd_9x21_Mag',1,16]]],[],[],'H_HelmetCrew_B','G_Combat_Goggles_tna_F',['Binocular','','','',[],[],''],['ItemMap','ItemGPS','ItemRadio','ItemCompass','ItemWatch','NVGoggles_tna_F']]] select _tropical)],
+	['jtac',([[['JLTS_DC15S','','','',['JLTS_DC15S_mag',80],[],''],[],['JLTS_DC17SA','','','',['JLTS_DC17SA_mag',20],[],''],['JLTS_CloneArmor_501',[['ACE_Flashlight_XL50',1],['ACE_EntrenchingTool',1],['JLTS_DC15S_mag',5,80],['JLTS_DC17SA_mag',5,20],['3AS_ThermalDetonator',3,1],['ACE_M84',3,1],['SmokeShell',3,1]]],['JLTS_CloneVestReconOfficer',[]],['JLTS_Clone_backpack_RTO',[['MineDetector',1],['JLTS_DC15S_mag',5,80],['FirstAidKit',10]]],'SEA_Helmet_SpecOps_LR_Base','SWLB_clone_P1_HUD',['JLTS_CloneBinocular','','','',['Laserbatteries',1],[],''],['ItemMap','ItemGPS','JLTS_clone_comlink','ItemCompass','ItemWatch','']],		[['JLTS_DC15S','','','',['JLTS_DC15S_mag',80],[],''],[],['JLTS_DC17SA','','','',['JLTS_DC17SA_mag',20],[],''],['JLTS_CloneArmor_501',[['ACE_Flashlight_XL50',1],['ACE_EntrenchingTool',1],['JLTS_DC15S_mag',5,80],['JLTS_DC17SA_mag',5,20],['3AS_ThermalDetonator',3,1],['ACE_M84',3,1],['SmokeShell',3,1]]],['JLTS_CloneVestReconOfficer',[]],['JLTS_Clone_backpack_RTO',[['MineDetector',1],['JLTS_DC15S_mag',5,80],['FirstAidKit',10]]],'Clone_RTO_Helmet','SWLB_clone_P1_HUD',['JLTS_CloneBinocular','','','',['Laserbatteries',1],[],''],['ItemMap','ItemGPS','JLTS_clone_comlink','ItemCompass','ItemWatch','']]]select _tropical)],
+	['mortar_gunner',([[['JLTS_DC15S','','','',['JLTS_DC15S_mag',80],[],''],[],['JLTS_DC17SA','','','',['JLTS_DC17SA_mag',20],[],''],['JLTS_CloneArmor_501',[['FirstAidKit',5],['ACE_Flashlight_XL50',1],['JLTS_DC15S_mag',5,80],['JLTS_DC17SA_mag',5,20],['3AS_ThermalDetonator',3,1],['SmokeShell',3,1]]],['JLTS_CloneVestAirborneNCO',[['FirstAidKit',5],['ACE_EntrenchingTool',1],['MineDetector',1]]],['ls_gar_mortar_backpack',[]],'JLTS_CloneHelmetP2_501','SDT_bacara_plating',['JLTS_CloneBinocular','','','',['Laserbatteries',1],[],''],['ItemMap','ItemGPS','JLTS_clone_comlink','ItemCompass','ItemWatch','']],[['JLTS_DC15S','','','',['JLTS_DC15S_mag',80],[],''],[],['JLTS_DC17SA','','','',['JLTS_DC17SA_mag',20],[],''],['JLTS_CloneArmor_501',[['FirstAidKit',5],['ACE_Flashlight_XL50',1],['JLTS_DC15S_mag',5,80],['JLTS_DC17SA_mag',5,20],['3AS_ThermalDetonator',3,1],['SmokeShell',3,1]]],['JLTS_CloneVestAirborneNCO',[['FirstAidKit',5],['ACE_EntrenchingTool',1],['MineDetector',1]]],['ls_gar_mortar_backpack',[]],'JLTS_CloneHelmetP2_501','SDT_bacara_plating',['JLTS_CloneBinocular','','','',['Laserbatteries',1],[],''],['ItemMap','ItemGPS','JLTS_clone_comlink','ItemCompass','ItemWatch','']]]select _tropical)],
+	['uav',([[['JLTS_DC15S','','','',['JLTS_DC15S_mag',80],[],''],[],['JLTS_DC17SA','','','',['JLTS_DC17SA_mag',20],[],''],['JLTS_CloneArmor_501_Lieutenant',[['JLTS_DC15S_mag',5,80],['JLTS_DC17SA_mag',5,20],['3AS_ThermalDetonator',3,1],['ACE_M84',3,1],['SmokeShell',3,1]]],['JLTS_CloneVestARC',[['FirstAidKit',10],['MineDetector',1],['ACE_Flashlight_XL50',1],['ACE_EntrenchingTool',1]]],['JLTS_UAV_prowler_gar_backpack',[]],'JLTS_CloneHelmetP2_Lieutenant','JLTS_Clone_helmetInterior_P2',['JLTS_CloneBinocular','','','',['Laserbatteries',1],[],''],['ItemMap','ItemGPS','JLTS_clone_comlink','ItemCompass','ItemWatch','JLTS_CloneNVGRange']],		[['JLTS_DC15S','','','',['JLTS_DC15S_mag',80],[],''],[],['JLTS_DC17SA','','','',['JLTS_DC17SA_mag',20],[],''],['JLTS_CloneArmor_501_Lieutenant',[['JLTS_DC15S_mag',5,80],['JLTS_DC17SA_mag',5,20],['3AS_ThermalDetonator',3,1],['ACE_M84',3,1],['SmokeShell',3,1]]],['JLTS_CloneVestARC',[['FirstAidKit',10],['MineDetector',1],['ACE_Flashlight_XL50',1],['ACE_EntrenchingTool',1]]],['JLTS_UAV_prowler_gar_backpack',[]],'JLTS_CloneHelmetP2_Lieutenant','JLTS_Clone_helmetInterior_P2',['JLTS_CloneBinocular','','','',['Laserbatteries',1],[],''],['ItemMap','ItemGPS','JLTS_clone_comlink','ItemCompass','ItemWatch','JLTS_CloneNVGRange']]]select _tropical)],
+	['pilot_heli',([[['JLTS_DC15S','','','',['JLTS_DC15S_mag',80],[],''],[],['JLTS_DC17SA','','','',['JLTS_DC17SA_mag',20],[],''],['JLTS_CloneArmor_501_Commander',[['JLTS_DC15S_mag',5,80],['JLTS_DC17SA_mag',5,20],['3AS_ThermalDetonator',3,1],['ACE_M84',3,1],['SmokeShell',3,1]]],['JLTS_CloneVestHolster',[]],['JLTS_Clone_RTO_pack',[]],'SWLB_P1_Pilot_Helmet_Republic','JLTS_Clone_helmetInterior_P2',['JLTS_CloneBinocular','','','',['Laserbatteries',1],[],''],['ItemMap','ItemGPS','JLTS_clone_comlink','ItemCompass','ItemWatch','']],		[['JLTS_DC15S','','','',['JLTS_DC15S_mag',80],[],''],[],['JLTS_DC17SA','','','',['JLTS_DC17SA_mag',20],[],''],['JLTS_CloneArmor_501_Commander',[['JLTS_DC15S_mag',5,80],['JLTS_DC17SA_mag',5,20],['3AS_ThermalDetonator',3,1],['ACE_M84',3,1],['SmokeShell',3,1]]],['JLTS_CloneVestHolster',[]],['JLTS_Clone_RTO_pack',[]],'SWLB_P1_Pilot_Helmet_Republic','JLTS_Clone_helmetInterior_P2',['JLTS_CloneBinocular','','','',['Laserbatteries',1],[],''],['ItemMap','ItemGPS','JLTS_clone_comlink','ItemCompass','ItemWatch','']]]select _tropical)],
+	['pilot_plane',([[['JLTS_DC15S','','','',['JLTS_DC15S_mag',80],[],''],[],['JLTS_DC17SA','','','',['JLTS_DC17SA_mag',20],[],''],['JLTS_CloneArmor_501_Commander',[['JLTS_DC15S_mag',5,80],['JLTS_DC17SA_mag',5,20],['3AS_ThermalDetonator',3,1],['ACE_M84',3,1],['SmokeShell',3,1]]],['JLTS_CloneVestHolster',[]],['JLTS_Clone_RTO_pack',[]],'3AS_P2_Pilot_helmet_Republic','JLTS_Clone_helmetInterior_P2',['JLTS_CloneBinocular','','','',['Laserbatteries',1],[],''],['ItemMap','ItemGPS','JLTS_clone_comlink','ItemCompass','ItemWatch','']],		[['JLTS_DC15S','','','',['JLTS_DC15S_mag',80],[],''],[],['JLTS_DC17SA','','','',['JLTS_DC17SA_mag',20],[],''],['JLTS_CloneArmor_501_Commander',[['JLTS_DC15S_mag',5,80],['JLTS_DC17SA_mag',5,20],['3AS_ThermalDetonator',3,1],['ACE_M84',3,1],['SmokeShell',3,1]]],['JLTS_CloneVestHolster',[]],['JLTS_Clone_RTO_pack',[]],'3AS_P2_Pilot_helmet_Republic','JLTS_Clone_helmetInterior_P2',['JLTS_CloneBinocular','','','',['Laserbatteries',1],[],''],['ItemMap','ItemGPS','JLTS_clone_comlink','ItemCompass','ItemWatch','']]]select _tropical)],
+	['commander',([[[],[],['hgun_Pistol_heavy_02_F','','','optic_Yorris',['6Rnd_45ACP_Cylinder',6],[],''],['U_B_CombatUniform_mcam',[['FirstAidKit',1],['6Rnd_45ACP_Cylinder',4,6]]],[],[],'H_MilCap_mcamo','G_Aviator',['Rangefinder','','','',[],[],''],['ItemMap','ItemGPS','ItemRadio','ItemCompass','ItemWatch','NVGoggles']],		[[],[],['hgun_Pistol_heavy_02_F','','','optic_Yorris',['6Rnd_45ACP_Cylinder',6],[],''],['U_B_T_Soldier_F',[['FirstAidKit',1],['6Rnd_45ACP_Cylinder',4,6]]],[],[],'H_MilCap_tna_F','G_Aviator',['Rangefinder','','','',[],[],''],['ItemMap','ItemGPS','ItemRadio','ItemCompass','ItemWatch','NVGoggles_tna_F']]] select _tropical)],
+	['o_rifleman',([[['arifle_Katiba_F','','','',['30Rnd_65x39_caseless_green_mag_Tracer',30],[],''],[],['hgun_Rook40_F','','','',['16Rnd_9x21_Mag',16],[],''],['U_O_CombatUniform_ocamo',[['FirstAidKit',2],['16Rnd_9x21_Mag',2,16]]],['V_HarnessO_brn',[['30Rnd_65x39_caseless_green_mag_Tracer',11,30],['MiniGrenade',5,1],['SmokeShell',2,1]]],[],'H_HelmetSpecO_blk','G_Bandanna_blk',[],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','NVGoggles_OPFOR']],		[['arifle_AKM_F','','','',['30Rnd_762x39_Mag_Tracer_Green_F',30],[],''],[],['hgun_Rook40_F','','','',['16Rnd_9x21_Mag',16],[],''],['U_O_T_Soldier_F',[['FirstAidKit',2],['16Rnd_9x21_Mag',2,16]]],['V_HarnessO_ghex_F',[['MiniGrenade',5,1],['SmokeShell',2,1],['30Rnd_762x39_Mag_Tracer_Green_F',12,30]]],[],'H_HelmetSpecO_blk','G_Bandanna_oli',[],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','NVGoggles_OPFOR']]] select _tropical)],
+	['o_autorifleman',([[['LMG_Mk200_F','','','',['200Rnd_65x39_cased_Box_Tracer',200],[],'bipod_02_F_blk'],[],['hgun_Rook40_F','','','',['16Rnd_9x21_Mag',16],[],''],['U_O_CombatUniform_ocamo',[['FirstAidKit',2],['16Rnd_9x21_Mag',2,16]]],['V_HarnessO_brn',[['MiniGrenade',5,1],['SmokeShell',2,1],['200Rnd_65x39_cased_Box_Tracer',2,200]]],['B_FieldPack_ocamo',[['200Rnd_65x39_cased_Box_Tracer',4,200]]],'H_HelmetSpecO_blk','G_Bandanna_oli',[],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','NVGoggles_OPFOR']],		[['LMG_03_F','','','',['200Rnd_556x45_Box_Tracer_F',200],[],''],[],['hgun_Rook40_F','','','',['16Rnd_9x21_Mag',16],[],''],['U_O_T_Soldier_F',[['FirstAidKit',2],['16Rnd_9x21_Mag',2,16]]],['V_HarnessO_ghex_F',[['MiniGrenade',5,1],['SmokeShell',2,1],['200Rnd_556x45_Box_Tracer_F',3,200]]],['B_FieldPack_ghex_F',[['200Rnd_556x45_Box_Tracer_F',5,200]]],'H_HelmetSpecO_blk','G_Bandanna_oli',[],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','NVGoggles_OPFOR']]] select _tropical)],
+	['medic_WL',([[['3AS_DC15C_F','','','3AS_optic_acog_DC15C',['3AS_40Rnd_EC40_Mag',40],[],''],[],['JLTS_DC17SA','','','',['JLTS_DC17SA_mag',20],[],''],['JLTS_CloneArmor_501_501_medic',[['ACE_Flashlight_XL50',1],['ACE_EntrenchingTool',1],['FirstAidKit',5],['3AS_40Rnd_EC40_Mag',5,40],['JLTS_DC17SA_mag',5,20],['3AS_ThermalDetonator',3,1],['ACE_M84',3,1],['SmokeShell',3,1]]],['JLTS_CloneVestAirborne_501',[]],['JLTS_Clone_backpack_medic',[['MineDetector',1],['Medikit',1],['FirstAidKit',20],[]]],'JLTS_CloneHelmetP2_501','JLTS_Clone_helmetInterior_P2',['JLTS_CloneBinocular','','','',['Laserbatteries',1],[],''],		['ItemMap','ItemGPS','JLTS_clone_comlink','ItemCompass','ItemWatch','']],[['3AS_DC15C_F','','','3AS_optic_acog_DC15C',['3AS_40Rnd_EC40_Mag',40],[],''],[],['JLTS_DC17SA','','','',['JLTS_DC17SA_mag',20],[],''],['JLTS_CloneArmor_501_501_medic',[['ACE_Flashlight_XL50',1],['ACE_EntrenchingTool',1],['FirstAidKit',5],['3AS_40Rnd_EC40_Mag',5,40],['JLTS_DC17SA_mag',5,20],['3AS_ThermalDetonator',3,1],['ACE_M84',3,1],['SmokeShell',3,1]]],['JLTS_CloneVestAirborne_501',[]],['JLTS_Clone_backpack_medic',[['MineDetector',1],['Medikit',1],['FirstAidKit',20],[]]],'JLTS_CloneHelmetP2_501','JLTS_Clone_helmetInterior_P2',['JLTS_CloneBinocular','','','',['Laserbatteries',1],[],''],['ItemMap','ItemGPS','JLTS_clone_comlink','ItemCompass','ItemWatch','']]]select _tropical)],
+	['machine_gunner_WL',([[['JLTS_DC15S','','','',['JLTS_DC15S_mag',80],[],''],['SWLW_Z7','','','',['SWLW_Z7_mag',500],[],''],['JLTS_DC17SA','','','',['JLTS_DC17SA_mag',20],[],''],['lsd_gar_phase2Insulated_uniform',[['ACE_Flashlight_XL50',1],['ACE_EntrenchingTool',1],['JLTS_DC15S_mag',5,80],['JLTS_DC17SA_mag',5,20],['3AS_ThermalDetonator',3,1],['ACE_M84',3,1],['SmokeShell',3,1]]],['lsd_gar_marine_vest',[]],['lsd_gar_marine_backpack',[['FirstAidKit',10],['SWLW_Z7_mag',3,500]]],'ls_gar_galacticMarine_helmet','JLTS_Clone_helmetInterior_P2',['JLTS_CloneBinocular','','','',['Laserbatteries',1],[],''],['ItemMap','ItemGPS','JLTS_clone_comlink','ItemCompass','ItemWatch','']],		[['JLTS_DC15S','','','',['JLTS_DC15S_mag',80],[],''],['SWLW_Z7','','','',['SWLW_Z7_mag',500],[],''],['JLTS_DC17SA','','','',['JLTS_DC17SA_mag',20],[],''],['lsd_gar_phase2Insulated_uniform',[['ACE_Flashlight_XL50',1],['ACE_EntrenchingTool',1],['JLTS_DC15S_mag',5,80],['JLTS_DC17SA_mag',5,20],['3AS_ThermalDetonator',3,1],['ACE_M84',3,1],['SmokeShell',3,1]]],['lsd_gar_marine_vest',[]],['lsd_gar_marine_backpack',[['FirstAidKit',10],['SWLW_Z7_mag',3,500]]],'ls_gar_galacticMarine_helmet','JLTS_Clone_helmetInterior_P2',['JLTS_CloneBinocular','','','',['Laserbatteries',1],[],''],['ItemMap','ItemGPS','JLTS_clone_comlink','ItemCompass','ItemWatch','']]]select _tropical)],
+	['sniper_WL',([[['JLTS_DC15S','','','',['JLTS_DC15S_mag',80],[],''],[],['JLTS_DC17SA','','','',['JLTS_DC17SA_mag',20],[],''],['JLTS_CloneArmor_501',[['ACE_Flashlight_XL50',1],['ACE_EntrenchingTool',1],['JLTS_DC15S_mag',5,80],['JLTS_DC17SA_mag',5,20],['3AS_ThermalDetonator',3,1],['ACE_M84',3,1],['SmokeShell',3,1]]],['JLTS_CloneVestAirborneNCO_501',[]],['SDT_Invis_backpack',[['MineDetector',1],['FirstAidKit',10]]],'JLTS_CloneHelmetAB_501','JLTS_Clone_helmetInterior_AB',['JLTS_CloneBinocular','','','',['Laserbatteries',1],[],''],['ItemMap','ItemGPS','JLTS_clone_comlink','ItemCompass','ItemWatch','']],		[['JLTS_DC15S','','','',['JLTS_DC15S_mag',80],[],''],[],['JLTS_DC17SA','','','',['JLTS_DC17SA_mag',20],[],''],['JLTS_CloneArmor_501',[['ACE_Flashlight_XL50',1],['ACE_EntrenchingTool',1],['JLTS_DC15S_mag',5,80],['JLTS_DC17SA_mag',5,20],['3AS_ThermalDetonator',3,1],['ACE_M84',3,1],['SmokeShell',3,1]]],['JLTS_CloneVestAirborneNCO_501',[]],['SDT_Invis_backpack',[['MineDetector',1],['FirstAidKit',10]]],'JLTS_CloneHelmetAB_501','JLTS_Clone_helmetInterior_AB',['JLTS_CloneBinocular','','','',['Laserbatteries',1],[],''],['ItemMap','ItemGPS','JLTS_clone_comlink','ItemCompass','ItemWatch','']]]select _tropical)],
+	['pilot_heli_WL',([[['JLTS_DC15S','','','',['JLTS_DC15S_mag',80],[],''],[],['JLTS_DC17SA','','','',['JLTS_DC17SA_mag',20],[],''],['JLTS_CloneArmor_501_Commander',[['JLTS_DC15S_mag',5,80],['JLTS_DC17SA_mag',5,20],['3AS_ThermalDetonator',3,1],['ACE_M84',3,1],['SmokeShell',3,1]]],['JLTS_CloneVestHolster',[]],['JLTS_Clone_RTO_pack',[]],'SWLB_P1_Pilot_Helmet_Republic','JLTS_Clone_helmetInterior_P2',['JLTS_CloneBinocular','','','',['Laserbatteries',1],[],''],['ItemMap','ItemGPS','JLTS_clone_comlink','ItemCompass','ItemWatch','']],		[['JLTS_DC15S','','','',['JLTS_DC15S_mag',80],[],''],[],['JLTS_DC17SA','','','',['JLTS_DC17SA_mag',20],[],''],['JLTS_CloneArmor_501_Commander',[['JLTS_DC15S_mag',5,80],['JLTS_DC17SA_mag',5,20],['3AS_ThermalDetonator',3,1],['ACE_M84',3,1],['SmokeShell',3,1]]],['JLTS_CloneVestHolster',[]],['JLTS_Clone_RTO_pack',[]],'SWLB_P1_Pilot_Helmet_Republic','JLTS_Clone_helmetInterior_P2',['JLTS_CloneBinocular','','','',['Laserbatteries',1],[],''],['ItemMap','ItemGPS','JLTS_clone_comlink','ItemCompass','ItemWatch','']]]select _tropical)],
+];
+
+['rifleman',
+	(
+		[
+			[
+				['JLTS_DC15A_plastic','','','',['JLTS_DC15A_mag',60],[],''],
+				[],
+				['JLTS_DC17SA','','','',['JLTS_DC17SA_mag',20],[],''],
+				['JLTS_CloneArmor_501_501',[['JLTS_DC15A_mag',5,60],['JLTS_DC17SA_mag',5,20],['3AS_ThermalDetonator',3,1],['SmokeShell',3,1]]],
+				['JLTS_CloneVestHolster',[]],
+				['SEA_Backpack_Heavy_invis',[['FirstAidKit',10],['JLTS_DC15A_mag',5,60]]],
+				'JLTS_CloneHelmetP2_501',
+				'JLTS_Clone_helmetInterior_P2',
+				['JLTS_CloneBinocular','','','',['Laserbatteries',1],[],''],
+				['ItemMap','ItemGPS','ItemRadio','ItemCompass','ItemWatch','']
+			],
+				
+			[
+				['JLTS_DC15A_plastic','','','',['JLTS_DC15A_mag',60],[],''],
+				[],
+				['JLTS_DC17SA','','','',['JLTS_DC17SA_mag',20],[],''],
+				['JLTS_CloneArmor_501_501',[['JLTS_DC15A_mag',5,60],['JLTS_DC17SA_mag',5,20],['3AS_ThermalDetonator',3,1],['SmokeShell',3,1]]],
+				['JLTS_CloneVestHolster',[]],
+				['SEA_Backpack_Heavy_invis',[['FirstAidKit',10],['JLTS_DC15A_mag',5,60]]],
+				'JLTS_CloneHelmetP2_501',
+				'JLTS_Clone_helmetInterior_P2',
+				['JLTS_CloneBinocular','','','',['Laserbatteries',1],[],''],
+				['ItemMap','ItemGPS','ItemRadio','ItemCompass','ItemWatch','']
+			]
+		]
+		
+		select _tropical
+	)
+],
+
+501st Rifleman
+
+['rifleman',
+	(
+		[
+			[
+				['JLTS_DC15A_plastic','','','',['JLTS_DC15A_mag',60],[],''],
+				[],
+				['JLTS_DC17SA','','','',['JLTS_DC17SA_mag',20],[],''],
+				['JLTS_CloneArmor_501_501',[['JLTS_DC15A_mag',5,60],['JLTS_DC17SA_mag',5,20],['3AS_ThermalDetonator',3,1],['SmokeShell',3,1]]],
+				['JLTS_CloneVestHolster',[]],
+				['SEA_Backpack_Heavy_invis',[['FirstAidKit',10],['JLTS_DC15A_mag',5,60]]],
+				'JLTS_CloneHelmetP2_501',
+				'JLTS_Clone_helmetInterior_P2',
+				['JLTS_CloneBinocular','','','',['Laserbatteries',1],[],''],
+				['ItemMap','ItemGPS','ItemRadio','ItemCompass','ItemWatch','']
+			],
+				
+			[
+				['JLTS_DC15A_plastic','','','',['JLTS_DC15A_mag',60],[],''],
+				[],
+				['JLTS_DC17SA','','','',['JLTS_DC17SA_mag',20],[],''],
+				['JLTS_CloneArmor_501_501',[['JLTS_DC15A_mag',5,60],['JLTS_DC17SA_mag',5,20],['3AS_ThermalDetonator',3,1],['SmokeShell',3,1]]],
+				['JLTS_CloneVestHolster',[]],
+				['SEA_Backpack_Heavy_invis',[['FirstAidKit',10],['JLTS_DC15A_mag',5,60]]],
+				'JLTS_CloneHelmetP2_501',
+				'JLTS_Clone_helmetInterior_P2',
+				['JLTS_CloneBinocular','','','',['Laserbatteries',1],[],''],
+				['ItemMap','ItemGPS','ItemRadio','ItemCompass','ItemWatch','']
+			]
+		]
+		
+		select _tropical
+	)
+],
+
+501st Autorifleman
+
+['autorifleman',
+	(
+		[
+			[
+				['JLTS_DC15S','','','',['JLTS_DC15S_mag',80],[],''],
+				[],
+				['JLTS_DC17SA','','','',['JLTS_DC17SA_mag',20],[],''],
+				['JLTS_CloneArmor_501_501',[,['JLTS_DC15S_mag',5,80],['JLTS_DC17SA_mag',5,20],['3AS_ThermalDetonator',3,1],['SmokeShell',3,1]]],
+				['JLTS_CloneVestHolster',[]],
+				['SEA_Backpack_Heavy_invis',[['FirstAidKit',10],['JLTS_DC15S_mag',5,80]]],
+				'JLTS_CloneHelmetP2_501',
+				'JLTS_Clone_helmetInterior_P2',
+				['JLTS_CloneBinocular','','','',['Laserbatteries',1],[],''],
+				['ItemMap','ItemGPS','ItemRadio','ItemCompass','ItemWatch','']
+			],
+				
+			[
+				['JLTS_DC15S','','','',['JLTS_DC15S_mag',80],[],''],
+				[],
+				['JLTS_DC17SA','','','',['JLTS_DC17SA_mag',20],[],''],
+				['JLTS_CloneArmor_501_501',[['JLTS_DC15S_mag',5,80],['JLTS_DC17SA_mag',5,20],['3AS_ThermalDetonator',3,1],['SmokeShell',3,1]]],
+				['JLTS_CloneVestHolster',[]],
+				['SEA_Backpack_Heavy_invis',[['FirstAidKit',10],['JLTS_DC15S_mag',5,80]]],
+				'JLTS_CloneHelmetP2_501',
+				'JLTS_Clone_helmetInterior_P2',
+				['JLTS_CloneBinocular','','','',['Laserbatteries',1],[],''],
+				['ItemMap','ItemGPS','ItemRadio','ItemCompass','ItemWatch','']
+			]
+		]
+		
+		select _tropical
+	)
+],
+
+21st Machinegunner
+
+['machine_gunner',
+	(
+		[
+			[
+				['JLTS_DC15S','','','',['JLTS_DC15S_mag',80],[],''],
+				['SWLW_Z7','','','',['SWLW_Z7_mag',500],[],''],
+				['JLTS_DC17SA','','','',['JLTS_DC17SA_mag',20],[],''],
+				['JLTS_CloneArmor_501_501',[['JLTS_DC15S_mag',5,80],['JLTS_DC17SA_mag',5,20],['3AS_ThermalDetonator',3,1],,['SmokeShell',3,1]]],
+				['JLTS_CloneVestHolster',[]],
+				['SEA_Backpack_Heavy_invis',[['FirstAidKit',10],['SWLW_Z7_mag',3,500]]],
+				'JLTS_CloneHelmetP2_501',
+				'JLTS_Clone_helmetInterior_P2',
+				['JLTS_CloneBinocular','','','',['Laserbatteries',1],[],''],
+				['ItemMap','ItemGPS','ItemRadio','ItemCompass','ItemWatch','']
+			],
+				
+			[
+				['JLTS_DC15S','','','',['JLTS_DC15S_mag',80],[],''],
+				['SWLW_Z7','','','',['SWLW_Z7_mag',500],[],''],
+				['JLTS_DC17SA','','','',['JLTS_DC17SA_mag',20],[],''],
+				['JLTS_CloneArmor_501_501',[['JLTS_DC15S_mag',5,80],['JLTS_DC17SA_mag',5,20],['3AS_ThermalDetonator',3,1],,['SmokeShell',3,1]]],
+				['JLTS_CloneVestHolster',[]],
+				['SEA_Backpack_Heavy_invis',[['FirstAidKit',10],['SWLW_Z7_mag',3,500]]],
+				'JLTS_CloneHelmetP2_501',
+				'JLTS_Clone_helmetInterior_P2',
+				['JLTS_CloneBinocular','','','',['Laserbatteries',1],[],''],
+				['ItemMap','ItemGPS','ItemRadio','ItemCompass','ItemWatch','']
+			]
+		]
+		
+		select _tropical
+	)
+],
+
+21st LAT
+
+['rifleman_lat',
+	(
+		[
+			[
+				['JLTS_DC15S','','','',['JLTS_DC15S_mag',80],[],''],
+				['JLTS_RPS6','','','',['JLTS_RPS6_mag',1],[],''],
+				['JLTS_DC17SA','','','',['JLTS_DC17SA_mag',20],[],''],
+				['JLTS_CloneArmor_501',[['JLTS_DC15S_mag',5,80],['JLTS_DC17SA_mag',5,20],['3AS_ThermalDetonator',3,1],['SmokeShell',3,1]]],
+				['JLTS_CloneVestAirborneNCO',[]],
+				['JLTS_Clone_backpack_eod',[['MineDetector',1],['FirstAidKit',10],['JLTS_RPS6_mag',2,1]]],
+				'JLTS_CloneHelmetP2_501',
+				'JLTS_Clone_helmetInterior_P2',
+				['JLTS_CloneBinocular','','','',['Laserbatteries',1],[],''],
+				['ItemMap','ItemGPS','ItemRadio','ItemCompass','ItemWatch','']
+			],
+				
+			[
+				['JLTS_DC15S','','','',['JLTS_DC15S_mag',80],[],''],
+				['JLTS_RPS6','','','',['JLTS_RPS6_mag',1],[],''],
+				['JLTS_DC17SA','','','',['JLTS_DC17SA_mag',20],[],''],
+				['JLTS_CloneArmor_501',[['JLTS_DC15S_mag',5,80],['JLTS_DC17SA_mag',5,20],['3AS_ThermalDetonator',3,1],['SmokeShell',3,1]]],
+				['JLTS_CloneVestAirborneNCO',[]],
+				['JLTS_Clone_backpack_eod',[['MineDetector',1],['FirstAidKit',10],['JLTS_RPS6_mag',2,1]]],
+				''JLTS_CloneHelmetP2_501'',
+				'JLTS_Clone_helmetInterior_P2',
+				['JLTS_CloneBinocular','','','',['Laserbatteries',1],[],''],
+				['ItemMap','ItemGPS','ItemRadio','ItemCompass','ItemWatch','']
+			]
+		]
+		
+		select _tropical
+	)
+],
+
+21st HAT
+
+['rifleman_hat',
+	(
+		[
+			[
+				['JLTS_DC15S','','','',['JLTS_DC15S_mag',80],[],''],
+				['JLTS_PLX1_AT','','','',['JLTS_PLX1_AT_mag',1],[],''],
+				['JLTS_DC17SA','','','',['JLTS_DC17SA_mag',20],[],''],
+				['JLTS_CloneArmor_501',[['JLTS_DC15S_mag',5,80],['JLTS_DC17SA_mag',5,20],['3AS_ThermalDetonator',3,1],['SmokeShell',3,1]]],
+				['JLTS_CloneVestAirborneNCO',[]],
+				['JLTS_Clone_backpack_eod',[['MineDetector',1],['FirstAidKit',10],['JLTS_PLX1_AT_mag',1,1],['JLTS_PLX1_AP_mag',1,1]]],
+				''JLTS_CloneHelmetP2_501'',
+				'JLTS_Clone_helmetInterior_P2',
+				['JLTS_CloneBinocular','','','',['Laserbatteries',1],[],''],
+				['ItemMap','ItemGPS','ItemRadio','ItemCompass','ItemWatch','']
+			],
+				
+			[
+				['JLTS_DC15S','','','',['JLTS_DC15S_mag',80],[],''],
+				['JLTS_PLX1_AT','','','',['JLTS_PLX1_AT_mag',1],[],''],
+				['JLTS_DC17SA','','','',['JLTS_DC17SA_mag',20],[],''],
+				['JLTS_CloneArmor_501',[['JLTS_DC15S_mag',5,80],['JLTS_DC17SA_mag',5,20],['3AS_ThermalDetonator',3,1],['SmokeShell',3,1]]],
+				['JLTS_CloneVestAirborneNCO',[]],
+				['JLTS_Clone_backpack_eod',[['MineDetector',1],['FirstAidKit',10],['JLTS_PLX1_AT_mag',1,1],['JLTS_PLX1_AP_mag',1,1]]],
+				''JLTS_CloneHelmetP2_501'',
+				'JLTS_Clone_helmetInterior_P2',
+				['JLTS_CloneBinocular','','','',['Laserbatteries',1],[],''],
+				['ItemMap','ItemGPS','ItemRadio','ItemCompass','ItemWatch','']
+			]
+		]
+		
+		select _tropical
+	)
+],
+
+501st Medic
+
+['medic',
+	(
+		[
+			[
+				['3AS_DC15C_F','','','3AS_optic_acog_DC15C',['3AS_40Rnd_EC40_Mag',40],[],''],
+				[],
+				['JLTS_DC17SA','','','',['JLTS_DC17SA_mag',20],[],''],
+				['JLTS_CloneArmor_501_501_medic',[['FirstAidKit',5],['3AS_40Rnd_EC40_Mag',5,40],['JLTS_DC17SA_mag',5,20],['3AS_ThermalDetonator',3,1],['SmokeShell',3,1]]],
+				['JLTS_CloneVestAirborne_501',[]],
+				['JLTS_Clone_backpack_medic',[['MineDetector',1],['Medikit',1],['FirstAidKit',20],[]]],
+				'JLTS_CloneHelmetP2_501',
+				'JLTS_Clone_helmetInterior_P2',
+				['JLTS_CloneBinocular','','','',['Laserbatteries',1],[],''],
+				['ItemMap','ItemGPS','ItemRadio','ItemCompass','ItemWatch','']
+			],
+				
+			[
+				['3AS_DC15C_F','','','3AS_optic_acog_DC15C',['3AS_40Rnd_EC40_Mag',40],[],''],
+				[],
+				['JLTS_DC17SA','','','',['JLTS_DC17SA_mag',20],[],''],
+				['JLTS_CloneArmor_501_501_medic',[['FirstAidKit',5],['3AS_40Rnd_EC40_Mag',5,40],['JLTS_DC17SA_mag',5,20],['3AS_ThermalDetonator',3,1],['SmokeShell',3,1]]],
+				['JLTS_CloneVestAirborne_501',[]],
+				['JLTS_Clone_backpack_medic',[['MineDetector',1],['Medikit',1],['FirstAidKit',20],[]]],
+				'JLTS_CloneHelmetP2_501',
+				'JLTS_Clone_helmetInterior_P2',
+				['JLTS_CloneBinocular','','','',['Laserbatteries',1],[],''],
+				['ItemMap','ItemGPS','ItemRadio','ItemCompass','ItemWatch','']
+			]
+		]
+		
+		select _tropical
+	)
+],
+
+501st Engineer
+
+['engineer',
+	(
+		[
+			[
+				['JLTS_DP23','','','',['JLTS_DP23_mag',20],[],''],
+				[],
+				['JLTS_DC17SA','','','',['JLTS_DC17SA_mag',20],[],''],
+				['JLTS_CloneArmor_501',[['JLTS_DP23_mag',5,20],['JLTS_DC17SA_mag',5,20],['3AS_ThermalDetonator',3,1],['SmokeShell',3,1]]],
+				['JLTS_CloneVestSuspender',[]],
+				['JLTS_Clone_ARC_backpack',[['ToolKit',1],['MineDetector',1],['FirstAidKit',10],['DemoCharge_Remote_Mag',3]]],
+				'SEA_Helmet Engineer_Base',
+				'JLTS_Clone_helmetInterior_P2',
+				['JLTS_CloneBinocular','','','',['Laserbatteries',1],[],''],
+				['ItemMap','ItemGPS','ItemRadio','ItemCompass','ItemWatch','']
+			],
+				
+			[
+				['JLTS_DP23','','','',['JLTS_DP23_mag',20],[],''],
+				[],
+				['JLTS_DC17SA','','','',['JLTS_DC17SA_mag',20],[],''],
+				['JLTS_CloneArmor_501',[['JLTS_DP23_mag',5,20],['JLTS_DC17SA_mag',5,20],['3AS_ThermalDetonator',3,1],['SmokeShell',3,1]]],
+				['JLTS_CloneVestSuspender',[]],
+				['JLTS_Clone_ARC_backpack',[['ToolKit',1],['MineDetector',1],['FirstAidKit',10],['DemoCharge_Remote_Mag',3]]],
+				'SEA_Helmet Engineer_Base',
+				'JLTS_Clone_helmetInterior_P2',
+				['JLTS_CloneBinocular','','','',['Laserbatteries',1],[],''],
+				['ItemMap','ItemGPS','ItemRadio','ItemCompass','ItemWatch','']
+			]
+		]
+		
+		select _tropical
+	)
+],
+
+501st Mortar Gunner
+
+['mortar_gunner',
+	(
+		[
+			[
+				['JLTS_DC15S','','','',['JLTS_DC15S_mag',80],[],''],
+				[],
+				['JLTS_DC17SA','','','',['JLTS_DC17SA_mag',20],[],''],
+				['JLTS_CloneArmor_501',[['FirstAidKit',5],['JLTS_DC15S_mag',5,80],['JLTS_DC17SA_mag',5,20],['3AS_ThermalDetonator',3,1],['SmokeShell',3,1]]],
+				['JLTS_CloneVestAirborneNCO',[['FirstAidKit',5],['MineDetector',1]]],
+				['3AS_Republic_Mortar_Bag',[]],
+				'JLTS_CloneHelmetP2_501',
+				'JLTS_Clone_helmetInterior_P2',
+				['JLTS_CloneBinocular','','','',['Laserbatteries',1],[],''],
+				['ItemMap','ItemGPS','ItemRadio','ItemCompass','ItemWatch','']
+			],
+				
+			[
+				['JLTS_DC15S','','','',['JLTS_DC15S_mag',80],[],''],
+				[],
+				['JLTS_DC17SA','','','',['JLTS_DC17SA_mag',20],[],''],
+				['JLTS_CloneArmor_501',[['FirstAidKit',5],['JLTS_DC15S_mag',5,80],['JLTS_DC17SA_mag',5,20],['3AS_ThermalDetonator',3,1],['SmokeShell',3,1]]],
+				['JLTS_CloneVestAirborneNCO',[['FirstAidKit',5],['MineDetector',1]]],
+				['3AS_Republic_Mortar_Bag',[]],
+				'JLTS_CloneHelmetP2_501',
+				'JLTS_Clone_helmetInterior_P2',
+				['JLTS_CloneBinocular','','','',['Laserbatteries',1],[],''],
+				['ItemMap','ItemGPS','ItemRadio','ItemCompass','ItemWatch','']
+			]
+		]
+		
+		select _tropical
+	)
+],
+
+501st Sharpshooter
+
+['sniper',
+	(
+		[
+			[
+				['JLTS_DC15S','','','',['JLTS_DC15S_mag',80],[],''],
+				[],
+				['JLTS_DC17SA','','','',['JLTS_DC17SA_mag',20],[],''],
+				['JLTS_CloneArmor_501',[['ACE_Flashlight_XL50',1],['ACE_EntrenchingTool',1],['JLTS_DC15S_mag',5,80],['JLTS_DC17SA_mag',5,20],['3AS_ThermalDetonator',3,1],['ACE_M84',3,1],['SmokeShell',3,1]]],
+				['JLTS_CloneVestAirborneNCO_501',[]],
+				['SEA_Backpack_Heavy_invis',[['MineDetector',1],['FirstAidKit',10]]],
+				'JLTS_CloneHelmetAB_501',
+				'JLTS_Clone_helmetInterior_AB',
+				['JLTS_CloneBinocular','','','',['Laserbatteries',1],[],''],
+				['ItemMap','ItemGPS','ItemRadio','ItemCompass','ItemWatch','']
+			],
+				
+			[
+				['JLTS_DC15S','','','',['JLTS_DC15S_mag',80],[],''],
+				[],
+				['JLTS_DC17SA','','','',['JLTS_DC17SA_mag',20],[],''],
+				['JLTS_CloneArmor_501',[['ACE_Flashlight_XL50',1],['ACE_EntrenchingTool',1],['JLTS_DC15S_mag',5,80],['JLTS_DC17SA_mag',5,20],['3AS_ThermalDetonator',3,1],['ACE_M84',3,1],['SmokeShell',3,1]]],
+				['JLTS_CloneVestAirborneNCO_501',[]],
+				['SEA_Backpack_Heavy_invis',[['MineDetector',1],['FirstAidKit',10]]],
+				'JLTS_CloneHelmetAB_501',
+				'JLTS_Clone_helmetInterior_AB',
+				['JLTS_CloneBinocular','','','',['Laserbatteries',1],[],''],
+				['ItemMap','ItemGPS','ItemRadio','ItemCompass','ItemWatch','']
+			]
+		]
+		
+		select _tropical
+	)
+],
+
+501st JTAC
+
+['jtac',
+	(
+		[
+			[
+				['JLTS_DC15S','','','',['JLTS_DC15S_mag',80],[],''],
+				[],
+				['JLTS_DC17SA','','','',['JLTS_DC17SA_mag',20],[],''],
+				['JLTS_CloneArmor_501',[['ACE_Flashlight_XL50',1],['ACE_EntrenchingTool',1],['JLTS_DC15S_mag',5,80],['JLTS_DC17SA_mag',5,20],['3AS_ThermalDetonator',3,1],['ACE_M84',3,1],['SmokeShell',3,1]]],
+				['JLTS_CloneVestReconOfficer',[]],
+				['JLTS_Clone_backpack_RTO',[['MineDetector',1],['JLTS_DC15S_mag',5,80],['FirstAidKit',10]]],
+				'SEA_Helmet_SpecOps_LR_Base',
+				'lsd_gar_p1Interior_hud',
+				['JLTS_CloneBinocular','','','',['Laserbatteries',1],[],''],
+				['ItemMap','ItemGPS','ItemRadio','ItemCompass','ItemWatch','']
+			],
+				
+			[
+				['JLTS_DC15S','','','',['JLTS_DC15S_mag',80],[],''],
+				[],
+				['JLTS_DC17SA','','','',['JLTS_DC17SA_mag',20],[],''],
+				['JLTS_CloneArmor_501',[['ACE_Flashlight_XL50',1],['ACE_EntrenchingTool',1],['JLTS_DC15S_mag',5,80],['JLTS_DC17SA_mag',5,20],['3AS_ThermalDetonator',3,1],['ACE_M84',3,1],['SmokeShell',3,1]]],
+				['JLTS_CloneVestReconOfficer',[]],
+				['JLTS_Clone_backpack_RTO',[['MineDetector',1],['JLTS_DC15S_mag',5,80],['FirstAidKit',10]]],
+				'SEA_Helmet_SpecOps_LR_Base',
+				'lsd_gar_p1Interior_hud',
+				['JLTS_CloneBinocular','','','',['Laserbatteries',1],[],''],
+				['ItemMap','ItemGPS','ItemRadio','ItemCompass','ItemWatch','']
+			]
+		]
+		
+		select _tropical
+	)
+],
+
+501st UAV Operator
+
+['uav',
+	(
+		[
+			[
+				['JLTS_DC15S','','','',['JLTS_DC15S_mag',80],[],''],
+				[],
+				['JLTS_DC17SA','','','',['JLTS_DC17SA_mag',20],[],''],
+				['JLTS_CloneArmor_501_Lieutenant',[['JLTS_DC15S_mag',5,80],['JLTS_DC17SA_mag',5,20],['3AS_ThermalDetonator',3,1],['ACE_M84',3,1],['SmokeShell',3,1]]],
+				['JLTS_CloneVestARC',[['FirstAidKit',10],['MineDetector',1],['ACE_Flashlight_XL50',1],['ACE_EntrenchingTool',1]]],
+				['JLTS_UAV_prowler_gar_backpack',[]],
+				'JLTS_CloneHelmetP2_Lieutenant',
+				'JLTS_Clone_helmetInterior_P2',
+				['JLTS_CloneBinocular','','','',['Laserbatteries',1],[],''],
+				['ItemMap','ItemGPS','ItemRadio','ItemCompass','ItemWatch','JLTS_CloneNVGRange']
+			],
+				
+			[
+				['JLTS_DC15S','','','',['JLTS_DC15S_mag',80],[],''],
+				[],
+				['JLTS_DC17SA','','','',['JLTS_DC17SA_mag',20],[],''],
+				['JLTS_CloneArmor_501_Lieutenant',[['JLTS_DC15S_mag',5,80],['JLTS_DC17SA_mag',5,20],['3AS_ThermalDetonator',3,1],['ACE_M84',3,1],['SmokeShell',3,1]]],
+				['JLTS_CloneVestARC',[['FirstAidKit',10],['MineDetector',1],['ACE_Flashlight_XL50',1],['ACE_EntrenchingTool',1]]],
+				['JLTS_UAV_prowler_gar_backpack',[]],
+				'JLTS_CloneHelmetP2_Lieutenant',
+				'JLTS_Clone_helmetInterior_P2',
+				['JLTS_CloneBinocular','','','',['Laserbatteries',1],[],''],
+				['ItemMap','ItemGPS','ItemRadio','ItemCompass','ItemWatch','JLTS_CloneNVGRange']
+			]
+		]
+		
+		select _tropical
+	)
+],
+
+501st Transport Pilot
+
+['pilot_heli',
+	(
+		[
+			[
+				['JLTS_DC15S','','','',['JLTS_DC15S_mag',80],[],''],
+				[],
+				['JLTS_DC17SA','','','',['JLTS_DC17SA_mag',20],[],''],
+				['JLTS_CloneArmor_501_Commander',[['JLTS_DC15S_mag',5,80],['JLTS_DC17SA_mag',5,20],['3AS_ThermalDetonator',3,1],['SmokeShell',3,1]]],
+				['JLTS_CloneVestHolster',[]],
+				['JLTS_Clone_RTO_pack',[]],
+				'LSEA_Helmet_Pilot_P1_Base',
+				'lsd_gar_p1Interior_hud',
+				['JLTS_CloneBinocular','','','',['Laserbatteries',1],[],''],
+				['ItemMap','ItemGPS','ItemRadio','ItemCompass','ItemWatch','']
+			],
+				
+			[
+				['JLTS_DC15S','','','',['JLTS_DC15S_mag',80],[],''],
+				[],
+				['JLTS_DC17SA','','','',['JLTS_DC17SA_mag',20],[],''],
+				['JLTS_CloneArmor_501_Commander',[['JLTS_DC15S_mag',5,80],['JLTS_DC17SA_mag',5,20],['3AS_ThermalDetonator',3,1],['SmokeShell',3,1]]],
+				['JLTS_CloneVestHolster',[]],
+				['JLTS_Clone_RTO_pack',[]],
+				'LSEA_Helmet_Pilot_P1_Base',
+				'lsd_gar_p1Interior_hud',
+				['JLTS_CloneBinocular','','','',['Laserbatteries',1],[],''],
+				['ItemMap','ItemGPS','ItemRadio','ItemCompass','ItemWatch','']
+			]
+		]
+		
+		select _tropical
+	)
+],
+
+501st CAS Pilot
+
+['pilot_plane',
+	(
+		[
+			[
+				['JLTS_DC15S','','','',['JLTS_DC15S_mag',80],[],''],
+				[],
+				['JLTS_DC17SA','','','',['JLTS_DC17SA_mag',20],[],''],
+				['JLTS_CloneArmor_501_Commander',[['JLTS_DC15S_mag',5,80],['JLTS_DC17SA_mag',5,20],['3AS_ThermalDetonator',3,1],['SmokeShell',3,1]]],
+				['JLTS_CloneVestHolster',[]],
+				['JLTS_Clone_RTO_pack',[]],
+				'3AS_P2_Pilot_helmet_Republic',
+				'JLTS_Clone_helmetInterior_P2',
+				['JLTS_CloneBinocular','','','',['Laserbatteries',1],[],''],
+				['ItemMap','ItemGPS','ItemRadio','ItemCompass','ItemWatch','']
+			],
+				
+			[
+				['JLTS_DC15S','','','',['JLTS_DC15S_mag',80],[],''],
+				[],
+				['JLTS_DC17SA','','','',['JLTS_DC17SA_mag',20],[],''],
+				['JLTS_CloneArmor_501_Commander',[['JLTS_DC15S_mag',5,80],['JLTS_DC17SA_mag',5,20],['3AS_ThermalDetonator',3,1],['SmokeShell',3,1]]],
+				['JLTS_CloneVestHolster',[]],
+				['JLTS_Clone_RTO_pack',[]],
+				'3AS_P2_Pilot_helmet_Republic',
+				'JLTS_Clone_helmetInterior_P2',
+				['JLTS_CloneBinocular','','','',['Laserbatteries',1],[],''],
+				['ItemMap','ItemGPS','ItemRadio','ItemCompass','ItemWatch','']
+			]
+		]
+		
+		select _tropical
+	)
+],

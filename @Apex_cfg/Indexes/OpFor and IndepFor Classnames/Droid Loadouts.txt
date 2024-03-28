@@ -1,0 +1,520 @@
+Rifleman-
+		comment "Exported from Arsenal by Maxim";
+
+		comment "[!] UNIT MUST BE LOCAL [!]";
+		if (!local this) exitWith {};
+
+		comment "Remove existing items";
+		removeAllWeapons this;
+		removeAllItems this;
+		removeAllAssignedItems this;
+		removeUniform this;
+		removeVest this;
+		removeBackpack this;
+		removeHeadgear this;
+		removeGoggles this;
+
+		comment "Add weapons";
+		this addWeapon "JLTS_E5";
+		this addPrimaryWeaponItem "JLTS_E5_mag";
+		this addWeapon "JLTS_RG4D";
+		this addHandgunItem "JLTS_RG4D_mag";
+
+		comment "Add containers";
+		this forceAddUniform "JLTS_DroidB1_Training";
+		this addVest "lsd_gar_clone_vest";
+		this addBackpack "JLTS_B1_backpack_training";
+
+		comment "Add binoculars";
+		this addMagazine "Laserbatteries";
+		this addWeapon "JLTS_DroidBinocular";
+
+		comment "Add items to containers";
+		for "_i" from 1 to 10 do {this addItemToUniform "ACE_CableTie";};
+		this addItemToUniform "ACE_Flashlight_XL50";
+		this addItemToUniform "ACE_Clacker";
+		this addItemToUniform "ACE_EntrenchingTool";
+		this addItemToUniform "ACE_DefusalKit";
+		this addItemToUniform "ACE_Fortify";
+		this addItemToUniform "MineDetector";
+		this addItemToUniform "ACE_wirecutter";
+		for "_i" from 1 to 5 do {this addItemToUniform "JMSLLTE_thermaldetonator_HandGrenade";};
+		for "_i" from 1 to 5 do {this addItemToUniform "SmokeShell";};
+		for "_i" from 1 to 5 do {this addItemToVest "JLTS_RG4D_mag";};
+		for "_i" from 1 to 5 do {this addItemToVest "JLTS_E5_mag";};
+		for "_i" from 1 to 10 do {this addItemToBackpack "FirstAidKit";};
+		for "_i" from 1 to 10 do {this addItemToBackpack "JLTS_E5_mag";};
+		for "_i" from 1 to 3 do {this addItemToBackpack "DemoCharge_Remote_Mag";};
+
+		comment "Add items";
+		this linkItem "ItemMap";
+		this linkItem "ItemCompass";
+		this linkItem "ItemWatch";
+		this linkItem "SWLB_comlink_droid";
+		this linkItem "ItemGPS";
+		this linkItem "JLTS_NVG_droid_chip_1";
+
+		comment "Set identity";
+		[this,"lsd_gar_cloneA_head","male01engb"] call BIS_fnc_setIdentity;
+
+
+Medic
+		comment "Exported from Arsenal by Maxim";
+
+		comment "[!] UNIT MUST BE LOCAL [!]";
+		if (!local this) exitWith {};
+
+		comment "Remove existing items";
+		removeAllWeapons this;
+		removeAllItems this;
+		removeAllAssignedItems this;
+		removeUniform this;
+		removeVest this;
+		removeBackpack this;
+		removeHeadgear this;
+		removeGoggles this;
+
+		comment "Add weapons";
+		this addWeapon "JLTS_E5";
+		this addPrimaryWeaponItem "JLTS_E5_mag";
+		this addWeapon "JLTS_RG4D";
+		this addHandgunItem "JLTS_RG4D_mag";
+
+		comment "Add containers";
+		this forceAddUniform "JLTS_DroidB1_Training";
+		this addVest "lsd_gar_clone_vest";
+		this addBackpack "JLTS_B1_backpack_training";
+
+		comment "Add binoculars";
+		this addMagazine "Laserbatteries";
+		this addWeapon "JLTS_DroidBinocular";
+
+		comment "Add items to containers";
+		for "_i" from 1 to 10 do {this addItemToUniform "ACE_CableTie";};
+		this addItemToUniform "ACE_Flashlight_XL50";
+		this addItemToUniform "ACE_EntrenchingTool";
+		this addItemToUniform "ACE_DefusalKit";
+		this addItemToUniform "ACE_Fortify";
+		this addItemToUniform "MineDetector";
+		this addItemToUniform "ACE_wirecutter";
+		for "_i" from 1 to 5 do {this addItemToUniform "JMSLLTE_thermaldetonator_HandGrenade";};
+		for "_i" from 1 to 5 do {this addItemToUniform "SmokeShell";};
+		for "_i" from 1 to 5 do {this addItemToVest "JLTS_RG4D_mag";};
+		for "_i" from 1 to 5 do {this addItemToVest "JLTS_E5_mag";};
+		for "_i" from 1 to 15 do {this addItemToBackpack "FirstAidKit";};
+		this addItemToBackpack "Medikit";
+		for "_i" from 1 to 5 do {this addItemToBackpack "JLTS_E5_mag";};
+
+		comment "Add items";
+		this linkItem "ItemMap";
+		this linkItem "ItemCompass";
+		this linkItem "ItemWatch";
+		this linkItem "SWLB_comlink_droid";
+		this linkItem "ItemGPS";
+		this linkItem "JLTS_NVG_droid_chip_1";
+
+		comment "Set identity";
+		[this,"lsd_gar_cloneA_head","male01engb"] call BIS_fnc_setIdentity;
+
+Heavy
+		comment "Exported from Arsenal by Maxim";
+
+		comment "[!] UNIT MUST BE LOCAL [!]";
+		if (!local this) exitWith {};
+
+		comment "Remove existing items";
+		removeAllWeapons this;
+		removeAllItems this;
+		removeAllAssignedItems this;
+		removeUniform this;
+		removeVest this;
+		removeBackpack this;
+		removeHeadgear this;
+		removeGoggles this;
+
+		comment "Add weapons";
+		this addWeapon "JLTS_E5C_stock";
+		this addPrimaryWeaponItem "JLTS_E5C_mag";
+		this addWeapon "JLTS_RG4D";
+		this addHandgunItem "JLTS_RG4D_mag";
+
+		comment "Add containers";
+		this forceAddUniform "Poly_HeavyTraining";
+		this addVest "lsd_gar_clone_vest";
+		this addBackpack "JLTS_B1_backpack_training";
+
+		comment "Add binoculars";
+		this addMagazine "Laserbatteries";
+		this addWeapon "JLTS_DroidBinocular";
+
+		comment "Add items to containers";
+		for "_i" from 1 to 10 do {this addItemToUniform "ACE_CableTie";};
+		this addItemToUniform "ACE_Flashlight_XL50";
+		this addItemToUniform "ACE_Clacker";
+		this addItemToUniform "ACE_EntrenchingTool";
+		this addItemToUniform "ACE_DefusalKit";
+		this addItemToUniform "ACE_Fortify";
+		this addItemToUniform "MineDetector";
+		this addItemToUniform "ACE_wirecutter";
+		for "_i" from 1 to 10 do {this addItemToUniform "JMSLLTE_thermaldetonator_HandGrenade";};
+		for "_i" from 1 to 5 do {this addItemToUniform "SmokeShell";};
+		for "_i" from 1 to 5 do {this addItemToVest "JLTS_RG4D_mag";};
+		for "_i" from 1 to 10 do {this addItemToVest "JLTS_E5C_mag";};
+		for "_i" from 1 to 3 do {this addItemToVest "ShieldGrenade_Mag";};
+		for "_i" from 1 to 10 do {this addItemToBackpack "FirstAidKit";};
+		for "_i" from 1 to 5 do {this addItemToBackpack "DemoCharge_Remote_Mag";};
+		for "_i" from 1 to 10 do {this addItemToBackpack "JLTS_E5C_mag";};
+		this addItemToBackpack "SquadShieldMagazine";
+
+		comment "Add items";
+		this linkItem "ItemMap";
+		this linkItem "ItemCompass";
+		this linkItem "ItemWatch";
+		this linkItem "SWLB_comlink_droid";
+		this linkItem "ItemGPS";
+
+		comment "Set identity";
+		[this,"lsd_gar_cloneA_head","male01engb"] call BIS_fnc_setIdentity;
+
+AT
+		comment "Exported from Arsenal by Maxim";
+
+		comment "[!] UNIT MUST BE LOCAL [!]";
+		if (!local this) exitWith {};
+
+		comment "Remove existing items";
+		removeAllWeapons this;
+		removeAllItems this;
+		removeAllAssignedItems this;
+		removeUniform this;
+		removeVest this;
+		removeBackpack this;
+		removeHeadgear this;
+		removeGoggles this;
+
+		comment "Add weapons";
+		this addWeapon "JLTS_E5";
+		this addPrimaryWeaponItem "JLTS_E5_mag";
+		this addWeapon "JLTS_E60R_AT";
+		this addSecondaryWeaponItem "JLTS_E60R_AT_mag";
+		this addWeapon "JLTS_RG4D";
+		this addHandgunItem "JLTS_RG4D_mag";
+
+		comment "Add containers";
+		this forceAddUniform "Poly_HeavyTraining";
+		this addVest "lsd_gar_clone_vest";
+		this addBackpack "JLTS_B1_backpack_training";
+
+		comment "Add binoculars";
+		this addMagazine "Laserbatteries";
+		this addWeapon "JLTS_DroidBinocular";
+
+		comment "Add items to containers";
+		for "_i" from 1 to 10 do {this addItemToUniform "ACE_CableTie";};
+		this addItemToUniform "ACE_Flashlight_XL50";
+		this addItemToUniform "ACE_EntrenchingTool";
+		this addItemToUniform "ACE_DefusalKit";
+		this addItemToUniform "ACE_Fortify";
+		this addItemToUniform "MineDetector";
+		this addItemToUniform "ACE_wirecutter";
+		for "_i" from 1 to 5 do {this addItemToUniform "JMSLLTE_thermaldetonator_HandGrenade";};
+		for "_i" from 1 to 5 do {this addItemToUniform "SmokeShell";};
+		for "_i" from 1 to 5 do {this addItemToVest "JLTS_RG4D_mag";};
+		for "_i" from 1 to 5 do {this addItemToVest "JLTS_E5_mag";};
+		for "_i" from 1 to 5 do {this addItemToBackpack "FirstAidKit";};
+		for "_i" from 1 to 2 do {this addItemToBackpack "JLTS_E60R_AT_mag";};
+		for "_i" from 1 to 4 do {this addItemToBackpack "JLTS_E5_mag";};
+
+		comment "Add items";
+		this linkItem "ItemMap";
+		this linkItem "ItemCompass";
+		this linkItem "ItemWatch";
+		this linkItem "SWLB_comlink_droid";
+		this linkItem "ItemGPS";
+
+		comment "Set identity";
+		[this,"lsd_gar_cloneA_head","male01engb"] call BIS_fnc_setIdentity;
+
+AA
+		comment "Exported from Arsenal by Maxim";
+
+		comment "[!] UNIT MUST BE LOCAL [!]";
+		if (!local this) exitWith {};
+
+		comment "Remove existing items";
+		removeAllWeapons this;
+		removeAllItems this;
+		removeAllAssignedItems this;
+		removeUniform this;
+		removeVest this;
+		removeBackpack this;
+		removeHeadgear this;
+		removeGoggles this;
+
+		comment "Add weapons";
+		this addWeapon "JLTS_E5";
+		this addPrimaryWeaponItem "JLTS_E5_mag";
+		this addWeapon "SWLW_E60R_AA";
+		this addSecondaryWeaponItem "SWLW_e60r_aa_mag";
+		this addWeapon "JLTS_RG4D";
+		this addHandgunItem "JLTS_RG4D_mag";
+
+		comment "Add containers";
+		this forceAddUniform "Poly_HeavyTraining";
+		this addVest "lsd_gar_clone_vest";
+		this addBackpack "JLTS_B1_backpack_training";
+
+		comment "Add binoculars";
+		this addMagazine "Laserbatteries";
+		this addWeapon "JLTS_DroidBinocular";
+
+		comment "Add items to containers";
+		for "_i" from 1 to 10 do {this addItemToUniform "ACE_CableTie";};
+		this addItemToUniform "ACE_Flashlight_XL50";
+		this addItemToUniform "ACE_EntrenchingTool";
+		this addItemToUniform "ACE_DefusalKit";
+		this addItemToUniform "ACE_Fortify";
+		this addItemToUniform "MineDetector";
+		this addItemToUniform "ACE_wirecutter";
+		for "_i" from 1 to 5 do {this addItemToUniform "JMSLLTE_thermaldetonator_HandGrenade";};
+		for "_i" from 1 to 5 do {this addItemToUniform "SmokeShell";};
+		for "_i" from 1 to 5 do {this addItemToVest "JLTS_RG4D_mag";};
+		for "_i" from 1 to 5 do {this addItemToVest "JLTS_E5_mag";};
+		for "_i" from 1 to 5 do {this addItemToBackpack "FirstAidKit";};
+		for "_i" from 1 to 4 do {this addItemToBackpack "JLTS_E5_mag";};
+		for "_i" from 1 to 3 do {this addItemToBackpack "SWLW_e60r_aa_mag";};
+		this addGoggles "SWLB_clone_P1_HUD";
+
+		comment "Add items";
+		this linkItem "ItemMap";
+		this linkItem "ItemCompass";
+		this linkItem "ItemWatch";
+		this linkItem "SWLB_comlink_droid";
+		this linkItem "ItemGPS";
+
+		comment "Set identity";
+		[this,"lsd_gar_cloneA_head","male01engb"] call BIS_fnc_setIdentity;
+
+Marksman
+		comment "Exported from Arsenal by Maxim";
+
+		comment "[!] UNIT MUST BE LOCAL [!]";
+		if (!local this) exitWith {};
+
+		comment "Remove existing items";
+		removeAllWeapons this;
+		removeAllItems this;
+		removeAllAssignedItems this;
+		removeUniform this;
+		removeVest this;
+		removeBackpack this;
+		removeHeadgear this;
+		removeGoggles this;
+
+		comment "Add weapons";
+		this addWeapon "JLTS_E5S";
+		this addPrimaryWeaponItem "JLTS_E5S_mag";
+		this addWeapon "JLTS_RG4D";
+		this addHandgunItem "JLTS_RG4D_mag";
+
+		comment "Add containers";
+		this forceAddUniform "Poly_SniperTraining";
+		this addVest "lsd_gar_clone_vest";
+		this addBackpack "JLTS_B1_backpack_training";
+
+		comment "Add binoculars";
+		this addMagazine "Laserbatteries";
+		this addWeapon "JLTS_DroidBinocular";
+
+		comment "Add items to containers";
+		for "_i" from 1 to 10 do {this addItemToUniform "ACE_CableTie";};
+		this addItemToUniform "ACE_Flashlight_XL50";
+		this addItemToUniform "ACE_DefusalKit";
+		this addItemToUniform "MineDetector";
+		this addItemToUniform "ACE_wirecutter";
+		for "_i" from 1 to 5 do {this addItemToUniform "JMSLLTE_thermaldetonator_HandGrenade";};
+		for "_i" from 1 to 5 do {this addItemToUniform "SmokeShell";};
+		for "_i" from 1 to 5 do {this addItemToVest "JLTS_RG4D_mag";};
+		for "_i" from 1 to 5 do {this addItemToVest "JLTS_E5S_mag";};
+		for "_i" from 1 to 10 do {this addItemToBackpack "FirstAidKit";};
+		for "_i" from 1 to 5 do {this addItemToBackpack "JLTS_E5S_mag";};
+
+		comment "Add items";
+		this linkItem "ItemMap";
+		this linkItem "ItemCompass";
+		this linkItem "ItemWatch";
+		this linkItem "SWLB_comlink_droid";
+		this linkItem "ItemGPS";
+		this linkItem "JLTS_NVG_droid_chip_1";
+
+		comment "Set identity";
+		[this,"lsd_gar_cloneA_head","male01engb"] call BIS_fnc_setIdentity;
+
+Sniper
+		comment "Exported from Arsenal by Maxim";
+
+		comment "[!] UNIT MUST BE LOCAL [!]";
+		if (!local this) exitWith {};
+
+		comment "Remove existing items";
+		removeAllWeapons this;
+		removeAllItems this;
+		removeAllAssignedItems this;
+		removeUniform this;
+		removeVest this;
+		removeBackpack this;
+		removeHeadgear this;
+		removeGoggles this;
+
+		comment "Add weapons";
+		this addWeapon "JLTS_E5S";
+		this addPrimaryWeaponItem "JLTS_E5S_mag";
+		this addWeapon "JLTS_RG4D";
+		this addHandgunItem "JLTS_RG4D_mag";
+
+		comment "Add containers";
+		this forceAddUniform "Poly_Droid_Woodland";
+		this addVest "lsd_gar_clone_vest";
+		this addBackpack "B1_backpack_Woodland";
+
+		comment "Add binoculars";
+		this addMagazine "Laserbatteries";
+		this addWeapon "JLTS_DroidBinocular";
+
+		comment "Add items to containers";
+		for "_i" from 1 to 10 do {this addItemToUniform "ACE_CableTie";};
+		this addItemToUniform "ACE_Flashlight_XL50";
+		this addItemToUniform "ACE_DefusalKit";
+		this addItemToUniform "MineDetector";
+		this addItemToUniform "ACE_wirecutter";
+		for "_i" from 1 to 5 do {this addItemToUniform "JMSLLTE_thermaldetonator_HandGrenade";};
+		for "_i" from 1 to 5 do {this addItemToUniform "SmokeShell";};
+		for "_i" from 1 to 5 do {this addItemToVest "JLTS_RG4D_mag";};
+		for "_i" from 1 to 5 do {this addItemToVest "JLTS_E5S_mag";};
+		for "_i" from 1 to 10 do {this addItemToBackpack "FirstAidKit";};
+		for "_i" from 1 to 5 do {this addItemToBackpack "JLTS_E5S_mag";};
+
+		comment "Add items";
+		this linkItem "ItemMap";
+		this linkItem "ItemCompass";
+		this linkItem "ItemWatch";
+		this linkItem "SWLB_comlink_droid";
+		this linkItem "ItemGPS";
+		this linkItem "JLTS_NVG_droid_chip_1";
+
+		comment "Set identity";
+		[this,"lsd_gar_cloneA_head","male01engb"] call BIS_fnc_setIdentity;
+
+Commander
+		comment "Exported from Arsenal by Maxim";
+
+		comment "[!] UNIT MUST BE LOCAL [!]";
+		if (!local this) exitWith {};
+
+		comment "Remove existing items";
+		removeAllWeapons this;
+		removeAllItems this;
+		removeAllAssignedItems this;
+		removeUniform this;
+		removeVest this;
+		removeBackpack this;
+		removeHeadgear this;
+		removeGoggles this;
+
+		comment "Add weapons";
+		this addWeapon "JLTS_E5";
+		this addPrimaryWeaponItem "JLTS_E5_mag";
+		this addWeapon "JLTS_RG4D";
+		this addHandgunItem "JLTS_RG4D_mag";
+
+		comment "Add containers";
+		this forceAddUniform "Poly_OfficerTraining";
+		this addVest "lsd_gar_clone_vest";
+		this addBackpack "JLTS_B1_backpack_training";
+
+		comment "Add binoculars";
+		this addMagazine "Laserbatteries";
+		this addWeapon "JLTS_DroidBinocular";
+
+		comment "Add items to containers";
+		for "_i" from 1 to 10 do {this addItemToUniform "ACE_CableTie";};
+		this addItemToUniform "ACE_Flashlight_XL50";
+		this addItemToUniform "ACE_Clacker";
+		this addItemToUniform "ACE_EntrenchingTool";
+		this addItemToUniform "ACE_DefusalKit";
+		this addItemToUniform "ACE_Fortify";
+		this addItemToUniform "MineDetector";
+		this addItemToUniform "ACE_wirecutter";
+		for "_i" from 1 to 5 do {this addItemToUniform "JMSLLTE_thermaldetonator_HandGrenade";};
+		for "_i" from 1 to 5 do {this addItemToUniform "SmokeShell";};
+		for "_i" from 1 to 5 do {this addItemToVest "JLTS_RG4D_mag";};
+		for "_i" from 1 to 5 do {this addItemToVest "JLTS_E5_mag";};
+		for "_i" from 1 to 10 do {this addItemToBackpack "FirstAidKit";};
+		for "_i" from 1 to 10 do {this addItemToBackpack "JLTS_E5_mag";};
+		for "_i" from 1 to 3 do {this addItemToBackpack "DemoCharge_Remote_Mag";};
+
+		comment "Add items";
+		this linkItem "ItemMap";
+		this linkItem "ItemCompass";
+		this linkItem "ItemWatch";
+		this linkItem "SWLB_comlink_droid";
+		this linkItem "ItemGPS";
+		this linkItem "JLTS_NVG_droid_chip_1";
+
+		comment "Set identity";
+		[this,"lsd_gar_cloneA_head","male01engb"] call BIS_fnc_setIdentity;
+
+HVT
+		comment "Exported from Arsenal by Maxim";
+
+		comment "[!] UNIT MUST BE LOCAL [!]";
+		if (!local this) exitWith {};
+
+		comment "Remove existing items";
+		removeAllWeapons this;
+		removeAllItems this;
+		removeAllAssignedItems this;
+		removeUniform this;
+		removeVest this;
+		removeBackpack this;
+		removeHeadgear this;
+		removeGoggles this;
+
+		comment "Add weapons";
+		this addWeapon "JLTS_E5";
+		this addPrimaryWeaponItem "JLTS_E5_mag";
+		this addWeapon "JLTS_RG4D";
+		this addHandgunItem "JLTS_RG4D_mag";
+
+		comment "Add containers";
+		this forceAddUniform "3AS_U_CIS_TS_Red";
+		this addVest "lsd_gar_clone_vest";
+
+		comment "Add binoculars";
+		this addMagazine "Laserbatteries";
+		this addWeapon "JLTS_DroidBinocular";
+
+		comment "Add items to containers";
+		for "_i" from 1 to 10 do {this addItemToUniform "ACE_CableTie";};
+		this addItemToUniform "ACE_Flashlight_XL50";
+		this addItemToUniform "ACE_Clacker";
+		this addItemToUniform "ACE_EntrenchingTool";
+		this addItemToUniform "ACE_DefusalKit";
+		this addItemToUniform "ACE_Fortify";
+		this addItemToUniform "MineDetector";
+		this addItemToUniform "ACE_wirecutter";
+		for "_i" from 1 to 5 do {this addItemToUniform "JMSLLTE_thermaldetonator_HandGrenade";};
+		for "_i" from 1 to 5 do {this addItemToUniform "SmokeShell";};
+		for "_i" from 1 to 5 do {this addItemToVest "JLTS_RG4D_mag";};
+		for "_i" from 1 to 5 do {this addItemToVest "JLTS_E5_mag";};
+
+		comment "Add items";
+		this linkItem "ItemMap";
+		this linkItem "ItemCompass";
+		this linkItem "ItemWatch";
+		this linkItem "SWLB_comlink_droid";
+		this linkItem "ItemGPS";
+		this linkItem "JLTS_NVG_droid_chip_1";
+
+		comment "Set identity";
+		[this,"lsd_gar_cloneA_head","male01engb"] call BIS_fnc_setIdentity;

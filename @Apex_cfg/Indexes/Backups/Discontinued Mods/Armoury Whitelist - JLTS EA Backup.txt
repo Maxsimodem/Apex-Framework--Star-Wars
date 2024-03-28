@@ -1,0 +1,372 @@
+==================
+TEMPLATE CATEGORY:
+==================
+
+		//============================================= Template Sub-Category:
+
+				Vanilla:
+						-Example Name,																			example_class,															Example Expansion,											whitelisted
+
+				Workshop Mods:
+						-Example Name,																			example_class,															Example Expansion,											whitelisted
+					
+========
+WEAPONS:
+========
+
+		//============================================= Pistols:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+						
+		//============================================= Sub-Machine Guns:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Light Machine Guns:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Assault Rifles:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Underbarrel Grenade Launcher Rifles:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+				
+		//============================================= Designated Marksman/Battle Rifles:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Sniper Rifles:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Shotguns:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Light Rocket Launchers:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Heavy Rocket Launchers:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+========
+WEAPON ATTACHMENTS:
+========
+
+		//============================================= Reflex Sights:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+						
+		//============================================= ACOG Sights:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+						
+		//============================================= Sniper Sights:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+						
+==========
+Magazines:
+==========
+
+		//============================================= Pistol Magazines
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+		
+		//============================================= Submachine Gun Magazines:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+		
+		//============================================= Light Machine Gun Magazines:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Assault Rifle Magazines:
+		
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+		
+		//============================================= DMR/Battle Rifle Magazines:
+		
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+				
+		//============================================= Sniper Rifle Magazines:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+						
+		//============================================= Shotgun Magazines:
+		
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+				
+		//============================================= Light Rockets:
+				
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Heavy Rockets:
+				
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+						
+		//============================================= Grenades:
+				
+				Vanilla
+						-,																						,																		,															whitelisted
+				
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+						
+		//============================================= Shields:
+				
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Explosives:
+				
+				Vanilla:
+						-,																						,																		,															whitelisted
+				
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+						
+		//============================================= Special Explosives:
+				
+				Vanilla:
+						-,																						,																		,															whitelisted
+				
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+		
+=================
+UNIFORM ELEMENTS:
+=================
+			
+		//============================================= Helmet Attachments:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Cloth Coverings:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Masks:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+						
+		//============================================= Formalwear/Uniforms:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Combat Fatigues:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Coveralls:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+					
+======
+VESTS:
+======
+
+		//============================================= Heavy Combat Vests:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Light Combat Vests:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Crew Vests:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Straps, Harnesses, and Bandoliers:
+
+				Workshop Mods:
+						-Schlabbies Recon Officer Vest,															SEA_Vest_Schlabbie,														JLTS: Extended Arsenal,										whitelisted
+
+		//============================================= Rebreathers:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+==========
+BACKPACKS:
+==========
+
+		//============================================= Packs:
+
+				Workshop Mods:
+						-Clonetrooper Heavy Backpack,															SEA_Backpack_Heavy,														JLTS: Extended Arsenal,										whitelisted
+						-Clonetrooper Heavy Backpack (Straps),													SEA_Backpack_Heavy_s,													JLTS: Extended Arsenal,										whitelisted
+						-Clonetrooper invisible Heavy Backpack,													SEA_Backpack_Heavy_invis,												JLTS: Extended Arsenal,										whitelisted
+						-Clonetrooper Invisible RTO Pack,														SEA_Backpack_RTO_invis,													JLTS: Extended Arsenal,										whitelisted
+						-Clonetrooper RTO Attachment,															SEA_Backpack_RTO_Attachment.											JLTS: Extended Arsenal,										whitelisted
+						-Clonetrooper RTO Pack,																	SEA_Backpack_RTO_Pack,													JLTS: Extended Arsenal,										whitelisted
+					
+		//============================================= Radios:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+					
+		//============================================= Respirators:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+					
+		//============================================= Parachutes:
+
+				Vanilla:
+						-,																						,																		,															whitelisted
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+						
+		//============================================= Static Machine Guns:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+			
+		//============================================= Mortars:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+					
+		//============================================= Bipods and Tripods:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+					
+		//============================================= UAVs:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+					
+		//============================================= Deployable Cover
+				
+				Vanilla:
+						-,																						,																		,															whitelisted
+				
+				Workshop Mods:
+						-
+						
+==========
+HEAD GEAR:
+==========
+
+		//============================================= Combat Helmets:
+
+				Workshop Mods:
+						-Clone trooper P1.5 helmet,																SEA_Helmet_ARC,															JLTS: Extended Arsenal,										whitelisted
+						-Clonetrooper ARF Helmet,																SEA_Helmet_ARF_base,													JLTS: Extended Arsenal,										whitelisted
+						-Clonetrooper Engineer Helmet,															SEA_Helmet Engineer_Base,												JLTS: Extended Arsenal,										whitelisted
+						-Clonetrooper Hazerd Hemlet,															SEA_Helmet_Hazard_Base,													JLTS: Extended Arsenal,										whitelisted
+						-Clonetrooper Phase 1 Helmet,															SEA_Helmet_P1_Base,														JLTS: Extended Arsenal,										whitelisted
+						-Clonetrooper Phase 1 Pilot Helmet,														LSEA_Helmet_Pilot_P1_Base,												JLTS: Extended Arsenal,										whitelisted
+						-Schlabbies Clonetrooper Helmet (P1),													SEA_Helmet_Schlabbie,													JLTS: Extended Arsenal,										whitelisted
+						
+		//============================================= Stealth Helmets:
+
+				Workshop Mods:
+						-Clonetrooper Phase 1 Spec-Ops Helmet (Longrange),										SEA_Helmet_SpecOps_LR_Base,												JLTS: Extended Arsenal,										whitelisted
+						-Clonetrooper Phase 1 Spec-Ops Helmet (Shortrange),										SEA_Helmet_SpecOps_SR_Base,												JLTS: Extended Arsenal,										whitelisted
+
+		//============================================= Non-Combat Helmets:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Pilot Helmets:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Hats:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+==========
+EQUIPMENT:
+==========
+
+		//============================================= Night Vision Goggles:
+
+				Workshop Mods:
+						-Clone trooper NV visor,																SEA_CloneNVG_TI,														JLTS: Extended Arsenal,										whitelisted
+						-Clonetrooper Phase 1 Rangefinder,														SEA_P1_Rangefinder,														JLTS: Extended Arsenal,										whitelisted
+						-Clonetrooper Phase 1 Rangefinder (Black),												SEA_Rangefinder_Black,													JLTS: Extended Arsenal,										whitelisted
+
+		//============================================= Binoculars:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+			
+		//============================================= Maps:
+
+				Vanilla:
+						-,																						,																		,															whitelisted
+
+		//============================================= Terminals:
+
+				Vanilla:
+						-,																						,																		,															whitelisted
+
+		//============================================= Radios:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Navigation:
+
+				Vanilla:
+						-,																						,																		,															whitelisted
+
+		//============================================= Watches:
+
+				Vanilla:
+						-,																						,																		,															whitelisted
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+						
+		//============================================= Inventory Items
+
+				Vanilla:
+						-,																						,																		,															whitelisted
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted

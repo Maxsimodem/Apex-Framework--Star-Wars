@@ -1,0 +1,1066 @@
+==================
+TEMPLATE CATEGORY:
+==================
+
+		//============================================= Template Sub-Category:
+
+				Vanilla:
+						-Example Name,																			example_variable,														Example Expansion,											whitelisted
+
+				Workshop Mods:
+						-Example Name,																			example_variable,														Example Expansion,											whitelisted
+					
+========
+WEAPONS:
+========
+
+		//============================================= Pistols:
+
+				Workshop Mods:
+						-A-180,																					SDT_A180,																Schlabbies Depressed Textures (Legion Base)					whitelisted
+						-DC-17MP,																				SDT_DC17MP,																Schlabbies Depressed Textures (Legion Base)					whitelisted
+						-DC-17ST,																				SDT_DC17ST,																Schlabbies Depressed Textures (Legion Base)					whitelisted
+						-Defender Sporting Blaster Pistol,														SDT_Defender,															Schlabbies Depressed Textures (Legion Base)					whitelisted
+						-GC36P,																					SDT_GC36Pistol,															Schlabbies Depressed Textures (Legion Base)					whitelisted
+						-The Schlabbinator,																		SRT_magnum_pew,															Schlabbies Depressed Textures (Legion Base)					blacklisted //Overpowered
+						
+		//============================================= Sub-Machine Guns:
+
+				Workshop Mods:
+						-DC-19E Stealth-Carbine,																SDT_DC19E,																Schlabbies Depressed Textures (Legion Base)					whitelisted
+						-DC-5K Machine Pistol,																	SDT_DC5K,																Schlabbies Depressed Textures (Legion Base)					whitelisted
+						-E-5U Carbine,																			SDT_Water_E5,															Schlabbies Depressed Textures (Legion Base)					whitelisted
+						-EE-3 Blaster Carbine,																	SDT_EE3,																Schlabbies Depressed Textures (Legion Base)					whitelisted
+						-EE-3 ESB Blaster Carbine,																SDT_EE3ESB,																Schlabbies Depressed Textures (Legion Base)					whitelisted
+						-GC36S Machine Pistol,																	SDT_GC36P,																Schlabbies Depressed Textures (Legion Base)					whitelisted
+						-Umbaran Rifle,																			SDT_UmbaranRifle,														Schlabbies Depressed Textures (Legion Base)					blacklisted //OPFOR
+
+		//============================================= Light Machine Guns:
+
+				Workshop Mods:
+						-GC36Z,																					SDT_GC36Z,																Schlabbies Depressed Textures (Legion Base)					whitelisted
+						-Z6 Rotary Blaster [SDT],																SDT_Z6_Base,															Schlabbies Depressed Textures (Legion Base)					whitelisted
+
+		//============================================= Assault Rifles:
+
+				Workshop Mods:
+						-GC-36R Rifle,																			SDT_GC36,																Schlabbies Depressed Textures (Legion Base)					whitelisted
+						-GC36R Rifle (Wooden Stock),															SDT_GC36_wooden,														Schlabbies Depressed Textures (Legion Base)					whitelisted
+						
+		//============================================= Underbarrel Grenade Launcher Rifles:
+		
+				workshop Mods:
+						-GC36UGL,																				SDT_GC36UGL,															Schlabbies Depressed Textures (Legion Base)					whitelisted
+
+		//============================================= Designated Marksman/Battle Rifles:
+
+				Workshop Mods:
+						-DC-19A Stealth-Rifle,																	SDT_DC19A,																Schlabbies Depressed Textures (Legion Base)					whitelisted
+						-Martini Henry,																			SDT_Martini_Henry,														Schlabbies Depressed Textures (Legion Base)					whitelisted
+						-Valken38x Sniper Rifle																	SDT_Valken38x,															Schlabbies Depressed Textures (Legion Base)					whitelisted
+
+		//============================================= Sniper Rifles:
+
+				Workshop Mods:
+						-DC-19X (Brown Wood),																	SDT_DC19X_Wood,															Schlabbies Depressed Textures (Legion Base)					whitelisted
+						-DC-19X (Red Wood),																		SDT_DC19X_Red_Wood,														Schlabbies Depressed Textures (Legion Base)					whitelisted
+						-DC-19X Stealth Sniper,																	SDT_DC19X,																Schlabbies Depressed Textures (Legion Base)					whitelisted
+						-GC36M Sniper Rifle,																	SDT_GC36M,																Schlabbies Depressed Textures (Legion Base)					whitelisted
+						-GC36M Sniper Rifle,																	SDT_GC36M_wooden,														Schlabbies Depressed Textures (Legion Base)					whitelisted
+
+		//============================================= Shotguns:
+
+				Workshop Mods:
+						-
+
+		//============================================= Light Rocket Launchers:
+
+				Workshop Mods:
+						-7-7 Ion Disruptor,																		SDT_IonDisruptor,														Schlabbies Depressed Textures (Legion Base)					whitelisted //anti-tank rifle
+						-Valken 38TB Anti-Tank Rifle,															SDT_Valken35TB,															Schlabbies Depressed Textures (Legion Base)					whitelisted //anti-tank rifle
+						
+		//============================================= Heavy Rocket Launchers:
+
+				Workshop Mods:
+						-RPS-6 rocket launcher (SDT),															SDT_RPS6,																Schlabbies Depressed Textures (Legion Base)					whitelisted
+
+========
+WEAPON ATTACHMENTS:
+========
+
+		//============================================= Reflex Sights:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+						
+		//============================================= ACOG Sights:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+						
+		//============================================= Sniper Sights:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+						
+==========
+Magazines:
+==========
+
+		//============================================= Pistol Magazines
+
+				Workshop Mods:
+						-A180 energy cell (20rnd),																SDT_A180_Mag,															Schlabbies Depressed Textures - Legion Base,				whitelisted
+						-DC17MP Magazine (30 rnd),																SDT_DC17MP_Mag,															Schlabbies Depressed Textures - Legion Base,				whitelisted
+						-DC17ST energy cell (10rnd),															SDT_DC17ST_Mag,															Schlabbies Depressed Textures - Legion Base,				whitelisted
+						-Defender energy cell (12rnd),															SDT_Defender_Mag,														Schlabbies Depressed Textures - Legion Base,				whitelisted
+						-GC36P energy cell (10rnd),																SDT_GC36Pistol_mag,														Schlabbies Depressed Textures - Legion Base,				whitelisted
+						-Schlabbinator magazine (10.000 Rounds)													SRT_magnum_pew_pistol_mag,												Schlabbies Depressed Textures - Legion Base,				blacklisted //Overpowered
+		
+		//============================================= Submachine Gun Magazines:
+
+				Workshop Mods:
+						-DC-19E energy cell (30rnd),															SDT_DC19E_mag,															Schlabbies Depressed Textures - Legion Base,				whitelisted
+						-DC-19E underwater energy cell (25rnd),													SDT_DC19E_water_mag,													Schlabbies Depressed Textures - Legion Base,				whitelisted
+						-DC-5K energy cell (40rnd),																SDT_DC5K_mag,															Schlabbies Depressed Textures - Legion Base,				whitelisted
+						-E-5 underwater energy cell (60rnd),													SDT_Water_E5_Mag,														Schlabbies Depressed Textures - Legion Base,				whitelisted
+						-EE-3 Energy cell,																		SDT_EE3_mag,															Schlabbies Depressed Textures - Legion Base,				whitelisted
+						-EE-3 ESB Blaster Bolt,																	SDT_EE3ESB_mag,															Schlabbies Depressed Textures - Legion Base,				whitelisted
+						-GC-36P energy cell (25rnd),															SDT_GC_36P_mag,															Schlabbies Depressed Textures - Legion Base,				whitelisted
+						-Umbaran Rifle energy cell(30rnd),														SDT_UmbaranRifle_mag,													Schlabbies Depressed Textures - Legion Base,				blacklisted //OPFOR
+		
+		//============================================= Light Machine Gun Magazines:
+
+				Workshop Mods:
+						-GC-36LSW energy cell (200rnd),															SDT_GC36_LSW_mag,														Schlabbies Depressed Textures - Legion Base,				whitelisted
+						-Z-6 energy cell (500rnd),																SDT_Z6_mag,																Schlabbies Depressed Textures - Legion Base,				whitelisted
+
+		//============================================= Assault Rifle Magazines:
+		
+				Workshop Mods:
+						-GC36R energy cell (35rnd),																SDT_GC_36_mag,															Schlabbies Depressed Textures - Legion Base,				whitelisted
+		//============================================= DMR/Battle Rifle Magazines:
+		
+				Workshop Mods:
+						-DC-19A energy cell (20rnd),															SDT_DC19A_mag,															Schlabbies Depressed Textures - Legion Base,				whitelisted
+						-DC-19A underwater energy cell (20rnd),													SDT_DC19A_water_mag,													Schlabbies Depressed Textures - Legion Base,				whitelisted
+						-Martini Henry Laser Bullet,															SDT_Martini_mag,														Schlabbies Depressed Textures - Legion Base,				whitelisted
+						-Valken38X Energy Cell,																	SDT_Valken_mag,															Schlabbies Depressed Textures - Legion Base,				whitelisted
+				
+		//============================================= Sniper Rifle Magazines:
+
+				Workshop Mods:
+						-DC-19X plasma cell (15rnd),															SDT_DC19X_Mag,															Schlabbies Depressed Textures - Legion Base,				whitelisted
+						-GC36M explosive energy cell (5rnd),													SDT_GC36_HEE_mag,														Schlabbies Depressed Textures - Legion Base,				whitelisted
+						-GC36M high energy cell (15),															SDT_GC36_HE_mag,														Schlabbies Depressed Textures - Legion Base,				whitelisted
+						
+		//============================================= Shotgun Magazines:
+		
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+				
+		//============================================= Light Rockets:
+				
+				Workshop Mods:
+						-Ion Disruptor Energy Cartridge,														SDT_IonDisruptor_mag,													Schlabbies Depressed Textures - Legion Base,				whitelisted //anti-tank rifle
+						-Valken TB plasma cell (6rnd),															SDT_ValkenTB_Mag,														Schlabbies Depressed Textures - Legion Base,				whitelisted //anti-tank rifle
+
+		//============================================= Heavy Rockets:
+				
+				Workshop Mods:
+						-RPS-6 rocket (SDT),																	SDT_rps6_mag,															Schlabbies Depressed Textures - Legion Base,				whitelisted
+
+=================
+UNIFORM ELEMENTS:
+=================
+			
+		//============================================= Helmet Attachments:
+
+				Workshop Mods:
+						-[518th] Clone P1 Gunner Plating (Cheek Protection),									SDT_518th_gunner_plating,												Schlabbies Depressed Textures - Legion Base,				blacklisted //Non-Canon
+						-Clone p1 gunner plating,																SDT_gunner_helmet_NC,													Schlabbies Depressed Textures - Legion Base,				whitelisted
+						-Clone p1 gunner plating - Black,														SDT_gunner_helmet_black_NC,												Schlabbies Depressed Textures - Legion Base,				whitelisted
+						-Clone p1 gunner plating - Black(Cheek Protection),										SDT_gunner_helmet_black,												Schlabbies Depressed Textures - Legion Base,				whitelisted
+						-Clone p1 gunner plating - Dark Silver,													SDT_gunner_helmet_DarkSilver_NC,										Schlabbies Depressed Textures - Legion Base,				whitelisted
+						-Clone p1 gunner plating - Dark Silver(Cheek Protection),								SDT_gunner_helmet_DarkSilver,											Schlabbies Depressed Textures - Legion Base,				whitelisted
+						-Clone p1 gunner plating - Silver,														SDT_gunner_helmet_silver_NC,											Schlabbies Depressed Textures - Legion Base,				whitelisted
+						-Clone p1 gunner plating - Silver (Cheek Protection),									SDT_gunner_helmet_silver,												Schlabbies Depressed Textures - Legion Base,				whitelisted
+						-Clone p1 gunner plating (Cheek Protection),											SDT_gunner_plating,														Schlabbies Depressed Textures - Legion Base,				whitelisted
+						-Clone p2 tanker plating,																SDT_bacara_plating,														Schlabbies Depressed Textures - Legion Base,				whitelisted
+						-Clonetrooper BARC plating,																SDT_BARC_plates,														Schlabbies Depressed Textures - Legion Base,				whitelisted
+						-Clonetrooper BARC plating (Black),														SDT_BARC_plates_black,													Schlabbies Depressed Textures - Legion Base,				whitelisted
+						
+						-Phase 1 Commanders visor,																3as_Phase1CC_Visor,														Schlabbies Depressed Textures - Legion Base,				whitelisted
+						-Phase 1 Headlamps,																		3as_Phase1_Lamps,														Schlabbies Depressed Textures - Legion Base,				whitelisted
+						-Phase 1 Macrobinocular,																3as_Phase1_MacroBinocular,												Schlabbies Depressed Textures - Legion Base,				whitelisted
+						-Phase 1 RangeFinder,																	3as_Phase1_RangeFinder,													Schlabbies Depressed Textures - Legion Base,				whitelisted
+						-Phase 1 Sun visor,																		3as_Phase1_Visor,														Schlabbies Depressed Textures - Legion Base,				whitelisted
+						
+		//============================================= Cloth Coverings:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Masks:
+
+				Workshop Mods:
+						-Clone trooper p1 Respirator Mask,														sdt_respirator_p1,														Schlabbies Depressed Textures - Legion Base,				whitelisted
+						-Clone trooper p2 Respirator Mask,														sdt_respirator_p2,														Schlabbies Depressed Textures - Legion Base,				whitelisted
+						
+		//============================================= Formalwear/Uniforms:
+
+				Workshop Mods:
+						,																						,																		,															whitelisted
+
+		//============================================= Combat Fatigues:
+
+				Workshop Mods:
+						--[41st] Aircrew Uniform,																SDT_41st_Aircrew_Uniform,												Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[41st] Aircrew Uniform Camo,															SDT_41st_Aircrew_Uniform_Camo,											Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[41st] Cast Uniform,																	SDT_41st_Cast_Uniform,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[41st] Cast Uniform Camo,																SDT_41st_Cast_Uniform_Camo,												Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[41st] Clone Recruit Uniform,															SDT_41st_CR_Uniform,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[41st] Clone Recruit Uniform Camo,														SDT_41st_CR_Uniform_Camo,												Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[41st] Clone Sergeant Uniform,															SDT_41st_CS_Uniform,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[41st] Clone Sergeant Uniform Camo,													SDT_41st_CS_Uniform_Camo,												Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[41st] Clone Specialist Uniform,														SDT_41st_CSP_Uniform,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[41st] Clone Specialist Uniform Camo,													SDT_41st_CSP_Uniform_Camo,												Schlabbies Depressed Textures (Legion Base),				blacklisted //OPFOR
+						-[41st] Clone Trooper Uniform,															SDT_41st_CT_Uniform,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[41st] Clone Trooper Uniform Camo,														SDT_41st_CT_Uniform_Camo,												Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[41st] Dox Uniform,																	SDT_41st_Dox_Uniform,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[41st] Dox Uniform Camo,																SDT_41st_Dox_Uniform_Camo,												Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[41st] Hevy Uniform,																	SDT_41st_Hevy_Uniform,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[41st] Hevy Uniform Camo,																SDT_41st_Hevy_Uniform_Camo,												Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[41st] John Uniform,																	SDT_41st_John_Uniform,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[41st] John Uniform Camo, 																SDT_41st_John_Uniform_Camo,												Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[41st] Medic Uniform, 																	SDT_41st_Medic_Uniform,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[41st] Medic Uniform Camo, 															SDT_41st_Medic_Uniform_Camo,											Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[41st] Senior Clone Trooper Uniform,													SDT_41st_SCT_Uniform,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[41st] Senior Clone Trooper Uniform Camo,												SDT_41st_SCT_Uniform_Camo,												Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[41st] Tavion Uniform,																	SDT_41st_Tavion_Uniform,												Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[41st] Tavion Uniform Camo, 															SDT_41st_Tavion_Uniform_Camo,											Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[420th] Airborne Medic Uniform,														SDT_420_Airborne_Medic_uniform,											Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[420th] Airborne NCO Uniform,															SDT_420_Airborne_NCO_uniform,											Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[420th] Airborne Officer Uniform,														SDT_420_Airborne_Officer_uniform,										Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[420th] Airborne Trooper Uniform,														SDT_420_Airborne_Trooper_uniform,										Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[420th] ARF Medic Uniform,																SDT_420_ARF_Medic_uniform,												Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[420th] ARF NCO Uniform,																SDT_420_ARF_NCO_uniform,												Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[420th] ARF Officer Uniform,															SDT_420_ARF_Officer_uniform,											Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[420th] ARF Trooper Uniform,															SDT_420_ARF_Trooper_uniform,											Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[420th] Ban's Uniform,																	SDT_420_Ban_uniform,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[420th] Medic Uniform,																	SDT_420_Medic_uniform,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[420th] NCO Uniform,																	SDT_420_NCO_uniform,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[420th] Officer Uniform,																SDT_420_Officer_uniform,												Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[420th] Tex's Uniform,																	SDT_420_Tex_uniform,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[420th] Trooper Uniform,																SDT_420_Trooper_uniform,												Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[80th] Clone corporal uniform armor,													SDT_80cp_uniform,														Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[80th] Clone Officer uniform armor,													SDT_80officer_uniform,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[80th] Clone recruit uniform armor,													SDT_80cr_uniform,														Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[80th] Clone Sergeant uniform armor,													SDT_80sgt_uniform,														Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[80th] Clone trooper uniform armor,													SDT_80ct_uniform,														Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[816th] ARC trooper Uniform,															SDT_816th_ARC_uniform,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[816th] ARF NCO Uniform,																SDT_816th_ARF_NCO_uniform,												Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[816th] ARF trooper Uniform,															SDT_816th_ARF_uniform,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[816th] BARC medic Uniform,															SDT_816th_BARC_Medic_uniform,											Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[816th] BARC trooper Uniform,															SDT_816th_BARC_uniform,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[816th] Cade's Uniform,																SDT_816th_Cade_uniform,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[816th] Clone engineer Uniform,														SDT_816th_Engineer_uniform,												Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[816th] Clone medic Uniform,															SDT_816th_Medic_uniform,												Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[816th] Clone trooper Uniform,															SDT_816th_uniform,														Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[816th] Grum's Uniform,																SDT_816th_Grum_uniform,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[816th] Hellfire's Uniform,															SDT_816th_Hellfire_uniform,												Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[816th] Levii's Uniform,																SDT_816th_Levii_uniform,												Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[816th] Mako's Uniform,																SDT_816th_Mako_uniform,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[816th] Ninjaman's Uniform,															SDT_816th_Ninjaman_uniform,												Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[816th] Ren's Uniform,																	SDT_816th_Ren_uniform,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[816th] Snookie's Uniform,																SDT_816th_Snookie_uniform,												Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[816th] Thastian's Uniform,															SDT_816th_Thastian_uniform,												Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[86th] CO Uniform,																		SDT_86th_CO_Uniform,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[86th] NCO Uniform,																	SDT_86th_NCO_Uniform,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[86th] Thastian's Uniform,																SDT_816th_Thastian_uniform,												Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[86th] Triumph's Uniform,																SDT_86th_Triumph_Uniform,												Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[86th] Trooper Uniform,																SDT_86th_Trooper_Uniform,												Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[Coruscant Protector]Clone trooper uniform armor,										SDT_CP_uniform,															Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[Developer] Clone Commando uniform armor (Dukas),										SDT_DEVDukas_commando_uniform,											Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[Developer] Clone Commando uniform armor (Schlabbie Weathered),						SDT_DEVSchlabbie_commando_uniform_w,									Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Developer] Clone Commando uniform armor (Schlabbie),									SDT_DEVSchlabbie_commando_uniform,										Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Developer] Clone trooper uniform armor (Ekko),										SDT_DEVEkko_uniform,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[Developer] Clone trooper uniform armor (LeVi),										SDT_LeVi_Uniform,														Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[Developer] Frosts Uniform,															SDT_Frost_Dev_Uniform,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[Developer] Maksim's Uniform,															SDT_DEVMaksim_uniform,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[Developer]Clone trooper uniform armor (Dukas),										SDT_DEVDukas_uniform,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[Developer]Clone trooper uniform armor (Eternal),										SDT_DEVEternal_uniform,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[Developer]Clone trooper uniform armor (Juggernog),									SDT_DEVCeltic_uniform,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[Developer]Clone trooper uniform armor (Kyram),										SDT_DEVKyram_uniform,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[Developer]Clone trooper uniform armor (Nox),											SDT_DEVNox_uniform,														Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[Developer]Clone trooper uniform armor (Schlabbie),									SDT_DEVSchlabbie,														Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[GD - 107]Clone trooper uniform armor,													SDT_GD_107_uniform,														Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[GD - 107]Clone trooper uniform armor (Worn),											SDT_GD_107_worn_uniform,												Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Ghost Division] Clone trooper stealth uniform armor,									SDT_GD_stealth_uniform,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Ghost Division] Clone trooper stealth uniform armor (worn),							SDT_GD_stealth_w_uniform,												Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Ghost Division]Clone Command uniform armor,											SDT_GD_C_uniform,														Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Ghost Division]Clone Command uniform armor (Worn),									SDT_GD_worn_C_uniform,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Ghost Division]Clone Medic uniform armor,												SDT_GD_uniform_medic,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Ghost Division]Clone Medic uniform armor (worn),										SDT_GD_uniform_worn_medic,												Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Ghost Division]Clone Recruit uniform armor (worn),									SDT_GD_worn_CR_uniform,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Ghost Division]Clone trooper uniform armor (clean),									SDT_GD_clean_uniform,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Ghost Division]Clone trooper uniform armor (Worn),									SDT_GD_worn_uniform,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Ghost Division]Oaks uniform armor,													SDT_GD_Oak_uniform,														Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Ghost Division]Oaks uniform armor (Worn),												SDT_GD_worn_Oak_uniform,												Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Lego]Clone trooper uniform armor (212th),												SDT_Lego212_uniform,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Lego]Clone trooper uniform armor (442nd),												SDT_Lego442_uniform,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[LEGO]Clone trooper uniform armor (501st Jumper),										SDT_Jumper_uniform,														Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Lego]Clone trooper uniform armor (501st),												SDT_Lego501_uniform,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Lego]Clone trooper uniform armor (ATRT),												SDT_LegoATRT_uniform,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Lego]Clone trooper uniform armor (Commander),											SDT_LegoCMD_uniform,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Lego]Clone trooper uniform armor (Geonosis),											SDT_LegoG_uniform,														Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Lego]Clone trooper uniform armor (Kashyyyk Scout),									SDT_LegoKScout_uniform,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Lego]Clone trooper uniform armor (Kashyyyk),											SDT_LegoK_uniform,														Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Lego]Clone trooper uniform armor (Shocktrooper 2007),									SDT_LegoShock2_uniform,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Lego]Clone trooper uniform armor (Shocktrooper 2014),									SDT_LegoShock1_uniform,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Lego]Clone trooper uniform armor (Utapau),											SDT_LegoU_uniform,														Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[RI] Commander Uniform,																RI_Commander_Uniform,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[RI] Maksim's Uniform,																	RI_Maksim_Uniform,														Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[RI] NCO Uniform,																		RI_NCO_Uniform,															Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[RI] Officer Uniform,																	RI_Officer_Uniform,														Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[RI] Trooper Uniform,																	RI_Trooper_Uniform,														Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[Schlabbie] Clone trooper stealth uniform armor,										SDT_GD_Stealth_uniform_S,												Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Schlabbie] Clone trooper stealth uniform armor (worn),								SDT_GD_stealth_w_uniform_S,												Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Schlabbie] Clone trooper uniform armor,												SDT_GD_uniform_S,														Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Schlabbie] Clone trooper uniform armor (Worn),										SDT_GD_worn_uniform_S,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-37th Captain Uniform,																	SDT_37th_CaptainUniform,												Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-37th Corporal Uniform,																	SDT_37th_CorporalUniform,												Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-37th Hawk Uniform,																		SDT_37th_HawkUniform,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-37th Lieutenant Uniform,																SDT_37th_LieutenantUniform,												Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-37th Raptor Uniform,																	SDT_37th_RaptorUniform,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-37th Recruit Uniform,																	SDT_37th_RecruitUniform,												Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-37th Senior Hawk Uniform,																SDT_37th_SeniorHawkUniform,												Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-37th Senior Uniform,																	SDT_37th_SeniorUniform,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-37th Sergeant Uniform,																	SDT_37th_SergeantUniform,												Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-37th SergeantMajor Uniform,															SDT_37th_SergeantMajorUniform,											Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-37th Talon Uniform,																	SDT_37th_TalonUniform,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clone Captain Uniform armor,															SDT_CPT_uniform,														Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone Commander Gree uniform armor,													SDT_gree_uniform,														Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone Commander Krieg uniform armor,													SDT_krieg_uniform,														Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone Commander Stone uniform armor,													SDT_stone_uniform,														Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone Commander uniform armor,															SDT_CMD_uniform,														Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone Commando uniform armor (Araniik),												SDT_Araniik_commando_uniform,											Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone Commando uniform armor (Aruetyc),												SDT_Aruetyc_commando_uniform,											Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone Commando uniform armor (Green Digital),											SDT_GD_commando_uniform,												Schlabbies Depressed Textures (Legion Base),				blacklisted //Appears Unfinished
+						-Clone Commando uniform armor (Naast),													SDT_Naast_commando_uniform,												Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone Commando uniform armor (Verd),													SDT_Verd_commando_uniform,												Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone Geonosis Specops uniform armor,													SDT_geospec_uniform,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone Lieutenant uniform armor,														SDT_LT_uniform,															Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone Sergeant Strike Uniform Armor,													SDT_Strike_uniform,														Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone Sergeant uniform armor,															SDT_SGT_uniform,														Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone Stealth Specops uniform armor,													SDT_stealth_spec_uniform,												Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone trooper Hazard armor,															SDT_Clone_Hazard_Uniform,												Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone trooper Intelligence armor,														SDT_Intelligence_Uniform,												Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone trooper Scuba armor,																SDT_Clone_Scuba_Uniform,												Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone trooper uniform armor (15th EK Keen),											SDT_15EK_Keen_uniform,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clone trooper uniform armor (15th EK Nephi),											SDT_15EK_Nephi_uniform,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clone trooper uniform armor (15th EK),													SDT_15EK_uniform,														Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clone trooper uniform armor (175th LT),												SDT_175_lt_uniform,														Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clone trooper uniform armor (175th Medic),												SDT_175_uniform_medic,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clone trooper uniform armor (175th Recruit),											SDT_175_uniform_cr,														Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clone trooper uniform armor (175th Trooper),											SDT_175_uniform_ct,														Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clone trooper uniform armor (212th Jungle Camo),										SDT_212_jungle_uniform,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clone trooper uniform armor (23rd Ash Company),										SDT_23_uniform,															Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clone trooper uniform armor (34th AC - Medic),											SDT_34_medic_uniform,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clone trooper uniform armor (34th AC - Officer),										SDT_34_officer_uniform,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clone trooper uniform armor (34th AC),													SDT_34_trooper_uniform,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clone trooper uniform armor (415th Frostbite Legion),									SDT_415_uniform,														Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clone trooper uniform armor (501st Boomer),											SDT_501_Boomer_uniform,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone trooper uniform armor (501st Vill),												SDT_501_vill_uniform,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone trooper uniform armor (502nd Apex),												SDT_502_Apex_uniform,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clone trooper uniform armor (502nd NCO),												SDT_502_NCO_uniform,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clone trooper uniform armor (502nd Officer),											SDT_502_officer_uniform,												Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clone trooper uniform armor (502nd Trooper),											SDT_502_trooper_uniform,												Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clone trooper uniform armor (519th - Medic),											SDT_519_NCO_uniform,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clone trooper uniform armor (519th - Medic),											SDT_519_Medic_uniform,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clone trooper uniform armor (519th - V1),												SDT_519_V1_uniform,														Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clone trooper uniform armor (519th - V2),												SDT_519_V2_uniform,														Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clone trooper uniform armor (597th RO - Galek),										SDT_597_gaylek_uniform,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clone trooper uniform armor (597th RO - Lich),											SDT_597_lich_uniform,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clone trooper uniform armor (597th RO - Muzza),										SDT_597_muzza_uniform,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clone trooper uniform armor (597th RO - Phase 1),										SDT_597_p1_uniform,														Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clone trooper uniform armor (597th RO),												SDT_597_uniform,														Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clone trooper uniform armor (87th SC CT),												SDT_87_ct_uniform,														Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clone trooper uniform armor (87th SC Dragon Eyes),										SDT_87_Dragon_Eyes_uniform,												Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clone trooper uniform armor (87th SC Dragons Fury),									SDT_87_fury_uniform,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clone trooper uniform armor (87th SC Dragons Wrath),									SDT_87_wrath_uniform,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clone trooper uniform armor (87th SC Heavy),											SDT_87_heavy_uniform,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clone trooper uniform armor (87th SC Officer),											SDT_87_officer_uniform,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clone trooper uniform armor (87th SC Predator),										SDT_87_predator_uniform,												Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clone trooper uniform armor (87th SC Rag),												SDT_87_rag_uniform,														Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clone trooper uniform armor (87th SC Rocket Trooper),									SDT_87_jumper_uniform,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clone trooper uniform armor (87th SC Sniper),											SDT_87_sniper_uniform,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clone trooper uniform armor (87th SC Tac),												SDT_87_tac_uniform,														Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clone trooper uniform armor (ATRT ARF),												SDT_ATRT_ARF_uniform,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone trooper uniform armor (Desert Camo),												SDT_desert_camo_uniform,												Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone trooper uniform armor (Fordo),													SDT_fordo_uniform,														Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone trooper uniform armor (Forest Camo),												SDT_forest_camo_uniform,												Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone trooper uniform armor (Franke),													SDT_Franke_uniform,														Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clone trooper uniform armor (Genonosis Camo),											SDT_geo_arf_camo_uniform,												Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone trooper uniform armor (Grass Camo),												SDT_grass_camo_uniform,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone trooper uniform armor (Krayt),													SDT_krayt_uniform,														Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clone trooper uniform armor (Munilist 10 LT),											SDT_LT_ARC_uniform,														Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone trooper uniform armor (Munilist 10 LT),											SDT_LT2_ARC_uniform,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone trooper uniform armor (Naval Camo),												SDT_naval_camo_uniform,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone trooper uniform armor (Night Camo),												SDT_night_camo_uniform,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone trooper uniform armor (Sand Camo),												SDT_sand_camo_uniform,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone trooper uniform armor (Shadow ARF),												SDT_shadowarf_uniform,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone trooper uniform armor (Sharkbait),												SDT_Sharkbait_uniform,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clone trooper uniform armor (Sisqua Squadron),											SDT_Sisqua_uniform,														Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone trooper uniform armor (Snow Camo),												SDT_snow_camo_uniform,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone trooper uniform armor (Spar),													SDT_spar_uniform,														Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clone trooper uniform armor (Urban Camo),												SDT_urban_camo_uniform,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clonetrooper ARF uniform armor (534th Remnant - P1),									SDT_534_ARF_p1_uniform,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clonetrooper ARF uniform armor (534th Remnant - P2),									SDT_534_ARF_p2_uniform,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clonetrooper Medic uniform armor (19thSC),												SDT_19Medic_uniform,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clonetrooper uniform armor (19thSC),													SDT_19CT_uniform,														Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clonetrooper uniform armor (534th Remnant - NCO),										SDT_534_NCO_uniform,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clonetrooper uniform armor (534th Remnant - P1),										SDT_534_CT_p1_uniform,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clonetrooper uniform armor (534th Remnant - P2),										SDT_534_CT_p2_uniform,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Rhodesian Light Infantry uniform armor,												SDT_RLI_uniform,														Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Thot Patrol uniform armor,																SDT_TP_uniform,															Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Thot Squad uniform armor,																SDT_TS_uniform,															Schlabbies Depressed Textures (Legion Base),				blacklisted //OPFOR
+
+		//============================================= Coveralls:
+
+				Workshop Mods:
+						-37th Pilot Uniform,																	SDT_37th_PilotUniform,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-37th Senior Pilot Uniform,																SDT_37th_SeniorPilotUniform,											Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[41st] Pilot Uniform, 																	SDT_41st_Pilot_Uniform,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[41st] Pilot Uniform Camo, 															SDT_41st_Pilot_Uniform_Camo,											Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-B-1 Underwater droid,																	SDT_b1_wetsuit_uniform,													Schlabbies Depressed Textures (Legion Base),				blacklisted //OPFOR
+						-B-1 Underwater droid (Camouflaged),													SDT_b1_wetsuit_camo_uniform,											Schlabbies Depressed Textures (Legion Base),				blacklisted //OPFOR
+						-B-1 Underwater Saboteur droid,															SDT_b1_wetsuit_Saboteur_uniform,										Schlabbies Depressed Textures (Legion Base),				blacklisted //OPFOR
+						-B-1 Underwater security droid,															SDT_b1_wetsuit_Security_uniform,										Schlabbies Depressed Textures (Legion Base),				blacklisted //OPFOR
+						-Republic Phase 2 Scuba Trooper Armor,													SDT_Clone_wetsuit_uniform,												Schlabbies Depressed Textures (Legion Base),				whitelisted
+					
+======
+VESTS:
+======
+
+		//============================================= Heavy Combat Vests:
+
+				Workshop Mods:
+						-[41st] John's Vest,																	SDT_41st_John_Vest,														Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[41st] Tavion's Vest,																	SDT_41st_Tavion_Vest,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[816th] ARC trooper Vest,																SDT_816th_ARC_vest,														Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[816th] Thastian's Vest,																SDT_816th_Thastian_vest,												Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[Developer] Kyram Clone ARC Armour,													SDT_DEVKryam_armor,														Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[Developer] Lieutenant Vest (LeVi),													SDT_LeVi_Vest,															Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[Developer] Maksim Pauldron and Kama,													SDT_DEVMaksim_armor,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[Developer] Nox ARC Gear (Dark),														SDT_DEVNox_armor_dark,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[Developer] Nox ARC Gear (Light),														SDT_DEVNox_armor_light,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[GD] Clone Heavy Duty Engineer Vest,													SDT_GD_heavy_duty_engi_vest,											Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[GD] Commander Vest,																	SDT_GD_Commander_Vest,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[GD] Commanding Officer Vest,															SDT_GD_lightCommander_Vest,												Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Ghost Division]Commander Vest (Oak),													SDT_oak_vest_cmd,														Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[RI] Commander Pauldron and Kama,														RI_CommanderAccessories,												Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[RI] Maksim's Pauldron and Kama,														RI_MaksimAccessories,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clone Closequarter Gunner Specialist NCO Vest,											SDT_Closequarter_gunner_specialist_NCO_vest,							Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone Closequarter Gunner Specialist vest,												SDT_Closequarter_gunner_specialist_vest,								Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone Commander Armor (87th SC Officer),												SDT_87_officer_armor,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clone Commander Pauldron (34th AC),													SDT_34_Officer_armor,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clone Commander Pauldron (Fordo),														SDT_fordo_armor,														Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone Commander Pauldron (Fordo),														SDT_501_Vill_armor,														Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone Commander Pauldron (Munilist 10),												SDT_LT_ARC_armor,														Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone gunner carrier vest,																SDT_gunner_carrier_Vest,												Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone gunner carrier vest (Black),														SDT_gunner_carrier_Vest_black,											Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone gunner carrier vest (Dark Silver),												SDT_gunner_carrier_Vest_darksilver,										Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone gunner carrier vest (Silver),													SDT_gunner_carrier_Vest_silver,											Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone gunner gremadier vest,															SDT_gunner_grenadier_Vest,												Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone gunner grenadier vest (Black),													SDT_gunner_grenadier_Vest_Black,										Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone gunner grenadier vest (Dark Silver),												SDT_gunner_grenadier_Vest_DarkSilver,									Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone gunner grenadier vest (Silver),													SDT_gunner_grenadier_Vest_Silver,										Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone gunner light carrier vest,														SDT_gunner_lightcarrier_Vest,											Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone gunner light carrier vest (Black),												SDT_gunner_lightcarrier_Vest_black,										Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone gunner light carrier vest (Dark Silver),											SDT_gunner_lightcarrier_Vest_DarkSilver,								Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone gunner light carrier vest (Silver),												SDT_gunner_lightcarrier_Vest_Silver,									Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone gunner NCO vest,																	SDT_gunner_NCO_vest,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone gunner NCO vest (Black),															SDT_gunner_NCO_vest_black,												Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone gunner NCO vest (Dark Silver),													SDT_gunner_NCO_vest_darksilver,											Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone gunner NCO vest (Silver),														SDT_gunner_NCO_vest_silver,												Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone gunner recon vest,																SDT_gunner_recon_Vest,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone gunner recon vest (Black),														SDT_gunner_recon_Vest_black,											Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone gunner recon vest (Dark Silver),													SDT_gunner_recon_Vest_DarkSilver,										Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone gunner recon vest (Silver),														SDT_gunner_recon_Vest_Silver,											Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone gunner RTO vest,																	SDT_gunner_RTO_vest,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone gunner RTO vest (Black),															SDT_gunner_RTO_vest_black,												Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone gunner RTO vest (Dark Silver),													SDT_gunner_RTO_vest_darksilver,											Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone gunner RTO vest (Silver),														SDT_gunner_RTO_vest_silver,												Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone gunner specialist NCO vest,														SDT_gunner_specialist_NCO_Vest,											Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone gunner specialist NCO vest (Black),												SDT_gunner_specialist_NCO_Vest_black,									Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone gunner specialist NCO vest (Dark Silver),										SDT_gunner_specialist_NCO_Vest_DarkSilver,								Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone gunner specialist NCO vest (Silver),												SDT_gunner_specialist_NCO_Vest_Silver,									Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone gunner Specialist vest,															SDT_gunner_specialist_vest,												Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone gunner Specialist vest (Black),													SDT_gunner_specialist_vest_black,										Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone gunner Specialist vest (Dark-Silver),											SDT_gunner_specialist_vest_darksilver,									Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone gunner Specialist vest (Silver),													SDT_gunner_specialist_vest_silver,										Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone gunner survivalist vest,															SDT_gunner_survivalist_vest,											Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone gunner survivalist vest (Black),													SDT_gunner_survivalist_Black_vest,										Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone gunner vest,																		SDT_gunner_vest,														Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone gunner vest - Black,																SDT_gunner_vest_black,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone gunner vest - Dark Silver,														SDT_gunner_vest_darksilver,												Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone gunner vest - Silver,															SDT_gunner_vest_silver,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone Heavy Duty Engineer Vest,														SDT_heavy_duty_engi_vest,												Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone Heavy Specialist Gunner NCO Vest,												SDT_heavy_specialist_gunner_NCO_vest,									Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone Heavy Specialist Gunner NCO Vest (Black),										SDT_heavy_specialist_gunner_NCO_vest_black,								Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone Heavy Specialist Gunner NCO Vest (Dark Silver),									SDT_heavy_specialist_gunner_NCO_vest_darksilver,						Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone Heavy Specialist Gunner NCO Vest (Silver),										SDT_heavy_specialist_gunner_NCO_vest_silver,							Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone Heavy Specialist Gunner Vest,													SDT_heavy_specialist_gunner_vest,										Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone Heavy Specialist Gunner Vest (Black),											SDT_heavy_specialist_gunner_vest_black,									Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone Heavy Specialist Gunner Vest (Dark Silver),										SDT_heavy_specialist_gunner_vest_darksilver,							Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone Heavy Specialist Gunner Vest (Silver),											SDT_heavy_specialist_gunner_vest_silver,								Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone Light Commander Vest,															SDT_lightCommander_Vest,												Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone Officer Carrier Vest,															SDT_officer_carrier_vest,												Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone Recon Support Gunner NCO Vest,													SDT_recon_support_gunner_NCO_vest,										Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone Recon Support Gunner NCO Vest (Black),											SDT_recon_support_gunner_NCO_vest_black,								Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone Recon Support Gunner NCO Vest (DarkSilver),										SDT_recon_support_gunner_NCO_vest_darksilver,							Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone Recon Support Gunner NCO Vest (Silver),											SDT_recon_support_gunner_NCO_vest_silver,								Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone Recon Support Gunner Vest,														SDT_recon_support_gunner_vest,											Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone Recon Support Gunner Vest (Black),												SDT_recon_support_gunner_vest_black,									Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone Recon Support Gunner Vest (Dark Silver),											SDT_recon_support_gunner_vest_darksilver,								Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone Recon Support Gunner Vest (Silver),												SDT_recon_support_gunner_vest_silver,									Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone Rocket Carrier Gunner NCO Vest,													SDT_rocker_carrier_gunner_NCO_vest,										Schlabbies Depressed Textures (Legion Base),				blacklisted //appears unfinished
+						-Clone Rocket Carrier Gunner NCO Vest (Black),											SDT_rocket_carrier_gunner_NCO_vest_black,								Schlabbies Depressed Textures (Legion Base),				blacklisted //appears unfinished
+						-Clone Rocket Carrier Gunner NCO Vest (Dark Silver),									SDT_rocket_carrier_gunner_NCO_vest_darksilver,							Schlabbies Depressed Textures (Legion Base),				blacklisted //appears unfinished
+						-Clone Rocket Carrier Gunner NCO Vest (Silver),											SDT_rocket_carrier_gunner_NCO_vest_silver,								Schlabbies Depressed Textures (Legion Base),				blacklisted //appears unfinished
+						-Clone Rocket Carrier Gunner Vest,														SDT_rocket_carrier_gunner_vest,											Schlabbies Depressed Textures (Legion Base),				blacklisted //appears unfinished
+						-Clone Rocket Carrier Gunner Vest (Black),												SDT_rocket_carrier_gunner_vest_black,									Schlabbies Depressed Textures (Legion Base),				blacklisted //appears unfinished
+						-Clone Rocket Carrier Gunner Vest (Dark Silver),										SDT_rocket_carrier_gunner_vest_darksilver,								Schlabbies Depressed Textures (Legion Base),				blacklisted //appears unfinished
+						-Clone Rocket Carrier Gunner Vest (Silver),												SDT_rocket_carrier_gunner_vest_silver,									Schlabbies Depressed Textures (Legion Base),				blacklisted //appears unfinished
+
+		//============================================= Light Combat Vests:
+
+				Workshop Mods:
+						-[Ghost Division]Recon Vest (Oak),														SDT_oak_vest,															Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Schlabbie] Clone heavy recon specialist NCO vest,										SDT_heavy_recon_specialist_NCO_vest_Schlabbie,							Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Schlabbie] Clone heavy recon specialist vest,											SDT_heavy_recon_specialist_vest_Schlabbie,								Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone Closequarter Specialist NCO Vest,												SDT_Closequarter_specialist_NCO_vest,									Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone Heavy Gunner Specialist NCO Vest,												SDT_heavy_gunner_specialist_NCO_Vest,									Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone heavy recon specialist NCO vest,													SDT_heavy_recon_specialist_NCO_vest,									Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone heavy recon specialist vest,														SDT_heavy_recon_specialist_vest,										Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone recon specialist CO vest,														SDT_recon_specialist_CO_vest,											Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone recon specialist vest,															SDT_recon_specialist_vest,												Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone Recon Support NCO Vest,															SDT_recon_support_NCO_vest,												Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone Rocket Carrier NCO Vest,															SDT_rocket_carrier_NCO_vest,											Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Schlabbies recon specialist vest,														SDT_recon_specialist_Schlabbie_vest,									Schlabbies Depressed Textures (Legion Base),				whitelisted
+
+		//============================================= Crew Vests:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+						
+		//============================================= Straps, Harnesses, and Bandoliers:
+
+				Workshop Mods:
+						-Clone Closequarter Specialist Vest,													SDT_Closequarter_specialist_vest,										Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone Commander Pauldron (175th),														SDT_175_armor,															Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clone Heavy Gunner Specialist Vest,													SDT_heavy_gunner_specialist_vest,										Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone Recon Support Vest,																SDT_recon_support_vest,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone Rocket Carrier Vest,																SDT_rocket_carrier_vest,												Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone Trooper Kama (Apex),																SDT_502_Apex_armor,														Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+
+		//============================================= Rebreathers:
+
+				Workshop Mods:
+						-[Ghost Division] Clonetrooper Rebreather Vest,											SDT_GD_scuba_vest,														Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Ghost Division] Clonetrooper Rebreather Vest (Worn),									SDT_GD_scuba_vest_w,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone Scuba vest,																		SDT_scuba_vest,															Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clonetrooper Experimental Rebreather Vest,												SDT_scuba_vest_old,														Schlabbies Depressed Textures (Legion Base),				whitelisted
+
+==========
+BACKPACKS:
+==========
+
+		//============================================= Packs:
+
+				Workshop Mods:
+						-[Ghost Division] Clonetrooper backpack,												SDT_gd_backpack,														Schlabbies Depressed Textures,								whitelisted
+						-[Ghost Division] Clonetrooper EOD backpack,											SDT_gd_EOD_backpack,													Schlabbies Depressed Textures,								whitelisted
+						-[Ghost Division] Clonetrooper Heavy backpack,											SDT_gd_Heavy_backpack,													Schlabbies Depressed Textures,								whitelisted
+						-[Ghost Division] Clonetrooper medic backpack,											SDT_gd_Medic_backpack,													Schlabbies Depressed Textures,								whitelisted
+						-Clone Commando Backpack (Naast),														SDT_bp_Naast,															Schlabbies Depressed Textures,								blacklisted //Non-Canon
+						-Clone Commando Backpack (Verd),														SDT_bp_verd,															Schlabbies Depressed Textures,								blacklisted //Non-Canon
+						-Clone Commando EOD Backpack (Aruetyc),													SDT_bp_Aruetyc,															Schlabbies Depressed Textures,								blacklisted //Non-Canon
+						-Clonetrooper backpack (15th EK),														SDT_15_bp,																Schlabbies Depressed Textures,								blacklisted //Non-Canon
+						-Clonetrooper invisible backpack,														SDT_Invis_backpack,														Schlabbies Depressed Textures,								whitelisted
+						-Clonetrooper invisible heavy backpack,													SDT_Invis_Heavy_backpack,												Schlabbies Depressed Textures,								whitelisted
+						-Clonetrooper invis_medic_backpack,														SDT_Invis_medic_backpack,												Schlabbies Depressed Textures,								whitelisted
+					
+		//============================================= Radios:
+
+				Workshop Mods:
+						-[Developer] ARC Backpack Nox,															SDT_bp_ARC_Nox,															Schlabbies Depressed Textures,								blacklisted //Non-Canon
+						-[Ghost Divsion] Clonetrooper RTO backpack,												SDT_gd_RTO_backpack,													Schlabbies Depressed Textures,								blacklisted //Non-Canon
+						-Clone Commando RTO Backpack (Araniik),													SDT_bp_Araniik,															Schlabbies Depressed Textures,								blacklisted //Non-Canon
+						-Clonetrooper invisible RTO backpack,													SDT_Invis_RTO_backpack,													Schlabbies Depressed Textures,								whitelisted
+					
+		//============================================= Respirators:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+					
+		//============================================= Parachutes:
+
+				Workshop Mods:
+						-[Ghost Division] JT-12 EOD Jetpack,													SDT_GD_JT12_EOD,														Schlabbies Depressed Textures,								blacklisted //Non-Canon
+						-[Ghost Division] JT-12 Heavy Jetpack,													SDT_GD_JT12_Heavy,														Schlabbies Depressed Textures,								blacklisted //Non-Canon
+						-[Ghost Division] JT-12 Jetpack,														SDT_GD_JT12,															Schlabbies Depressed Textures,								blacklisted //Non-Canon
+						-[Ghost Division] JT-12 Medic Jetpack,													SDT_GD_JT12_medic,														Schlabbies Depressed Textures,								blacklisted //Non-Canon
+						-[Ghost Division] JT-12 RTO Jetpack,													SDT_GD_JT12_RTO,														Schlabbies Depressed Textures,								blacklisted //Non-Canon
+						-Clone Trooper JT-12 Jetpack,															SDT_JT12,																Schlabbies Depressed Textures,								whitelisted
+						-Clonetrooper JT-12 EOD Jetpack,														SDT_JT12_EOD,															Schlabbies Depressed Textures,								whitelisted
+						-Clonetrooper JT-12 Heavy Jetpack,														SDT_JT12_Heavy,															Schlabbies Depressed Textures,								whitelisted
+						-Clonetrooper JT-12 Medic Jetpack,														SDT_JT12_medic,															Schlabbies Depressed Textures,								whitelisted
+						-Clonetrooper JT-12 RTO Jetpack,														SDT_JT12_RTO,															Schlabbies Depressed Textures,								whitelisted
+						-Z6 Mando EOD Jetpack,																	SDT_Z6JP_EOD,															Schlabbies Depressed Textures,								blacklisted //INDEPFOR
+						-Z6 Mando Heavy Jetpack,																SDT_Z6JP_Heavy,															Schlabbies Depressed Textures,								blacklisted //INDEPFOR
+						-Z6 Mando Jetpack,																		SDT_Z6JP,																Schlabbies Depressed Textures,								blacklisted //INDEPFOR
+						-Z6 Mando Medic Jetpack,																SDT_Z6JP_Medic,															Schlabbies Depressed Textures,								blacklisted //INDEPFOR
+						-Z6 Mando RTO Jetpack,																	SDT_Z6JP_RTO,															Schlabbies Depressed Textures,								blacklisted //INDEPFOR
+						
+		//============================================= Static Machine Guns:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+			
+		//============================================= Mortars:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+					
+		//============================================= Bipods and Tripods:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+					
+		//============================================= UAVs:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+					
+		//============================================= Deployable Cover
+				
+				Vanilla:
+						-,																						,																		,															whitelisted
+				
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+==========
+HEAD GEAR:
+==========
+
+		//============================================= Combat Helmets:
+
+				Workshop Mods:
+						-[41st] Cast's Helmet,																	SDT_41st_Cast_Helmet,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[41st] Cast's Helmet,																	SDT_41_Cast_Helmet_Camo,												Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[41st] Clone ARC Helmet,																SDT_41st_ARC_Helmet,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[41st] Clone ARC Helmet Camo,															SDT_41st_ARC_Helmet_Camo,												Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[41st] Clone Engineer Helmet,															SDT_41st_EOD_Helmet,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[41st] Clone Engineer Helmet Camo,														SDT_41st_EOD_Helmet_Camo,												Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[41st] Clone Engineer Sergeant Helmet,													SDT_41st_EOD_CS_Helmet,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[41st] Clone Engineer Sergeant Helmet Camo,											SDT_41st_EOD_CS_Helmet_Camo,											Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[41st] Clone Medic Helmet,																SDT_41st_Medic_Helmet,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[41st] Clone Medic Helmet Camo,														SDT_41st_Medic_Helmet_Camo,												Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[41st] Clone Sergeant Helmet Camo,														SDT_41st_Sergeant_Helmet_Camo,											Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[41st] Dox's Helmet,																	SDT_41st_Dox_Helmet,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[41st] Dox's Helmet Camo,																SDT_41st_Dox_Helmet_Camo,												Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[41st] Hevy's Helmet,																	SDT_41st_Hevy_Helmet,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[41st] Hevy's Helmet Camo,																SDT_41st_Hevy_Helmet_Camo,												Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[41st] John's Helmet,																	SDT_41st_John_Helmet,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[41st] John's Helmet Camo,																SDT_41st_John_Helmet_Camo,												Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[41st] Recruit Helmet,																	SDT_41st_Recruit_Helmet,												Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[41st] Recruit Helmet Camo,															SDT_41st_Recruit_Helmet_Camo,											Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[41st] Senior Trooper Helmet,															SDT_41st_Senior_Trooper_Helmet,											Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[41st] Senior Trooper Helmet Camo,														SDT_41st_Senior_Trooper_Helmet_Camo,									Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[41st] Specialist Trooper Helmet,														SDT_41st_Specialist_Trooper_Helmet,										Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[41st]	Specialist Trooper Helmet Camo,													SDT_41st_Specialist_Trooper_Helmet_Camo,								Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[41st] Tavion's Helmet,																SDT_41st_Tavion_Helmet,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[41st] Tavion's Helmet Camo,															SDT_41st_Tavion_Helmet_Camo,											Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[41st] Trooper Helmet,																	SDT_41st_Trooper_Helmet,												Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[41st] Trooper Helmet Camo,															SDT_41st_Trooper_Helmet_Camo,											Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[420th] Airborne Medic Helmet,															SDT_420_Airborne_Medic_helmet,											Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[420th] Airborne NCO Helmet,															SDT_420_Airborne_NCO_helmet,											Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[420th] Airborne Officer Helmet,														SDT_420_Airborne_Officer_helmet,										Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[420th] Airborne Trooper Helmet,														SDT_420_Airborne_Trooper_helmet,										Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[420th] Medic Helmet,																	SDT_420_Medic_helmet,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[420th] NCO Helmet,																	SDT_420_NCO_helmet,														Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[420th] Officer Helmet,																SDT_420_Officer_helmet,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[420th] Trooper Helmet,																SDT_420_Trooper_helmet,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[518th] ARC Trooper Helmet,															SDT_518th_ARC_Helmet,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[518th] Clone Engineer Helmet,															SDT_518th_Engineer_Helmet,												Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[518th] Commander Helmet,																SDT_518th_Commander_Helmet,												Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[518th] P1 Armour Clone Trooper Helmet,												SDT_518th_P1_Helmet_Armour_Crew,										Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[518th] P1 Clone Trooper Helmet,														SDT_518th_P1_Helmet,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[518th] P2 Trooper Helmet,																SDT_518th_P2_Trooper_Helmet,											Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[518th] Scout Trooper Helmet,															SDT_518th_Scout_Helmet,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[80th] Clone Corporal Helmet,															SDT_80cp_helmet,														Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[80th] Clone Crusader Helmet,															SDT_80crusader_helmet,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[80th] Clone Knight Helmet,															SDT_80knight_helmet,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[80th] Clone Officer Helmet,															SDT_80officer_helmet,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[80th] Clone Recruit Helmet,															SDT_80cr_helmet,														Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[80th] Clone Reese Helmet,																SDT_80reese_helmet,														Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[80th] Clone Sergeant Helmet,															SDT_80sgt_helmet,														Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[80th] Clone Tato Helmet,																SDT_80tato_helmet,														Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[80th] Clone Trooper Helmet,															SDT_80ct_helmet,														Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[816th] ARC trooper Helmet(v1),														SDT_816th_ARC_helmet_v1,												Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[816th] ARC trooper Helmet(v2),														SDT_816th_ARC_helmet_v2,												Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[816th] ARC trooper Helmet(v3),														SDT_816th_ARC_helmet_v3,												Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[816th] Cade's Helmet,																	SDT_816th_Cade_helmet,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[816th] Clone Engineer Helmet,															SDT_816th_Engineer_helmet,												Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[816th] Clone pilot Helmet,															SDT_816th_Pilot_helmet,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[816th] Clone trooper Helmet,															SDT_816th_P2_helmet,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[816th] Dox's Helmet,																	SDT_816th_Dox_helmet,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[816th] Eyeball's Helmet,																SDT_816th_Eyeball_helmet,												Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[816th] Grum's Helmet,																	SDT_816th_Grum_helmet,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[816th] Hazard Helmet (v1),															SDT_816th_Hazard_v1,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[816th] Hazard Helmet (v2),															SDT_816th_Hazard_v2,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[816th] Hazard helmet (v3),															SDT_816th_Hazard_v3,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[816th] Hazard Helmet (v4),															SDT_816th_Hazard_v4,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[816th] Mako's Helmet,																	SDT_816th_Mako_helmet,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[816th] Ninjaman's Helmet,																SDT_816th_Ninjaman_helmet,												Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[816th] Ren's Helmet,																	SDT_816th_Ren_helmet,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[816th] Snookie's Helmet,																SDT_816th_Snookie_helmet,												Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[816th] Thastian's Helmet,																SDT_816th_Thastian_helmet,												Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[86th] CO Helmet,																		SDT_86th_CO_Helmet,														Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[86th] NCO Helmet,																		SDT_86th_NCO_Helmet,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[86th] Thastian Helmet,																SDT_86th_Thastian_Helmet,												Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[86th] Triumph Helmet,																	SDT_86th_Triumph_Helmet,												Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[86th] Trooper Helmet,																	SDT_86th_Trooper_Helmet,												Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[Developer] Clone trooper Helmet (Dukas),												SDT_DEVDukas_helmet,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[Developer] Clone trooper Helmet (Ekko - ARC),											SDT_DEVEkko_ARC_helmet,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[Developer] Clone trooper Helmet (Ekko - P1),											SDT_DEVEkko_p1_helmet,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[Developer] Clone trooper Helmet (Ekko - P2),											SDT_DEVEkko_p2_helmet,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[Developer] Clone trooper Helmet (Eternal),											SDT_DEVEternal_P1_helmat,												Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[Developer] Clone trooper Helmet (Juggernog),											SDT_DEVCeltic_helmet,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[Developer] Clone trooper Helmet (Kyram),												SDT_DEV_Kyram_helmet,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[Developer] Clone trooper Helmet (LeVi),												SDT_LeVi_Helmet,														Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Developer] Clone trooper Helmet (Nox),												SDT_DEVNox_helmet,														Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Developer] Clone trooper Helmet (Schlabbie - Phase 1),								SDT_DEVSchlabbie_P1_helmet,												Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Developer] Clone trooper Helmet (Schlabbie),											SDT_DEVSchlabbie_helmet,												Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Developer] Maksim's Helmet P1,														SDT_DEVMaksim_helmetp1,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Developer] Maksim's Helmet P2,														SDT_DEVMaksim_helmetp2,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[GD-107] Clone trooper Helmet (clean),													SDT_GD_107_p1_helmet,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[GD-107] Clone trooper Helmet (worn),													SDT_GD_107_p1_helmet_worn,												Schlabbies Depressed Textures (Legion Base),				whitelisted
+                        -[Ghost Division] Airborne Helmet (Recruit - Worn),          							SDT_GD_AB_CR_W_helmet,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+                        -[Ghost Division] Airborne Helmet (Recruit),                 							SDT_GD_AB_CR_helmet,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Ghost Division] Airborne Helmet (Tier 1),                  							SDT_GD_AB_T1_helmet,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Ghost Division] Clone Airborne Helmet (Tier 1 - Worn),     							SDT_GD_AB_T1_W_helmet,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Ghost Division] Clone Airborne Helmet (Tier 2 - Worn),    					        SDT_GD_AB_T2_W_helmet,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Ghost Division] Clone Airborne Helmet (Tier 2),           					        SDT_GD_AB_T2_helmet,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Ghost Division] Clone Airborne Helmet (Tier 3 - Worn),    					        SDT_GD_AB_T3_W_helmet,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Ghost Division] Clone Airborne Helmet (Tier 3),           					        SDT_GD_AB_T3_helmet,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Ghost Division] Clone Airborne Helmet (Tier 4 - Worn),    					        SDT_GD_AB_T4_W_helmet,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Ghost Division] Clone Airborne Helmet (Tier 4),           					        SDT_GD_AB_T4_helmet,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Ghost Division] Clone Captain Hazard Helmet               					        SDT_GDCX_hazard_helmet,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Ghost Division] Clone Captain Hazard Helmet (Worn),       					        SDT_GDCX_worn_hazard_helmet,											Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Ghost Division] Clone Captain Helmet (Clean),											SDT_GD_CX_p1_helmet,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Ghost Division] Clone Captain Helmet (Worn),											SDT_GD_worn_CX_p1_helmet,												Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Ghost Division] Clone Commander Hazard Helmet,										SDT_GDCC_hazard_helmet,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Ghost Division] Clone Commander Hazard Helmet (Worn),									SDT_GDCC_worn_hazard_helmet,											Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Ghost Division] Clone Commander Helmet (Clean),										SDT_GD_CC_p1_helmet,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Ghost Division] Clone Commander Helmet (Worn),										SDT_GD_worn_CC_p1_helmet,												Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Ghost Division] Clone Commander Scuba Helmet,											SDT_GD_CC_Scuba_helmet,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Ghost Division] Clone Commander Scuba Helmet (Worn),									SDT_GD_CC_W_Scuba_helmet,												Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Ghost Division] Clone Corporal Hazard Helmet,											SDT_GDCP_hazard_helmet,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Ghost Division] Clone Corporal Hazard Helmet (Worn),									SDT_GDCP_worn_hazard_helmet,											Schlabbies Depressed Textures (Legion Base),				whitelisted
+					    -[Ghost Division] Clone Corporal Helmet (Clean),										SDT_GD_CP_p1_helmet,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Ghost Division] Clone Corporal Helmet (Worn)											SDT_GD_worn_CP_p1_helmet,												Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Ghost Division] Clone Corporal Scuba Helmet,											SDT_GD_CP_Scuba_helmet,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Ghost Division] Clone Corporal Scuba Helmet (Worn),									SDT_GD_CP_W_Scuba_helmet,												Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Ghost Division] Clone Engineer Helmet,												SDT_GDCT_engineer_helmet,												Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Ghost Division] Clone Lieutenant Hazard Helmet,										SDT_GDCL_hazard_helmet,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Ghost Division] Clone Lieutenant Hazard Helmet (Worn),								SDT_GDCL_worn_hazard_helmet,											Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Ghost Division] Clone Lieutenant Helmet (Clean),										SDT_GD_CL_p1_helmet,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Ghost Division] Clone Lieutenant Helmet (Worn),										SDT_GD_worn_CL_p1_helmet,												Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Ghost Division] Clone Lieutenant Scuba Helmet,										SDT_GD_CL_Scuba_helmet,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Ghost Division] Clone Lieutenant Scuba Helmet (Worn),									SDT_GD_CL_W_Scuba_helmet,												Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Ghost Division] Clone Recruit Helmet (Worn),											SDT_GD_worn_CR_p1_helmet,												Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Ghost Division] Clone Recruit Scuba Helmet,											SDT_GD_CR_Scuba_helmet,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Ghost Division] Clone senior-trooper Helmet (Clean),									SDT_GD_SCT_p1_helmet,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Ghost Division] Clone senior-trooper Helmet (Worn),									SDT_GD_SCT_worn_p1_helmet,												Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Ghost Division] Clone Senior-Trooper Scuba Helmet,									SDT_GD_SCT_Scuba_helmet,												Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Ghost Division] Clone Senior-Trooper Scuba Helmet (worn),								SDT_GD_SCT_W_Scuba_helmet,												Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Ghost Division] Clone Sergeant-Major Hazard Helmet,									SDT_GDCSM_hazard_helmet,												Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Ghost Division] Clone Sergeant-Major Hazard Helmet (Worn),							SDT_GDCSM_worn_hazard_helmet,											Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Ghost Division] Clone Sergeant-Major Helmet (Clean),									SDT_GD_CSM_p1_helmet,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Ghost Division] Clone Sergeant-Major Helmet (Worn),									SDT_GD_worn_CSM_p1_helmet,												Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Ghost Division] Clone Sergeant-Major Scuba Helmet,									SDT_GD_CSM_Scuba_helmet,												Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Ghost Division] Clone Sergeant-Major Scuba Helmet (Worn),								SDT_GD_CSM_W_Scuba_helmet,												Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Ghost Division] Clone Sergeant Hazard Helmet,											SDT_GDCS_hazard_helmet,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Ghost Division] Clone Sergeant Hazard Helmet (Worn),									SDT_GDCS_worn_hazard_helmet,											Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Ghost Division] Clone Sergeant Helmet (Clean),										SDT_GD_CS_p1_helmet,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Ghost Division] Clone Sergeant Helmet (Worn),											SDT_GD_worn_CS_p1_helmet,												Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Ghost Division] Clone Sergeant Scuba Helmet,											SDT_GD_CS_Scuba_helmet,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Ghost Division] Clone Sergeant Scuba Helmet (Worn),									SDT_GD_CS_W_Scuba_helmet,												Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Ghost Division] Clone trooper Helmet (Clean),											SDT_GD_CT_p1_helmet,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Ghost Division] Clone trooper Helmet (Worn),											SDT_GD_worn_CT_p1_helmet,												Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Ghost Division] Clone trooper Scuba Helmet,											SDT_GD_CT_Scuba_helmet,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Ghost Division] Clone trooper Scuba Helmet (Oak - Worn),								SDT_GD_Oak_W_Scuba_helmet,												Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Ghost Division] Clone trooper Scuba Helmet (Oak),										SDT_GD_OAK_Scuba_helmet,												Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Ghost Division] Clone trooper Scuba Helmet (Worn),									SDT_GD_CT_W_Scuba_helmet,												Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Ghost Division] Hazard Helmet (Senior-Trooper - Worn),								SDT_GDSCT_hazard_worn_helmet,											Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Ghost Division] Hazard Helmet (Senior-Trooper),										SDT_GDSCT_hazard_helmet,												Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Ghost Division] Hazard Helmet (Trooper - Worn),										SDT_GDCT_hazard_worn_helmet,											Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Ghost Division] Hazard Helmet (Trooper),												SDT_GDCT_hazard_helmet,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Ghost Division] Oaks Helmet (clean),													SDT_GD_OAK_p1_helmet,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Ghost Division] Oaks Helmet (Worn),													SDT_GD_worn_OAK_p1_helmet,												Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Ghost Division] Recruit Hazard Helmet,												SDT_GDCR_hazard_helmet,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Ghost Division] Recruit Hazard Helmet (Worn),											SDT_GDCR_worn_hazard_helmet,											Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Lego] Clone trooper ARF Helmet (Kashyyyk Scout),										SDT_LegoKscout_helmet,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Lego] Clone trooper Helmet (212),														SDT_Lego212_helmet,														Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Lego] Clone trooper Helmet (442nd),													SDT_Lego442_helmet,														Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Lego] Clone trooper Helmet (501),														SDT_Lego501_helmet,														Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Lego] Clone trooper Helmet (ATRT),													SDT_LegoATRT_helmet,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Lego] Clone trooper Helmet (Commander),												SDT_LegoCMD_helmet,														Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Lego] Clone trooper Helmet (Geonosis),												SDT_LegoG_helmet,														Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Lego] Clone trooper Helmet (Kashyyyk),												SDT_LegoK_helmet,														Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Lego] Clone trooper Helmet (Shocktrooper 2007),										SDT_LegoShock2_helmet,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Lego] Clone trooper Helmet (Shocktrooper 2014),										SDT_LegoShock1_helmet,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Lego] Clone trooper Helmet (Utapau),													SDT_LegoU_helmet,														Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[LEGO]Clone Trooper Helmet (501st Jumper Phase 1),										SDT_Jumperp1_helmet,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[LEGO]Clone Trooper Helmet (501st Jumper Phase 2),										SDT_Jumperp2_helmet,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[RI] Airborne Trooper Helmet,															RI_AirborneHelmet,														Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[RI] Commander Helmet,																	RI_CommanderHelmet,														Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[RI] Maksim's Helmet,																	RI_MaksimHelmet,														Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[RI] NCO Helmet,																		RI_NCOHelmet,															Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[RI] Officer Helmet,																	RI_OfficerHelmet,														Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[RI] Phase 1 Helmet,																	RI_Phase1Helmet,														Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[RI] Trooper Helmet,																	RI_TrooperHelmet,														Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-37th Captain Helmet,																	SDT_37th_CaptainHelmet,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-37th Lieutenant Helmet,																SDT_37th_LieutenantHelmet,												Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-37th Raptor Helmet,																	SDT_37th_RaptorHelmet,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-37th Recruit Helmet,																	SDT_37th_RecruitHelmet,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-37th Senior Helmet,																	SDT_37th_SeniorHelmet,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-37th Senior Pilot Helmet,																SDT_37th_SeniorPilotHelmet,												Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-37th Sergeant Helmet,																	SDT_37th_SergeantHelmet,												Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-37th SergeantMajor Helmet,																SDT_37th_SergeantMajorHelmet,											Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-37th Talon Helmet,																		SDT_37th_TalonHelmet,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-B1 underwater Droid Head,																SDT_cis_water_b1_helmet,												Schlabbies Depressed Textures (Legion Base),				blacklisted //OPFOR
+						-Clone Captain Helmet,																	SDT_CPT_helmet,															Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone Commander Gree Helmet,															SDT_Gree_helmet,														Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone Commander Helmet,																SDT_CMD_helmet,															Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone Commander Krieg Helmet,															SDT_krieg_helmet,														Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone Commander Stone Helmet,															SDT_stone_helmet,														Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone Engineer Helmet (15th EK),														SDT_15_eng_helmet,														Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone Lieutenant Helmet,																SDT_LT_helmet,															Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone Sergeant Helmet,																	SDT_SGT_helmet,															Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone Trooepr Helmet (34th AC - Medic),												SDT_34_medic_helmet,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clone Trooepr Helmet (34th AC - Officer),												SDT_34_Officer_helmet,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clone Trooepr Helmet (34th AC),														SDT_34_trooper_helmet,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clone Trooper Desert Helmet,															SDT_Hazard_Helmet,														Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone Trooper Hazard Helmet (Holo),													SDT_Hazard_Holo,														Schlabbies Depressed Textures (Legion Base),				blacklisted //For Zeus
+						-Clone trooper Helmet (15th EK),														SDT_15_helmet,															Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clone Trooper Helmet (175th LT),														SDT_175_lt_helmet,														Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clone Trooper Helmet (175th),															SDT_175_helmet,															Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clone trooper Helmet (212th Jungle Camo),												SDT_212th_jungle_helmet,												Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone trooper Helmet (23rd Ash Company),												SDT_23_helmet,															Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clone trooper Helmet (415th Frostbite Legion),											SDT_415_ARF_helmet,														Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clone trooper Helmet (501st Vill),														SDT_501_Vill_helmet,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone trooper Helmet (519th - Heavy),													SDT_519_Heavy_helmet,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clone trooper Helmet (519th - NCO),													SDT_519_NCO_helmet,														Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clone trooper Helmet (519th - V1),														SDT_519_V1_helmet,														Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clone trooper Helmet (519th - V2),														SDT_519_V2_helmet,														Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clone trooper Helmet (534th Remnant - P1),												SDT_534_CT_p1_helmet,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clone trooper Helmet (534th Remnant - P2),												SDT_534_CT_p2_helmet,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clone trooper Helmet (534th Remnant NCO - P2),											SDT_534_NCO_p2_helmet,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clone trooper Helmet (597th RO - Galek),												SDT_597_gay_lek_helmet,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clone trooper Helmet (597th RO - Muzza),												SDT_597_muzza_helmet,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clone trooper Helmet (597th RO - Phase 1),												SDT_597_p1_helmet,														Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clone trooper helmet (597th RO),														SDT_597_helmet,															Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clone Trooper Helmet (87th SC CT),														SDT_87_ct_helmet,														Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clone Trooper Helmet (87th SC Dragon Eyes),											SDT_87_Dragon_eyes_helmet,												Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clone Trooper Helmet (87th SC Heavy),													SDT_87_Heavy_helmet,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clone Trooper Helmet (87th SC Officer),												SDT_87_officer_helmet,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clone Trooper Helmet (87th SC Predator),												SDT_87_predator_helmet,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clone Trooper Helmet (87th SC Rag),													SDT_87_Rag_helmet,														Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clone Trooper Helmet (87th SC Rocket Trooper),											SDT_87_Jumper_helmet,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clone Trooper Helmet (87th SC Sniper),													SDT_87_sniper_helmet,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clone Trooper Helmet (87th SC Tac),													SDT_87_tac_helmet,														Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clone trooper Helmet (Apex 502nd),														SDT_apex_502_helmet,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clone trooper Helmet (Basic 41st),														SDT_41_base_helmet,														Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone trooper Helmet (Desert Camo),													SDT_desert_helmet,														Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone trooper Helmet (Fordo),															SDT_fordop1_helmet,														Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone trooper Helmet (forest Camo),													SDT_forest_helmet,														Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone Trooper Helmet (Franke),															SDT_Franke_helmet,														Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clone trooper helmet (grass Camo),														SDT_grass_helmet,														Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone Trooper Helmet (Munilist 10 LT Phase 1),											SDT_LTp1_helmet,														Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone Trooper Helmet (Munilist 10 LT Phase 2),											SDT_LTp2_helmet,														Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone trooper Helmet (naval Camo),														SDT_naval_helmet,														Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone trooper Helmet (NCO 502nd),														SDT_NCO_502_helmet,														Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clone trooper Helmet (night Camo),														SDT_night_helmet,														Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone trooper Helmet (Officer 502nd),													SDT_officer_502_helmet,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone trooper Helmet (sand Camo),														SDT_sand_helmet,														Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone trooper Helmet (Sharkbait),														SDT_sharkbait_helmet,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clone trooper Helmet (Sisqua Squadron),												SDT_Sisqua_helmet,														Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clone trooper Helmet (snow Camo),														SDT_snow_helmet,														Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone trooper Helmet (Spar),															SDT_spar_helmet,														Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clone trooper Helmet (Trooper 502nd),													SDT_trooper_502_helmet,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clone trooper Helmet (urban Camo),														SDT_urban_helmet,														Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone trooper phase 1 Helmet (Magnet 502nd),											SDT_magnet_502_P1_helmet,												Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clonetrooper Airborne Helmet,															SDT_Airborne_Helmet,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Texture Error
+						-Clonetrooper Experimental Scuba Helmet,												SDT_scuba_Helmet_old,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clonetrooper Helmet (19th SC),															SDT_19SC_helmet,														Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clonetrooper Scuba Helmet,																SDT_scuba_Helmet,														Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Rhodesian Light Infantry,																SDT_RLI_helmet,															Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Thot Patrol Helmet,																	SDT_TP_helmet,															Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Thot Squad Helmet,																		SDT_Ts_helmet,															Schlabbies Depressed Textures (Legion Base),				blacklisted //OPFOR
+						
+		//============================================= Stealth Helmets:
+
+				Workshop Mods:
+						-[41st] Clone ARF Helmet,																SDT_41st_ARF_Helmet,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[41st] Clone ARF Helmet Camo,															SDT_Arf_Helmet_Camo,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[41st] Clone Scout Helmet,																SDT_41st_Scout_Helmet,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[41st] Clone Scout Helmet Camo,														SDT_41st_Scout_Helmet_Camo,												Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[420th] ARF Medic Helmet,																SDT_420_ARF_Medic_helmet,												Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[420th] ARF NCO Helmet,																SDT_420_ARF_NCO_helmet,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[420th] ARF Officer Helmet,															SDT_420_ARF_Officer_helmet,												Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[420th] ARF Trooper Helmet,															SDT_420_ARF_Trooper_helmet,												Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[518th] Clone BARC Trooper Helmet,														SDT_518th_BARC_Helmet,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[80th] Clone ARF Helmet,																SDT_80arf_helmet,														Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[816th] ARF NCO Helmet,																SDT_816th_ARF_nco_helmet,												Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[816th] ARF trooper helmet,															SDT_816th_ARF_p2_helmet,												Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[816th] Hellfire's Helmet,																SDT_816th_Hellfire_helmet,												Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[816th] Levii's Helmet,																SDT_816th_Velii_helmet,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[Coruscant Protector] Clone ARF Helmet,												SDT_CP_ARF_helmet,														Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[Coruscant Protector] Clone BARC Helmet,												SDT_CP_BARC_helmet,														Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[Coruscant Protector] Clone Engineer Helmet,											SDT_CP_Engi_helmet,														Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[Coruscant Protector] Clone trooper Helmet,											SDT_CP_helmet,															Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[Developer] Clone Commando Helmet (Dukas),												SDT_DEVDukas_commando_helmet,											Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[Developer] Clone Commando Helmet (Schlabbie Weathered),								SDT_DEVSchlabbie_commando_helmet_w,										Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Developer] Clone Commando Helmet (Schlabbie),											SDT_DEVSchlabbie_commando_helmet,										Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Developer] Frosts Helmet,																SDT_Frost_SpecOps_Helmet,												Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[Ghost Division] Clone RTO CO Helmet (Clean),											SDT_GD_RTO_CO_helmet,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Ghost Division] Clone RTO CO Helmet (Worn),											SDT_GD_RTO_CO_helmet_worn,												Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Ghost Division] Clone RTO Helmet (Clean),												SDT_GD_RTO_helmet,														Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Ghost Division] Clone RTO Helmet (Worn),												SDT_GD_RTO_helmet_worn,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Ghost Division] Clone RTO NCO Helmet (Clean),											SDT_GD_RTO_NCO_helmet,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Ghost Division] Clone RTO NCO Helmet (Worn),											SDT_GD_RTO_NCO_helmet_worn,												Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Ghost Division] Death Squad Helmet,													SDT_GD_DS_helmet,														Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Ghost Division] Death Squad Helmet (Worn),											SDT_GD_DS_W_helmet,														Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[RI] ARF Trooper Helmet,																RI_ARFHelmet,															Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-37th Corporal Hawk Helmet,																SDT_37th_CorporalHelmet,												Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-37th Hawk Helmet,																		SDT_37th_HawkHelmet,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-37th Senior Hawk Helmet,																SDT_37th_SeniorHawkHelmet,												Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-37th Sergeant Hawk Helmet,																SDT_37th_SergeantHawkHelmet,											Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-37th SergeantMajor Hawk Helmet,														SDT_37th_SergeantMajorHawkHelmet,										Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clone ARF Helmet (Desert Camo 502nd),													SDT_desert_502_helmet,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clone ARF Helmet (Forest Camo 502nd),													SDT_forrest_502_helmet,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clone ARF Helmet (Geonosis Camo),														SDT_geo_arf_helmet,														Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone ARF helmet (Krayt),																SDT_KRAYT_helmet,														Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clone ATRT ARF,																		SDT_ATRT_ARF_helmet,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone BARC Helmet (Forest Camo),														SDT_forest_B_502_helmet,												Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone Commando Helmet (Araniik),														SDT_Araniik_helmet,														Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone Commando Helmet (Aruetyc),														SDT_Aruetyc_helmet,														Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone Commando Helmet (Green Digital),													SDT_GD_commando_helmet,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone Commando Helmet (Naast),															SDT_Naast_helmet,														Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone Commando Helmet (Verd),															SDT_Verd_helmet,														Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone Scout-trooper Helmet,															SDT_scout_helmet,														Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone Scout-trooper Helmet (Holo),														SDT_scout_helmet_holo,													Schlabbies Depressed Textures (Legion Base),				whitelisted //For zeus
+						-Clone Sergeant Strike Helmet,															SDT_strike_helmet,														Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone Shadow ARF helmet,																SDT_ShadowARF_helmet,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone trooper ARF helmet (501st Boomer),												SDT_501_Boomer_helmet,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone trooper ARF helmet (501st),														SDT_501_ARF_helmet,														Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone trooper ARF Helmet (534th Remnant - P1),											SDT_534_ARF_P1_helmet,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clone trooper ARF Helmet (534th Remnant - P2),											SDT_534_ARF_P2_helmet,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clone trooper BARC Helmet (Fordo),														SDT_fordoBARC_helmet,													Schlabbies Depressed Textures (Legion Base),				whitelsited
+						-Clone trooper Helmet (15th EK Nephi),													SDT_15_Nephi_helmet,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone trooper Helmet (415th Frostbite Legion),											SDT_415_ARF_helmet,														Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clone trooper Helmet (519th - ARF),													SDT_519_ARF_helmet,														Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+
+		//============================================= Non-Combat Helmets:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+						
+		//============================================= Pilot Helmets:
+
+				Workshop Mods:
+						-[41st] Clone Aircrew Camo,																SDT_41st_Aircrew_Helmet_Camo,											Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[41st] Clone Aircrew Helmet,															SDT_41st_Aircrew_Helmet,												Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[41st] Clone Pilot Helmet,																SDT_41st_Pilot_Helmet,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[41st] Clone Pilot Helmet Camo,														SDT_41st_Pilot_Helmet_Camo,												Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[80th] Clone Pilot Helmet,																SDT_80Pilot_helmet,														Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-[Ghost Division] Pilot Corporal Helmet,												SDT_GD_Pilot_T2_Helmet,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Ghost Division] Pilot Corporal Helmet (Worn),											SDT_GD_Pilot_worn_T2_Helmet,											Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Ghost Division] Pilot Officer Helmet,													SDT_GD_Pilot_T4_Helmet,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Ghost Division] Pilot Officer Helmet (Worn),											SDT_GD_Pilot_worn_T4_Helmet,											Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Ghost Division] Pilot Sergeant Helmet,												SDT_GD_Pilot_T3_Helmet,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Ghost Division] Pilot Sergeant Helmet (Worn),											SDT_GD_Pilot_worn_T3_Helmet,											Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Ghost Division] Pilot Trooper Helmet,													SDT_GD_Pilot_T1_Helmet,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Ghost Division] Pilot Trooper Helmet (Worn),											SDT_GD_Pilot_worn_T1_Helmet,											Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-37th Corporal Pilot Helmet,															SDT_37th_CorporalPilotHelmet,											Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-37th Hornet Helmet,																	SDT_37th_HornetHelmet,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-37th Sergeant Pilot Helmet,															SDT_37th_SergeantPilotHelmet,											Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-37th SergeantMajor Pilot Helmet,														SDT_37th_SergeantMajorPilotHelmet,										Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-37th Clone Pilot Helmet (15th EK Keen),												SDT_15_Keen_helmet,														Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clone Pilot Helmet (15th EK),															SDT_15_pilot_helmet,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clone Pilot (501st),																	SDT_501_Pilot_helmet,													Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone trooper Helmet (519th - Pilot),													SDT_519_Pilot_helmet,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+						-Clone trooper Helmet (597th RO - Lich),												SDT_597_lich_helmet,													Schlabbies Depressed Textures (Legion Base),				blacklisted //Non-Canon
+
+		//============================================= Hats:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+==========
+EQUIPMENT:
+==========
+
+		//============================================= Night Vision Goggles:
+
+				Workshop Mods:
+						-[Developer] Clone Trooper Visor (LeVi),												SDT_LeVi_NVG,															Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Ghost Division] Clone trooper NV visor,												SDT_GC_NVG,																Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-[Ghost Division] Clone trooper specialist NV visor,									SDT_GD_NVG_spec,														Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Clone trooper NOD,																		SDT_Clone_NOD,															Schlabbies Depressed Textures (Legion Base),				whitelisted
+						-Technical Clone Engineer Equipment,													SDT_TechnicalEngineerEquipment,											Schlabbies Depressed Textures (Legion Base),				whitelisted
+
+		//============================================= Binoculars:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+			
+		//============================================= Maps:
+
+				Vanilla:
+						-,																						,																		,															whitelisted
+
+		//============================================= Terminals:
+
+				Vanilla:
+						-,																						,																		,															whitelisted
+
+		//============================================= Radios:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Navigation:
+
+				Vanilla:
+						-,																						,																		,															whitelisted
+
+		//============================================= Watches:
+
+				Vanilla:
+						-,																						,																		,															whitelisted
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+						
+		//============================================= Inventory Items
+
+				Vanilla:
+						-,																						,																		,															whitelisted
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted

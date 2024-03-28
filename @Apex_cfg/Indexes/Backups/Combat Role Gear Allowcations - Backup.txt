@@ -1,0 +1,200 @@
+//Invade and Annex: Apex Edition weapon index
+
+//Created by Maxsimodem, 2021-10-25
+//Written in Notepad++
+
+//Last modification made by/on:	-Maxsimodem, 2021-10-25
+
+/*Modification description(s):
+*
+*						-Created all combat Gear allowcations
+*/
+
+/*This file is used to determine what weapons, equipment and uniforms
+*that each role can use. It is to be used in reference to Invade and
+*Annex: Apex Edition and was created to make sense of the arsenal.sqf
+*file as well as make mod expansion easier.*/
+
+/*NOTICE:
+*THIS IS NOT FUNCTIONING CODE DESPITE USING PROGRAMMER NOTE SYNTAX
+*DO NOT USE THIS AS THE ARSENAL.SQF*/
+
+/*NOTICE:
+*THIS IS NOT FUNCTIONING CODE DESPITE USING PROGRAMMER NOTE SYNTAX
+*DO NOT USE THIS AS THE ARSENAL.SQF*/
+
+==============
+TEMPLATE ROLE:
+==============
+
+		-Example Category:						-Example Category:								-Example Category:							-Example Category:							-Example Category:							-Example Category:
+				-Example Sub-Category						-Example Sub-Category						-Example Sub-Category						-Example Sub-Category						-Example Sub-Category						-Example Sub-Category
+				
+=========
+RIFLEMAN:
+=========
+
+		-Weapons:								-Uniform Elements:								-Vests:										-Backpacks:									-Headgear:									-Equipment:
+				-Pistols									-Glasses and Goggles						-Heavy Combat Vests							-Packs										-Combat Helmets								-Night Vision Goggles
+				-Submachine Guns							-Face Coverinfs								-Light Combat Vests							-Radios										-Stealth Helmets							-Binoculars
+				-Assault Rifles								-Masks										-Straps, Harnesses, and Bandoliers			-Remote Designators							-Non-combat Helmets							-Maps
+				-DMRs and Battle Rifles						-Formalwear and Uniforms					-Rebreathers								-Respirators								-Hats										-Terminals
+				-Shotguns									-Combat Fatigues																		-Parachutes									-Head Dressings and Coverings				-Radios
+															-Coveralls																															-Ear Protections and Devices				-Navigation
+															-Civilian Clothing																																								-Watches
+															
+=============
+AUTORIFLEMAN:
+=============
+
+		-Weapons:								-Uniform Elements:								-Vests:										-Backpacks:									-Headgear:									-Equipment:
+				-Pistols									-Glasses and Goggles						-Heavy Combat Vests							-Packs										-Combat Helmets								-Night Vision Goggles
+				-Assault Rifles								-Face Coverinfs								-Light Combat Vests							-Radios										-Stealth Helmets							-Binoculars
+				-Machine Guns								-Masks										-Straps, Harnesses, and Bandoliers			-Remote Designators							-Non-combat Helmets							-Maps
+															-Formalwear and Uniforms					-Rebreathers								-Respirators								-Hats										-Terminals
+															-Combat Fatigues																		-Parachutes									-Head Dressings and Coverings				-Radios
+															-Coveralls																															-Ear Protections and Devices				-Navigation
+															-Civilian Clothing																																								-Watches
+															
+===============
+MACHINE GUNNER:
+===============
+
+		-Weapons:								-Uniform Elements:								-Vests:										-Backpacks:									-Headgear:									-Equipment:
+				-Pistols									-Glasses and Goggles						-Heavy Combat Vests							-Packs										-Combat Helmets								-Night Vision Goggles
+				-Assault Rifles								-Face Coverinfs								-Light Combat Vests							-Static Machine Guns						-Stealth Helmets							-Binoculars
+				-Machine Guns								-Masks										-Straps, Harnesses, and Bandoliers			-Bipods and Tripods							-Non-combat Helmets							-Maps
+															-Formalwear and Uniforms					-Rebreathers								-Parachutes									-Hats										-Terminals
+															-Combat Fatigues																													-Head Dressings and Coverings				-Radios
+															-Coveralls																															-Ear Protections and Devices				-Navigation
+															-Civilian Clothing																																								-Watches
+
+===============
+RIFLEMAN [LAT]:
+===============
+
+		-Weapons:								-Uniform Elements:								-Vests:										-Backpacks:									-Headgear:									-Equipment:
+				-Pistols									-Glasses and Goggles						-Heavy Combat Vests							-Packs										-Combat Helmets								-Night Vision Goggles
+				-Submachine Guns							-Face Coverinfs								-Light Combat Vests							-Radios										-Stealth Helmets							-Binoculars
+				-Assault Rifles								-Masks										-Straps, Harnesses, and Bandoliers			-Remote Designators							-Non-combat Helmets							-Maps
+				-DMRs and Battle Rifles						-Formalwear and Uniforms					-Rebreathers								-Parachutes									-Hats										-Terminals
+				-Light Rocket Launchers						-Combat Fatigues																													-Head Dressings and Coverings				-Radios
+				-Shotguns									-Coveralls																															-Ear Protections and Devices				-Navigation
+															-Civilian Clothing																																								-Watches
+
+===============
+RIFLEMAN [HAT]:
+===============
+
+		-Weapons:								-Uniform Elements:								-Vests:										-Backpacks:									-Headgear:									-Equipment:
+				-Pistols									-Glasses and Goggles						-Heavy Combat Vests							-Packs										-Combat Helmets								-Night Vision Goggles
+				-Submachine Guns							-Face Coverinfs								-Light Combat Vests							-Bipods and Tripods							-Stealth Helmets							-Binoculars
+				-Assault Rifles								-Masks										-Straps, Harnesses, and Bandoliers			-Static Launchers							-Non-combat Helmets							-Maps
+				-DMRs and Battle Rifles						-Formalwear and Uniforms					-Rebreathers								-Parachutes									-Hats										-Terminals
+				-Heavy Rocket Launchers						-Combat Fatigues																													-Head Dressings and Coverings				-Radios
+				-Shotguns									-Coveralls																															-Ear Protections and Devices				-Navigation
+															-Civilian Clothing																																								-Watches
+
+======
+MEDIC:
+======
+
+		-Weapons:								-Uniform Elements:								-Vests:										-Backpacks:									-Headgear:									-Equipment:
+				-Pistols									-Glasses and Goggles						-Heavy Combat Vests							-Packs										-Combat Helmets								-Night Vision Goggles
+				-Submachine Guns							-Face Coverinfs								-Light Combat Vests							-Radios										-Stealth Helmets							-Binoculars
+				-Assault Rifles								-Masks										-Straps, Harnesses, and Bandoliers			-Remote Designators							-Non-combat Helmets							-Maps
+				-DMRs and Battle Rifles						-Formalwear and Uniforms					-Crew Vests									-Respirators								-Hats										-Terminals
+				-Shotguns									-Combat Fatigues							-Rebreathers								-Parachutes									-Head Dressings and Coverings				-Radios
+															-Coveralls																															-Ear Protections and Devices				-Navigation
+															-Civilian Clothing																																								-Watches
+
+=========
+Engineer:
+=========
+
+		-Weapons:								-Uniform Elements:								-Vests:										-Backpacks:									-Headgear:									-Equipment:
+				-Pistols									-Glasses and Goggles						-Heavy Combat Vests							-Packs										-Combat Helmets								-Night Vision Goggles
+				-Submachine Guns							-Face Coverinfs								-Light Combat Vests							-Radios										-Stealth Helmets							-Binoculars
+				-Assault Rifles								-Masks										-Straps, Harnesses, and Bandoliers			-Remote Designators							-Non-combat Helmets							-Maps
+				-DMRs and Battle Rifles						-Formalwear and Uniforms					-Rebreathers								-Respirators								-Hats										-Terminals
+				-Shotguns									-Combat Fatigues																		-Parachutes									-Head Dressings and Coverings				-Radios
+															-Coveralls																															-Ear Protections and Devices				-Navigation
+															-Civilian Clothing																																								-Watches
+
+==============
+Mortar Gunner:
+==============
+
+		-Weapons:								-Uniform Elements:								-Vests:										-Backpacks:									-Headgear:									-Equipment:
+				-Pistols									-Glasses and Goggles						-Heavy Combat Vests							-Packs										-Combat Helmets								-Night Vision Goggles
+				-Submachine Guns							-Face Coverinfs								-Light Combat Vests							-Bipods and Tripods							-Stealth Helmets							-Binoculars
+				-Assault Rifles								-Masks										-Straps, Harnesses, and Bandoliers			-Mortars									-Non-combat Helmets							-Maps
+				-DMRs and Battle Rifles						-Formalwear and Uniforms					-Rebreathers								-Parachutes									-Hats										-Terminals
+				-Shotguns									-Combat Fatigues																													-Head Dressings and Coverings				-Radios
+															-Coveralls																															-Ear Protections and Devices				-Navigation
+															-Civilian Clothing																																								-Watches
+
+==============
+SNIPER:
+==============
+
+		-Weapons:								-Uniform Elements:								-Vests:										-Backpacks:									-Headgear:									-Equipment:
+				-Pistols									-Glasses and Goggles						-Light Combat Vests							-Packs										-Combat Helmets								-Night Vision Goggles
+				-DMRs and Battle Rifles						-Face Coverings								-Straps, Harnesses, and Bandoliers			-Radios										-Stealth Helmets							-Binoculars
+				-Sniper Rifles								-Masks																					-Remote Designators							-Non-combat Helmets							-Maps
+															-Ghillie Suits																			-Respirators								-Hats										-Terminals
+															-Civilian Clothing																		-Parachutes									-Head Dressings and Coverings				-Radios
+																																																-Ear Protections and Devices				-Navigation
+																																																											-Watches
+
+=====
+JTAC:
+=====
+
+		-Weapons:								-Uniform Elements:								-Vests:										-Backpacks:									-Headgear:									-Equipment:
+				-Pistols									-Glasses and Goggles						-Heavy Combat Vests							-Packs										-Combat Helmets								-Night Vision Goggles
+				-Submachine Guns							-Face Coverings								-Light Combat Vests							-Radios										-Stealth Helmets							-Binoculars
+				-Assault Rifles								-Masks										-Straps, Harnesses, and Bandoliers			-Remote Designators							-Non-combat Helmets							-Maps
+				-DMRs and Battle Rifles						-Formalwear and Uniforms					-Rebreathers								-Respirators								-Hats										-Terminals
+				-Shotguns									-Combat Fatigues																		-Parachutes									-Head Dressings and Coverings				-Radios
+															-Coveralls																															-Ear Protections and Devices				-Navigation
+															-Civilian Clothing																																								-Watches
+
+=============
+UAV Operator:
+=============
+
+		-Weapons:								-Uniform Elements:								-Vests:										-Backpacks:									-Headgear:									-Equipment:
+				-Pistols									-Glasses and Goggles						-Heavy Combat Vests							-Packs										-Combat Helmets								-Night Vision Goggles
+				-Submachine Guns							-Face Coverings								-Light Combat Vests							-Radios										-Stealth Helmets							-Binoculars
+				-Assault Rifles								-Masks										-Straps, Harnesses, and Bandoliers			-Remote Designators							-Non-combat Helmets							-Maps
+				-DMRs and Battle Rifles						-Formalwear and Uniforms					-Rebreathers								-Respirators								-Hats										-Terminals
+				-Shotguns									-Combat Fatigues																		-Parachutes									-Head Dressings and Coverings				-Radios
+															-Coveralls																															-Ear Protections and Devices				-Navigation
+															-Civilian Clothing																																								-Watches
+
+================
+Transport Pilot:
+================
+
+		-Weapons:								-Uniform Elements:								-Vests:										-Backpacks:									-Headgear:									-Equipment:
+				-Pistols									-Glasses and Goggles						-Light Combat Vests							-Parachutes									-Combat Helmets								-Night Vision Goggles
+				-Submachine Guns							-Face Coverings								-Straps, Harnesses, and Bandoliers														-Non-combat Helmets							-Binoculars
+				-Shotguns									-Masks										-Crew Vests																				-Pilot Helmets								-Maps
+															-Coveralls																															-Ear Protections and Devices				-Terminals
+															-Civilian Clothing																																								-Radios
+																																																											-Navigation
+																																																											-Watches
+
+==============
+Fighter Pilot:
+==============
+
+		-Weapons:								-Uniform Elements:								-Vests:										-Backpacks:									-Headgear:									-Equipment:
+				-Pistols									-Glasses and Goggles						-Light Combat Vests							-Parachutes									-Pilot Helmets								-Night Vision Goggles
+				-Submachine Guns							-Face Coverings								-Straps, Harnesses, and Bandoliers														-Ear Protections and Devices				-Binoculars
+				-Shotguns									-Masks										-Crew Vests																															-Maps
+															-Coveralls																																										-Terminals
+																																																											-Radios
+																																																											-Navigation
+																																																											-Watches

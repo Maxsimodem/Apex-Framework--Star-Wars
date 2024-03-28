@@ -1,0 +1,137 @@
+Completed:
+	-Install Server
+	-Install Vanilla instance of Invade and Annex
+
+Solved Issues:
+	-OPTRE Biofoam crashes game. Reason: ACE3 OPTRE compat patch
+	-ACE Emotes will not trigger. Problem: Security features
+	-Gruppe Adler Trenches now work. Problem: Security features
+	-LAAT Impulse now works. Problem: Security features
+	-LAAT Repulse works. Problem: Security features
+	-LAATs now spawn properly, problem line 3282 in fn_core
+	-Entering Sholef artillery no longer crashes game
+	-Arsenals can now be turned to simple objects, problem was object model in fn_clientCore
+
+Known Issues:
+	-ACE3 Interaction allows non-pilots to enter pilot seats
+	-Jetpacks will kill players from fall damage
+	-Accessing arsenals with ACE interaction will show the user an open arsenal, fix if possible
+	-NPCs do not perform given animations
+		-check fnc_clientCore
+			-line 958
+			-line 4471
+	-Missile Seara artillery sometimes spawns in undesired location; remove
+	-Mission-spawned LAATs canot be serviced at Helo station froum outside vehicle, apparently considered VTOLs
+	-Custom speed limit zone not working
+	-Gitmo and MedEvac locations need to be changed
+	-Modded radios de-equipped by apex framework, suspected extra arsenal filters
+	-Medevac missions cannot be completed; ACE3 affects unconsious states
+	-IMS forces players into perpetual busy state
+
+Other:
+	-ACE to be removed until after Star Wars Conversion is complete
+		-Requires compatibility
+			-Replace ACE No Medical with regular ACE and adjust settings
+			-Write ACE3 Compatibility
+				-Pilot seats need to be restricted to pilot role
+				-Co-pilot seats need to be restricted after 20 players are online
+				-Prisoner escorting needs to be made compatible with ACE Interaction
+				-ACE Arsenal needs to be tied into QS Arsenal
+				-ACE Breaks Medevac objectives due to conflicting unconscious state
+	-TFAR To be removed until after Star Wars Conversion is complete
+		-Requires compatibility
+			-Stop modded radios from being de-equipped
+				-Remove integrated radio system
+				-Message to chat anywhere radios are unequipped by mission file
+			-Disable Radio
+				-check fnc_clientCore
+					-line 985
+					-line 4610
+	-Remove Webknights Zombies
+		-Requires compatibility
+	-Remove 717th Aux
+		-Dependancies require compatibility
+		-Redo 717th Aux arsenal index
+
+
+To Do:
+	-Simple
+		-Recopy mod settings
+		-Complete arsenal.sqf
+			-Weapon attachments
+			-Reconfigure for JLTS/3AS-based gear
+		-Mods
+			-Add No Bullet Drop for legion studios
+		-Transfer custom HQ from mission.sqm to QS_missionObjects.sqf
+			-Tinker with boat spawn heights
+			-Tinker with vehicle/crate spawn heights and times
+			-Tinker with Infantry spawn positions, stop from spawning behind the billboards
+			-Tinker with FOB floodlights
+			-Move vanilla Gitmo, speed limited, and MedEvac areas
+			-Change NATO Aircraft over to GAR equivalents and set spawn location
+		-Configure AAA spawning
+			-check fn_airbaseDefense
+		-configure recruitible AI
+			-check fnc_core
+				-Line 854
+		-Update Default kits
+			-Remove ACE items
+			-replace 717th items with JLTS EA
+			-Change image for Rifleman to DC-15A
+			-Reconfigure default Autorifleman loadout for DC-15LE
+			-Reconfigure default Machine Gunner loadout to use JLTS:EA Cold Assault Suit
+				-Waiting on Schlabbie
+			-Give Pilots tool kit as default
+		-Change loading images
+			-Remove GD, 985th
+				-Replace GD with Kamino Security
+				-Replace 985th with 21st Nova Corps
+			-If possible, add
+				-91st MRC
+				-"Returning to Base" phase 1 ranks, personal screenshot
+		-Playtest before transferring to paid server
+		-Personal Server Banlist
+			-"76561198354779294"	//Glen
+     			-"76561198871607831"	//Dodger
+			-"76561198353851079"	//Kane
+			-"76561198201641850"	//Jej
+			-"76561198975620543"	//The Green Ninja
+			-"76561197986630349"	//Freddy
+			-"76561198221096492"	//Snorway
+			-"76561198055300634"	//Kuba
+			-"76561198302910295"	//Moe
+			-"76561199034336581"	//Harrison
+			-"76561198081215697"	//Henre
+			-"76561198062221539"	//Wang
+			-"76561198036223103"	//Chazza
+			-"76561198132706228"	//Mikey
+			-"76561198199642718"	//Dragz
+			-"76561198150079371"	//Freeman
+			-"76561198071435986"	//LeVi
+			-"76561198119380713"	//Snipe; give second chance
+
+	-Complex/Unknown
+		-Increase FOB Air Cargo yeild
+			-check fnc_core
+				-line 2433
+		-Remove taking gold teeth
+			-check fnc_clientCore
+				-line 452
+				-line 2697
+		-Disable fuel consumption module
+			-check fnc_clientCore
+				-line 741
+				-line 3838
+		-Change OpFor Units (may not be necessary, see next)
+			-Change CSAT units over to JLTS or 717th droids
+				-check fn_aoEnemy
+			-Change AAF units over to LS Mandalorians
+				-check fn_aoEnemy
+		-Change droid loadouts over to pre-determined arsenal loadouts
+			-check fn_unitSetup
+		-Change CSAT vehicles over to CIS equivalent
+		-Change CSAT fighter craft to CIS equivalent
+		-Change side mission rewards to Star Wars/Operation TREBUCHET equivalent
+		-Remove Seara Missile Launcher artillery or stop form improperly spawning
+		-Remove vanilla vehicle skins to cut down on file size
+		-All features restricted by a paywall should be removed

@@ -1,0 +1,583 @@
+==================
+TEMPLATE CATEGORY:
+==================
+
+		//============================================= Template Sub-Category:
+
+				Vanilla:
+						-Example Name,														example_variable,														Example Expansion,											whitelisted
+
+				Workshop Mods:
+						-Example Name,														example_variable,														Example Expansion,											whitelisted
+					
+========
+WEAPONS:
+========
+
+		//============================================= Pistols:
+
+				Workshop Mods:
+						-DC-17 hand blaster,												JMSLLTE_dc17pistol,														JM's Long Live The Empire,									whitelisted
+						-DL-18 Blaster Pistol,												JMSLLTE_dl18pistol,														JM's Long Live The Empire,									whitelisted
+						-DL-44 blaster pistol,												JMSLLTE_dl44pistol,														JM's Long Live The Empire,									whitelisted
+						-EC-17 hold-out blaster,											JMSLLTE_ec17pistol,														JM's Long Live The Empire,									whitelisted
+						-RK-3 blaster,														JMSLLTE_rk3pistol,														JM's Long Live The Empire,									whitelisted
+						-SE-14r blaster,													JMSLLTE_se14pistol,														JM's Long Live The Empire,									whitelisted
+						-DC-17 hand blaster (dual),											JMSLLTE_dc17pistol_dual,												JM's Long Live The Empire,									blacklisted //In primary weapons, already in sidearms
+						-DH-17 blaster pistol,												JMSLLTE_dh17,															JM's Long Live The Empire,									whitelisted //In primary weapons
+						-RK-3 blaster (dual),												JMSLLTE_rk3pistol_dual,													JM's Long Live The Empire,									blacklisted //In primary weapons, already in sidearms
+						
+		//============================================= Sub-Machine Guns:
+
+				Workshop Mods:
+						-DC-15S Blaster carbine												JMSLLTE_dc15s,															JM's Long Live The Empire,									whitelisted
+						-DH-17 blaster rifle,												JMSLLTE_dh17rifle,														JM's Long Live The Empire,									whitelisted
+						-E-11 Mk 1 blaster carbine,											JMSLLTE_e11carb,														JM's Long Live The Empire,									whitelisted
+						-E-10 blaster rifle,												JMSLLTE_e10,															JM's Long Live The Empire,									whitelisted
+						-E-11 blaster rifle,												JMSLLTE_e11,															JM's Long Live The Empire,									whitelisted
+
+		//============================================= Light Machine Guns:
+
+				Workshop Mods:
+						-DLT-19 heavy blaster rifle,										JMSLLTE_DLT19BlasterRifle,												JM's Long Live The Empire,									whitelisted
+						-RT-97C heavy blaster rifle,										JMSLLTE_rt97cBlasterRifle,												JM's Long Live The Empire,									whitelisted
+
+		//============================================= Assault Rifles:
+
+				Workshop Mods:
+						-A280 blaster rifle,												JMSLLTE_a280,															JM's Long Live The Empire,									whitelisted
+						-A280 blaster rifle (stock),										JMSLLTE_a280stock,														JM's Long Live The Empire,									whitelisted
+						-A280C blaster rifle,												JMSLLTE_a280c,															JM's Long Live The Empire,									whitelisted
+						-A300 blaster rifle,												JMSLLTE_a300,															JM's Long Live The Empire,									whitelisted
+						-A300 blaster carbine,												JMSLLTE_a300c,															JM's Long Live The Empire,									whitelisted
+						-A310 blaster rifle,												JMSLLTE_a310,															JM's Long Live The Empire,									whitelisted
+						-E-11D blaster carbine,												JMSLLTE_e11d,															JM's Long Live The Empire,									whitelisted
+						-E-22 Blaster Rifle,												JMSLLTE_E22,															JM's Long Live The Empire,									whitelisted
+						-F-78 Blaster Rifle, 												JMSLLTE_f78,															JM's Long Live The Empire,									whitelisted
+
+		//============================================= Designated Marksman/Battle Rifles:
+
+				Workshop Mods:
+						-DC-15A Blaster rifle,												JMSLLTE_dc15a,															JM's Long Live The Empire,									whitelisted
+						-DLT-19D heavy blaster rifle,										JMSLLTE_DLT19dRifle,													JM's Long Live The Empire,									whitelisted
+						-T-21 light blaster,												JMSLLTE_T21BlasterRifle,												JM's Long Live The Empire,									whitelisted
+
+		//============================================= Sniper Rifles:
+
+				Workshop Mods:
+						-DLT-19X targeting blaster,											JMSLLTE_DLT19xRifle,													JM's Long Live The Empire,									whitelisted
+						-DLT-20A laser rifle,												JMSLLTE_dlt20a,															JM's Long Live The Empire,									whitelisted
+						-E-17d sniper rifle,												JMSLLTE_E17DRifle,														JM's Long Live The Empire,									whitelisted
+
+		//============================================= Shotguns:
+
+				Workshop Mods:
+						-
+
+		//============================================= Light Rocket Launchers:
+
+				Workshop Mods:
+						-RPS-10,															JMSLLTE_RPS10_Launcher,													JM's Long Live The Empire,									whitelisted
+						
+		//============================================= Heavy Rocket Launchers:
+
+				Workshop Mods:
+						-
+						
+==========
+Magazines:
+==========
+
+		//============================================= Pistol Magazines
+
+				Workshop Mods:
+						-DC-17 Energy cell,													JMSLLTE_DC_20rnd_Mag,													JM's Long Live The Empire,									whitelisted
+						-DC-17 Energy cell (dual),											JMSLLTE_DC17_40rnd_Mag,													JM's Long Live The Empire,									whitelisted
+						-DL-18 Energy cell,													JMSLLTE_DL18_20rnd_Mag,													JM's Long Live The Empire,									whitelisted
+						-EC-17 Energy cell,													JMSLLTE_EC17_15rnd_Mag,													JM's Long Live The Empire,									whitelisted
+						-RK-3 Energy cell,													JMSLLTE_RK3_20rnd_Mag,													JM's Long Live The Empire,									whitelisted
+						-RK-3 Energy cell (dual),											JMSLLTE_RK3_40rnd_Mag,													JM's Long Live The Empire,									whitelisted
+						-SE-14 Energy cell,													JMSLLTE_DL44_10rnd_Mag,													JM's Long Live The Empire,									whitelisted
+						-SE-14 Energy cell,													JLSLLTE_SE14_30rnd_Mag,													JM's Long Live The Empire,									whitelisted
+						-DH-17 Energy cell,													JMSLLTE_DH17_30Rnd_Mag,													JM's Long Live The Empire,									whitelisted
+		
+		//============================================= Submachine Gun Magazines:
+
+				Workshop Mods:
+						-DC-15S Energy cell,												JMSLLTE_DC15S_400Rnd_Mag,												JM's Long Live The Empire,									whitelisted
+						-DH-17R Energy cell,												JMSLLTE_DH17_60Rnd_Mag,													JM's Long Live The Empire,									whitelisted
+						-E-11 Energy cell,													JMSLLTE_E11_60Rnd_Mag,													JM's Long Live The Empire,									whitelisted
+						-E-11C Energy cell,													JMSLLTE_E11C_60Rnd_Mag,													JM's Long Live The Empire,									whitelisted
+		
+		//============================================= Light Machine Gun Magazines:
+
+				Workshop Mods:
+						-DLT-19 Energy cell,												JMSLLTE_DLT19_75Rnd_Mag,												JM's Long Live The Empire,									whitelisted
+						-RT-97C Energy cell,												JMSLLTE_RT97C_150Rnd_Mag,												JM's Long Live The Empire,									whitelisted
+
+		//============================================= Assault Rifle Magazines:
+		
+				Workshop Mods:
+						-A280 Energy cell,													JMSLLTE_A280_30rnd_Mag,													JM's Long Live The Empire,									whitelisted
+						-A280C Energy cell,													JMSLLTE_A290C_20rnd_Mag,												JM's Long Live The Empire,									whitelisted
+						-A300Energy cell,													JMSLLTE_A300_15rnd_Mag,													JM's Long Live The Empire,									whitelisted
+						-A300C Energy cell,													JMSLLTE_A300C_30rnd_Mag,												JM's Long Live The Empire,									whitelisted
+						-A310 Energy cell,													JMSLLTE_A310_15rnd_Mag,													JM's Long Live The Empire,									whitelisted
+						-E-11D Energy cell,													JMSLLTE_E11D_40Rnd_Mag,													JM's Long Live The Empire,									whitelisted
+						-E-22 Energy cell,													JMSLLTE_E22_60Rnd_Mag,													JM's Long Live The Empire,									whitelisted
+		
+		//============================================= DMR/Battle Rifle Magazines:
+		
+				Workshop Mods:
+						-DC-15A Energy cell,												JMSLLTE_DC15A_60Rnd_Mag,												JM's Long Live The Empire,									whitelisted
+						-DLT-19d Energy cell,												JMSLLTE_DLT19d_10Rnd_Mag,												JM's Long Live The Empire,									whitelisted
+						-T-21 Energy cell,													JMSLLTE_T21_51rnd_Mag,													JM's Long Live The Empire,									whitelisted
+				
+		//============================================= Sniper Rifle Magazines:
+
+				Workshop Mods:
+						-DLT-19X Energy cell,												JMSLLTE_DLT19x_10Rnd_Mag,												JM's Long Live The Empire,									whitelisted
+						-DLT-20a Energy cell,												JMSLLTE_DLT20a_10Rnd_Mag,												JM's Long Live The Empire,									whitelisted
+						-E-17d Energy cell,													JMSLLTE_E17d_5Rnd_Mag,													JM's Long Live The Empire,									whitelisted
+						
+		//============================================= Shotgun Magazines:
+		
+				Workshop Mods:
+						-
+				
+		//============================================= Light Rockets:
+				
+				Workshop Mods:
+						-RPS-10 HE Missile,													JMSLLTE_RPS10_HE_Mag,													JM's Long Live The Empire,									whitelisted
+						-RPS-10 Missile,													JMSLLTE_RPS10_Mag,														JM's Long Live The Empire,									whitelisted
+
+		//============================================= Heavy Rockets:
+				
+				Workshop Mods:
+						-
+
+========
+WEAPON ATTACHMENTS:
+========
+
+		//============================================= Reflex Sights:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+						
+		//============================================= ACOG Sights:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+						
+		//============================================= Sniper Sights:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+=================
+UNIFORM ELEMENTS:
+=================
+			
+		//============================================= Helmet Attachments:
+
+				Workshop Mods:
+						-
+
+		//============================================= Cloth Coverings:
+
+				Workshop Mods:
+						-
+
+		//============================================= Masks:
+
+				Workshop Mods:
+						-[Emp] Trooper mask v1,												G_JMSLLTE_TrooperMask_1,												JM's Long Live The Empire,									whitelisted
+						-[Emp] Trooper mask v2,												G_JMSLLTE_TrooperMask_2,												JM's Long Live The Empire,									whitelisted
+						-[Emp] Trooper mask v3,												G_JMSLLTE_TrooperMask_3,												JM's Long Live The Empire,									whitelisted
+						
+		//============================================= Formalwear/Uniforms:
+
+				Workshop Mods:
+						-[Emp] Gunner uniform,												JMSLLTE_EmpNavyGunner_black_F_CombatUniform,							JM's Long Live The Empire,									whitelisted
+						-[Emp] Navy Crewman uniform,										JMSLLTE_EmpNavyCrew_black_F_CombatUniform,								JM's Long Live The Empire,									whitelisted
+						-[Emp] Navy Tech uniform,											JMSLLTE_EmpNavyCrew_grey_F_CombatUniform,								JM's Long Live The Empire,									whitelisted
+						-[Emp] Officer uniform (black),										JMSLLTE_EmpOfficer_black_F_CombatUniform,								JM's Long Live The Empire,									whitelisted
+						-[Emp] Officer uniform (green),										JMSLLTE_EmpOfficer_green_F_CombatUniform,								JM's Long Live The Empire,									whitelisted
+						-[Emp] Officer uniform (grey),										JMSLLTE_EmpOfficer_grey_F_CombatUniform,								JM's Long Live The Empire,									whitelisted
+						-[Emp] Officer uniform (ISB),										JMSLLTE_EmpOfficer_ISBof_F_CombatUniform,								JM's Long Live The Empire,									whitelisted
+						-[Emp] Operative uniform (ISB),										JMSLLTE_EmpOfficer_ISB_F_CombatUniform,									JM's Long Live The Empire,									whitelisted
+						-Officer uniform  (CIS),											JMSLLTE_EmpOfficer_CIS_F_CombatUniform,									JM's Long Live The Empire,									blacklisted //OPFOR
+
+		//============================================= Combat Fatigues:
+
+				Workshop Mods:
+						-[Emp] Deathtrooper suit,											JMSLLTE_Deathtrooper_F_CombatUniform,									JM's Long Live The Empire,									whitelisted
+						-[Emp] Scouttrooper suit,											JMSLLTE_ScoutTrooper_F_CombatUniform,									JM's Long Live The Empire,									whitelisted
+						-[Emp] Scouttrooper suit (camo),									JMSLLTE_ScoutTrooper_wood_F_CombatUniform,								JM's Long Live The Empire,									whitelisted
+						-[Emp] Shoretrooper suit,											JMSLLTE_ShoreTrooper_F_CombatUniform,									JM's Long Live The Empire,									whitelisted
+						-[Emp] Shoretrooper suit (captain),									JMSLLTE_ShoreTrooper_cap_F_CombatUniform,								JM's Long Live The Empire,									whitelisted
+						-[Emp] Shoretrooper suit (sergeant),								JMSLLTE_ShoreTrooper_serg_F_CombatUniform,								JM's Long Live The Empire,									whitelisted
+						-[Emp] Shoretrooper suit (specialist),								JMSLLTE_ShoreTrooper_spec_F_CombatUniform,								JM's Long Live The Empire,									whitelisted
+						-[Emp] Shoretrooper suit (white),									JMSLLTE_ShoreTrooper_white_F_CombatUniform,								JM's Long Live The Empire,									whitelisted
+						-[Emp] Snowtrooper suit,											JMSLLTE_Snow_Trooper_F_CombatUniform,									JM's Long Live The Empire,									whitelisted
+						-[Emp] Snowtrooper suit (medic),									JMSLLTE_SnowTrooper_medic_F_CombatUniform,								JM's Long Live The Empire,									whitelisted
+						-[Emp] Stormcommando suit,											JMSLLTE_ScoutTrooper_black_F_CombatUniform,								JM's Long Live The Empire,									whitelisted
+						-[Emp] Stormtrooper suit,											JMSLLTE_StormTrooper_clean_F_CombatUniform,								JM's Long Live The Empire,									whitelisted
+						-[Emp] Stormtrooper suit (501st),									JMSLLTE_StormTrooper_501_F_CombatUniform,								JM's Long Live The Empire,									whitelisted
+						-[Emp] Stormtrooper suit (commander),								JMSLLTE_StormTrooper_commander_F_CombatUniform,							JM's Long Live The Empire,									whitelisted
+						-[Emp] Stormtrooper suit (dirty wood),								JMSLLTE_StormTrooper_dirtyW_F_CombatUniform,							JM's Long Live The Empire,									whitelisted
+						-[Emp] Stormtrooper suit (dirty),									JMSLLTE_StormTrooper_dirty_F_CombatUniform,								JM's Long Live The Empire,									whitelisted
+						-[Emp] Stormtrooper suit (executioner),								JMSLLTE_StormTrooper_executioner_F_CombatUniform,						JM's Long Live The Empire,									whitelisted
+						-[Emp] Stormtrooper suit (incinerator),								JMSLLTE_StormTrooper_incinerator_F_CombatUniform,						JM's Long Live The Empire,									whitelisted
+						-[Emp] Stormtrooper suit (lava),									JMSLLTE_StormTrooper_lava_F_CombatUniform,								JM's Long Live The Empire,									whitelisted
+						-[Emp] Stormtrooper suit (Mimban),									JMSLLTE_StormTrooper_mimban_F_CombatUniform,							JM's Long Live The Empire,									whitelisted
+						-[Emp] Stormtrooper suit (mortar),									JMSLLTE_StormTrooper_mortar_F_CombatUniform,							JM's Long Live The Empire,									whitelisted
+						-[Emp] Stormtrooper suit (nova),									JMSLLTE_StormTrooper_nova_F_CombatUniform,								JM's Long Live The Empire,									whitelisted
+						-[Emp] Stormtrooper suit (sand),									JMSLLTE_StormTrooper_sand_F_CombatUniform,								JM's Long Live The Empire,									whitelisted
+						-[Emp] Stormtrooper suit (shadow),									JMSLLTE_StormTrooper_shadow_F_CombatUniform,							JM's Long Live The Empire,									whitelisted
+						-[Emp] Stormtrooper suit (shocktrooper),							JMSLLTE_StormTrooper_shock_F_CombatUniform,								JM's Long Live The Empire,									whitelisted
+						-[Emp] Trooper suit,												JMSLLTE_EmpTrroper_F_CombatUniform,										JM's Long Live The Empire,									whitelisted
+						-[Emp] Trooper suit (camo),											JMSLLTE_EmpTrooperCamo_F_CombatUniform,									JM's Long Live The Empire,									whitelisted
+						-[Emp] Trooper suit (dirty),										JMSLLTE_EmpTrooperDiry_F_CombatUniform,									JM's Long Live The Empire,									whitelisted
+						-[Emp] Trooper suit (medic),										JMSLLTE_EmpTrooperMed_F_CombatUniform,									JM's Long Live The Empire,									whitelisted
+						-[Emp] Trooper suit (medic, dirty),									JMSLLTE_EmpTrooperMedDiry_F_CombatUniform,								JM's Long Live The Empire,									whitelisted
+						-Commando raincoat,													JMSLLTE_ScumTroopHeavy_wood_F_CombatUniform,							JM's Long Live The Empire,									blacklisted //OPFOR
+						-Commando raincoat (brown),											JMSLLTE_ScumTroopHeavy_brown_F_CombatUniform,							JM's Long Live The Empire,									blacklisted //OPFOR
+						-Commando raincoat (deseert),										JMSLLTE_ScumTroopHeavy_desert_F_CombatUniform,							JM's Long Live The Empire,									blacklisted //OPFOR
+						-Commando suit,														JMSLLTE_ScumCommando_cloud_F_CombatUniform,								JM's Long Live The Empire,									blacklisted //OPFOR
+						-Commando suit (dark),												JMSLLTE_ScumCommando_woodD_F_CombatUniform,								JM's Long Live The Empire,									blacklisted //OPFOR
+						-Commando suit (desert),											JMSLLTE_ScumCommando_desertS_F_CombatUniform,							JM's Long Live The Empire,									blacklisted //OPFOR
+						-Commando suit (green),												JMSLLTE_ScumCommando_green_f_CombatUniform,								JM's Long Live The Empire,									blacklisted //OPFOR
+						-Commando suit (wood),												JMSLLTE_ScumCommando_wood_F_CombatUniform,								JM's Long Live The Empire,									blacklisted //OPFOR
+						-Commandos wear,													JMSLLTE_ScumAlCommando_cloud_F_CombatUniform,							JM's Long Live The Empire,									blacklisted //OPFOR
+						-Commandos wear (desert),											JMSLLTE_ScumAlCommando_desert_F_CombatUniform,							JM's Long Live The Empire,									blacklisted //OPFOR
+						-Commandos wear (scum),												JMSLLTE_ScumAlCommando_base_F_CombatUniform,							JM's Long Live The Empire,									blacklisted //OPFOR
+						-Commandos wear (wood),												JMSLLTE_Scum_AlCommando_wood_F_CombatUniform,							JM's Long Live The Empire,									blacklisted //OPFOR
+						-Pathfinder suit (black v1),										JMSLLTE_ScumTroopCom_black_F_CombatUniform,								JM's Long Live The Empire,									blacklisted //OPFOR
+						-Pathfinder suit (black v2),										JMSLLTE_ScumTroopCom_black2_F_CombatUniform,							JM's Long Live The Empire,									blacklisted //OPFOR
+						-Pathfinder suit (brown),											JMSLLTE_ScumTroopCom_brown_F_CombatUniform,								JM's Long Live The Empire,									blacklisted //OPFOR
+						-Pathfinder suit (desert),											JMSLLTE_ScumTroopCom_desert_F_CombatUniform,							JM's Long Live The Empire,									blacklisted //OPFOR
+						-Pathfinder suit (wood),											JMSLLTE_ScumTroopCom_wood_F_CombatUniform,								JM's Long Live The Empire,									blacklisted //OPFOR
+						-Pathfinder wear (blue),											JMSLLTE_ScumPathfinder_blue_F_CombatUniform,							JM's Long Live The Empire,									blacklisted //OPFOR
+						-Pathfinder wear (brown),											JMSLLTE_ScumPathfinder_brown_F_CombatUniform,							JM's Long Live The Empire,									blacklisted //OPFOR
+						-Pathfinder wear (sand),											JMSLLTE_ScumPathfinder_sand_F_CombatUniform,							JM's Long Live The Empire,									blacklisted //OPFOR
+						-Pathfinder wear (wood),											JMSLLTE_ScumPathfinder_wood_F_CombatUniform,							JM's Long Live The Empire,									blacklisted //OPFOR
+						-Snowcommando suit,													JMSLLTE_ScumSnow_base_F_CombatUniform,									JM's Long Live The Empire,									blacklisted //OPFOR
+						-Soldier uniform (CIS),												JMSLLTE_EmpOfficer_CISs_F_CombatUniform,								JM's Long Live The Empire,									blacklisted //OPFOR
+
+		//============================================= Coveralls:
+
+				Workshop Mods:
+						-[Emp] TIE pilot uniform,											JMSLLTE_EmpTiePilot_black_F_CombatUniform,								JM's Long Live The Empire,									whitelisted
+						-Mimbanese jacket,													JMSLLTE_EmpNavyCrew_red_F_CombatUniform,								JM's Long Live The Empire,									blacklisted //OPFOR
+						-Pilot overall (blue),												JMSLLTE_ScumPilot_blue_F_CombatUniform,									JM's Long Live The Empire,									whitelisted
+						-Pilot overall (orange),											JMSLLTE_ScumPilot_orange_F_CombatUniform,								JM's Long Live The Empire,									blacklisted //OPFOR
+					
+======
+VESTS:
+======
+
+		//============================================= Heavy Combat Vests:
+
+				Workshop Mods:
+						-[Emp] Deathtrooper vest (command),									JMSLLTE_DeathtrooperCom_armor,											JM's Long Live The Empire,									whitelisted
+						-[Emp] Deathtrooper vest (specialist),								JMSLLTE_DeathtrooperSpec_armor,											JM's Long Live The Empire,									whitelisted
+						-[Emp] Officer chest armor,											JMSLLTE_OfficerChest_armor,												JM's Long Live The Empire,									whitelisted
+						-[Emp] Officer chest armor (black),									JMSLLTE_OfficerChest_black_armor,										JM's Long Live The Empire,									whitelisted
+						-Commandos vest,													JMSLLTE_CommandosVest2_armor,											JM's Long Live The Empire,									whitelisted
+						-Commandos vest (shoulder),											JMSLLTE_CommandosVest_armor,											JM's Long Live The Empire,									whitelisted
+						-Mimbanese heavy vest,												JMSLLTE_Scum_mimbH_armor,												JM's Long Live The Empire,									whitelisted
+
+		//============================================= Light Combat Vests:
+
+				Workshop Mods:
+						-[Emp] Deathtrooper vest,											JMSLLTE_DeathtrooperVest_armor,											JM's Long Live The Empire,									whitelisted
+						-[Emp] Deathtrooper vest (heavy),									JMSLLTE_DeathtrooperHeavy_armor,										JM's Long Live The Empire,									whitelisted
+						-[Emp] Gunner vest,													JMSLLTE_Gunner_vest_armor,												JM's Long Live The Empire,									whitelisted
+						-[Emp] ISB chest armor,												JMSLLTE_IsbChest_armor,													JM's Long Live The Empire,									whitelisted
+						-[Emp] Navy chest armor,											JMSLLTE_NavyChest_armor,												JM's Long Live The Empire,									whitelisted
+						-[Emp] Stormtrooper armor,											JMSLLTE_StormtrooperHidden_armor,										JM's Long Live The Empire,									whitelisted
+						-[Emp] Stormtrooper pauldron (black),								JMSLLTE_StormtrooperPauldron_black_armor,								JM's Long Live The Empire,									whitelisted
+						-[Emp] Stormtrooper pauldron (blue),								JMSLLTE_StormtrooperPauldron_blue_armor,								JM's Long Live The Empire,									whitelisted
+						-[Emp] Stormtrooper pauldron (grey),								JMSLLTE_StormtrooperPauldron_grey_armor,								JM's Long Live The Empire,									whitelisted
+						-[Emp] Stormtrooper pauldron (orange),								JMSLLTE_StormtrooperPauldron_orange_armor,								JM's Long Live The Empire,									whitelisted
+						-[Emp] Stormtrooper pauldron (red),									JMSLLTE_StormtrooperPauldron_red_armor,									JM's Long Live The Empire,									whitelisted
+						-[Emp] Stormtrooper pauldron (white),								JMSLLTE_StormtrooperPauldron_white_armor,								JM's Long Live The Empire,									whitelisted
+						-[Emp] Stormtrooper pauldron (yellow),								JMSLLTE_StormtrooperPauldron_yellow_armor,								JM's Long Live The Empire,									whitelisted
+						-[Emp] Stormtrooper pauldron+ammo (black),							JMSLLTE_StormtrooperPauldronA_black_armor,								JM's Long Live The Empire,									whitelisted
+						-[Emp] Stormtrooper pauldron+ammo (orange),							JMSLLTE_StormtrooperPauldronA_orange_armor,								JM's Long Live The Empire,									whitelisted
+						-[Emp] Stormtrooper pauldron+ammo (red),							JMSLLTE_StormtrooperPauldronA_red_armor,								JM's Long Live The Empire,									whitelisted
+						-[Emp] Stormtrooper pauldron+ammo (white),							JMSLLTE_stormtrooperPauldronA_white_armor,								JM's Long Live The Empire,									whitelisted
+						-[Emp] Stormtrooper pauldron+ammo (yellow),							JMSLLTE_StormtrooperPauldronA_yellow_armor,								JM's Long Live The Empire,									whitelisted
+						-[Emp] Stormtrooper pauldron+cape (black),							JMSLLTE_StormtrooperPauldronC_black_armor,								JM's Long Live The Empire,									whitelisted
+						-[Emp] Stormtrooper pauldron+cape (orange),							JMSLLTE_StormtrooperPauldronC_orange_armor,								JM's Long Live The Empire,									whitelisted
+						-[Emp] Stormtrooper pauldron+cape (white),							JMSLLTE_StormtrooperPauldronC_white_armor,								JM's Long Live The Empire,									whitelisted
+						-Chest armor [CIS],													JMSLLTE_IsbChest_CIS_armor,												JM's Long Live The Empire,									blacklisted //OPFOR
+						-Commandos light vest,												JMSLLTE_CommandsVestL_armor,											JM's Long Live The Empire,									blacklisted //OPFOR
+						-Mimbanese special vest,											JMSLLTE_Scum_mimbS_armor,												JM's Long Live The Empire,									blacklisted //OPFOR
+						-Mimbanese vest,													JMSLLTE_Scum_mimb_armor,												JM's Long Live The Empire,									blacklisted //OPFOR
+
+		//============================================= Crew Vests:
+
+				Workshop Mods:
+						-[Emp] Officer rank (captain),										JMSLLTE_Officerrank_captain_armor,										JM's Long Live The Empire,									whitelisted
+						-[Emp] Officer rank (lieutenant),									JMSLLTE_Officerrank_lt_armor,											JM's Long Live The Empire,									whitelisted
+						-[Emp] Officer rank (major),										JMSLLTE_Officerrank_major_armor,										JM's Long Live The Empire,									whitelisted
+						-[Emp] Officer rank (navy lieutenant),								JMSLLTE_Officerrank_navy_lt_armor,										JM's Long Live The Empire,									whitelisted
+		//============================================= Straps, Harnesses, and Bandoliers:
+
+				Workshop Mods:
+						-[Emp] Navytrooper pouches,											JMSLLTE_Officerrank_navy_armor,											JM's Long Live The Empire,									whitelisted
+						-[Emp] Shoretrooper vest,											JMSLLTE_ShoretrooperVest_armor,											JM's Long Live The Empire,									whitelisted
+						-[Emp] Shoretrooper vest (heavy),									JMSLLTE_ShoretrooperHeavy_armor,										JM's Long Live The Empire,									whitelisted
+						-[Emp] Shoretrooper vest (heavy)(white),							JMSLLTE_ShoretrooperHeavyW_armor,										JM's Long Live The Empire,									whitelisted
+						-[Emp] Shoretrooper vest (white),									JMSLLTE_ShoretrooperVestW_armor,										JM's Long Live The Empire,									whitelisted
+						-[Emp] Stormtrooper ammo,											JMSLLTE_StormtrooperAmmo_armor,											JM's Long Live The Empire,									whitelisted
+						-[Emp] Stormtrooper bandolier,										JMSLLTE_StormtrooperBand_armor,											JM's Long Live The Empire,									whitelisted
+						-[Emp] Stormtrooper bandolier+cape,									JMSLLTE_StormtrooperBandCape_armor,										JM's Long Live The Empire,									whitelisted
+						-[Emp] Stormtrooper cape,											JMSLLTE_StormtrooperCape_armor,											JM's Long Live The Empire,									whitelisted
+						-[Emp] Stormtrooper cape,											JMSLLTE_StormtrooperCape_dirty_armor,									JM's Long Live The Empire,									whitelisted
+						-[Emp] Stormtrooper heavy,											JMSLLTE_StormtrooperHeavy_armor,										JM's Long Live The Empire,									whitelisted
+						-[Emp] Stormtrooper holster,										JMSLLTE_StormtrooperHolster_armor,										JM's Long Live The Empire,									whitelisted
+						-[Emp] Stormtrooper special bandolier,								JMSLLTE_StormtrooperBand2_armor,										JM's Long Live The Empire,									whitelisted
+						-[Emp] Trooper belt,												JMSLLTE_TrooperBelt_armor,												JM's Long Live The Empire,									whitelisted
+						-[Emp] Trooper cape,												JMSLLTE_TrooperCape_armor,												JM's Long Live The Empire,									whitelisted
+						-[Emp] Trooper cape+belt,											JMSLLTE_TrooperCapeBelt_armor,											JM's Long Live The Empire,									whitelisted
+						-[Emp] Trooper pouch+cape,											JMSLLTE_TrooperPouchCape_armor,											JM's Long Live The Empire,									whitelisted
+						-[Emp] Trooper pouches,												JMSLLTE_TrooperPouch_armor,												JM's Long Live The Empire,									whitelisted
+						-[Emp] Trooper pouches+belt,										JMSLLTE_TrooperPouchBelt_armor,											JM's Long Live The Empire,									whitelisted
+						-Commando bag,														JMSLLTE_ComBag_armor,													JM's Long Live The Empire,									whitelisted
+						-Commando bandolier (black),										JMSLLTE_HeavyBand_black_armor,											JM's Long Live The Empire,									whitelisted
+						-Commando bandolier (brown),										JMSLLTE_HeavyBand_brown_armor,											JM's Long Live The Empire,									whitelisted
+						-Commando bandolier+bag (black),									JMSLLTE_HeavyBandBag_black_armor,										JM's Long Live The Empire,									whitelisted
+						-Commando bandolier+bag (brown),									JMSLLTE_HeavyBandBag_brown_armor,										JM's Long Live The Empire,									whitelisted
+						-Commando belt,														JMSLLTE_CommandoBelt_armor,												JM's Long Live The Empire,									whitelisted
+						-Commando short bandolier (black),									JMSLLTE_HeavyBand2_black_armor,											JM's Long Live The Empire,									whitelisted
+						-Commando short bandolier (brown),									JMSLLTE_HeavyBand2_brown_armor,											JM's Long Live The Empire,									whitelisted
+						-Commando strap,													JMSLLTE_ComStrap_armor,													JM's Long Live The Empire,									whitelisted
+						-Commando strap+bag,												JMSLLTE_ComStrapBag_armor,												JM's Long Live The Empire,									whitelisted
+						-Commandos light strip,												JMSLLTE_CommandosStripL_armor,											JM's Long Live The Empire,									whitelisted
+						-Commandos strip,													JMSLLTE_CommandosStrip_armor,											JM's Long Live The Empire,									whitelisted
+						-Pathfinder bags,													JMSLLTE_PathfinderBags_armor,											JM's Long Live The Empire,									whitelisted
+						-Pathfinder belt,													JMSLLTE_PathfinderBelt_armor,											JM's Long Live The Empire,									whitelisted
+						-Pathfinder vest,													JMSLLTE_PathfinderVest_armor,											JM's Long Live The Empire,									whitelisted
+						-Snowcommando belt,													JMSLLTE_SnowCommandoBelt_armor,											JM's Long Live The Empire,									whitelisted
+
+		//============================================= Rebreathers:
+
+				Workshop Mods:
+						-[Emp] TIE pilot vest,												JMSLLTE_TIEpilot_vest_armor,											JM's Long Live The Empire,									whitelisted
+
+==========
+BACKPACKS:
+==========
+
+		//============================================= Packs:
+
+				Workshop Mods:
+						-Imperial small backpack,											JMSLLTE_back_rebsmall_imp_v1,											JM's Long Live The Empire,									whitelisted
+						-Mimbanese cover,													JMSLLTE_back_mimbcover_v1,												JM's Long Live The Empire,									whitelisted
+						-Scum backpack (black),												JMSLLTE_back_rebpack_v1_black,											JM's Long Live The Empire,									whitelisted
+						-Scum backpack (desert),											JMSLLTE_back_rebpack_v1_desert,											JM's Long Live The Empire,									whitelisted
+						-Scum backpack (snow),												JMSLLTE_back_rebpack_v1_snow,											JM's Long Live The Empire,									whitelisted
+						-Scum backpack (woodland),											JMSLLTE_back_rebpack_v1,												JM's Long Live The Empire,									whitelisted
+						-Scum small backpack,												JMSLLTE_back_rebsmall_v1,												JM's Long Live The Empire,									whitelisted
+						-Snowtrooper backpack,												JMSLLTE_back_snowpack_v1,												JM's Long Live The Empire,									whitelisted
+						-Stormtrooper backpack,												JMSLLTE_back_sandpack_v1,												JM's Long Live The Empire,									whitelisted
+						-Stormtrooper backpack,												JMSLLTE_back_stormpack_v1,												JM's Long Live The Empire,									whitelisted
+						-Stormtrooper backpack (survival),									JMSLLTE_back_stormpack_surv,											JM's Long Live The Empire,									whitelisted
+					
+		//============================================= Radios:
+
+				Workshop Mods:
+						-
+					
+		//============================================= Respirators:
+
+				Workshop Mods:
+						-Magmatrooper filter,												JMSLLTE_back_magmapack_v1,												JM's Long Live The Empire,									whitelisted
+					
+		//============================================= Parachutes:
+
+				Vanilla:
+						-Steerable Parachute,												B_Parachute,															Base Arma3,													whitelisted
+
+				Workshop Mods:
+						-
+						
+		//============================================= Static Machine Guns:
+
+				Workshop Mods:
+						-E-Web barrel,														JMSLLTE_B_back_eweb_gun_F,												JM's Long Live The Empire,									whitelisted
+						-Mark II barrel,													JMSLLTE_B_back_mk2turret_gun_F,											JM's Long Live The Empire,									whitelisted
+			
+		//============================================= Mortars:
+
+				Workshop Mods:
+						-
+					
+		//============================================= Bipods and Tripods:
+
+				Workshop Mods:
+						-E-Web power generator,												JMSLLTE_B_back_eweb_box_F,												JM's Long Live The Empire,									whitelisted
+					
+		//============================================= UAVs:
+
+				Workshop Mods:
+						-
+					
+		//============================================= Deployable Cover
+				
+				Vanilla:
+						-,																	,																		,															whitelisted
+				
+				Workshop Mods:
+						-
+==========
+HEAD GEAR:
+==========
+
+		//============================================= Combat Helmets:
+
+				Workshop Mods:
+						-[Emp] Deathtrooper helmet,											JMSLLTE_Deathtrooper_helmet,											JM's Long Live The Empire,									whitelisted
+						-[Emp] ISB helmet,													JMSLLTE_ISB_helmet,														JM's Long Live The Empire,									whitelisted
+						-[Emp] Officer helmet,												JMSLLTE_EmpOfficer_helmet,												JM's Long Live The Empire,									whitelisted
+						-[Emp] Officer helmet (black),										JMSLLTE_EmpOfficer_black_helmet,										JM's Long Live The Empire,									whitelisted
+						-[Emp] Shoretrooper helmet,											JMSLLTE_Shoretrooper_helmet,											JM's Long Live The Empire,									whitelisted
+						-[Emp] Shoretrooper helmet (white),									JMSLLTE_Shoretrooper_white_helmet,										JM's Long Live The Empire,									whitelisted
+						-[Emp] Snowtrooper helmet,											JMSLLTE_Snowtrooper_helmet,												JM's Long Live The Empire,									whitelisted
+						-[Emp] Stormtrooper heavy helmet (commander),						JMSLLTE_Stormtrooper_commander_H_helmet,								JM's Long Live The Empire,									whitelisted
+						-[Emp] Stormtrooper heavy helmet (Mimban),							JMSLLTE_Stromtrooper_mimban_H_helmet,									JM's Long Live The Empire,									whitelisted
+						-[Emp] Stormtrooper heavy helmet (sand),							JMSLLTE_Stormtrooper_sand_H_helmet,										JM's Long Live The Empire,									whitelisted
+						-[Emp] Stormtrooper heavy helmet (shocktrooper),					JMSLLTE_Stromtrooper_shock_H_helmet,									JM's Long Live The Empire,									whitelisted
+						-[Emp] Stormtrooper helmet,											JMSLLTE_Stormtrooper_helmet,											JM's Long Live The Empire,									whitelisted
+						-[Emp] Stormtrooper helmet (501st),									JMSLLTE_Stormtrooper_501_helmet,										JM's Long Live The Empire,									whitelisted
+						-[Emp] Stormtrooper helmet (commander),								JMSLLTE_Stormtrooper_commander_helmet,									JM's Long Live The Empire,									whitelisted
+						-[Emp] Stormtrooper helmet (dirty wood),							JMSLLTE_Stormtrooper_dirtyW_helmet,										JM's Long Live The Empire,									whitelisted
+						-[Emp] Stormtrooper helmet (dirty),									JMSLLTE_Stormtrooper_dirty_helmet,										JM's Long Live The Empire,									whitelisted
+						-[Emp] Stormtrooper helmet (executioner),							JMSLLTE_Stormtrooper_executioner_helmet,								JM's Long Live The Empire,									whitelisted
+						-[Emp] Stormtrooper helmet (incinerator),							JMSLLTE_Stormtrooper_incinerator_helmet,								JM's Long Live The Empire,									whitelisted
+						-[Emp] Stormtrooper helmet (lava),									JMSLLTE_Stormtrooper_lava_helmet,										JM's Long Live The Empire,									whitelisted
+						-[Emp] Stormtrooper helmet (Mimban),								JMSLLTE_Stormtrooper_mimban_helmet,										JM's Long Live The Empire,									whitelisted
+						-[Emp] Stormtrooper helmet (mortar),								JMSLLTE_Stormtrooper_mortar_helmet,										JM's Long Live The Empire,									whitelisted
+						-[Emp] Stormtrooper helmet (sand),									JMSLLTE_Stormtrooper_sand_helmet,										JM's Long Live The Empire,									whitelisted
+						-[Emp] Stormtrooper helmet (shocktrooper),							JMSLLTE_Stormtrooper_shock_helmet,										JM's Long Live The Empire,									whitelisted
+						-[Emp] Trooper helmet,												JMSLLTE_EmpTrooper_helmet,												JM's Long Live The Empire,									whitelisted
+						-CIS helmet,														JMSLLTE_Snowtrooper_helmet_CIS,											JM's Long Live The Empire,									blacklisted //OPFOR
+						-Commando helmet,													JMSLLTE_Commando_cloud_helmet,											JM's Long Live The Empire,									blacklisted //OPFOR
+						-Commando helmet (black),											JMSLLTE_Commando_black_helmet,											JM's Long Live The Empire,									blacklisted //OPFOR
+						-Commando helmet (born),											JMSLLTE_Commando_born_helmet,											JM's Long Live The Empire,									blacklisted //OPFOR
+						-Commando helmet (desert),											JMSLLTE_Commando_desert_helmet,											JM's Long Live The Empire,									blacklisted //OPFOR
+						-Commando helmet (Endor),											JMSLLTE_Commando_endor_helmet,											JM's Long Live The Empire,									blacklisted //OPFOR
+						-Commando helmet (wood),											JMSLLTE_Commando_green_helmet,											JM's Long Live The Empire,									blacklisted //OPFOR
+						-Commando helmet H,													JMSLLTE_CommandoH_cloud_helmet,											JM's Long Live The Empire,									blacklisted //OPFOR
+						-Commando helmet H (black),											JMSLLTE_CommandoH_black_helmet,											JM's Long Live The Empire,									blacklisted //OPFOR
+						-Commando helmet H (desert),										JMSLLTE_CommandoH_desert_helmet,										JM's Long Live The Empire,									blacklisted //OPFOR
+						-Commando helmet H (wood),											JMSLLTE_CommandoH_green_helmet,											JM's Long Live The Empire,									blacklisted //OPFOR
+						
+		//============================================= Stealth Helmets:
+
+				Workshop Mods:
+						-[Emp] Scouttrooper helmet,											JMSLLTE_Scouttrooper_helmet,											JM's Long Live The Empire,									whitelisted
+						-[Emp] Scouttrooper helmet (camo),									JMSLLTE_Scouttrooper_wood_helmet,										JM's Long Live The Empire,									whitelisted
+						-[Emp] Stormcommando helmet,										JMSLLTE_Scouttrooper_black_helmet,										JM's Long Live The Empire,									whitelisted
+						-[Emp] Stormtrooper heavy helmet (nova),							JMSLLTE_Stormtrooper_nova_H_helmet,										JM's Long Live The Empire,									whitelisted
+						-[Emp] Stormtrooper helmet (nova),									JMSLLTE_Stormtrooper_nova_helmet,										JM's Long Live The Empire,									whitelisted
+
+		//============================================= Non-Combat Helmets:
+
+				Workshop Mods:
+						-[Emp] Gunner helmet,												JMSLLTE_EmpGunner_helmet,												JM's Long Live The Empire,									whitelisted
+						-[Emp] Navy helmet,													JMSLLTE_EmpNavy_helmet,													JM's Long Live The Empire,									whitelisted
+						-Navy helmet (brown),												JMSLLTE_Navy_brown_helmet,												JM's Long Live The Empire,									blacklisted //OPFOR
+						-Navy helmet (green B),												JMSLLTE_Navy_greenB_helmet,												JM's Long Live The Empire,									blacklisted //OPFOR
+						-Navy helmet (white B),												JMSLLTE_Navy_whiteB_helmet,												JM's Long Live The Empire,									blacklisted //OPFOR
+						-Navy helmet (white),												JMSLLTE_Navy_white_helmet,												JM's Long Live The Empire,									blacklisted //OPFOR
+						-Navy helmet+visor (brown),											JMSLLTE_NavyV_brown_helmet,												JM's Long Live The Empire,									blacklisted //OPFOR
+						-Navy helmet+visor (green O),										JMSLLTE_NavyV_greenO_helmet,											JM's Long Live The Empire,									blacklisted //OPFOR
+						-Navy helmet_visor (white),											JMSLLTE_NavyV_white_helmet,												JM's Long Live The Empire,									blacklisted //OPFOR
+
+		//============================================= Pilot Helmets:
+
+				Workshop Mods:
+						-[Emp] TIE pilot helmet,											JMSLLTE_EmpTiePilot_helmet,												JM's Long Live The Empire,									whitelisted
+						-[Emp] TIE pilot helmet (apex),										JMSLLTE_EmpTiePilot_apex_helmet,										JM's Long Live The Empire,									whitelisted
+						-[Emp] TIE pilot helmet (elite),									JMSLLTE_EmpTiePilot_elite_helmet,										JM's Long Live The Empire,									whitelisted
+						-[Emp] TIE pilot helmet (grey),										JMSLLTE_EmpTiePilot_grey_helmet,										JM's Long Live The Empire,									whitelisted
+						-[Emp] TIE pilot helmet (storm),									JMSLLTE_EmpTiePilot_storm_helmet,										JM's Long Live The Empire,									whitelisted
+						-[Emp] TIE pilot helmet (striker),									JMSLLTE_EmpTiePilot_striker_helmet,										JM's Long Live The Empire,									whitelisted
+						-Snow helmet,														JMSLLTE_Snow_1_helmet,													JM's Long Live The Empire,									blacklisted //OPFOR
+						-Desert helmet,														JMSLLTE_Desert_1_helmet,												JM's Long Live The Empire,									blacklisted //OPFOR
+
+		//============================================= Hats:
+
+				Workshop Mods:
+						-[Emp] Officer cap (black),											JMSLLTE_EmpOfficerCap_black_helmet,										JM's Long Live The Empire,									whitelisted
+						-[Emp] Officer cap (green),											JMSLLTE_EmpOfficerCap_green_helmet,										JM's Long Live The Empire,									whitelisted
+						-[Emp] Officer cap (grey),											JMSLLTE_EmpOfficerCap_grey_helmet,										JM's Long Live The Empire,									whitelisted
+						-[Emp] Officer cap (trooper),										JMSLLTE_EmpOfficerCap_troop_helmet,										JM's Long Live The Empire,									whitelisted
+						-Pathfinder cap (black),											JMSLLTE_Path_1_black_cap,												JM's Long Live The Empire,									blacklisted //OPFOR
+						-Pathfinder cap (brown),											JMSLLTE_Path_1_brown_cap,												JM's Long Live The Empire,									blacklisted //OPFOR
+						-Pathfinder cap (white),											JMSLLTE_Path_1_white_cap,												JM's Long Live The Empire,									blacklisted //OPFOR
+						-Snow helmet,														JMSLLTE_Snow_1_helmet,													JM's Long Live The Empire,									blacklisted //OPFOR
+						-Snow helmet (covered),												JMSLLTE_Snow_2_helmet,													JM's Long Live The Empire,									blacklisted //OPFOR
+						-Snow helmet (glasses),												JMSLLTE_Snow_1_2_helmet,												JM's Long Live The Empire,									blacklisted //OPFOR
+						-Snow helmet (scarf),												JMSLLTE_Snow_1_3_helmet,												JM's Long Live The Empire,									blacklisted //OPFOR
+						-Snow helmet (white),												JMSLLTE_Snow_1_white_helmet,											JM's Long Live The Empire,									blacklisted //OPFOR
+
+==========
+EQUIPMENT:
+==========
+
+		//============================================= Night Vision Goggles:
+
+				Workshop Mods:
+						-Deathtrooper scanner,												JMSLLTE_DTscanner,														JM's Long Live The Empire,									whitelisted
+						-Night vision system,												JMSLLTE_NVChip,															JM's Long Live The Empire,									whitelisted
+						-Night vision system (TI),											JMSLLTE_TIChip,															JM's Long Live The Empire,									whitelisted
+
+		//============================================= Binoculars:
+
+				Workshop Mods:
+						-TD2.3 Electrobinoculars (black),									JMSLLTE_W_TD23_black_F,													JM's Long Live The Empire,									whitelisted
+						-TD2.3 Electrobinoculars (green),									JMSLLTE_W_TD23_green_F,													JM's Long Live The Empire,									whitelisted
+						-TD2.3 Electrobinoculars (tan),										JMSLLTE_W_TD23_tan_F,													JM's Long Live The Empire,									whitelisted
+						-TD2.3 Electrobinoculars (white),									JMSLLTE_W_TD23_white_F,													JM's Long Live The Empire,									whitelisted
+			
+		//============================================= Maps:
+
+				Vanilla:
+						-,																						,																		,															whitelisted
+
+		//============================================= Terminals:
+
+				Vanilla:
+						-,																						,																		,															whitelisted
+
+		//============================================= Radios:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Navigation:
+
+				Vanilla:
+						-,																						,																		,															whitelisted
+
+		//============================================= Watches:
+
+				Vanilla:
+						-,																						,																		,															whitelisted
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+						
+		//============================================= Inventory Items
+
+				Vanilla:
+						-,																						,																		,															whitelisted
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted

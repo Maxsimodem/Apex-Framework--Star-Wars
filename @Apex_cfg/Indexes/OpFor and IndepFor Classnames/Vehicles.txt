@@ -1,0 +1,8 @@
+GAR
+	Name:						Variable:					Type:						Mod:
+		LAAT/CIS											Rotary Blade				3AS
+		[3AS] LAAT/LE (Police								Rotary Blade				3AS
+		[717th] LAAT/LE (Base)								Rotary Blade				771th Auxiliary Assets
+
+CIS
+	Name:						Variable:

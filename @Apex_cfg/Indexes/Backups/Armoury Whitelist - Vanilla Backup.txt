@@ -1,0 +1,1438 @@
+//Invade and Annex: Apex Edition weapon index
+
+//Created by Maxsimodem, 2021-10-23
+//Written in Notepad++
+
+//Last modification made by/on:	-Maxsimodem, 2021-10-25
+
+/*Modification description(s):
+*
+*						-Indexed all Backpacks
+*/
+
+//Full CHANGELOG at bottom of document
+
+/*to-do List:
+*						
+*						-
+*						-
+*						-
+*						-
+*						-
+*						-
+*/
+
+/*This file is used to categorize weapons based on combat role.
+*It is to be used in reference to Invade and Annex: Apex Edition
+*and was created to make sense of the arsenal.sqf file as well as
+*make mod expansion easier.*/
+
+/*NOTICE:
+*THIS IS NOT FUNCTIONING CODE DESPITE USING PROGRAMMER NOTE SYNTAX
+*DO NOT USE THIS AS THE ARSENAL.SQF*/
+
+/*NOTICE:
+*Weapons have been sorted based on aesthetic, size, calibre, and presumed combat role rather than in-game classification.
+*As such, location of weapons is subjective; for example, something you consider to be an assault rifle may be categorized
+*as a DMR or sniper rifle. Should you choose to make changes, place weapons either where you believe they belong or based on
+*in-game classification.*/
+
+/*Format:
+*	1. Every in-game item has been indexex in categories and sub-categories.
+*	2. Every sub-category is denoted by comment slashes ("//"), a series of equals signs ("="), and the name of the sub-category
+*	3. Items are further sorted based on their status as Vanilla (base-game Arma3 and paid expansions) and Modded (workshop content)
+*	4. Items are listed with the following protocol: ("<displayed name>, <class name>, <mod/expansion (if applicable)>, <white/blacklisted>")
+*	5. Items in categories are sorted alphabetically by mod as they would appear in the Arsenal when sorting by mod 
+*	6. A list at the end of the file will detail what types of weapon each roll can use
+*	7. Notes may appear and will be denoted by comment slashes ("//") to the right hand side of the document
+*	8. Weapons will be indexed first, then vests, followed by equipment, headgear, and finally uniform elements.*/
+
+==================
+TEMPLATE CATEGORY:
+==================
+
+		//============================================= Template Sub-Category:
+
+				Vanilla:
+						-,														,												,							whitelisted
+
+				Workshop Mods:
+						-,														,												,							whitelisted
+					
+========
+WEAPONS:
+========
+
+		//============================================= Pistols:
+
+				Vanilla:
+						-4-five .45 ACP,										hgun_Pistol_heavy_01_F, 						Base Arma3,					whitelisted
+						-ACP-C2 .45 ACP,										hgun_ACPC2_F, 									Base Arma3,					whitelisted
+						-P07 9 mm,												hgun_P07_F, 									Base Arma3,					whitelisted
+						-Rook-40 9 mm,											hgun_Rook40_F, 									Base Arma3,					whitelisted
+						-Zubr .45 ACP,											hgun_Pistol_heavy_02_F,							Base Arma3,					whitelisted
+
+						-Starter Pistol,										hgun_Pistol_Signal_F,							Karts,						whitelisted
+
+						-P07 9 mm (Black),										hgun_P07_blk_F,									Apex,						whitelisted
+						-P07 9 mm (Khaki),										hgun_P07_khk_F,									Apex,						whitelisted
+						-PM 9 mm,												hgun_Pistol_01_F,								Apex,						whitelisted
+
+						-4-five .45 ACP (Green),								hgun_Pistol_heavy_01_green_F,	 				Contact, 					whitelisted
+						-Spectrum Device,										hgun_esd_01_F, 									Contact, 					whitelisted
+
+				Workshop Mods:
+						-,														,												,							whitelisted
+
+		//============================================= Sub-Machine Guns:
+
+				Vanilla:
+						-ADR-97 5.7mm (Black),									SMG_03_black,									Base Arma3,					whitelisted
+						-ADR-97 5.7mm (Camo),									SMG_03_camo,									Base Arma3,					whitelisted
+						-ADR-97 5.7mm (Hex),									SMG_03_hex,										Base Arma3,					whitelisted
+						-ADR-97 5.7mm (Khaki),									SMG_03_khaki,									Base Arma3,					whitelisted
+						-ADR-97 TR 5.7mm (Black),								SMG_03_TR_black,								Base Arma3,					whitelisted
+						-ADR-97 TR 5.7mm (Camo),								SMG_03_TR_camo,									Base Arma3,					whitelisted
+						-ADR-97 TR 5.7mm (Hex),									SMG_03_TR_hex,									Base Arma3,					whitelisted
+						-ADR-97 TR 5.7mm (Khaki),								SMG_03_TR_khaki,								Base Arma3,					whitelisted
+						-ADR-97C 5.7mm (Black),									SMG_03C_black,									Base Arma3,					whitelisted
+						-ADR-97C 5.7mm (Camo),									SMG_03C_camo,									Base Arma3,					whitelisted
+						-ADR-97C 5.7mm (Hex),									SMG_03C_hex,									Base Arma3,					whitelisted
+						-ADR-97C 5.7mm (Khaki),									SMG_03C_khaki,									Base Arma3,					whitelisted
+						-ADR-97C TR 5.7mm (Black),								SMG_03C_TR_black,								Base Arma3,					whitelisted
+						-ADR-97C TR 5.7mm (Camo),								SMG_03C_TR_camo,								Base Arma3,					whitelisted
+						-ADR-97C TR 5.7mm (Hex),								SMG_03C_TR_hex,									Base Arma3,					whitelisted
+						-ADR-97C TR 5.7mm (Khaki),								SMG_03C_TR_khaki,								Base Arma3,					whitelisted
+						-PDW2000 9 mm,											hgun_PDW2000_f,									Base Arma3,					whitelisted
+						-Sting 9 mm,											SMG_02_F,										Base Arma3,					whitelisted
+						-Vermin SMG .45 ACP,									SMG_01_F,										Base Arma3,					whitelisted
+
+						-AKS-74U 5.45 mm,										arifle_AKS_F,									Apex,						whitelisted
+						-Protector 9 mm,										SMG_05_f,										Apex,						whitelisted
+
+				Workshop Mods:
+						-,														,												,							whitelisted
+
+		//============================================= Machine Guns:
+
+				Vanilla:
+						-Mk200 6.5mm,											LMG_Mk200_F,									Base Arma3,					whitelisted
+						-Zafir 7.62 mm,											LMG_Zafir_F,									Base Arma3,					whitelisted
+
+						-Navid 9.3 mm (Hex),									MMG_01_hex_F,									Marksman,					whitelisted
+						-Navid 9.3 mm (Tan),									MMG_01_tan_F,									Marksman,					whitelisted
+						-SPMG .338 (Black),										MMG_02_black_F,									Marksmen,					whitelisted
+						-SPMG .338 (MTP),										MMG_02_camo_F,									Marksmen,					whitelisted
+						-SPMG .338 (Sand),										MMG_02_sand_F,									Marksmen,					whitelisted
+
+						-LIM-85 5.56 mm,										LMG_03_F,										Apex,						whitelisted
+
+						-Mk200 6.5mm (Black),									LMG_Mk200_black_F,								Contact,					whitelisted
+						-RPK-12 7.62 mm,										arifle_RPK12_F,									Contact,					whitelisted
+						-RPK-12 7.62 mm (Arid),									arifle_RPK12_arid_F,							Contact,					whitelisted
+						-RPK-12 7.62 mm (Lush),									arifle_RPK12_lush_F,							Contact,					whitelisted
+
+				Workshop Mods:
+						-,														,												,							whitelisted
+
+		//============================================= Assault Rifles:
+
+				Vanilla:
+						-Katiba 6.5 mm,											arifle_Katiba_F,								Base Arma3,					whitelisted
+						-Katiba Carbine 6.5 mm,									arifle_Katiba_C_F,								Base Arma3,					whitelisted
+						-Katiba GL 6.5 mm,										arifle_Katiba_GL_F,								Base Arma3,					whitelisted
+						-Mk20 5.56 mm,											arifle_Mk20_plain_F,							Base Arma3,					whitelisted
+						-Mk20 5.56 mm (Camo),									arifle_Mk20_F,									Base Arma3,					whitelisted
+						-Mk20 EGLM 5.56 mm,										arifle_Mk20_GL_plain_F,							Base Arma3,					whitelisted
+						-Mk20 EGLM 5.56 mm (Camo),								arifle_Mk20_GL_F,								Base Arma3,					whitelisted
+						-Mk20C 5.56 mm,											arifle_Mk20C_plain_F,							Base Arma3,					whitelisted
+						-Mk20C 5.56 mm (Camo),									arifle_Mk20C_F,									Base Arma3,					whitelisted
+						-MX 3GL 6.5mm (Black),									arifle_MX_GL_Black_F,							Base Arma3,					whitelisted
+						-MX 3GL 6.5mm,											arifle_MX_GL_F,									Base Arma3,					whitelisted
+						-MX 6.5mm (Black),										arifle_MX_Black_F,								Base Arma3,					whitelisted
+						-MX 6.5mm,												arifle_MX_F,									Base Arma3,					whitelisted
+						-MX SW 6.5mm (Black),									arifle_MX_SW_Black_F,							Base Arma3,					whitelisted
+						-MX SW 6.5mm,											arifle_MX_SW_F,									Base Arma3,					whitelisted
+						-MXC 6.5mm (Black),										arifle_MXC_Black_F,								Base Arma3,					whitelisted
+						-MXC 6.5mm,												arifle_MXC_F,									Base Arma3,					whitelisted
+						-MXM 6.5mm (Black),										arifle_MXM_Black_F,								Base Arma3,					whitelisted
+						-MXM 6.5mm,												arifle_MXMC_F,									Base Arma3,					whitelisted
+						-SDAR 5.56 mm,											arifle_SDAR_F,									Base Arma3,					whitelisted
+						-TRG-20 5.56 mm,										arifle_TRG20_F,									Base Arma3,					whitelisted
+						-TRG-21 5.56 mm,										arifle_TRG21_F,									Base Arma3,					whitelisted
+						-TRG-21 EGLM 5.56 mm,									arifle_TRG21_GL_F,								Base Arma3,					whitelisted
+
+						-AK-12 7.62 mm,											arifle_AK12_F,									Apex,						whitelisted
+						-AK-12 GL 7.62 mm,										arifle_AK12_GL_F,								Apex,						whitelisted
+						-AKM 7.62 mm,											arifle_AKM_F,									Apex,						whitelisted
+						-CAR-95-1 5.8mm (Black),								arifle_CTARS_blk_F,								Apex,						whitelisted
+						-CAR-95-1 5.8mm (Green Hex),							arifle_CTARS_ghex_F,							Apex,						whitelisted
+						-CAR-95-1 5.8mm (Hex),									arifle_CTARS_hex_F,								Apex,						whitelisted
+						-CAR-95 5.8mm (Black),									arifle_CTAR_blk_F,								Apex,						whitelisted
+						-CAR-95 5.8mm (Green Hex), 								arifle_CTAR_ghex_F,								Apex,						whitelisted
+						-CAR-95 5.8mm (Hex),									arifle_CTAR_hex_F,								Apex,						whitelisted
+						-CAR-95 GL 5.8mm (Black),								arifle_CTAR_GL_blk_F,							Apex,						whitelisted
+						-CAR-95 GL 5.8mm (Green Hex),							arifle_CTAR_GL_ghex_F,							Apex,						whitelisted
+						-CAR-95 GL 5.8mm (Hex),									arifle_CTAR_GL_hex_F,							Apex,						whitelisted
+						-MX 3GL 6.5mm (Khaki),									arifle_MX_GL_khk_F,								Apex,						whitelisted
+						-MX 6.5 mm (Khaki),										arifle_MX_khk_F,								Apex,						whitelisted
+						-MX SW 6.5 mm (Khaki),									arifle_MX_SW_khk_F,								Apex,						whitelisted
+						-MXC 6.5 mm (Khaki),									arifle_MXC_khk_F,								Apex,						whitelisted
+						-MXM 6.5 mm (Khaki),									arifle_mxm_khk_F,								Apex,						whitelisted
+						-SPAR-16 5.56 mm (Black),								arifle_SPAR_01_blk_F,							Apex,						whitelisted
+						-SPAR-16 5.56 mm (Khaki),								arifle_SPAR_01_khk_F,							Apex,						whitelisted
+						-SPAR-16 5.56 mm (Sand),								arifle_SPAR_01_snd_F,							Apex,						whitelisted
+						-SPAR-16 GL 5.56 mm (Black),							arifle_SPAR_01_GL_blk_F,						Apex,						whitelisted
+						-SPAR-16 GL 5.56 mm (Khaki),							arifle_SPAR_01_GL_khk_F,						Apex,						whitelisted
+						-SPAR-16 GL 5.56 mm (Sand),								arifle_SPAR_01_GL_snd_F,						Apex,						whitelisted
+						-SPAR-16S 5.56 mm (Black),								arifle_SPAR_02_blk_F,							Apex,						whitelisted
+						-SPAR-16S 5.56 mm (Khaki),								arifle_SPAR_02_khk_F,							Apex,						whitelisted
+						-SPAR-16S 5.56 mm (Sand),								arifle_SPAR_02_snd_F,							Apex,						whitelisted
+						-Type 115 6.5 mm (Black),								arifle_ARX_blk_F,								Apex,						whitelisted
+						-Type 115 6.5 mm (Green Hex),							arifle_ARX_ghex_F,								Apex,						whitelisted
+						-Type 115 6.5 mm (Hex),									arifle_ARX_hex_F,								Apex,						whitelisted
+
+						-AK-12 7.62 mm (Arid),									arifle_AK12_arid_F,								Contact,					whitelisted
+						-AK-12 7.62 mm (Lush),									arifle_AK12_lush_F,								Contact,					whitelisted
+						-AK-12 GL 7.62 mm (Arid),								arifle_AK12_GL_arid_F,							Contact,					whitelisted
+						-AK-12 GL 7.62 mm (Lush),								arifle_AK12_GL_lush_F,							Contact,					whitelisted
+						-AKU-12 7.62 mm,										arifle_AK12U_F,									Contact,					whitelisted
+						-AKU-12 7.62 mm (Arid),									arifle_AK12U_arid_F,							Contact,					whitelisted
+						-AKU-12 7.62 mm (Lush),									arifle_AK12U_lush_F,							Contact,					whitelisted
+						-Promet 6.5 mm,											arifle_MSBS65_F,								Contact,					whitelisted
+						-Promet 6.5 mm (Black),									arifle_MSBS65_black_F,							Contact,					whitelisted
+						-Promet 6.5 mm (Camo),									arifle_MSBS65_camo_F,							Contact,					whitelisted
+						-Promet 6.5 mm (Sand),									arifle_MSBS65_sand_F,							Contact,					whitelisted
+						-Promet GL 6.5 mm,										arifle_MSBS65_GL_F,								Contact,					whitelisted
+						-Promet GL 6.5 mm (Black),								arifle_MSBS65_GL_black_F,						Contact,					whitelisted
+						-Promet GL 6.5 mm (Camo),								arifle_MSBS65_GL_camo_F,						Contact,					whitelisted
+						-Promet GL 6.5 mm (Sand),								arifle_MSBS65_GL_sand_F,						Contact,					whitelisted
+						-Promet MR 6.5 mm,										arifle_MSBS65_Mark_F,							Contact,					whitelisted
+						-Promet MR 6.5 mm (Black),								arifle_MSBS65_Mark_black_F,						Contact,					whitelisted
+						-Promet MR 6.5 mm (Camo),								arifle_MSBS65_Mark_camo_F,						Contact,					whitelisted
+						-Promet MR 6.5 mm (Sand),								arifle_MSBS65_Mark_sand_F,						Contact,					whitelisted
+						-Promet SG 6.5 mm,										arifle_MSBS65_UBS_F,							Contact,					whitelisted
+						-Promet SG 6.5 mm (Black),								arifle_MSBS65_UBS_black_F,						Contact,					whitelisted
+						-Promet SG 6.5 mm (Camo),								arifle_MSBS65_UBS_camo_F,						Contact,					whitelisted
+						-Promet SG 6.5 mm (Sand),								arifle_MSBS65_UBS_sand_F,						Contact,					whitelisted
+
+				Workshop Mods:
+						-,														,												,							whitelisted
+
+		//============================================= Designated Marksman/Battle Rifles:
+
+				Vanilla:
+						-Mk18 ADR 7.62mm,										srifle_EBR_F,									Base Arma3,					whitelisted
+						-Rahim 7.62 mm,											srifle_DRM_01_F,								Base Arma3,					whitelisted
+
+						-Mk-I EMR 7.62 mm (Black),								srifle_DMR_03_F,								Marksmen,					whitelisted
+						-Mk-I EMR 7.62 mm (Camo),								srifle_DMR_03_multicam_F,						Marksmen,					whitelisted
+						-Mk-I EMR 7.62 mm (Khaki),								srifle_DMR_03_khaki_F,							Marksmen,					whitelisted
+						-Mk-I EMR 7.62 mm (Sand),								srifle_DMR_03_tan_F,							Marksmen,					whitelisted
+						-Mk-I EMR 7.62 mm (Woodland),							srifle_DMR_03_woodland_F,						Marksmen,					whitelisted
+						-Mk14 7.62 mm (Camo),									srifle_DMR_06_camo_F,							Marksmen,					whitelisted
+						-Mk14 7.62 mm (Olive),									srifle_DMR_06_olive_F,							Marksmen,					whitelisted
+
+						-CMR-76 6.5 mm (Black),									srifle_DMR_07_blk_F,							Apex,						whitelisted
+						-CMR-76 6.5 mm (Green Hex),								srifle_DMR_07_ghex_F,							Apex,						whitelisted
+						-CMR-76 6.5 mm (Hex),									srifle_DMR_07_hex_F,							Apex,						whitelisted
+						-SPAR-17 5.56 mm (Black),								arifle_SPAR_03_blk_F,							Apex,						whitelisted
+						-SPAR-17 5.56 mm (Khaki),								arifle_SPAR_03_khk_F,							Apex,						whitelisted
+						-SPAR-17 5.56 mm (Sand),								arifle_SPAR_03_snd_F,							Apex,						whitelisted
+
+						-Mk14 7.62 mm (Classic),								srifle_DMR06_hunter_F							Contact,					whitelisted
+
+				Workshop Mods:
+						-,														,												,							whitelisted
+
+		//============================================= Sniper Rifles:
+
+				Vanilla:
+						-GM6 Lynx 12.7mm,										srifle_GM6_F,									Base Arma3,					whitelisted
+						-GM6 Lynx 12.7mm (Camo),								srifle_GM6_camo_F,								Base Arma3,					whitelisted
+						-M320 LRR .408,											srifle_LRR_F,									Base Arma3,					whitelisted
+						-M320 LRR .408 (Camo),									srifle_LRR_camo_F,								Base Arma3,					whitelisted
+					
+						-ASP-1 Kir 12.7 mm (Black),								srifle_DMR_04_F,								Marksmen,					whitelisted
+						-ASP-1 Kir 12.7 mm (Tan),								srifle_DMR_04_Tan_F,							Marksmen,					whitelisted
+						-Cyrus 9.3mm (Black),									srifle_DMR_05_blk_f,							Marksmen,					whitelisted
+						-Cyrus 9.3mm (Hex),										srifle_DMR_05_hex_F,							Marksmen,					whitelisted
+						-Cyrus 9.3mm (Tan),										srifle_DMR_05_tan_F,							Marksmen,					whitelisted
+						-MAR-10 .338 (Black),									srifle_DMR_02_F,								Marksmen,					whitelisted
+						-MAR-10 .338 (Camo),									srifle_DMR_02_camo_F,							Marksmen,					whitelisted
+						-MAR-10 .338 (Sand),									srifle_DMR_02_sniper_F,							Marksmen,					whitelisted
+
+						-GM6 Lynx 12.7 mm (Green Hex),							srifle_GM6_ghex_F,								Apex,						whitelisted
+						-M320 LRR .408 (Tropic),								srifle_LRR_tna_F,								Apex,						whitelisted
+
+				Workshop Mods:
+						-,														,												,							whitelisted
+
+		//============================================= Shotguns:
+
+				Vanilla:
+						-Kozlice 12G,											sgun_HunterShotgun_01_F,						Contact,					whitelisted
+						-Kozlice 12G (Sawed-Off),								sgun_HunterShotgun_sawedoff_01_F,				Contact,					whitelisted
+
+				Workshop Mods:
+						-,														,												,							whitelisted
+
+		//============================================= Light Rocket Launchers:
+
+				Vanilla:
+						-PCML,													launch_NLAW_F,									Base Arma3,					whitelisted
+						-RPG-42 Alamut,											launch_RPG32_F,									Base Arma3,					whitelisted
+						-Titan MRPL Compact (Coyote),							launch_O_Titan_short_F,							Base Arma3,					whitelisted
+						-Titan MRPL Compact (Olive),							launch_I_Titan_short_F,							Base Arma3,					whitelisted
+						-Titan MRPL Compact (Sand),								launch_B_Titan_short_F,							Base Arma3,					whitelisted
+
+						-RPG-42 Alamut (Green Hex),								launch_RPG32_ghex_F								Apex,						whitelisted
+						-RPG-7,													launch_RPG7_F,									Apex,						whitelisted
+						-Titan MPRL Compact (Green Hex),						launch_O_Titan_short_ghex_F,					Apex,						whitelisted
+						-Titan MPRL Compact (Tropic),							launch_B_Titan_short_tna_F,						Apex,						whitelisted
+
+						-RPG-42 (Green),										launch_RPG32_green_F,							Contact,					whitelisted
+
+						-MAAWS Mk4 Mod 0 (Green),								launch_MRAWS_green_rail_F,						Tanks,						whitelisted
+						-MAAWS Mk4 Mod 0 (Green),								launch_MRAWS_olive_rail_F,						Tanks,						whitelisted
+						-MAAWS Mk4 Mod 0 (Green),								launch_MRAWS_sand_rail_F,						Tanks,						whitelisted
+						-MAAWS Mk4 Mod 1 (Green),								launch_MRAWS_green_F,							Tanks,						whitelisted
+						-MAAWS Mk4 Mod 1 (Green),								launch_MRAWS_olive_F,							Tanks,						whitelisted
+						-MAAWS Mk4 Mod 1 (Green),								launch_MRAWS_sand_F,							Tanks,						whitelisted
+
+				Workshop Mods:
+						-,														,												,							whitelisted
+
+		//============================================= Heavy Rocket Launchers:
+
+				Vanilla:
+						-Titan MRPL (Digital),									launch_I_Titan_F,								Base Arma3,					whitelisted
+						-Titan MRPL (Hex),										launch_O_Titan_F,								Base Arma3,					whitelisted
+						-Titan MRPL (Sand),										launch_B_Titan_F,								Base Arma3,					whitelisted
+
+						-Titan MRPL (Green Hex),								launch_O_Titan_ghex_F,							Apex,						whitelisted
+						-Titan MRPL (Tropic),									launch_B_Titan_tna_F,							Apex,						whitelisted
+
+						-Titan MRPL (Geometric),								launch_I_Titan_eaf_F,							Contact,					whitelisted
+						-Titan MRPL (Olive),									launch_B_Titan_olive_F,							Contact,					whitelisted
+
+						-9M135 Vorona (Brown),									launch_O_Vorona_brown_F,						Tanks,						whitelisted
+						-9M135 Vorona (Green),									launch_O_Vorona_green_F,						Tanks,						whitelisted
+
+				Workshop Mods:
+						-,														,												,							whitelisted
+					
+=================
+UNIFORM ELEMENTS:
+=================
+			
+		//============================================= Glasses and Goggles:
+
+				Vanilla:
+						-Aviator Glasses,										G_Aviator,										Base Arma3,					whitelisted
+						-Combat Goggles,										G_Combat,										Base Arma3,					whitelisted
+						-Diving Goggles,										G_Diving,										Base Arma3,					whitelisted
+						-Diving Goggles [AAF],									G_I_Diving,										Base Arma3,					whitelisted
+						-Diving Goggles [CSAT],									G_O_Diving,										Base Arma3,					whitelisted
+						-Diving Goggles [NATO],									G_B_Diving,										Base Arma3,					whitelisted
+						-Ladies Shades,											G_Lady_Blue,									Base Arma3,					whitelisted
+						-Low Profile Goggles,									G_Lowprofile,									Base Arma3,					whitelisted
+						-Shades (Black),										G_Shades_Black,									Base Arma3,					whitelisted
+						-Shades (Blue),											G_Shades_Blue,									Base Arma3,					whitelisted
+						-Shades (Green),										G_Shades_Green,									Base Arma3,					whitelisted
+						-Shades (Red),											G_Shades_Red,									Base Arma3,					whitelisted
+						-Spectacle Glasses,										G_Spectacles,									Base Arma3,					whitelisted
+						-Sport Shades (Fire),									G_Sport_Red,									Base Arma3,					whitelisted
+						-Sport Shades (Poison),									G_Sport_Blackyellow,							Base Arma3,					whitelisted
+						-Sport Shades (Shadow),									G_Sport_BlackWhite,								Base Arma3,					whitelisted
+						-Sport Shades (Style),									G_Sport_Checkered,								Base Arma3,					whitelisted
+						-Sport Shades (Vulcan),									G_Sport_Blackred,								Base Arma3,					whitelisted
+						-Sport Shades (Yetti),									G_Sport_Greenblack,								Base Arma3,					whitelisted
+						-Square Shades,											G_Squares_Tinted,								Base Arma3,					whitelisted
+						-Square Spectacles,										G_Squares,										Base Arma3,					whitelisted
+						-Tactical Glasses,										G_Tactical_Clear								Base Arma3,					whitelisted
+						-Tactical Shades,										G_Tactical_Black								Base Arma3,					whitelisted
+						-VR Goggles												G_Goggles_VR,									Base Arma3,					blacklisted	
+
+						-Combat Goggles (Green),								G_Combat_Goggles_tna_F,							Apex,						whitelisted
+						
+						-Safety Goggles,										G_EyeProtectors_F,								Laws of War,				whitelisted
+						-Safety Goggles (Earpiece),								G_EyeProtectors_Earpiece_F,						Laws of War,				whitelisted
+						-Wireless Earpiece,										G_WirelessEarpiece_F,							Laws of War,				whitelisted
+
+				Workshop Mods:
+						-,														,												,							whitelisted
+
+		//============================================= Face Coverings:
+
+				Vanilla:
+						-Balaclava (Black),										G_Balaclava_blk,								Base Arma3,					whitelisted
+						-Balaclava (Combat Goggles),							G_Balaclava_combat,								Base Arma3,					whitelisted
+						-Balaclava (Low Profile Goggles),						G_Balaclava_lowprofile,							Base Arma3,					whitelisted
+						-Balaclava (Olive),										G_Balaclava_oli,								Base Arma3,					whitelisted
+						-Bandana (Aviator),										G_Bandanna_aviator,								Base Arma3,					whitelisted
+						-Bandana (Beast),										G_Bandanna_beast,								Base Arma3,					whitelisted
+						-Bandana (Black),										G_Bandanna_blk,									Base Arma3,					whitelisted
+						-Bandana (Khaki),										G_Bandanna_khk,									Base Arma3,					whitelisted
+						-Bandana (Olive),										G_Bandanna_oli,									Base Arma3,					whitelisted
+						-Bandana (Shades),										G_Bandanna_shades,								Base Arma3,					whitelisted
+						-Bandana (Sport),										G_Bandanna_sport,								Base Arma3,					whitelisted
+						-Bandana (Tan),											G_Bandanna_tan,									Base Arma3,					whitelisted
+						
+						-Stealth Balaclava (Black),								G_Balaclava_TI_blk_F,							Apex,						whitelisted
+						-Stealth Balaclava (Black, Goggles),					G_Balaclava_TI_G_blk_F,							Apex,						whitelisted
+						-Stealth Balaclava (Green),								G_Balaclava_TI_tna_F,							Apex,						whitelisted
+						-Stealth Balaclava (Green, Goggles),					G_Balaclava_TI_G_tna_F,							Apex,						whitelisted
+						
+						-Blindfold (Black),										G_Blindfold_01_black_F,							Contact,					whitelisted
+						-Blindfold (White),										G_Blindfold_01_white_F,							Contact,					whitelisted
+					
+				Workshop Mods:
+						-,														,												,							whitelisted
+
+		//============================================= Masks:
+
+				Vanilla:
+						-APR (Black) [CSAT],									G_AirPurifyingRespirator_02_black_F,			Contact,					whitelisted
+						-APR (Olive) [CSAT],									G_AirPurifyingRespirator_02_olive_F,			Contact,					whitelisted
+						-APR (Sand) [CSAT],										G_AirPurifyingRespirator_02_sand_F,				Contact,					whitelisted
+						-APR [NATO],											G_AirPurifyingRespirator_01_F,					Contact,					whitelisted
+						-Regulator Facepiece,									G_RegulatorMask_F,								Contact,					whitelisted
+						
+						-Respirator (Blue),										G_Respirator_blue_F,							Laws of War,				whitelisted
+						-Respirator (White),									G_Respirator_white_F,							Laws of War,				whitelisted
+						-Respirator (Yellow),									G_Respirator_yellow_F,							Laws of War,				whitelisted
+
+				Workshop Mods:
+						-,														,												,							whitelisted
+
+		//============================================= Formalwear/Uniforms:
+
+				Vanilla:
+						-Marshal Clothes,										U_Marshal,										Base Arma3,					whitelisted
+						-Officer Fatigues (Hex),								U_O_OfficerUniform_ocamo,						Base Arma3,					whitelisted
+						
+						-Officer Fatigues (Green Hex) [CSAT],					U_O_T_Officer_F,								Apex,						whitelisted
+						
+						-Combat Fatigues (Officer) [LDF],						U_I_E_Uniform_01_Officer_F						Contact,					whitelisted
+						-Combat Fatigues (Rolled-up) [LDF],						U_I_E_Uniform_01_shortsleeve_F					Contact,					whitelisted
+						
+						-Formal Suit (Black),									U_C_FormalSuit_01_black_F,						Art of War,					whitelisted
+						-Formal Suit (Blue),									U_C_FormalSuit_01_blue_F,						Art of War,					whitelisted
+						-Formal Suit (Gray),									U_C_FormalSuit_01_gray_F,						Art of War,					whitelisted
+						-Formal Suit (Khaki),									U_C_FormalSuit_01_khaki_F,						Art of War,					whitelisted
+						-Formal Suit (T-Shirt, Black),							U_C_FormalSuit_01_tshirt_black_F,				Art of War,					whitelisted
+						-Formal Suit (T-Shirt, Black),							U_C_FormalSuit_01_tshirt_gray_F,				Art of War,					whitelisted
+						-Parade Uniform (Decorated) [AAF],						U_I_ParadeUniform_01_AAF_decorated_F,			Art of War,					whitelisted
+						-Parade Uniform (Decorated) [CSAT],						U_O_ParadeUniform_01_CSAT_decorated_F,			Art of War,					whitelisted
+						-Parade Uniform (Decorated) [LDF],						U_I_E_ParadeUniform_01_LDF_decorated_F,			Art of War,					whitelisted
+						-Parade Uniform (Decorated) [US],						U_B_ParadeUniform_01_US_decorated_F,			Art of War,					whitelisted
+						-Parade Uniform [AAF],									U_I_ParadeUniform_01_AAF_F,						Art of War,					whitelisted
+						-Parade Uniform [CSAT],									U_O_ParadeUniform_01_CSAT_F,					Art of War,					whitelisted
+						-Parade Uniform [LDF],									U_I_E_ParadeUnidorm_01_LDF_F,					Art of War,					whitelisted
+						-Parade Uniform [US],									U_B_ParadeUniform_01_US_F,						Art of War,					whitelisted
+
+				Workshop Mods:
+						-,														,												,							whitelisted
+
+		//============================================= Combat Fatigues:
+
+				Vanilla:
+						-Combat Fatigues (MTP),									U_B_CombatUniform_mcam,							Base Arma3,					whitelisted
+						-Combat Fatigues (MTP) (Tee),							U_B_CombatUniform_mcam_tshirt,					Base Arma3,					whitelisted
+						-Combat Fatigues (Starvrou),							U_I_G_resistanceLeader_F,						Base Arma3,					whitelisted
+						-Combat Fatigues [AAF],									U_I_CombatUniform,								Base Arma3,					whitelisted
+						-Combat Fatigues [AAF] (Officer),						U_I_OfficerUniform,								Base Arma3,					whitelisted
+						-Combat Fatigues (AAF) (Rolled-up),						U_I_CombatUniform_shortsleeve,					Base Arma3,					whitelisted
+						-CTRG Combat Uniform,									U_B_CTRG_1,										Base Arma3,					whitelisted
+						-CTRG Combat Uniform (Rolled-up),						U_B_CTRG_3,										Base Arma3,					whitelisted
+						-CTRG Combat Uniform (Tee),								U_B_CTRG_2,										Base Arma3,					whitelisted
+						-Fatigues (Hex) [CSAT],									U_O_CombatUniform_ocamo,						Base Arma3,					whitelisted
+						-Fatigues (Urban) [CSAT],								U_O_CombatUniform_oucamo,						Base Arma3,					whitelisted
+						-Guerilla Apparel,										U_BG_Guerrillia_6_1,							Base Arma3,					whitelisted
+						-Guerilla Uniform,										U_BG_leader,									Base Arma3,					whitelisted
+						-Recon Fatigues (Hex),									U_O_SpecopsUniform_ocamo,						Base Arma3,					whitelisted
+						-Recon Fatigues (MTP),									U_B_CombatUniform_mcam_vest,					Base Arma3,					whitelisted
+						-Worn Combat Fatigues (Kerry),							U_I_G_Story_Protagonist_F,						Base Arma3,					blacklisted
+						-Worn Combat Fatigues (MPT),							U_B_G_CombatUniform_mcam_worn,					Base Arma3,					whitelisted
+						
+						-Combat Fatigues (Tropic),								U_B_T_Soldier_F,								Apex,						whitelisted
+						-Combat Fatigues (Tropic, Tee),							U_B_T_Soldier_AR_F,								Apex,						whitelisted
+						-CRTG Stealth Uniform,									U_B_CTRG_Soldier_F,								Apex,						whitelisted
+						-CRTG Stealth Uniform (Arid),							U_B_CTRG_Soldier_Arid_F,						Apex,						whitelisted
+						-CRTG Stealth Uniform (Rolled-up),						U_B_CTRG_Soldier_3_F,							Apex,						whitelisted
+						-CRTG Stealth Uniform (Rolled-up, Arid),				U_B_CTRG_Soldier_3_Arid_F,						Apex,						whitelisted
+						-CRTG Stealth Uniform (Tee),							U_B_CTRG_Soldier_2_F,							Apex,						whitelisted
+						-CRTG Stealth Uniform (Tee, Arid),						U_B_CTRG_Soldier_2_Arid_F,						Apex,						whitelisted
+						-CTRG Urban Uniform,									U_B_CTRG_Soldier_urb_1_F,						Apex,						whitelisted
+						-CTRG Urban Uniform (Rolled-up),						U_B_CTRG_Soldier_urb_3_F,						Apex,						whitelisted
+						-CTRG Urban Uniform (Tee),								U_B_CTRG_Soldier_urb_2_F,						Apex,						whitelisted
+						-Fatigues (Green Hex) [CSAT],							U_O_T_Soldier_F,								Apex,						whitelisted
+						-Gendarmerie Commander Uniform,							U_B_GEN_Commander_F,							Apex,						whitelisted
+						-Gendarmerie Uniform,									U_B_GEN_Soldier_F,								Apex,						whitelisted
+						-Paramilitary Garb (Jacket),							U_I_C_Soldier_Para_2_F,							Apex,						whitelisted
+						-Paramilitary Garb (Shirt),								U_I_C_Soldier_Para_3_F,							Apex,						whitelisted
+						-Paramilitary Garb (Shorts),							U_I_C_Soldier_Para_5_F,							Apex,						whitelisted
+						-Paramilitary Garb (Tank Top),							U_I_C_Soldier_Para_4_F,							Apex,						whitelisted
+						-Paramilitary Garb (Tee),								U_I_C_Soldier_Para_1_F,							Apex,						whitelisted
+						-Recon Fatigues (Tropic),								U_B_T_Soldier_SL_F,								Apex,						whitelisted
+						-Special Purpose Suit (Green Hex),						U_O_V_Soldier_Viper_F,							Apex,						whitelisted
+						-Special Purpose Suit (Hex),							U_O_V_Soldier_Viper_hex_F,						Apex,						whitelisted
+						-Syndikat Uniform,										U_I_C_Soldier_Camo_F,							Apex,						whitelisted
+						
+						-CBRN Suit (Blue),										U_C_CBRN_Suit_01_Blue_F,						Contact,					whitelisted
+						-CBRN Suit (MTP) [NATO],								U_B_CBRN_Suit_01_MTP_F,							Contact,					whitelisted
+						-CBRN Suit (Tropic) [NATO],								U_B_CBRN_Suit_01_Tropic_F,						Contact,					whitelisted
+						-CBRN Suit (White),										U_C_CBRN_Suit_01_White_F,						Contact,					whitelisted
+						-CBRN Suit (Woodland) [NATO],							U_B_CBRN_Suit_01_Wdl_F,							Contact,					whitelisted
+						-CBRN Suit [AAF],										U_I_CBRN_Suit_01_AAF_F,							Contact,					whitelisted
+						-CBRN Suit [LDF],										U_I_E_CBRN_Suit_01_EAF_F,						Contact,					whitelisted
+						-Combat Fatigues (Sweater) [LDF],						U_I_E_Uniform_01_sweater_F,						Contact,					whitelisted
+						-Combat Fatigues (Tank Top) [LDF],						U_I_E_Uniform_01_tanktop_F,						Contact,					whitelisted
+						-Combat Fatigues (Woodland),							U_B_CombatUniform_mcam_wdl_f,					Contact,					whitelisted
+						-Combat Fatigues (Woodland, Tee),						U_B_CombatUniform_tshirt_mcam_wdl_f,			Contact,					whitelisted
+						-Combat Fatigues [LDF],									U_I_E_Uniform_01_F,								Contact,					whitelisted
+						-Deserter Clothes (Jacket)								U_I_L_Uniform_01_camo_F,						Contact,					whitelisted
+						-Deserter Clothes (T-Shirt),							U_I_L_Uniform_01_deserter_F,					Contact,					whitelisted
+						-Granit-B Suit,											U_O_R_Gorka_01_F,								Contact,					whitelisted
+						-Granit-B Suit (Weathered),								U_O_R_Gorka_01_brown_F,							Contact,					whitelisted
+						-Granit-T Suit,											U_O_R_Gorka_01_camo_F,							Contact,					whitelisted
+						-Recon Fatigues (Woodland),								U_B_CombatUniform_vest_mcam_wdl_f,				Contact,					whitelisted
+					
+						-Light Fatigues (Hex),									U_O_officer_noInsignia_hex_F,					Tac-Ops,					whitelisted
+					
+				Workshop Mods:
+						-,														,												,							whitelisted
+					
+		//============================================= Ghillie Suits:
+
+				Vanilla:
+						-Full Ghillie (Arid) [AAF],								U_I_FullGhillie_ard,							Base Arma3,					whitelisted
+						-Full Ghillie (Arid) [CSAT],							U_O_FullGhillie_ard,							Base Arma3,					whitelisted
+						-Full Ghillie (Arid) [NATO],							U_B_FullGhillie_ard,							Base Arma3,					whitelisted
+						-Full Ghillie (Lush) [AAF],								U_I_FullGhillie_lsh,							Base Arma3,					whitelisted
+						-Full Ghillie (Lush) [CSAT],							U_O_FullGhillie_lsh,							Base Arma3,					whitelisted
+						-Full Ghillie (Lush) [NATO],							U_B_FullGhillie_lsh,							Base Arma3,					whitelisted
+						-Full Ghillie (Semi-Arid) [AAF],						U_I_FullGhillie_sard,							Base Arma3,					whitelisted
+						-Full Ghillie (Semi-Arid) [CSAT],						U_O_FullGhillie_sard,							Base Arma3,					whitelisted
+						-Full Ghillie (Semi-Arid) [NATO],						U_B_FullGhillie_sard,							Base Arma3,					whitelisted
+						-Ghillie Suit [AAF],									U_I_GhillieSuit,								Base Arma3,					whitelisted
+						-Ghillie Suit [CSAT],									U_O_GhillieSuit,								Base Arma3,					whitelisted
+						-Ghillie Suit [NATO],									U_B_GhillieSuit,								Base Arma3,					whitelisted
+						-Survival Fatigues,										U_B_survival_uniform,							Base Arma3,					whitelisted
+						
+						-Full Ghillie (Jungle) [CSAT],							U_O_T_FullGhillie_tna_F,						Apex,						whitelisted
+						-Full Ghillie (Jungle) [NATO],							U_B_T_FullGhillie_tna_F,						Apex,						whitelisted
+						-Ghillie Suit (Green Hex) [CSAT],						U_O_T_Sniper_F,									Apex,						whitelisted
+						-Ghillie Suit (Tropic) [NATO],							U_B_T_Sniper_F,									Apex,						whitelisted
+
+				Workshop Mods:
+						-,														,												,							whitelisted
+
+		//============================================= Coveralls:
+
+				Vanilla:
+						-Driver Coverall (Black),								U_C_Driver_1_black,								Base Arma3,					whitelisted
+						-Driver Coverall (Blue),								U_C_Driver_1_blue,								Base Arma3,					whitelisted
+						-Driver Coverall (Bluking),								U_C_Driver_2,									Base Arma3,					whitelisted
+						-Driver Coverall (Fuel),								U_C_Driver_1,									Base Arma3,					whitelisted
+						-Driver Coverall (Green),								U_C_Driver_1_green,								Base Arma3,					whitelisted
+						-Driver Coverall (Orange),								U_C_Driver_1_orange,							Base Arma3,					whitelisted
+						-Driver Coverall (Red),									U_C_Driver_1_red,								Base Arma3,					whitelisted
+						-Driver Coverall (Redstone),							U_C_Driver_3,									Base Arma3,					whitelisted
+						-Driver Coverall (Vrana),								U_C_Driver_4,									Base Arma3,					whitelisted
+						-Driver Coverall (White),								U_C_Driver_1_white,								Base Arma3,					whitelisted
+						-Driver Coverall (Yellow),								U_C_Driver_1_yellow,							Base Arma3,					whitelisted
+						-Heli Pilot Coveralls [AAF],							U_I_HeliPilotCoveralls,							Base Arma3,					whitelisted
+						-Heli Pilot Coveralls [NATO],							U_B_HeliPilotCoveralls,							Base Arma3,					whitelisted
+						-Pilot Coveralls [AAF],									U_I_pilotCoveralls,								Base Arma3,					whitelisted
+						-Pilot Coveralls [CSAT],								U_O_pilotCoveralls,								Base Arma3,					whitelisted
+						-Pilot Coveralls [NATO],								U_B_pilotCoveralls,								Base Arma3,					whitelisted
+						-Scientist Clothes,										U_C_Scientist,									Base Arma3,					whitelisted
+						-VR Suit [AAF],											U_I_Protagonist_VR,								Base Arma3,					blacklisted
+						-VR Suit [Civilians],									U_C_Protagonist_VR,								Base Arma3,					blacklisted
+						-VR Suit [CSAT],										U_O_Protagonist_VR,								Base Arma3,					blacklisted
+						-VR Suit [NATO],										U_B_Protagonist_VR,								Base Arma3,					blacklisted
+						-Wetsuit [AAF],											U_I_Wetsuit,									Base Arma3,					whitelisted
+						-Wetsuit [CSAT],										U_O_Wetsuit,									Base Arma3,					whitelisted
+						-Wetsuit [NATO],										U_B_Wetsuit,									Base Arma3,					whitelisted
+						-Worker Coveralls,										U_C_WorkerCoveralls,							Base Arma3,					whitelisted
+						
+						-Heli Pilot Coveralls [LDF],							U_I_E_Uniform_01_coveralls_F,					Contact,					whitelisted
+						
+						-Tanker Coveralls [AAF],								U_Tank_green_F,									Tanks,						whitelisted
+						
+						-Construction Coverall (Black),							U_C_ConstructionCoverall_Black_F,				Laws of War,				whitelisted
+						-Construction Coverall (Blue),							U_C_ConstructionCoverall_Blue_F,				Laws of War,				whitelisted
+						-Construction Coverall (Red),							U_C_ConstructionCoverall_Red_F,					Laws of War,				whitelisted
+						-Construction Coverall (Vrana),							U_C_ConstructionCoverall_Vrana_F,				Laws of War,				whitelisted
+						-Paramedic Outfit,										U_C_Paramedic_01_F,								Laws of War,				whitelisted
+
+				Workshop Mods:
+						-,														,												,							whitelisted
+
+		//============================================= Civilian Clothing:
+
+				Vanilla:
+						-Commoner Clothes (Blue),								U_C_Poloshirt_blue,								Base Arma3,					whitelisted
+						-Commoner Clothes (Burgundy),							U_C_Poloshirt_burgundy,							Base Arma3,					whitelisted
+						-Commoner Clothes (Red-White),							U_C_Poloshirt_redwhite,							Base Arma3,					whitelisted
+						-Commoner Clothes (Salmon),								U_C_Poloshirt_salmon,							Base Arma3,					whitelisted
+						-Commoner Clothes (Striped),							U_C_Poloshirt_stripped,							Base Arma3,					whitelisted
+						-Commoner Clothes (Tricolor),							U_C_Poloshirt_tricolour,						Base Arma3,					whitelisted
+						-Competitor Suit,										U_Competitor,									Base Arma3,					whitelisted
+						-Commoner Clothes (Tricolor),							U_C_Poloshirt_tricolour,						Base Arma3,					whitelisted
+						-Guerilla Garment,										U_BG_Guerilla1_1,								Base Arma3,					whitelisted
+						-Guerilla Outfit (Pattern),								U_BG_Guerilla2_2,								Base Arma3,					whitelisted
+						-Guerilla Outfit (Plain, Dark),							U_BG_Guerilla2_1,								Base Arma3,					whitelisted
+						-Guerilla Outfit (Plain, Dark),							U_BG_Guerilla2_3,								Base Arma3,					whitelisted
+						-Guerilla Smocks,										U_BG_Guerilla3_1,								Base Arma3,					whitelisted
+						-Hunting Clothes,										U_C_HunterBody_grn,								Base Arma3,					whitelisted
+						-Jacket and Shorts,										U_OrtesBody,									Base Arma3,					whitelisted
+						-Journalist Clothes,									U_C_Journalist,									Base Arma3,					whitelisted
+						-Rangemaster Suit,										U_Rangemaster,									Base Arma3,					whitelisted
+						-Worn Clothes,											U_C_Poor_1,										Base Arma3,					whitelisted
+						
+						-Bandit Clothes (Checkered),							U_I_C_Soldier_Bandit_4_F,						Apex,						whitelisted
+						-Bandit Clothes (Polo Shirt),							U_I_C_Soldier_Bandit_1_F,						Apex,						whitelisted
+						-Bandit Clothes (Skull),								U_I_C_Soldier_Bandit_2_F,						Apex,						whitelisted
+						-Bandit Clothes (Tank Top),								U_I_C_Soldier_Bandit_5_F,						Apex,						whitelisted
+						-Bandit Clothes (Tee),									U_I_C_Soldier_Bandit_3_F,						Apex,						whitelisted
+						-Casual Clothes (Blue),									U_C_Man_casual_2_F,								Apex,						whitelisted
+						-Casual Clothes (Green),								U_C_Man_casual_3_F,								Apex,						whitelisted
+						-Casual Clothes (Navy),									U_C_Man_casual_1_F,								Apex,						whitelisted
+						-Sport Clothes (Beach),									U_C_man_sport_1_F,								Apex,						whitelisted
+						-Sport Clothes (Blue),									U_C_man_sport_3_F,								Apex,						whitelisted
+						-Sport Clothes (Orange),								U_C_man_sport_2_F,								Apex,						whitelisted
+						-Summer Clothes (Red),									U_C_Man_casual_6_F,								Apex,						whitelisted
+						-Summer Clothes (Sky),									U_C_Man_casual_4_F,								Apex,						whitelisted
+						-Summer Clothes (Yellow),								U_C_Man_casual_5_F,								Apex,						whitelisted
+						
+						-Farmer Outfit,											U_C_Uniform_Farmer_01_F,						Contact,					whitelisted
+						-Looter Clothes (Leather Jacket),						U_C_E_LooterJacker_01_F,						Contact,					whitelisted
+						-Looter Clothes (T-Shirt, Black),						U_I_L_Uniform_01_tshirt_black_F,				Contact,					whitelisted
+						-Looter Clothes (T-Shirt, Olive),						U_I_L_Uniform_01_tshirt_olive_F,				COntact,					whitelisted
+						-Looter Clothes (T-Shirt, Skull),						U_I_L_Uniform_01_tshirt_skull_F,				Contact,					whitelisted
+						-Looter Clothes (T-Shirt, Sport),						U_I_L_Uniform_01_tshirt_sport_F,				Contact,					whitelisted
+						-Scientist Outfit (Formal, Blue),						U_C_Uniform_Scientist_01_formal_F,				Contact,					whitelisted
+						-Scientist Outfit (Formal, White),						U_C_Uniform_Scientist_01_F,						Contact,					whitelisted
+						-Scientist Outfit (Informal, Black),					U_C_Uniform_Scientist_02_F,						Contact,					whitelisted
+						-Scientist Outfit (Informal, Red),						U_C_Uniform_Scientist_02_formal_F,				Contact,					whitelisted
+						-Tracksuit (Black),										U_O_R_Gorka_01_black_F,							Contact,					whitelisted
+						
+						-Aid Worker Clothes (Cargo) [IDAP],						U_C_IDAP_Man_cargo_F,							Laws of War,				whitelisted
+						-Aid Worker Clothes (Jeans) [IDAP],						U_C_IDAP_Man_Jeans_F,							Laws of War,				whitelisted
+						-Aid Worker Clothes (Polo) [IDAP],						U_C_IDAP_Man_casual_F,							Laws of War,				whitelisted
+						-Aid Worker Clothes (Polo, Shorts) [IDAP],				U_C_IDAP_Man_shorts_F,							Laws of War,				whitelisted
+						-Aid Worker Clothes (Tee) [IDAP],						U_C_IDAP_Man_Tee_F,								Laws of War,				whitelisted
+						-Aid Worker Clothes (Tee) [IDAP],						U_C_IDAP_Man_TeeShorts_F,						Laws of War,				whitelisted
+						-Guerilla Garment (Olive),								U_BG_Gurilla1_2_F,								Laws of War,				whitelisted
+						-Mechanic Clothes,										U_C_Mechanic_01_F,								Laws of War,				whitelisted
+						
+						-Casual Clothes (Abstract),								U_C_ArtTShirt_01_v6_F,							Art of War,					whitelisted
+						-Casual Clothes (Art of War),							U_C_ArtTShirt_01_v1_F,							Art of War,					whitelisted
+						-Casual Clothes (Drones),								U_C_ArtTShirt_01_v2_F,							Art of War,					whitelisted
+						-Casual Clothes (Exhibition),							U_C_ArtTShirt_01_v4_F,							Art of War,					whitelisted
+						-Casual Clothes (Robogeddon),							U_C_ArtTShirt_01_v5_F,							Art of War,					whitelisted
+						-Casual Clothes (Waltham Robotics),						U_C_ArtTShirt_01_v3_F,							Art of War,					whitelisted
+
+				Workshop Mods:
+						-,														,												,							whitelisted
+					
+======
+VESTS:
+======
+
+		//============================================= Heavy Combat Vests:
+
+				Vanilla:
+						-Carrier GL Rig (Black),								V_PlateCarrierGL_blk,							Base Arma3,					whitelisted
+						-Carrier GL Rig (Green),								V_PlateCarrierGL_rgr,							Base Arma3,					whitelisted
+						-Carrier GL Rig (MTP),									V_PlateCarrierGL_MTB,							Base Arma3,					whitelisted
+						-Carrier Lite (Black),									V_PlateCarrier1_blk,							Base Arma3,					whitelisted
+						-Carrier Lite (Green),									V_PlateCarrier1_rgr,							Base Arma3,					whitelisted
+						-Carrier Rig (Black),									V_PlateCarrier2_blk,							Base Arma3,					whitelisted
+						-Carrier Rig (Green),									V_PlateCarrier2_rgr,							Base Arma3,					whitelisted
+						-Carrier Special Rig (Black),							V_PlateCarrierSpec_blk,							Base Arma3,					whitelisted
+						-Carrier Special Rig (Green),							V_PlateCarrierSpec_rgr,							Base Arma3,					whitelisted
+						-Carrier Special Rig (MTP),								V_PlateCarrierSpec_MTB,							Base Arma3,					whitelisted
+						-CTRG Plate Carrier Rig Mk. 1 (Light),					C_PlateCarrierL_CTRG,							Base Arma3,					whitelisted
+						-CTRG Plate Carrier Rig Mk. 1 (Heavy),					C_PlateCarrierH_CTRG,							Base Arma3,					whitelisted
+						-GA Carrier GL Rig (Digital),							V_PlateCarrierIAGL_dgtl,						Base Arma3,					whitelisted
+						-GA Carrier GL Rig (Olive),								V_PlateCarrierIAGL_oli,							Base Arma3,					whitelisted
+						-GA Carrier Lite (Digital),								V_PlateCarrierIA1_dgtl,							Base Arma3,					whitelisted
+						-GA Carrier Rig (Digital),								V_PlateCarrierIA2_dgtl,							Base Arma3,					whitelisted
+						-Vest (Press),											V_Press_F,										Base Arma3,					whitelisted
+
+						-Carrier GL Rig (Tropic),								V_PlateCarrierGL_tna_F,							Apex,						whitelisted
+						-Carrier Lite (Green, No Flag),							V_PlateCarrier1_rgr_noflag_F,					Apex,						whitelisted
+						-Carrier Lite (Tropic),									V_PlateCarrier1_tna_F,							Apex,						whitelisted
+						-Carrier Rig (Green, No Flag),							V_PlateCarrier2_rgr_noflag_F,					Apex,						whitelisted
+						-Carrier Rig (Tropic),									V_PlateCarrier2_tna_F,							Apex,						whitelisted
+						-Carrier Special Rig (Tropic),							V_PlateCarrierSpec_tna_F						Apex,						whitelisted
+
+						-Carrier GL Rig (Woodland),								V_PlateCarrierGL_wdl							Contact,					whitelisted
+						-Carrier Lite (Woodland),								V_PlateCarrier1_wdl,							Contact,					whitelisted
+						-Carrier Rig (Woodland),								V_PlateCarrier2_wdl,							Contact,					whitelisted
+						-Carrier Special Rig (Woodland),						V_PlateCarrierSpec_wdl,							Contact,					whitelisted
+						-Modular Carrier GL Rig (Geometric),					V_CarrierRigKBT_01_heavy_EAF_F,					Contact,					whitelisted
+						-Modular Carrier GL Rig (Olive),						V_CarrierRigKBT_01_heavy_Olive_F,				Contact,					whitelisted
+						-Modular Carrier Lite (Geometric),						V_CarrierRigKBT_01_light_EAF_F,					Contact,					whitelisted
+						-Modular Carrier Lite (Olive),							V_CarrierRigKBT_01_light_Olive_F,				Contact,					whitelisted
+
+						-EOD Vest (Blue),										V_EOD_blue_F,									Laws of War,				whitelisted
+						-EOD Vest (Blue) [IDAP],								V_EOD_IDAP_blue_F								Laws of War,				whitelisted
+						-EOD Vest (Coyote),										V_EOD_coyote_F,									Laws of War,				whitelisted
+						-EOD Vest (Olive),										V_EOD_olive_F,									Laws of War,				whitelisted
+
+				Workshop Mods:
+						-,														,												,							whitelisted
+
+		//============================================= Light Combat Vests:
+
+				Vanilla:
+						-Raven Vest,											V_TacVestIR_blk,								Base Arma3,					whitelisted
+						-Tactical Vest (Black),									V_TacVest_blk,									Base Arma3,					whitelisted
+						-Tactical Vest (Brown),									V_TacVest_brn,									Base Arma3,					whitelisted
+						-Tactical Vest (Camo),									V_TacVest_camo,									Base Arma3,					whitelisted
+						-Tactical Vest (Khaki),									V_TacVest_khk,									Base Arma3,					whitelisted
+						-Tactical Vest (Olive),									V_TacVest_oli,									Base Arma3,					whitelisted
+						-Tactical Vest (Police),								V_TacVest_POLICE,								Base Arma3,					whitelisted
+						-Tactical Vest (Stavrou),								V_I_G_resistanceLeader_F,						Base Arma3,					whitelisted
+						-US Plate Carrier Rig (Kerry),							V_PlateCarrier_Kerry,							Base Arma3,					blacklisted
+
+						-Gendarmerie Vest,										V_TacVest_Gen_F,								Apex,						whitelisted
+
+						-Modular Carrier Vest (Geometric),						V_CarrierRigKBT_01_EAF_F,						Contact,					whitelisted
+						-Modular Carrier Vest (Olive),							V_CarrierRigKBT_01_Olive_F,						Contact,					whitelisted
+
+						-Multi-Pocket Vest (Black),								V_Pocketed_black_F,								Laws of War,				whitelisted
+						-Multi-Pocket Vest (Coyote),							V_Pocketed_coyote_F,							Laws of War,				whitelisted
+						-Multi-Pocket Vest (Olive),								V_Pocketed_olive_F,								Laws of War,				whitelisted
+
+				Workshop Mods:
+						-,														,												,							whitelisted
+
+		//============================================= Crew Vests:
+
+				Vanilla:
+						-Identification Vest (Red Crystal),						V_Plain_crystal_F,								Laws of War,				whitelisted
+						-Identification Vest [IDAP],							V_Plain_medical_F,								Laws of War,				whitelisted
+						-Saftey Vest (Blue),									V_Saftey_blue_F,								Laws of War,				whitelisted
+						-Saftey Vest (Orange),									V_Saftey_orange_F,								Laws of War,				whitelisted
+						-Saftey Vest (Yellow),									V_Saftey_yellow_F,								Laws of War,				whitelisted
+
+						-Deck Crew Vest (Blue),									V_DeckCrew_blue_F,								Jets,						whitelisted
+						-Deck Crew Vest (Brown),								V_DeckCrew_brown_F,								Jets,						whitelisted
+						-Deck Crew Vest (Green),								V_DeckCrew_green_F,								Jets,						whitelisted
+						-Deck Crew Vest (Red),									V_DeckCrew_red_F,								Jets,						whitelisted
+						-Deck Crew Vest (Violet),								V_DeckCrew_violet_F,							Jets,						whitelisted
+						-Deck Crew Vest (White),								V_DeckCrew_blue_F,								Jets,						whitelisted
+						-Deck Crew Vest (Yellow),								V_DeckCrew_blue_F,								Jets,						whitelisted
+
+				Workshop Mods:
+						-,														,												,							whitelisted
+
+		//============================================= Straps, Harnesses, and Bandoliers:
+
+				Vanilla:
+						-Chest Rig (Black),										C_Chestrig_blk,									Base Arma3,					whitelisted
+						-Chest Rig (Green),										C_Chestrig_rgr,									Base Arma3,					whitelisted
+						-Chest Rig (Khaki),										C_Chestrig_khk,									Base Arma3,					whitelisted
+						-Chest Rig (Olive),										C_Chestrig_oli,									Base Arma3,					whitelisted
+						-LBV Grenadier Harness,									V_HarnessOGL_brn,								Base Arma3,					whitelisted
+						-LBV Grenadier Harness (Grey),							V_HarnessOGL_gry,								Base Arma3,					whitelisted
+						-LBV Harness,											V_HarnessO_brn,									Base Arma3,					whitelisted
+						-LBV Harness (Grey),									V_HarnessO_gry,									Base Arma3,					whitelisted
+						-Rangemaster Belt,										V_Rangermaster_belt,							Base Arma3,					whitelisted
+						-Slash Bandolier (Black),								V_BandollierB_blk,								Base Arma3,					whitelisted
+						-Slash Bandolier (Coyote),								V_BandollierB_cbr,								Base Arma3,					whitelisted
+						-Slash Bandolier (Green),								V_BandollierB_rgr,								Base Arma3,					whitelisted
+						-Slash Bandolier (Khaki),								V_BandollierB_khk,								Base Arma3,					whitelisted
+						-Slash Bandolier (Olive),								V_BandollierB_oli,								Base Arma3,					whitelisted
+
+						-LBV Grenadier Harness (Green Hex),						V_HarnessOGL_ghex_F,							Apex,						whitelisted
+						-LBV Harness (Green Hex),								V_HarnessO_ghex_F,								Apex,						whitelisted
+						-Slash Bandolier (Green Hex),							V_BandollierB_ghex_F,							Apex,						whitelisted
+						-Tactical Chest Rig (Coyote),							V_TacChestrig_cbr_F,							Apex,						whitelisted
+						-Tactical Chest Rig (Green),							V_TacChestrig_grn_F,							Apex,						whitelisted
+						-Tactical Chest Rig (Olive),							V_TacChestrig_oli_F,							Apex,						whitelisted
+
+						-Kipchak Vest,											V_SmershVest_01_f,								Contact,					whitelisted
+						-Kipchak Vest (Tactical Radio),							V_SmershVest_01_radio_f,						Contact,					whitelisted
+
+						-Leg Strap Bag (Black),									V_LegStrapBag_black_F,							Laws of War,				whitelisted
+						-Leg Strap Bag (Coyote),								V_LegStrapBag_coyote_F,							Laws of War,				whitelisted
+						-Leg Strap Bag (Olive),									V_LegStrapBag_olive_F,							Laws of War,				whitelisted
+
+				Workshop Mods:
+						-,														,												,							whitelisted
+
+		//============================================= Rebreathers:
+
+				Vanilla:
+						-Rebreather [AAF],										VRebreatherIA,									Base Arma3,					whitelisted
+						-Rebreather [CSAT],										VRebreatherIR,									Base Arma3,					whitelisted
+						-Rebreather [NATO],										VRebreatherB,									Base Arma3,					whitelisted
+
+				Workshop Mods:
+						-,														,												,							whitelisted
+
+==========
+BACKPACKS:
+==========
+
+		//============================================= Packs:
+
+				Vanilla:
+						-Assault Pack (Black),									B_AssaultPack_blk,								Base Arma3,					whitelisted
+						-Assault Pack (Coyote),									B_AssaultPack_cbr,								Base Arma3,					whitelisted
+						-Assault Pack (Digital),								B_AssaultPack_dgtl,								Base Arma3,					whitelisted
+						-Assault Pack (Green),									B_AssaultPack_rgr,								Base Arma3,					whitelisted
+						-Assault Pack (Hex),									B_AssaultPack_ocamo,							Base Arma3,					whitelisted
+						-Assault Pack (Khaki),									B_AssaultPack_khk,								Base Arma3,					whitelisted
+						-Assault Pack (MTP),									B_AssaultPack_mcamo,							Base Arma3,					whitelisted
+						-Assault Pack (Sage),									B_AssaultPack_sgg,								Base Arma3,					whitelisted
+						-Carryall Backpack (Coyote),							B_Carryall_cbr,									Base Arma3,					whitelisted
+						-Carryall Backpack (Hex),								B_Carryall_ocamo,								Base Arma3,					whitelisted
+						-Carryall Backpack (Khaki),								B_Carryall_khk,									Base Arma3,					whitelisted
+						-Carryall Backpack (MTP),								B_Carryall_mcamo,								Base Arma3,					whitelisted
+						-Carryall Backpack (Olive),								B_Carryall_oli,									Base Arma3,					whitelisted
+						-Carryall Backpack (Urban),								B_Carryall_oucamo,								Base Arma3,					whitelisted
+						-Field Pack (Black),									B_FieldPack_blk,								Base Arma3,					whitelisted
+						-Field Pack (Coyote),									B_FieldPack_cbr,								Base Arma3,					whitelisted
+						-Field Pack (Hex),										B_FieldPack_ocamo,								Base Arma3,					whitelisted
+						-Field Pack (Khaki),									B_FieldPack_khk,								Base Arma3,					whitelisted
+						-Field Pack (Olive),									B_FieldPack_oli,								Base Arma3,					whitelisted
+						-Field Pack (Urban),									B_FieldPack_oucamo,								Base Arma3,					whitelisted
+						-Kitbag (Coyote),										B_Kitbag_cbr,									Base Arma3,					whitelisted
+						-Kitbag (Green),										B_Kitbag_rgr,									Base Arma3,					whitelisted
+						-Kitbag (MTP),											B_Kitbag_mcamo,									Base Arma3,					whitelisted
+						-Kitbag (Sage),											B_Kitbag_sgg,									Base Arma3,					whitelisted
+						-Kitbag (Tan),											B_Kitbag_tan,									Base Arma3,					whitelisted
+						-Tactical Backpack (Black),								B_TacticalPack_blk,								Base Arma3,					whitelisted
+						-Tactical Backpack (Green),								B_TacticalPack_rgr,								Base Arma3,					whitelisted
+						-Tactical Backpack (Hex),								B_TacticalPack_ocamo,							Base Arma3,					whitelisted
+						-Tactical Backpack (MTP),								B_TacticalPack_mcamo,							Base Arma3,					whitelisted
+						-Tactical Backpack (Olive),								B_TacticalPack_oli,								Base Arma3,					whitelisted
+						-US Assault Pack (Kerry),								B_AssaultPack_Kerry,							Base Arma3,					blacklisted
+						
+						-Assault Pack (Tropic),									B_AssaultPack_tna_F,							Apex,						whitelisted
+						-Bergan Backpack (Digital),								B_Bergen_dgtl_F,								Apex,						whitelisted
+						-Bergan Backpack (Hex),									B_Bergen_hex_F,									Apex,						whitelisted
+						-Bergan Backpack (MTP),									B_Bergen_mcamo_F,								Apex,						whitelisted
+						-Bergan Backpack (Tropic),								B_Bergen_tna_F,									Apex,						whitelisted
+						-Carryall Backpack (Green Hex),							B_Carryall_ghex_F,								Apex,						whitelisted
+						-Field Pack (Green Hex),								B_FieldPack_ghex_F,								Apex,						whitelisted
+						-Viper Harness (Black),									B_ViperHarness_blk_F,							Apex,						whitelisted
+						-Viper Harness (Green Hex),								B_ViperHarness_ghex_F,							Apex,						whitelisted
+						-Viper Harness (Hex),									B_ViperHarness_hex_F,							Apex,						whitelisted
+						-Viper Harness (Khaki),									B_ViperHarness_khk_F,							Apex,						whitelisted
+						-Viper Harness (Olive),									B_ViperHarness_oli_F,							Apex,						whitelisted
+						-Viper Light Harness (Black),							B_ViperLightHarness_blk_F,						Apex,						whitelisted
+						-Viper Light Harness (Green Hex),						B_ViperLightHarness_ghex_F,						Apex,						whitelisted
+						-Viper Light Harness (Hex),								B_ViperLightHarness_hex_F,						Apex,						whitelisted
+						-Viper Light Harness (Khaki),							B_ViperLightHarness_khk_F,						Apex,						whitelisted
+						-Viper Light Harness (Olive),							B_ViperLightHarness_oli_F,						Apex,						whitelisted
+						
+						-Assault Pack (Geometric),								B_AssaultPack_eaf_F,							Contact,					whitelisted
+						-Assault Pack (Woodland),								B_AssaultPack_wdl_F,							Contact,					whitelisted
+						-Carryall Backpack (Geometric),							B_Carryall_eaf_F,								Contact,					whitelisted
+						-Carryall Backpack (Green),								B_Carryall_green_F,								Contact,					whitelisted
+						-Carryall Backpack (Taiga),								B_Carryall_taiga _F,							Contact,					whitelisted
+						-Carryall Backpack (Woodland),							B_Carryall_wdl_F,								Contact,					whitelisted
+						-Field Pack (Green),									B_FieldPack_green_F,							Contact,					whitelisted
+						-Field Pack (Taiga),									B_FieldPack_taiga_F,							Contact,					whitelisted
+						
+						-Leg Strap Bag (Black),									B_LegStrapBag_black_F,							Laws of War,				whitelisted
+						-Leg Strap Bag (Coyote),								B_LegStrapBag_coyote_F,							Laws of War,				whitelisted
+						-Leg Strap Bag (Olive),									B_LegStrapBag_olive_F,							Laws of War,				whitelisted
+						-Messenger Bag (Black),									B_Messenger_Black_F,							Laws of War,				whitelisted
+						-Messenger Bag (Coyote),								B_Messenger_Coyote_F,							Laws of War,				whitelisted
+						-Messenger Bag (Gray),									B_Messenger_Gray_F,								Laws of War,				whitelisted
+						-Messenger Bag (Olive),									B_Messenger_Olive_F,							Laws of War,				whitelisted
+						-Messenger Bag [IDAP],									B_Messenger_IDAP_F,								Laws of War,				whitelisted
+						
+						-Everyday Backpack (Astra),								B_CivilianBackpack_01_Everyday_Astra_F,			Art of War,					whitelisted
+						-Everyday Backpack (Black),								B_CivilianBackpack_01_Everyday_Black_F,			Art of War,					whitelisted
+						-Everyday Backpack (Vrana),								B_CivilianBackpack_01_Everyday_Vrana_F,			Art of War,					whitelisted
+						-Everyday Backpack [IDAP],								B_CivilianBackpack_01_Everyday_IDAP_F,			Art of War,					whitelisted
+						-Sports Backpack (Blue),								B_CivilianBackpack_01_Sport_Blue_F,				Art of War,					whitelisted
+						-Sports Backpack (Green),								B_CivilianBackpack_01_Sport_Green_F,			Art of War,					whitelisted
+						-Sports Backpack (Red),									B_CivilianBackpack_01_Sport_Red_F,				Art of War,					whitelisted
+
+				Workshop Mods:
+						-,														,												,							whitelisted
+					
+		//============================================= Radios:
+
+				Vanilla:
+						-Radio Pack (Black),									B_RadioBag_01_black_F,							Contact,					whitelisted
+						-Radio Pack (Digital) [AAF],							B_RadioBag_01_digi_F,							Contact,					whitelisted
+						-Radio Pack (Geometric) [LDF],							B_RadioBag_01_eaf_F,							Contact,					whitelisted
+						-Radio Pack (Green Hex) [CSAT],							B_RadioBag_01_ghex_F,							Contact,					whitelisted
+						-Radio Pack (Hex) [CSAT],								B_RadioBag_01_hex_F,							Contact,					whitelisted
+						-Radio Pack (MTP) [NATO],								B_RadioBag_01_mtp_F,							Contact,					whitelisted
+						-Radio Pack (Tropic) [NATO],							B_RadioBag_01_tropic_F,							Contact,					whitelisted
+						-Radio Pack (Urban) [CSAT],								B_RadioBag_01_oucamo_F,							Contact,					whitelisted
+						-Radio Pack (Woodland [NATO]),							B_RadioBag_01_wdl_F,							Contact,					whitelisted
+
+				Workshop Mods:
+						-,														,												,							whitelisted
+					
+		//============================================= Remote Designators:
+
+				Vanilla:
+						-Remote Designator Bag [CSAT],							O_Static_Designator_02_weapon_F,				Marksmen,					whitelisted
+						-Remote Designator Bag [NATO],							B_Static_Designator_01_weapon_F,				Marksmen,					whitelisted
+						
+						-Remote Designator Bag [NATO],							B_W_Static_Designator_01_weapon_F,				Marksmen,					whitelisted
+
+				Workshop Mods:
+						-,														,												,							whitelisted
+					
+		//============================================= Respirators:
+
+				Vanilla:
+						-Combination Unit Respirator,							B_CombinationUnitRespirator_01_F,				Contact,					whitelisted
+						-Self-Contained Breathing Apparatus,					B_SCBA_01_F,									Contact,					whitelisted
+
+				Workshop Mods:
+						-,														,												,							whitelisted
+					
+		//============================================= Parachutes:
+
+				Vanilla:
+						-Steerable Parachute,									B_Parachute,									Base Arma3,					whitelisted
+
+				Workshop Mods:
+						-,														,												,							whitelisted
+
+		//============================================= Static Machine Guns:
+
+				Vanilla:
+						-Dismantled Autonomous GMG [AAF],						I_GMG_01_A_weapon_F,							Base Arma3,					whitelisted
+						-Dismantled Autonomous GMG [CSAT],						O_GMG_01_A_weapon_F,							Base Arma3,					whitelisted
+						-Dismantled Autonomous GMG [NATO],						B_GMG_01_A_weapon_F,							Base Arma3,					whitelisted
+						-Dismantled Autonomous MG [AAF],						I_HMG_01_A_weapon_F,							Base Arma3,					whitelisted
+						-Dismantled Autonomous MG [CSAT],						O_HMG_01_A_weapon_F,							Base Arma3,					whitelisted
+						-Dismantled Autonomous MG [NATO],						B_HMG_01_A_weapon_F,							Base Arma3,					whitelisted
+						-Dismantled M2 HMG .50 (Raised) [AAF],					I_HMG_02_high_weapon_F,							Base Arma3,					whitelisted
+						-Dismantled M2 HMG .50 (Raised) [FIA],					I_G_HMG_02_high_weapon_F,						Base Arma3,					whitelisted
+						-Dismantled M2 HMG .50 (Raised) [LDF],					I_E_HMG_02_high_weapon_F,						Base Arma3,					whitelisted
+						-Dismantled M2 HMG .50 (Raised) [Syndikat],				I_CHMG_02_high_weapon_F,						Base Arma3,					whitelisted
+						-Dismantled M2 HMG .50 [AAF],							I_HMG_02_weapon_F,								Base Arma3,					whitelisted
+						-Dismantled M2 HMG .50 [FIA],							I_G_HMG_02_weapon_F,							Base Arma3,					whitelisted
+						-Dismantled M2 HMG .50 [LDF],							I_E_HMG_02_weapon_F,							Base Arma3,					whitelisted
+						-Dismantled M2 HMG .50 [Syndikat],						I_C_HMG_02_weapon_F,							Base Arma3,					whitelisted
+						-Dismantled Mk30 HMG (Raised) [AAF],					I_HMG_01_high_weapon_F,							Base Arma3,					whitelisted
+						-Dismantled Mk30 HMG (Raised) [CSAT],					O_HMG_01_high_weapon_F,							Base Arma3,					whitelisted
+						-Dismantled Mk30 HMG (Raised) [NATO],					B_HMG_01_high_weapon_F,							Base Arma3,					whitelisted
+						-Dismantled Mk30 HMG [AAF],								I_HMG_01_weapon_F,								Base Arma3,					whitelisted
+						-Dismantled Mk30 HMG [CSAT],							O_HMG_01_weapon_F,								Base Arma3,					whitelisted
+						-Dismantled Mk30 HMG [NATO],							B_HMG_01_weapon_F,								Base Arma3,					whitelisted
+						-Dismantled Mk32 GMG (Raised)[AAF],						I_GMG_01_high_weapon_F,							Base Arma3,					whitelisted
+						-Dismantled Mk32 GMG (Raised)[CSAT],					O_GMG_01_high_weapon_F,							Base Arma3,					whitelisted
+						-Dismantled Mk32 GMG (Raised)[NATO],					B_GMG_01_high_weapon_F,							Base Arma3,					whitelisted
+						-Dismantled Mk32 GMG [AAF],								I_GMG_01_weapon_F,								Base Arma3,					whitelisted
+						-Dismantled Mk32 GMG [CSAT],							O_GMG_01_weapon_F,								Base Arma3,					whitelisted
+						-Dismantled Mk32 GMG [NATO],							B_GMG_01_weapon_F,								Base Arma3,					whitelisted
+						-Dismantled Mk32 GMG [NATO],							B_GMG_01_weapon_F,								Base Arma3,					whitelisted
+						-Folded Tripod M2 HMG .50 (Raised) [AAF],				I_HMG_02_support_high_F,						Base Arma3,					blacklisted
+						-Folded Tripod M2 HMG .50 (Raised) [FIA],				I_G_HMG_02_support_high_F,						Base Arma3,					blacklisted
+						-Folded Tripod M2 HMG .50 (Raised) [LDF],				I_E_HMG_02_support_high_F,						Base Arma3,					blacklisted
+						-Folded Tripod M2 HMG .50 (Raised) [Syndikat],			I_C_HMG_02_support_high_F,						Base Arma3,					blacklisted
+						-Folded Tripod M2 HMG .50 [AAF],						I_HMG_02_support_F,								Base Arma3,					blacklisted
+						-Folded Tripod M2 HMG .50 [FIA],						I_G_HMG_02_support_F,							Base Arma3,					blacklisted
+						-Folded Tripod M2 HMG .50 [LDF],						I_E_HMG_02_support_F,							Base Arma3,					blacklisted
+						-Folded Tripod M2 HMG .50 [Syndikat],					I_C_HMG_02_support_F,							Base Arma3,					blacklisted
+						
+						-Dismantled Autonomous GMG [LDF],						I_E_GMG_01_A_Weapon_F,							Contact,					whitelisted
+						-Dismantled Autonomous MG [LDF],						I_E_HMG_01_A_Weapon_F,							Contact,					whitelisted
+						-Dismantled Mk30 HMG (Raised) [LDF],					I_E_HMG_01_high_Weapon_F,						Contact,					whitelisted
+						-Dismantled Mk30 HMG [LDF],								I_E_HMG_01_Weapon_F,							Contact,					whitelisted
+						-Dismantled Mk32 GMG (Raised) [LDF],					I_E_GMG_01_high_Weapon_F,						Contact,					whitelisted
+						-Dismantled Mk32 GMG [LDF],								I_E_GMG_01_Weapon_F,							Contact,					whitelisted
+
+				Workshop Mods:
+						-,														,												,							whitelisted
+			
+		//============================================= Mortars:
+
+				Vanilla:
+						-Folded Mk6 Mortar Tube [AAF],							I_Mortar_01_weapon_F,							Base Arma3,					whitelisted
+						-Folded Mk6 Mortar Tube [CSAT],							O_Mortar_01_weapon_F,							Base Arma3,					whitelisted
+						-Folded Mk6 Mortar Tube [NATO],							B_Mortar_01_weapon_F,							Base Arma3,					whitelisted
+						
+						-Folded Mk6 Mortar Tube [LDF],							I_E_Mortar_01_Weapon_F,							Base Arma3,					whitelisted
+
+				Workshop Mods:
+						-,														,												,							whitelisted
+					
+		//============================================= Static Launchers:
+
+				Vanilla:
+						-Static Titan Launcher (AA) [AAF],						I_AA_01_weapon_F,								Base Arma3,					whitelisted
+						-Static Titan Launcher (AA) [CSAT],						O_AA_01_weapon_F,								Base Arma3,					whitelisted
+						-Static Titan Launcher (AA) [NATO],						B_AA_01_weapon_F,								Base Arma3,					whitelisted
+						-Static Titan Launcher (AT) [AAF],						I_AT_01_weapon_F,								Base Arma3,					whitelisted
+						-Static Titan Launcher (AT) [CSAT],						O_AT_01_weapon_F,								Base Arma3,					whitelisted
+						-Static Titan Launcher (AT) [NATO],						B_AT_01_weapon_F,								Base Arma3,					whitelisted
+						
+						-Static Titan Launcher (AA) [LDF],						I_E_AA_01_weapon_F,								Contact,					whitelisted
+						-Static Titan Launcher (AT) [LDF],						I_E_AT_01_weapon_F,								Contact,					whitelisted
+
+				Workshop Mods:
+						-,														,												,							whitelisted
+					
+		//============================================= Bipods and Tripods:
+
+				Vanilla:
+						-Folded Mk6 Mortar Bipod [AAF],							I_Mortar_01_support_F,							Base Arma3,					whitelisted
+						-Folded Mk6 Mortar Bipod [CSAT],						O_Mortar_01_support_F,							Base Arma3,					whitelisted
+						-Folded Mk6 Mortar Bipod [NATO],						B_Mortar_01_support_F,							Base Arma3,					whitelisted
+						-Folded Tripod (Raised) [AAF],							I_HMG_01_support_high_F,						Base Arma3,					whitelisted
+						-Folded Tripod (Raised) [CSAT],							O_HMG_01_support_high_F,						Base Arma3,					whitelisted
+						-Folded Tripod (Raised) [NATO],							B_HMG_01_support_high_F,						Base Arma3,					whitelisted
+						-Folded Tripod [AAF],									I_HMG_01_support_F,								Base Arma3,					whitelisted
+						-Folded Tripod [CSAT],									O_HMG_01_support_F,								Base Arma3,					whitelisted
+						-Folded Tripod [NATO],									B_HMG_01_support_F,								Base Arma3,					whitelisted
+						
+						-Folded Mk6 Mortar Bipod [LDF],							I_E_Mortar_01_support_F,						Contact,					whitelisted
+						-Folded Tripod (Raised) [LDF],							I_E_HMG_01_support_high_F,						Contact,					whitelisted
+						-Folded Tripod [LDF],									I_E_HMG_01_support_F,							Contact,					whitelisted
+
+				Workshop Mods:
+						-,														,												,							whitelisted
+					
+		//============================================= UGVs:
+
+				Vanilla:
+						-UGV Bag (Demining) [IDAP],								C_IDAP_UGV_01_Demining_backpack_F,				Contact,					whitelisted
+						-UGV Bag (ED-1D) [AAF],									C_UGV_01_Demining_backpack_F,					Contact,					whitelisted
+						-UGV Bag (ED-1D) [CSAT],								O_UGV_02_Demining_backpack_F,					Contact,					whitelisted
+						-UGV Bag (ED-1D) [LDF],									I_E_UGV_02_Demining_backpack_F,					Contact,					whitelisted
+						-UGV Bag (ED-1D) [NATO],								B_UGV_02_Demining_backpack_F,					Contact,					whitelisted
+						-UGV Bag (ED-1E) [AAF],									I_UGV_02_Science_backpack_F,					Contact,					whitelisted
+						-UGV Bag (ED-1E) [CSAT],								O_UGV_02_Science_backpack_F,					Contact,					whitelisted
+						-UGV Bag (ED-1E) [LDF],									I_E_UGV_02_Science_backpack_F,					Contact,					whitelisted
+						-UGV Bag (ED-1E) [NATO],								B_UGV_02_Science_backpack_F,					Contact,					whitelisted
+
+				Workshop Mods:
+						-,														,												,							whitelisted
+					
+		//============================================= UAVs:
+
+				Vanilla:
+						-UAV Bag (AR-2) [AAF],									I_UAV_01_backpack_F,							Base Arma3,					whitelisted
+						-UAV Bag (AR-2) [CSAT],									O_UAV_01_backpack_F,							Base Arma3,					whitelisted
+						-UAV Bag (AR-2) [NATO],									I_UAV_01_backpack_F,							Base Arma3,					whitelisted
+						
+						-UAV Bag (AL-6) [LDF],									I_E_UAV_06_backpack_F,							Contact,					whitelisted
+						-UAV Bag (AL-6, Medical) [LDF],							I_E_UAV_06_medical_backpack_F,					Contact,					whitelisted
+						-UAV Bag (AR-2) [NATO],									I_E_UAV_01_backpack_F,							Contact,					whitelisted
+						
+						-UAV Bag (AL-6) [AAF],									I_UAV_06_backpack_F,							Laws of War,				whitelisted
+						-UAV Bag (AL-6) [CSAT],									O_UAV_06_backpack_F,							Laws of War,				whitelisted
+						-UAV Bag (AL-6) [NATO],									B_UAV_06_backpack_F,							Laws of War,				whitelisted
+						-UAV Bag (AL-6, Medical) [AAF],							I_UAV_06_medical_backpack_F,					Laws of War,				whitelisted
+						-UAV Bag (AL-6, Medical) [CSAT],						O_UAV_06_medical_backpack_F,					Laws of War,				whitelisted
+						-UAV Bag (AL-6, Medical) [IDAP],						C_IDAP_UAV_06_medical_backpack_F,				Laws of War,				whitelisted
+						-UAV Bag (AL-6, Medical) [IDAP],						B_UAV_06_medical_backpack_F,					Laws of War,				whitelisted
+						-UAV Bag (Demining) [IDAP],								C_IDAP_UAV_06_antimine_back-ack_F,				Laws of War,				whitelisted
+						-UAV Bag (Utility),										C_UAV_06_backpack_F,							Laws of War,				whitelisted
+						-UAV Bag (Utility) [IDAP],								C_IDAP_UAV_06_backpack_F,						Laws of War,				whitelisted
+						-UAV Bag (Utility, Medical),							C_UAV_06_medical_backpack_F,					Laws of War,				whitelisted
+						-UAV Bag [IDAP],										C_IDAP_UAV_01_backpack_F,						Laws of War,				whitelisted
+
+				Workshop Mods:
+						-,														,												,							whitelisted
+					
+		//============================================= Camps:
+
+				Vanilla:
+						-Camp (Blue Sleeping Bag),								B_Respawn_Sleeping_bag_blue_F,					Zeus,						blacklisted
+						-Camp (Brown Sleeping Bag),								B_Respawn_Sleeping_bag_brown_F,					Zeus,						blacklisted
+						-Camp (Dome Tent),										B_Respawn_TentDome_F,							Zeus,						blacklisted
+						-Camp (Green Sleeping Bag),								B_Respawn_Sleeping_bag_F,						Zeus,						blacklisted
+						-Camp (Ridge Tent),										B_Respawn_TentA_F,								Zeus,						blacklisted
+						
+						-Camp (Dome Tent, Combat Patrol),						B_Patrol_Respawn_bag_F,							Malden,						blacklisted
+
+				Workshop Mods:
+						-,														,												,							blacklisted
+					
+==========
+HEAD GEAR:
+==========
+
+		//============================================= Combat Helmets:
+
+				Vanilla:
+						-Combat Helmet,											H_HelmetB,										Base Arma3,					whitelisted
+						-Combat Helmet (Black),									H_HelmetB_black,								Base Arma3,					whitelisted
+						-Combat Helmet (Camo),									H_HelmetB_camo,									Base Arma3,					whitelisted
+						-Combat Helmet (Desert),								H_HelmetB_desert,								Base Arma3,					whitelisted
+						-Combat Helmet (Grass),									H_HelmetB_grass,								Base Arma3,					whitelisted
+						-Combat Helmet (Sand),									H_HelmetB_sand,									Base Arma3,					whitelisted
+						-Combat Helmet (Snakeskin),								H_HelmetB_snakeskin,							Base Arma3,					whitelisted
+						-Crew Helmet [AAF],										H_HelmetCrew_I,									Base Arma3,					whitelisted
+						-Crew Helmet [CSAT],									H_HelmetCrew_O,									Base Arma3,					whitelisted
+						-Crew Helmet [NATO],									H_HelmetCrew_B,									Base Arma3,					whitelisted
+						-Defender Helmet (Hex),									H_HelmetLeader_O_ocamo,							Base Arma3,					whitelisted
+						-Defender Helmet (Urban),								H_HelmetLeader_O_oucamo,						Base Arma3,					whitelisted
+						-Enhanced Combat Helmet,								H_HelmetSpecB,									Base Arma3,					whitelisted
+						-Enhanced Combat Helmet (Black),						H_HelmetSpecB_blk,								Base Arma3,					whitelisted
+						-Enhanced Combat Helmet (Desert),						H_HelmetSpecB_paint2,							Base Arma3,					whitelisted
+						-Enhanced Combat Helmet (Grass),						H_HelmetSpecB_paint1,							Base Arma3,					whitelisted
+						-Enhanced Combat Helmet (Sand),							H_HelmetSpecB_sand,								Base Arma3,					whitelisted
+						-Enhanced Combat Helmet (Snakeskin),					H_HelmetSpecB_snakeskin,						Base Arma3,					whitelisted
+						-Light Combat Helmet,									H_HelmetB_light,								Base Arma3,					whitelisted
+						-Light Combat Helmet (Black),							H_HelmetB_light_black,							Base Arma3,					whitelisted
+						-Light Combat Helmet (Desert),							H_HelmetB_light_desert,							Base Arma3,					whitelisted
+						-Light Combat Helmet (Grass),							H_HelmetB_light_grass,							Base Arma3,					whitelisted
+						-Light Combat Helmet (Sand),							H_HelmetB_light_sand,							Base Arma3,					whitelisted
+						-Light Combat Helmet (Snakeskin),						H_HelmetB_light_snakeskin,						Base Arma3,					whitelisted
+						-Modular Helmet,										H_HelmetIA,										Base Arma3,					whitelisted
+						-Protector Helmet (Hex),								H_HelmetO_ocamo,								Base Arma3,					whitelisted
+						-Protector Helmet (Urban),								H_HelmetO_oucamo,								Base Arma3,					whitelisted
+
+						-Combat Helmet (Tropic),								H_HelmetB_tna_F,								Apex,						whitelisted
+						-Crew Helmet (Green Hex) [CSAT],						H_HelmetCrew_O_ghex_F,							Apex,						whitelisted
+						-Defender Helmet (Green Hex),							H_HelmetLeaderO_ghex_F,							Apex,						whitelisted
+						-Enhanced Combat Helmet (Tropic),						H_HBelmetB_Enh_tna_F,							Apex,						whitelisted
+						-Light Combat Helmet (Tropic),							H_HelmetB_Light_tna_F,							Apex,						whitelisted
+						-Protector Helmet (Green Hex),							H_HelmetO_ghex_F,								Apex,						whitelisted
+
+						-Advanced Modular Helmet,								H_HelmetHBK_headset_F,							Contact,					whitelisted
+						-Advanced Modular Helmet (Chops),						H_HelmetHBK_chops_F,							Contact,					whitelisted
+						-Advanced Modular Helmet (Ear Protectors),				H_HelmetHBK_ear_F,								Contact,					whitelisted
+						-Advanced Modular Helmet (Olive),						H_HelmetHBK_F,									Contact,					whitelisted
+						-Avenger Helmet,										H_HelmetAgressor_F,								Contact,					whitelisted
+						-Avenger Helmet (Cover B),								H_HelmetAgressor_cover_F,						Contact,					whitelisted
+						-Avenger Helmet (Cover t),								H_HelmetAgressor_cover_taiga_F,					Contact,					whitelisted
+						-Combat Helmet (Woodland),								H_HelmetB_plain_wdl,							Contact,					whitelisted
+						-Crew Helmet (Soft) [LDF],								H_Tank_eaf_F,									Contact,					whitelisted
+						-Crew Helmet [LDF],										H_HelmetCrew_I_E,								Contact,					whitelisted
+						-Enhanced Combat Helmet (Woodland),						H_HelmetSpecB_wdl,								Contact,					whitelisted
+						-Light Combat Helmet (Woodland),						H_HelmetB_light_wdl,							Contact,					whitelisted
+
+						-Crew Helmet (Soft) [CSAT],								H_Tank_black_F,									Tanks,						whitelisted
+
+						-Basic Helmet (Black), 									H_PASGT_basic_black_F,							Laws of War,				whitelisted
+						-Basic Helmet (Blue),									H_PASGT_basic_blue_F,							Laws of War,				whitelisted
+						-Basic Helmet (Olive),									H_PASGT_basic_olive_F,							Laws of War,				whitelisted
+
+				Workshop Mods:
+						-,														,												,							whitelisted
+
+		//============================================= Stealth Helmets:
+
+				Vanilla:
+						-Assassin Helmet (Black),								H_HelmetSpecO_blk,								Base Arma3,					whitelisted
+						-Assassin Helmet (Hex),									H_HelmetSpecO_ocamo,							Base Arma3,					whitelisted
+
+						-Assassin Helmet (Green Hex),							H_HelmetSpecO_ghex_F,							Apex,						whitelisted
+						-Special Purpose Helmet (Green Hex),					H_HelmetO_ViperSP_ghex_F,						Apex,						whitelisted
+						-Special Purpose Helmet (Hex),							H_HelmetO_ViperSP_hex_F,						Apex,						whitelisted
+						-Stealth Combat Helmet,									H_HelmetB_TI_tna_F,								Apex,						whitelisted
+						-Stealth Combat Helmet (Arid),							H_HelmetB_TI_arid_F,							Apex,						whitelisted
+
+				Workshop Mods:
+						-,														,												,							whitelisted
+
+		//============================================= Non-Combat Helmets:
+
+				Vanilla:
+						-Racing Helmet (Black),									H_RacingHelmet_1_black_F,						Base Arma3,					whitelisted
+						-Racing Helmet (Blue),									H_RacingHelmet_1_blue_F,						Base Arma3,					whitelisted
+						-Racing Helmet (Bluking),								H_RacingHelmet_2_F,								Base Arma3,					whitelisted
+						-Racing Helmet (Fuel),									H_RacingHelmet_1_F,								Base Arma3,					whitelisted
+						-Racing Helmet (Green),									H_RacingHelmet_1_green_F,						Base Arma3,					whitelisted
+						-Racing Helmet (Orange),								H_RacingHelmet_1_orange_F,						Base Arma3,					whitelisted
+						-Racing Helmet (Red),									H_RacingHelmet_1_red_F,							Base Arma3,					whitelisted
+						-Racing Helmet (Redstone),								H_RacingHelmet_3_F,								Base Arma3,					whitelisted
+						-Racing Helmet (Vrana),									H_RacingHelmet_4_F,								Base Arma3,					whitelisted
+						-Racing Helmet (White),									H_RacingHelmet_1_white_F,						Base Arma3,					whitelisted
+						-Racing Helmet (Yellow),								H_RacingHelmet_1_yellow_F,						Base Arma3,					whitelisted
+
+						-Skate Helmet,											H_Helmet_Skate,									Apex,						whitelisted
+
+						-Basic Helmet (White),									H_PASGT_basic_white_F,							Laws of War,				whitelisted
+						-Hard Hat (Black),										H_Construction_basic_black_F,					Laws of War,				whitelisted
+						-Hard Hat (Black, Ear Protectors),						H_Construction_earprot_black_F,					Laws of War,				whitelisted
+						-Hard Hat (Black, Headset),								H_Construction_headset_black_F,					Laws of War,				whitelisted
+						-Hard Hat (Orange),										H_Construction_basic_orange_F,					Laws of War,				whitelisted
+						-Hard Hat (Orange, Ear Protectors),						H_Construction_earprot_orange_F,				Laws of War,				whitelisted
+						-Hard Hat (Orange, Headset),							H_Construction_headset_orange_F,				Laws of War,				whitelisted
+						-Hard Hat (Red),										H_Construction_basic_red_F,						Laws of War,				whitelisted
+						-Hard Hat (Red, Ear Protectors),						H_Construction_earprot_red_F,					Laws of War,				whitelisted
+						-Hard Hat (Red, Headset),								H_Construction_headset_red_F,					Laws of War,				whitelisted
+						-Hard Hat (Vrana),										H_Construction_basic_vrana_F,					Laws of War,				whitelisted
+						-Hard Hat (Vrana, Ear Protectors),						H_Construction_earprot_vrana_F,					Laws of War,				whitelisted
+						-Hard Hat (Vrana, Headset),								H_Construction_headset_vrana_F,					Laws of War,				whitelisted
+						-Hard Hat (White),										H_Construction_basic_white_F,					Laws of War,				whitelisted
+						-Hard Hat (White, Ear Protectors),						H_Construction_earprot_white_F,					Laws of War,				whitelisted
+						-Hard Hat (White, Headset),								H_Construction_headset_white_F,					Laws of War,				whitelisted
+						-Hard Hat (Yellow),										H_Construction_basic_yellow_F,					Laws of War,				whitelisted
+						-Hard Hat (Yellow, Ear Protectors),						H_Construction_earprot_yellow_F,				Laws of War,				whitelisted
+						-Hard Hat (Yellow, Headset),							H_Construction_headset_yellow_F,				Laws of War,				whitelisted
+						-Press Helmet,											H_PASGT_basic_blue_press_F,						Laws of War,				whitelisted
+						-Press Helmet (Neck Protection),						H_PASGT_neckprot_blue_press_F,					Laws of War,				whitelisted
+
+				Workshop Mods:
+						-,														,												,							whitelisted
+
+		//============================================= Pilot Helmets:
+
+				Vanilla:
+						-Heli Crew Helmet [AAF],								H_CrewHelmetHeli_I,								Base Arma3,					whitelisted
+						-Heli Crew Helmet [CSAT],								H_CrewHelmetHeli_O,								Base Arma3,					whitelisted
+						-Heli Crew Helmet [NATO],								H_CrewHelmetHeli_B,								Base Arma3,					whitelisted
+						-Heli Pilot Helmet [AAF],								H_PilotHelmetHeli_I,							Base Arma3,					whitelisted
+						-Heli Pilot Helmet [CSAT],								H_PilotHelmetHeli_O,							Base Arma3,					whitelisted
+						-Heli Pilot Helmet [NATO],								H_PilotHelmetHeli_B,							Base Arma3,					whitelisted
+						-Pilot Helmet [AAF],									H_PilotHelmetFighter_I,							Base Arma3,					whitelisted
+						-Pilot Helmet [CSAT],									H_PilotHelmetFighter_O,							Base Arma3,					whitelisted
+						-Pilot Helmet [NATO],									H_PilotHelmetFighter_B,							Base Arma3,					whitelisted
+
+						-Heli Crew Helmet [LDF],								H_CrewHelmetHeli_I_E,							Contact,					whitelisted
+						-Heli Pilot Helmet [LDF],								H_PilotHelmetHeli_I_E,							Contact,					whitelisted
+						-Pilot Helmet [LDF],									H_PilotHelmetFighter_I_E,						Contact,					whitelisted
+
+				Workshop Mods:
+						-,														,												,							whitelisted
+
+		//============================================= Hats:
+
+				Vanilla:
+						-Beanie,												H_Watchcap_blk,									Base Arma3,					whitelisted
+						-Beanie (Coyote),										H_Watchcap_cbr,									Base Arma3,					whitelisted
+						-Beanie (Green),										H_Watchcap_camo,								Base Arma3,					whitelisted
+						-Beanie (Khaki),										H_Watchcap_khk,									Base Arma3,					whitelisted
+						-Beret (Black),											H_Beret_blk,									Base Arma3,					whitelisted
+						-Beret [NATO],											H_Beret_02,										Base Arma3,					whitelisted
+						-Beret [NATO] (Colonel),								H_Beret_Colonel,								Base Arma3,					whitelisted
+						-Booniehat (Headset),									H_Booniehat_khk_hs,								Base Arma3,					whitelisted
+						-Booniehat (Khaki),										H_Booniehat_khk,								Base Arma3,					whitelisted
+						-Booniehat (MTP),										H_Booniehat_Mcamo,								Base Arma3,					whitelisted
+						-Booniehat (Olive),										H_Booniehat_oli,								Base Arma3,					whitelisted
+						-Booniehat (Sand),										H_Booniehat_tan,								Base Arma3,					whitelisted
+						-Booniehat [AAF],										H_Booniehat_dgtl,								Base Arma3,					whitelisted
+						-Cap (BI),												H_Cap_grn_BI,									Base Arma3,					whitelisted
+						-Cap (Black),											H_Cap_blk,										Base Arma3,					whitelisted
+						-Cap (Blue),											H_Cap_blu,										Base Arma3,					whitelisted
+						-Cap (CMMG),											H_Cap_blk_CMMG,									Base Arma3,					whitelisted
+						-Cap (Green),											H_Cap_grn,										Base Arma3,					whitelisted
+						-Cap (ION),												H_Cap_blk_ION,									Base Arma3,					whitelisted
+						-Cap (Olive),											H_Cap_oli,										Base Arma3,					whitelisted
+						-Cap (Olive, Headset),									H_Cap_oli_hs,									Base Arma3,					whitelisted
+						-Cap (Olive, Headset),									H_Cap_oli_hs,									Base Arma3,					whitelisted
+						-Cap (Police),											H_Cap_police,									Base Arma3,					whitelisted
+						-Cap (Press),											H_Cap_press,									Base Arma3,					whitelisted
+						-Cap (Red),												H_Cap_red,										Base Arma3,					whitelisted
+						-Cap (Surfer),											H_Cap_surfer,									Base Arma3,					whitelisted
+						-Cap (Tan),												H_Cap_tan,										Base Arma3,					whitelisted
+						-Cap (UK),												H_Cap_khaki_specops_UK,							Base Arma3,					whitelisted
+						-Cap (US Black),										H_Cap_usblack,									Base Arma3,					whitelisted
+						-Cap (US MTP),											H_Cap_tan_specops_US,							Base Arma3,					whitelisted
+						-Cap [AAF],												H_Cap_blk_Raven,								Base Arma3,					whitelisted
+						-Cap [OPFOR],											H_Cap_brn_SPECOPS,								Base Arma3,					whitelisted
+						-Hat (Blue),											H_Hat_blue,										Base Arma3,					whitelisted
+						-Hat (Brown),											H_Hat_brown,									Base Arma3,					whitelisted
+						-Hat (Camo),											H_Hat_camo,										Base Arma3,					whitelisted
+						-Hat (Checker),											H_Hat_checker,									Base Arma3,					whitelisted
+						-Hat (Grey),											H_Hat_grey,										Base Arma3,					whitelisted
+						-Hat (Tan),												H_Hat_tan,										Base Arma3,					whitelisted
+						-Marshal Cap,											H_Cap_marshal,									Base Arma3,					whitelisted
+						-Military Cap (Blue),									H_MilCap_blue,									Base Arma3,					whitelisted
+						-Military Cap (Grey),									H_MilCap_gry,									Base Arma3,					whitelisted
+						-Military Cap (Hex),									H_MilCap_ocamo,									Base Arma3,					whitelisted
+						-Military Cap (MTP),									H_MilCap_mcamo,									Base Arma3,					whitelisted
+						-Military Cap [AAF],									H_MilCap_dgtl,									Base Arma3,					whitelisted
+						-Rangemaster Cap,										H_Cap_headphones,								Base Arma3,					whitelisted
+
+						-Beret (Gendarmerie),									H_Beret_gen_F,									Apex,						whitelisted
+						-Beret (Red) [CSAT],									H_Beret_CSAT_01_F,								Apex,						whitelisted
+						-Booniehat (Tropic),									H_Booniehat_tna_F,								Apex,						whitelisted
+						-Military Cap (Gendarmerie),							H_MilCap_gen_F,									Apex,						whitelisted
+						-Military Cap (Green Hex),								H_MilCap_ghex_F,								Apex,						whitelisted
+						-Military Cap (Tropic),									H_MilCap_tna_F,									Apex,						whitelisted
+
+						-Beret [LDF],											H_Beret_EAF_01_F,								Contact,					whitelisted
+						-Booniehat (Green),										H_Booniehat_mgrn,								Contact,					whitelisted
+						-Booniehat (Taiga),										H_Booniehat_taiga,								Contact,					whitelisted
+						-Booniehat (Woodland),									H_Booniehat_wdl,								Contact,					whitelisted
+						-Booniehat [LDF],										H_Booniehat_eaf,								Contact,					whitelisted
+						-Military Cap (Green),									H_MilCap_grn,									Contact,					whitelisted
+						-Military Cap (Taiga),									H_MilCap_taiga,									Contact,					whitelisted
+						-Military Cap (Woodland),								H_MilCap_wdl,									Contact,					whitelisted
+						-Military Cap [LDF],									H_MilCap_eaf,									Contact,					whitelisted
+						-Tin Foil Hat,											H_Hat_Tinfoil_F,								Contact,					whitelisted
+
+						-Cap (Black) [IDAP],									H_Cap_Black_IDAP_F,								Laws of War,				whitelisted
+						-Cap (Orange) [IDAP],									H_Cap_Orange_IDAP_F,							Laws of War,				whitelisted
+						-Cap (White) [IDAP],									H_Cap_White_IDAP_F,								Laws of War,				whitelisted
+						-Safari Hat (Olive),									H_Hat_Safari_olive_F,							Laws of War,				whitelisted
+						-Safari Hat (Sand),										H_Hat_Safari_sand_F,							Laws of War,				whitelisted
+
+						-Parade Cap [AAF],										H_ParadeDressCap_01_AAF_F,						Art of War,					whitelisted
+						-Parade Cap [CSAT],										H_ParadeDressCap_01_CSAT_F,						Art of War,					whitelisted
+						-Parade Cap [LDF],										H_ParadeDressCap_01_LDF_F,						Art of War,					whitelisted
+						-Parade Cap [US],										H_ParadeDressCap_01_US_F,						Art of War,					whitelisted
+
+				Workshop Mods:
+						-,														,												,							whitelisted
+
+		//============================================= Head Dressings and coverings:
+
+				Vanilla:
+						-Bandana (Black)										H_Bandanna_gry,									Base Arma3,					whitelisted
+						-Bandana (Blue)											H_Bandanna_blu,									Base Arma3,					whitelisted
+						-Bandana (Coyote)										H_Bandanna_cbr,									Base Arma3,					whitelisted
+						-Bandana (Headset)										H_Bandanna_khk_hs,								Base Arma3,					whitelisted
+						-Bandana (Khaki)										H_Bandanna_khk,									Base Arma3,					whitelisted
+						-Bandana (MTP)											H_Bandanna_mcamo,								Base Arma3,					whitelisted
+						-Bandana (Sage)											H_Bandanna_sgg,									Base Arma3,					whitelisted
+						-Bandana (Sand)											H_Bandanna_sand,								Base Arma3,					whitelisted
+						-Bandana (Surfer)										H_Bandanna_surfer,								Base Arma3,					whitelisted
+						-Bandana (Surfer, Black)								H_Bandanna_surfer_blk,							Base Arma3,					whitelisted
+						-Bandana (Surfer, Green)								H_Bandanna_surfer_grn,							Base Arma3,					whitelisted
+						-Bandana (Woodland)										H_Bandanna_camo,								Base Arma3,					whitelisted
+						-Shemag (Olive),										H_Shemag_olive,									Base Arma3,					whitelisted
+						-Shemag (Olive, Headset),								H_Shemag_olive_hs,								Base Arma3,					whitelisted
+						-Shemag (Tan),											H_ShemagOpen_tan,								Base Arma3,					whitelisted
+						-Shemag (White),										H_ShemagOpen_khk,								Base Arma3,					whitelisted
+						-Straw Hat,												H_StrawHat,										Base Arma3,					whitelisted
+						-Straw Hat (Dark),										H_StrawHat_dark,								Base Arma3,					whitelisted
+
+						-Head Bandage (Clean),									H_HeadBandage_clean_F,							Laws of War,				whitelisted
+						-Head Bandage (Moderate),								H_HeadBandage_stained_F,						Laws of War,				whitelisted
+						-Head Bandage (Severe),									H_HeadBandage_bloody_F,							Laws of War,				whitelisted
+
+				Workshop Mods:
+						-,														,												,							whitelisted
+
+		//============================================= Ear Protections and Devices:
+
+				Vanilla:
+						-Ear Protectors (Black),								H_EarProtectors_black_F,						Laws of War,				whitelisted
+						-Ear Protecrots (Orange),								H_EarProtectors_orange_F,						Laws of War,				whitelisted
+						-Ear Protectors (Red),									H_EarProtectors_red_F,							Laws of War,				whitelisted
+						-Ear Protectors (White),								H_EarProtectors_white_F,						Laws of War,				whitelisted
+						-Ear Protectors (Yellow),								H_EarProtectors_yellow_F,						Laws of War,				whitelisted
+						-Headset (Black),										H_HeadSet_black_F,								Laws of War,				whitelisted
+						-Headset (Orange),										H_HeadSet_orange_F,								Laws of War,				whitelisted
+						-Headset (Red),											H_HeadSet_red_F,								Laws of War,				whitelisted
+						-Headset (White),										H_HeadSet_white_F,								Laws of War,				whitelisted
+						-Headset (Yellow),										H_HeadSet_yellow_F,								Laws of War,				whitelisted
+						-Wireless Earpiece,										H_WirelessEarpiece_F,							Laws of War,				whitelisted
+
+				Workshop Mods:
+						-,														,												,							whitelisted
+					
+==========
+EQUIPMENT:
+==========
+
+		//============================================= Night Vision Goggles:
+
+				Vanilla:
+						-NVG Goggles (Black),									NVGoggles_OPFOR,								Base Arma3,					whitelisted
+						-NVG Goggles (Brown),									NVGoggles,										Base Arma3,					whitelisted
+						-NVG Goggles (Green),									NVGoggles_INDEP,								Base Arma3,					whitelisted
+
+						-Compact NVG (Green Hex),								O_NVGoggles_ghex_F,								Apex,						whitelisted
+						-Compact NVG (Hex),										O_NVGoggles_hex_F,								Apex,						whitelisted
+						-Compact NVG (Urban),									O_NVGoggles_urb_F,								Apex,						whitelisted
+						-ENVG-II (Black),										NVGogglesB_blk_F,								Apex,						whitelisted
+						-ENVG-II (Green),										NVGogglesB_grn_F,								Apex,						whitelisted
+						-ENVG-II (Grey),										NVGogglesB_gry_F,								Apex,						whitelisted
+						-NVG Goggles (Tropic),									NVGoggles_tna_F,								Apex,						whitelisted
+
+						-Compact NVG (Black),									O_NVGoggles_grn_F,								Contact,					whitelisted
+
+				Workshop Mods:
+						-,														,												,							whitelisted
+
+		//============================================= Binoculars:
+
+				Vanilla:
+						-Binoculars												Binocular										Base Arma3,					whitelisted
+						-Laser Designator (Sand)								Laserdesignator									Base Arma3,					whitelisted
+						-Rangefinder											Rangefinder										Base Arma3,					whitelisted
+
+						-Laser Designator (Hex)									Laserdesignator_02								Marksmen,					whitelisted
+						-Laser Designator (Olive)								Laserdesignator_03								Marksmen,					whitelisted
+
+						-Laser Designator (Green Hex)							Laserdesignator_02_ghex_F						Apex,						whitelisted
+						-Laser Designator (Khaki)								Laserdesignator_02_khk_F						Apex,						whitelisted
+
+				Workshop Mods:
+						-,														,												,							whitelisted
+			
+		//============================================= Map:
+
+				Vanilla:
+						-Map,													ItemMap,										Base Arma3,					whitelisted
+
+				Workshop Mods:
+						-,														,												,							whitelisted
+
+		//============================================= Terminal:
+
+				Vanilla:
+						-GPS,													ItemGPS,										Base Arma3,					whitelisted
+						-UAV Terminal [AAF],									I_UavTerminal,									Base Arma3,					whitelisted
+						-UAV Terminal [CSAT],									O_UavTerminal,									Base Arma3,					whitelisted
+						-UAV Terminal [NATO],									B_UavTerminal,									Base Arma3,					whitelisted
+
+						-UAV Terminal [LDF],									I_E_UavTerminal,								Base Arma3,					whitelisted
+
+						-UAV Terminal [Civilians],								C_UavTerminal,									Base Arma3,					whitelisted
+
+				Workshop Mods:
+						-,														,												,							whitelisted
+
+		//============================================= Radio:
+
+				Vanilla:
+						-Radio,													ItemRadio,										Base Arma3,					whitelisted
+
+				Workshop Mods:
+						-,														,												,							whitelisted
+
+		//============================================= Navigation:
+
+				Vanilla:
+						-Compass,												ItemCompass,									Base Arma3,					whitelisted
+
+				Workshop Mods:
+						-,														,												,							whitelisted
+
+		//============================================= Watch:
+
+				Vanilla:
+						-Watch,													ItemWatch,										Base Arma3,					whitelisted
+						-Chemical Detector,										ChemicalDetector_01_watch_F,					Base Arma3,					whitelisted
+
+				Workshop Mods:
+						-,														,												,							whitelisted
+
+/*CHANGELOG:
+*				-Maxsimodem, 2021-10-23
+*					-Created file
+*				-Maxsimodem, 2021-10-23
+*					-Established formatting and categories
+*					-Wrote notes guiding users how to read, use and modify this file
+*					-Indexed all vanilla Arma 3 weapons
+*					-Established to-do list
+*				-Maxsimodem, 2021-10-24
+*					-Indexed all Vanilla vests
+*					-Established formatting for vests, backpacks, headgear, uniforms and equipment
+*					-Moved changelog to bottom of doccument
+*					-Indexed all vanilla Arma 3 equipment, vests, headgear, uniforms and facewear
+*					-Decided to make separate file for role loadouts
+*					-Swapped from Notepad to Notepad++ as editor
+*					-Increased spacing between detail columns
+*/

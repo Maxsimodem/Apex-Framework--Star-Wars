@@ -1,0 +1,822 @@
+==================
+TEMPLATE CATEGORY:
+==================
+
+		//============================================= Template Sub-Category:
+
+				Vanilla:
+						-Example Name,																			example_class,															Example Expansion,											whitelisted
+
+				Workshop Mods:
+						-Example Name,																			example_class,															Example Expansion,											whitelisted
+					
+========
+WEAPONS:
+========
+
+		//============================================= Pistols:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+						
+		//============================================= Sub-Machine Guns:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Light Machine Guns:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Assault Rifles:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Underbarrel Grenade Launcher Rifles:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+				
+		//============================================= Designated Marksman/Battle Rifles:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Sniper Rifles:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Shotguns:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Light Rocket Launchers:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Heavy Rocket Launchers:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+========
+WEAPON ATTACHMENTS:
+========
+
+		//============================================= Reflex Sights:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+						
+		//============================================= ACOG Sights:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+						
+		//============================================= Sniper Sights:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+						
+
+==========
+Magazines:
+==========
+
+		//============================================= Pistol Magazines
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+		
+		//============================================= Submachine Gun Magazines:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+		
+		//============================================= Light Machine Gun Magazines:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Assault Rifle Magazines:
+		
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+		
+		//============================================= DMR/Battle Rifle Magazines:
+		
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+				
+		//============================================= Sniper Rifle Magazines:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+						
+		//============================================= Shotgun Magazines:
+		
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+				
+		//============================================= Light Rockets:
+				
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Heavy Rockets:
+				
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+						
+		//============================================= Grenades:
+				
+				Vanilla
+						-,																						,																		,															whitelisted
+				
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+						
+						
+		//============================================= Shields:
+				
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Explosives:
+				
+				Vanilla:
+						-,																						,																		,															whitelisted
+				
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+						
+		//============================================= Special Explosives:
+				
+				Vanilla:
+						-,																						,																		,															whitelisted
+				
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+		
+=================
+UNIFORM ELEMENTS:
+=================
+			
+		//============================================= Helmet Attachments:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+						
+		//============================================= Cloth Coverings:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Masks:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+						
+		//============================================= Formalwear/Uniforms:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Combat Fatigues:
+
+				Workshop Mods:
+						-Clone trooper uniform armor (104th ARC),												SWLA_104th_ARC_Uniform,													Legion Armory | Legacy,										whitelisted
+						-Clone trooper uniform armor (104th Grenadier),											SWLA_104th_Grenadier_Uniform,											Legion Armory | Legacy,										whitelisted
+						-Clone trooper uniform armor (104th Heavy Gunner),										SWLA_104th_HeavyGunner_Uniform,											Legion Armory | Legacy,										whitelisted
+						-Clone trooper uniform armor (104th Heavy Trooper),										SWLA_104th_HeavyTrooper_Uniform,										Legion Armory | Legacy,										whitelisted
+						-Clone trooper uniform armor (104th Marksman),											SWLA_104th_Marksman_Uniform,											Legion Armory | Legacy,										whitelisted
+						-Clone trooper uniform armor (104th Medic),												SWLA_104th_Medic_Uniform,												Legion Armory | Legacy,										whitelisted
+						-Clone trooper uniform armor (104th Trooper),											SWLA_104th_Trooper_Uniform,												Legion Armory | Legacy,										whitelisted
+						-Clone trooper uniform armor (115th Cadet),												SWLA_115th_Cadet_Uniform,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (115th Daemon),											SWLA_115th_Daemon_Uniform,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (115th Dave),												SWLA_115th_Dave_Uniform,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (115th Dom),												SWLA_115th_Dom_Uniform,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (115th Dutch),												SWLA_115th_Dutch_Uniform,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (115th EOD),												SWLA_115th_EOD_Uniform,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (115th Lenarch),											SWLA_115th_Lenarch_Uniform,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (115th Medic),												SWLA_115th_Medic_Uniform,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (115th Moe),												SWLA_115th_Moe_Uniform,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (115th Pheonix),											SWLA_115th_Pheonix_Uniform,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (115th Red),												SWLA_115th_Red_Uniform,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (115th Roody),												SWLA_115th_Roody_Uniform,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (115th Saichi),											SWLA_115th_Saichi_Uniform,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (115th Shadow),											SWLA_115th_Shadow_Uniform,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (115th Sky),												SWLA_115th_Sky_Uniform,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (115th Sosa),												SWLA_115th_Sosa_Uniform,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (115th Squad Lead),										SWLA_115th_SL_Uniform,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (115th Stanford),											SWLA_115th_Stanford_Uniform,											Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (115th Team Lead),											SWLA_115th_TL_Uniform,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (115th Trench),											SWLA_115th_Trench_Uniform,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (115th Trooper),											SWLA_115th_Trooper_Uniform,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (115th Wheezy),											SWLA_115th_Wheezy_Uniform,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (115th Whiplash),											SWLA_115th_Whiplash_Uniform,											Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (172nd Ace),												SWLA_172nd_Ace_Uniform,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (172nd Akreal),											SWLA_172nd_Akreal_Uniform,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (172nd Alfa),												SWLA_172nd_Alfa_Uniform,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (172nd Anti),												SWLA_172nd_Anti_Uniform,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (172nd Commander),											SWLA_172nd_Commander_Uniform,											Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (172nd Crimson),											SWLA_172nd_Crimson_Uniform,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (172nd Doc),												SWLA_172nd_Doc_Uniform,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (172nd E-Dubz),											SWLA_172nd_Edubz_Uniforms,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (172nd Eightball),											SWLA_172nd_Eightball_Uniform,											Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (172nd Endo),												SWLA_172nd_Endo_Uniform,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (172nd Fatcow),											SWLA_172nd_Fatcow_Uniform,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (172nd Geeman),											SWLA_172nd_Geeman_Uniform,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (172nd Lost),												SWLA_172nd_Lost_Uniform,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (172nd Medic),												SWLA_172nd_Medic_Uniform,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (172nd Nomad),												SWLA_172nd_Nomad_Uniform,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (172nd Numbers),											SWLA_172nd_Numbers_Uniform,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (172nd Pagan),												SWLA_172nd_Pagan_Uniform,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (172nd Ranger),											SWLA_172nd_Ranger_Uniform,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (172nd Red),												SWLA_172nd_Red_Uniform,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (172nd Roof),												SWLA_172nd_Roof_Uniform,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (172nd Sarge),												SWLA_172nd_Sarge_Uniform,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (172nd Sierra),											SWLA_172nd_Sierra_Uniform,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (172nd Soapy),												SWLA_172nd_Soapy_Uniform,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (172nd Spectre),											SWLA_172nd_Spectre_Uniform,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (172nd Trooper),											SWLA_172nd_Trooper_Uniform,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (172nd Vice),												SWLA_172nd_Vice_Uniform,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (172nd Voodoo),											SWLA_172nd_Voodoo_Uniform,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (172nd Wolf),												SWLA_172nd_Wolf_Uniform,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (268th Captain),											SWLA_268th_Captain_Uniform,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (268th Commander),											SWLA_268th_Commander_Uniform,											Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (268th EOD),												SWLA_268th_EOD_Uniform,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (268th Lieutenant),										SWLA_286th_Lieutenant_Uniform,											Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (268th Medic),												SWLA_268th_Medic_Uniform,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (268th NCO),												SWLA_268th_NCO_Uniform,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (268th Sergeant),											SWLA_268th_Sergeant_Uniform,											Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (268th Stealth Trooper),									SWLA_268th_Stealth_Trooper_Uniform,										Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (268th Trooper),											SWLA_268th_Trooper_Uniform,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (327th Carre),												SWLA_327th_Carre_Uniform,												Legion Armory | Legacy,										whitelisted
+						-Clone trooper uniform armor (327th Hagnak),											SWLA_327th_Hagnak_Uniform,												Legion Armory | Legacy,										whitelisted
+						-Clone trooper uniform armor (327th Killer),											SWLA_327th_Killer_Uniform,												Legion Armory | Legacy,										whitelisted
+						-Clone trooper uniform armor (327th Lightning),											SWLA_327th_Lightning_Uniform,											Legion Armory | Legacy,										whitelisted
+						-Clone trooper uniform armor (416th EOD),												SWLA_416th_EOD_Uniform,													Legion Armory | Legacy,										whitelisted
+						-Clone trooper uniform armor (416th Medic),												SWLA_416th_Medic_Uniform,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (416th Squad Lead),										SWLA_416th_SquadLead_Uniform,											Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (416th Team Lead),											SWLA_416th_TeamLead_Uniform,											Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (416th Trooper),											SWLA_416th_Trooper_Uniform,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (502nd Demon),												SWLA_502nd_Demon_Uniform,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (502nd Koz),												SWLA_502nd_Koz_Uniform,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (502nd NCO),												SWLA_502nd_NCO_Uniform,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (502nd Officer),											SWLA_502nd_Officer_Uniform,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (502nd Reaper),											SWLA_502nd_Reaper_Uniform,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (502nd Shinie),											SWLA_502nd_Shinie_Uniform,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (502nd Trooper),											SWLA_502nd_Trooper_Uniform,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (502nd Twitch),											SWLA_502nd_Twitch_Uniform,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (502nd Vexor),												SWLA_502nd_Vexor_Uniform,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (74th Cadet),												SWLA_74th_Cadet_Uniform,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (74th Commander),											SWLA_74th_Commander_Uniform,											Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (74th EOD Cadet),											SWLA_74th_EODCadet_Uniform,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (74th EOD Senior),											SWLA_74th_EODSenior_Uniform,											Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (74th EOD Trooper),										SWLA_74th_EODTrooper_Uniform,											Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (74th Medic Cadet),										SWLA_74th_MedicCadet_Uniform,											Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (74th Medic Senior),										SWLA_74th_MedicSenior_Uniform,											Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (74th Medic Trooper),										SWLA_74th_MedicTrooper_Uniform,											Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (74th Recruit),											SWLA_74th_Recruit_Uniform,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (74th_ Senior),											SWLA_74th_Senior_Uniform,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (74th Sergeant Major),										SWLA_74th_Sergeant_Uniform,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (796th Angel),												SWLA_796th_Angel_Uniform,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (796th ARF NCO),											SWLA_796th_ARF_NCO_Uniform,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (796th ARF),												SWLA_796th_ARF_Uniform,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (796th Ash),												SWLA_796th_Ash_Uniform,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (796th Blitzer),											SWLA_796th_Blitzer_Uniform,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (796th Cor),												SWLA_796th_Cor_Uniform,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (796th Corporal),											SWLA_796th_Corporal_Uniform,											Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (796th Khaos),												SWLA_796th_Khaos_Uniform,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (796th Lance Corporal),									SWLA_796th_LanceCorporal_Uniform,										Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (796th Medic),												SWLA_796th_Medic_Uniform,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (796th MedicOfficer),										SWLA_796th_MedicOfficer_Uniform,										Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (796th Pyro FUBAR),										SWLA_796th_Pyro_FUBAR_Uniform,											Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (796th Pyro),												SWLA_796th_Pyro_Uniform,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (796th Recruit),											SWLA_796th_Recruit_Uniform,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (796th Senior),											SWLA_796th_Senior_Uniform,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (796th Sergeant),											SWLA_796th_Sergeant_Uniform,											Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (796th Swat),												SWLA_796th_Swat_Uniform,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (796th Trooper),											SWLA_796th_Trooper_Uniform,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (796th Zulu),												SWLA_796th_Zulu_Uniform,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (985th ARF Forest),										SWLA_985th_ARF_Forest_Uniform,											Legion Armory | Legacy,										blacklisted //Duplicate Item
+						-Clone trooper uniform armor (985th ARF UCP),											SWLA_985th_ARF_UCP_Uniform,												Legion Armory | Legacy,										blacklisted //Duplicate Item
+						-Clone trooper uniform armor (985th ARF),												SWLA_985th_ARF_Uniform,													Legion Armory | Legacy,										blacklisted //Duplicate Item
+						-Clone trooper uniform armor (985th Checker),											SWLA_985th_Checker_Uniform,												Legion Armory | Legacy,										blacklisted //Duplicate Item
+						-Clone trooper uniform armor (985th Crewman),											SWLA_985th_Crewman_Uniform,												Legion Armory | Legacy,										blacklisted //Duplicate Item
+						-Clone trooper uniform armor (985th EOD),												SWLA_985th_EOD_Uniform,													Legion Armory | Legacy,										blacklisted //Duplicate Item
+						-Clone trooper uniform armor (985th Hypthermia),										SWLA_985th_Hypthermia_Uniform,											Legion Armory | Legacy,										blacklisted //Duplicate Item
+						-Clone trooper uniform armor (985th Jaeger),											SWLA_985th_Jaeger_Uniform,												Legion Armory | Legacy,										blacklisted //Duplicate Item
+						-Clone trooper uniform armor (985th Medic),												SWLA_985th_Medic_Uniform,												Legion Armory | Legacy,										blacklisted //Duplicate Item
+						-Clone trooper uniform armor (985th Shad),												SWLA_985th_Shad_Uniform,												Legion Armory | Legacy,										blacklisted //Duplicate Item
+						-Clone trooper uniform armor (985th Shyrack),											SWLA_985th_Shyrack_Uniform,												Legion Armory | Legacy,										blacklisted //Duplicate Item
+						-Clone trooper uniform armor (985th Smokey),											SWLA_985th_Smokey_Uniform,												Legion Armory | Legacy,										blacklisted //Duplicate Item
+						-Clone trooper uniform armor (985th Trooper),											SWLA_985th_Trooper_Uniform,												Legion Armory | Legacy,										blacklisted //Duplicate Item
+						-Clone trooper uniform armor (985th Veteran),											SWLA_985th_Veteran_Uniform,												Legion Armory | Legacy,										blacklisted //Duplicate Item
+						-Clone trooper uniform armor (BL Imperial NCO),											SWLA_BL_ImpNCO_Uniform,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (BL Imperial Officer),										SWLA_BL_ImpOfficer_Uniform,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (BL Imperial Private),										SWLA_BL_ImpPrivate_Uniform,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (BL Imperial Trooper),										SWLA_BL_ImpTrooper_Uniform,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (BL Medic),												SWLA_BL_Medic_Uniform,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (BL Officer),												SWLA_BL_Officer_Uniform,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (BL Private),												SWLA_BL_Private_Uniform,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (BL Trooper Alt 1),										SWLA_BL_Trooper_Alt1_Uniform,											Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (BL Trooper Alt 2),										SWLA_BL_Trooper_Alt2_Uniform,											Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (BL Trooper Alt 3),										SWLA_BL_Trooper_Alt3_Uniform,											Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (BL Trooper Alt 4),										SWLA_BL_Trooper_Alt4_Uniform,											Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (BL Trooper Alt 5),										SWLA_BL_Trooper_Alt5_Uniform,											Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (BL Trooper),												SWLA_BL_Trooper_Uniform,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (Dev Apex),												SWLA_Dev_Apex_Uniform,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (Dev Cally),												SWLA_Dev_Cally_Uniform,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (Dev Clock),												SWLA_Dev_Clock_Uniform,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (Dev Delfino),												SWLA_Dev_Delfino_Uniform,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (Dev Dezi),												SWLA_Dev_Dezi_Uniform,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (Dev Gambit),												SWLA_Dev_Gambit_Uniform,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (Dev Ghost),												SWLA_Dev_Ghost_Uniform,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (Dev Hydra),												SWLA_Dev_Hydra_Uniform,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (Dev Kripto),												SWLA_Dev_Kripto_Uniform,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (Dev Omega),												SWLA_Dev_Omega_Uniform,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (Dev Potato),												SWLA_Dev_Potato_Uniform,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (Dev Schlabbie),											SWLA_Dev_Schlabbie_Uniform,												Legion Armory | Legacy,										whitelisted
+						-Clone trooper uniform armor (Dev Scythe),												SWLA_Dev_Scythe_Uniform,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (Dev Shiv),												SWLA_Dev_Shiv_Uniform,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (Dev Slakk),												SWLA_Dev_Slakk_Uniform,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (Dev Whiplash),											SWLA_Dev_Whipplash_Uniform,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (Dev Zany),												SWLA_Dev_Zany_Uniform,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper uniform armor (Ghost ARF Leader),										SWLA_Ghost_ARF_Leader_Uniform,											Legion Armory | Legacy,										whitelisted
+						-Clone trooper uniform armor (Ghost ARF Trooper),										SWLA_Ghost_ARF_Trooper_Uniform,											Legion Armory | Legacy,										whitelisted
+						-Clone trooper uniform armor (Ghost Lieutenant),										SWLA_Ghost_Lieutenant_Uniform,											Legion Armory | Legacy,										whitelisted
+						-Clone trooper uniform armor (Ghost Medic),												SWLA_Ghost_Medic_Uniform,												Legion Armory | Legacy,										whitelisted
+						-Clone trooper uniform armor (Ghost Oak),												SWLA_Ghost_Oak_Uniform,													Legion Armory | Legacy,										whitelisted
+						-Clone trooper uniform armor (Ghost Recruit),											SWLA_Ghost_Recruit_Uniform,												Legion Armory | Legacy,										whitelisted
+						-Clone trooper uniform armor (Ghost Trooper),											SWLA_Ghost_Trooper_Uniform,												Legion Armory | Legacy,										whitelisted
+						-Katarn I clone commando armor (416th Bridger),											SWLA_416th_Bridger_Uniform,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Katarn I clone commando armor (416th Commando),										SWLA_416th_Commando_Uniform,											Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Katarn I clone commando armor (Dev Corvus),											SWLA_Dev_Corvus_Uniform,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Katarn I clone commando armor (Dev Dutch),												SWLA_Dev_Dutch_Uniform,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Katarn I clone commando armor (Dev N3rf),												SWLA_Dev_N3rf_Uniform,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+		//============================================= Coveralls:
+
+				Workshop Mods:
+						-Clone trooper uniform armor (172nd Pilot),												SWLA_172nd_Pilot_Uniform,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+					
+======
+VESTS:
+======
+
+		//============================================= Heavy Combat Vests:
+
+				Workshop Mods:
+						-Clone ARC trooper vest (104th ARC),													SWLA_104th_ARC_Vest,													Legion Armory | Legacy,										whitelisted
+						-Clone ARC trooper vest (115th ARC),													SWLA_115th_ARC_Vest,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone ARC trooper vest (172nd Alfa),													SWLA_172nd_Alfa_Vest,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone ARC trooper vest (172nd Doc),													SWLA_172nd_Doc_Vest,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone ARC trooper vest (172nd Sierra),													SWLA_172nd_Sierra_Vest,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone ARC trooper vest (416th Viking),													SWLA_416th_Viking_Vest,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone ARC trooper vest (502nd Koz),													SWLA_502nd_Koz_Vest,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone ARC trooper vest (502nd Reaper),													SWLA_502nd_Reaper_Vest,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone ARC trooper vest (985th ARC),													SWLA_985th_ARC_Vest,													Legion Armory | Legacy,										blacklisted //Duplicate Item
+						-Clone ARC trooper vest (985th Jaeger),													SWLA_985th_Jaeger_Vest,													Legion Armory | Legacy,										blacklisted //Duplicate Item
+						-Clone ARC trooper vest (Dev Clock),													SWLA_Dev_Clock_Vest,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone ARC trooper vest (Dev Dezi),														SWLA_Dev_Potato_Vest,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone ARC trooper vest (Dev Dezi),														SWLA_Dev_Dezi_Vest,														Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone ARC trooper vest (Dev Gambit),													SWLA_Dev_Gambit_Vest,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone ARC trooper vest (Dev Ghost),													SWLA_Dev_Ghost_Vest,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone ARC trooper vest (Dev Slakk),													SWLA_Dev_Slakk_Vest,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone ARC trooper vest (Dev Whiplash),													SWLA_Dev_Whipplash_ARC_Vest_Because_Jetfuel_Cant_JFK_The_MoonLanding,	Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone ARC trooper vest (Dev Zany),														SWLA_DEV_Zany_Vest,														Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper commander vest (74th Commander),											SWLA_74th_Commander_Vest,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper commander vest (Dev Delfino),											SWLA_Dev_Delfino_Vest,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper commander vest (Dev Kripto),												SWLA_Dev_Kripto_Vest,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper lieutenant vest (Dev Omega),												SWLA_Dev_Omega_Vest,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper officer vest (115th Officer),											SWLA_115th_Officer_Vest,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper officer vest (172nd Commander),											SWLA_172nd_Commander_Vest,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper officer vest (268th ARC),												SWLA_268th_ARC_Vest,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper officer vest (268th Officer),											SWLA_268th_Officer_Vest,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper officer vest (74th Officer),												SWLA_74th_Officer_Vest,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper officer vest (BL Officer),												SWLA_BL_Officer_Vest,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper officer vest (BL Sergeant),												SWLA_BL_Sergeant_Vest,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper officer vest (BL Squad Lead),											SWLA_BL_Squad_Vest,														Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+
+		//============================================= Light Combat Vests:
+
+				Workshop Mods:
+						-Clone Recon Officer vest (74th NCO),													SWLA_74th_NCO_Vest,														Legion Armory | Legacy,										whitelisted
+						-Katarn I clone commando tech vest (Dev Corvus),										SWLA_Dev_Corvus_Vest,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Katarn I clone commando tech vest (Dev Dutch),											SWLA_Dev_Dutch_Vest,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+
+		//============================================= Crew Vests:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Straps, Harnesses, and Bandoliers:
+
+				Workshop Mods:
+						-Clone trooper kama (Dev Scythe),														SWLA_Dev_Scythe_Vest,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+
+		//============================================= Rebreathers:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+==========
+BACKPACKS:
+==========
+
+		//============================================= Packs:
+
+				Workshop Mods:
+						-Clone trooper backpack (268th Medic),													SWLA_268th_Medic_Backpack,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper backpack (268th Normal),													SWLA_268th_Normal_Backpack,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper backpack (BL Heavy),														SWLA_BL_Heavy_Backpack,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper backpack (BL Medic),														SWLA_BL_Medic_Backpack,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper backpack (BL Normal),													SWLA_BL_Normal_Backpack,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper backpack (Ghost Heavy),													SWLA_Ghost_Heavy_Backpack,												Legion Armory | Legacy,										whitelisted
+						-Clone trooper backpack (Ghost Medic),													SWLA_Ghost_Medic_Backpack,												Legion Armory | Legacy,										whitelisted
+						-Clone trooper backpack (Ghost Normal),													SWLA_Ghost_Normal_Backpack,												Legion Armory | Legacy,										whitelisted
+						-Katarn II clone commando backpack (416th Commando),									SWLA_416th_Commando_Backpack,											Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Katarn II clone commando backpack (Dev Corvus),										SWLA_Dev_Corvus_Backpack,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+					
+		//============================================= Radios:
+
+				Workshop Mods:
+						-Clone trooper backpack (BL RTO),														SWLA_BL_RTO_Backpack,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper backpack (Ghost RTO),													SWLA_Ghost_RTO_Backpack,												Legion Armory | Legacy,										whitelisted
+						-Katarn II clone commando RTO backpack (Dev Dutch),										SWLA_Dev_Dutch_Backpack,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Katarn II clone commando RTO backpack (Dev N3rf),										SWLA_Dev_Nerf_Backpack,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+					
+		//============================================= Respirators:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+					
+		//============================================= Parachutes:
+
+				Vanilla:
+						-,																						,																		,															whitelisted
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+						
+		//============================================= Static Machine Guns:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+			
+		//============================================= Mortars:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+					
+		//============================================= Bipods and Tripods:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+					
+		//============================================= UAVs:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+					
+		//============================================= Deployable Cover
+				
+				Vanilla:
+						-,																						,																		,															whitelisted
+				
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+						
+==========
+HEAD GEAR:
+==========
+
+		//============================================= Combat Helmets:
+
+				Workshop Mods:
+						-Clone ARC trooper helmet (104th ARC),													SWLA_104th_ARC_Helmet,													Legion Armory | Legacy,										whitelisted 
+						-Clone ARC trooper helmet (268th ARC),													SWLA_268th_ARC_Helmet,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-CLone ARC trooper helmet (416th Viking),												SWLA_416th_ARC_Helmet,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone ARC trooper helmet (Dev Clock),													SWLA_Dev_Clock_Helmet,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone ARC trooper helmet (Dev Potato),													SWLA_Dev_Potato_Helmet,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone ARC trooper helmet (Dev Shiv),													SWLA_Dev_Shiv_Helmet,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone engineer helmet (268th Engineer),												SWLA_268th_Engineer_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper airborne helmet (104th Airborne Medic),									SWLA_104th_AirborneMedic_Helmet,										Legion Armory | Legacy,										whitelisted
+						-Clone trooper airborne helmet (104th Airborne NCO),									SWLA_104th_AirborneNCO_Helmet,											Legion Armory | Legacy,										whitelisted
+						-Clone trooper airborne helmet (104th Airborne Veteran),								SWLA_104th_AirborneVeteran_Helmet,										Legion Armory | Legacy,										whitelisted
+						-Clone trooper airborne helmet (104th Airborne),										SWLA_104th_Airborne_Helmet,												Legion Armory | Legacy,										whitelisted
+						-Clone trooper airborne helmet (115th Airborne EOD),									SWLA_115th_ABEOD_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper airborne helmet (115th Airborne Medic),									SWLA_115th_ABMedic_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper airborne helmet (115th Airborne Trooper),								SWLA_115th_ABTrooper_Helmet,											Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper airborne helmet (115th Saichi),											SWLA_115th_Saichi_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper airborne helmet (172nd Akreal),											SWLA_172nd_Akreal_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper airborne helmet (172nd Endo),											SWLA_172nd_Endo_Helmet,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper airborne helmet (172nd Numbers),											SWLA_172nd_Numbers_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper airborne helmet (172nd Voodoo),											SWLA_172nd_Voodoo_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-CLone trooper airborne helmet (268th Airborne),										SWLA_268th_Airborne_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper airborne helmet (BL Trooper),											SWLA_BL_Airborne_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P1 helmet (104th),														SWLA_104th_P1_Helmet,													Legion Armory | Legacy,										whitelisted
+						-Clone trooper P1 helmet (115th Daemon P1),												SWLA_115th_Daemon_P1_Helmet,											Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P1 helmet (115th Dom P1),												SWLA_115th_Dom_P1_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P1 helmet (115th Moe P1),												SWLA_115th_Moe_P1_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P1 helmet (115th P1),													SWLA_115th_P1_Helmet,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P1 helmet (115th Roody P1),												SWLA_115th_Roody_P1_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P1 helmet (115th Shadow P1),												SWLA_115th_Shadow_P1_Helmet,											Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P1 helmet (268th Captain P1),											SWLA_268th_Captain_P1_Helmet,											Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P1 helmet (268th Commander P1),											SWLA_268th_Commander_P1_Helmet,											Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P1 helmet (268th EOD),													SWLA_268th_P1_EOD_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P1 helmet (268th Lieutenant P1),											SWLA_268th_Lieutenant_P1_Helmet,										Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P1 helmet (268th Medic),													SWLA_268th_P1_Medic_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P1 helmet (268th NCO),													SWLA_268th_P1_NCO_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P1 helmet (268th Sergeant P1),											SWLA_268th_Sergeant_P1_Helmet,											Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P1 helmet (268th Stealth),												SWLA_268th_P1_Stealth_Trooper_Helmet,									Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P1 helmet (268th Trooper),												SWLA_268th_P1_Trooper_Helmet,											Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P1 helmet (796th Angel),													SWLA_796th_Angel_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P1 helmet (796th Claw),													SWLA_796th_Claw_Helmet,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P1 helmet (796th Code),													SWLA_769th_Code_Helmet,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P1 helmet (796th Cor),													SWLA_796th_Cor_Helmet,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P1 helmet (796th Corporal),												SWLA_796th_Corporal_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P1 helmet (796th Ghost),													SWLA_796th_Ghost_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P1 helmet (796th Khaos),													SWLA_796th_Khaos_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P1 helmet (796th Kyram),													SWLA_796th_Kyram_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P1 helmet (796th Lance Corporal),										SWLA_796th_LanceCorporal_Helmet,										Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P1 helmet (796th Lucky),													SWLA_796th_Lucky_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P1 helmet (796th Medic Officer),											SWLA_796th_MedicOfficer_Helmet,											Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P1 helmet (796th Medic),													SWLA_796th_Medic_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P1 helmet (796th Preacher),												SWLA_796th_Preacher_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P1 helmet (796th Pyro FUBAR),											SWLA_796th_Pyro_FUBAR_Helmet,											Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P1 helmet (796th Pyro),													SWLA_796th_Pyro_Helmet,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P1 helmet (796th Recruit),												SWLA_796th_Recruit_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P1 helmet (796th Senior),												SWLA_796th_Senior_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P1 helmet (796th Sergeant),												SWLA_796th_Sergeant_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P1 helmet (796th Specialist),											SWLA_796th_Specialist_Helmet,											Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P1 helmet (796th Swat),													SWLA_796th_Swat_Helmet,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P1 helmet (796th Trooper),												SWLA_796th_Trooper_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P1 helmet (796th Zulu),													SWLA_796th_Zulu_Helmet,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P1 helmet (BL P1),														SWLA_BL_P1_Helmet,														Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P1 helmet (Dev Cally),													SWLA_Dev_Cally_Helmet,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P1 helmet (Dev Delfino),													SWLA_Dev_Delfino_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P1 helmet (Ghost Captain),												SWLA_Ghost_P1_Captain_Helmet,											Legion Armory | Legacy,										blacklisted //Duplicate Item
+						-Clone trooper P1 helmet (Ghost Commander),												SWLA_Ghost_P1_Commander_Helmet,											Legion Armory | Legacy,										blacklisted //Duplicate Item
+						-Clone trooper P1 helmet (Ghost Corporal),												SWLA_Ghost_P1_Corporal_Helmet,											Legion Armory | Legacy,										blacklisted //Duplicate Item
+						-Clone trooper P1 helmet (Ghost Lieutenant),											SWLA_Ghost_P1_Lieutenant_Helmet,										Legion Armory | Legacy,										blacklisted //Duplicate Item
+						-Clone trooper P1 helmet (Ghost Oak),													SWLA_Ghost_P1_Oak_Helmet,												Legion Armory | Legacy,										blacklisted //Duplicate Item
+						-Clone trooper P1 helmet (Ghost Recruit),												SWLA_Ghost_P1_Recruit_Helmet,											Legion Armory | Legacy,										blacklisted //Duplicate Item
+						-Clone trooper P1 helmet (Ghost Sergeant),												SWLA_Ghost_P1_Sergeant_Helmet,											Legion Armory | Legacy,										blacklisted //Duplicate Item
+						-Clone trooper P1 helmet (Ghost Trooper),												SWLA_Ghost_P1_Trooper_Helmet,											Legion Armory | Legacy,										blacklisted //Duplicate Item
+						-Clone trooper P2 helmet (104th Grenadier),												SWLA_104th_Grenadier_Helmet,											Legion Armory | Legacy,										whitelisted
+						-Clone trooper P2 helmet (104th Heavy Gunner),											SWLA_104th_HeavyGunner_Helmet,											Legion Armory | Legacy,										whitelisted
+						-Clone trooper P2 helmet (104th Heavy Trooper),											SWLA_104th_HeavyTrooper_Helmet,											Legion Armory | Legacy,										whitelisted
+						-Clone trooper P2 helmet (104th Marksman),												SWLA_104th_Marksman_Helmet,												Legion Armory | Legacy,										whitelisted
+						-Clone trooper P2 helmet (104th Medic),													SWLA_104th_Medic_Helmet,												Legion Armory | Legacy,										whitelisted
+						-Clone trooper P2 helmet (104th Specialist),											SWLA_104th_Specialist_Helmet,											Legion Armory | Legacy,										whitelisted
+						-Clone trooper P2 helmet (104th Trooper),												SWLA_104th_Trooper_Helmet,												Legion Armory | Legacy,										whitelisted
+						-Clone trooper P2 helmet (115th Blue),													SWLA_115th_Blue_Helmet,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P2 helmet (115th Cadet),													SWLA_115th_Cadet_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P2 helmet (115th Daemon),												SWLA_115th_Daemon_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P2 helmet (115th Dom),													SWLA_115th_Dom_Helmet,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P2 helmet (115th Dutch),													SWLA_115th_Dutch_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P2 helmet (115th EOD),													SWLA_115th_EOD_Helmet,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P2 helmet (115th Medic),													SWLA_115th_Medic_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P2 helmet (115th Moe),													SWLA_115th_Moe_Helmet,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P2 helmet (115th Phoenix),												SWLA_115th_Phoenix_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P2 helmet (115th Red),													SWLA_115th_Red_Helmet,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P2 helmet (115th Roody),													SWLA_115th_Roody_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P2 helmet (115th Shadow),												SWLA_115th_Shadow_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P2 helmet (115th Sky),													SWLA_115th_Sky_Helmet,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P2 helmet (115th Squad Lead),											SWLA_115th_SL_Helmet,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P2 helmet (115th Stanford),												SWLA_115th_Stanford_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P2 helmet (115th Team Lead),												SWLA_115th_TL_Helmet,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P2 helmet (115th Trench),												SWLA_115th_Trench_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P2 helmet (115th Trooper),												SWLA_115th_Trooper_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P2 helmet (115th Wheezy),												SWLA_115th_Wheezy_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P2 helmet (115th Whiplash),												SWLA_115th_Whiplash_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P2 helmet (172nd Ace),													SWLA_172nd_Ace_Helmet,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P2 helmet (172nd Alfa),													SWLA_172nd_Alfa_Helmet,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P2 helmet (172nd Anti),													SWLA_172nd_Anti_Helmet,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P2 helmet (172nd Commander),												SWLA_172nd_Commander_Helmet,											Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P2 helmet (172nd Crimson),												SWLA_172nd_Crimson_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P2 helmet (172nd Doc),													SWLA_172nd_Doc_Helemt,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P2 helmet (172nd E-Dubz),												SWLA_172nd_Edubz_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P2 helmet (172nd Eightball),												SWLA_172nd_Eightball_Helmet,											Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P2 helmet (172nd Fatcow),												SWLA_172nd_Fatcow_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P2 helmet (172nd Geeman),												SWLA_172nd_Geeman_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P2 helmet (172nd Lost),													SWLA_172nd_Lost_Helmet,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P2 helmet (172nd Medic),													SWLA_172nd_Medic_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P2 helmet (172nd Nomad),													SWLA_172nd_Nomad_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P2 helmet (172nd Pagan),													SWLA_172nd_Pagan_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P2 helmet (172nd Ranger),												SWLA_172nd_Ranger_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P2 helmet (172nd Red),													SWLA_172nd_Red_Helmet,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P2 helmet (172nd Roof),													SWLA_172nd_Roof_Helmet,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P2 helmet (172nd Sarge),													SWLA_172nd_Sarge_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P2 helmet (172nd Sierra),												SWLA_172nd_Sierra_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P2 helmet (172nd Soapy),													SWLA_172nd_Soapy_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P2 helmet (172nd Spectre),												SWLA_172nd_Spectre_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P2 helmet (172nd Trooper),												SWLA_172nd_Trooper_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P2 helmet (172nd Vice),													SWLA_172nd_Vice_Helmet,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P2 helmet (172nd Wolf),													SWLA_172nd_Wolf_Helmet,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P2 helmet (268th Commander),												SWLA_268th_Commander_Helmet,											Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P2 helmet (268th EOD),													SWLA_268th_EOD_Helmet,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P2 helmet (268th Lieutenant),											SWLA_268th_Lieutenant_Helmet,											Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P2 helmet (268th Medic),													SWLA_268th_Medic_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P2 helmet (268th NCO),													SWLA_268th_NCO_Helmet,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P2 helmet (268th Sergeant),												SWLA_268th_Sergeant_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P2 helmet (268th Stealth),												SWLA_268th_Stealth_Trooper_Helmet,										Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P2 helmet (268th Trooper),												SWLA_268th_Trooper_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P2 helmet (327th Carre),													SWLA_327th_Carre_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P2 helmet (327th Hagnak),												SWLA_327th_Hagnak_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P2 helmet (327th Killer),												SWLA_327th_Killer_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P2 helmet (327th Lightning),												SWLA_327th_Lightning_Helmet,											Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P2 helmet (416th EOD),													SWLA_416th_EOD_Helmet,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P2 helmet (416th Medic),													SWLA_416th_Medic_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P2 helmet (416th Trooper),												SWLA_416th_Trooper_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P2 helmet (416th Veteran),												SWLA_416th_Veteran_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P2 helmet (502nd Demon),													SWLA_502nd_Demon_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P2 helmet (502nd Koz),													SWLA_502nd_Koz_Helmet,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P2 helmet (502nd Medic),													SWLA_502nd_Medic_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P2 helmet (502nd NCO),													SWLA_502nd_NCO_Helmet,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P2 helmet (502nd Officer),												SWLA_502nd_Officer_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P2 helmet (502nd Reaper),												SWLA_502nd_Reaper_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P2 helmet (502nd Shinie),												SWLA_502nd_Shinie_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P2 helmet (502nd Trooper),												SWLA_502nd_Trooper_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P2 helmet (502nd Twitch),												SWLA_502nd_Twitch_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P2 helmet (502nd Vexor),													SWLA_502nd_Vexor_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P2 helmet (74th Sergeant),												SWLA_74th_Sergeant_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P2 helmet (985th Crewman),												SWLA_985th_Crewman_Helmet,												Legion Armory | Legacy,										blacklisted //Duplicate Item
+						-Clone trooper P2 helmet (985th Dropbear),												SWLA_985th_Dropbear_Helmet,												Legion Armory | Legacy,										blacklisted //Duplicate Item
+						-Clone trooper P2 helmet (985th EOD),													SWLA_985th_EOD_Helmet,													Legion Armory | Legacy,										blacklisted //Duplicate Item
+						-Clone trooper P2 helmet (985th Hypthermia),											SWLA_985th_Hypthermia_Helmet,											Legion Armory | Legacy,										blacklisted //Duplicate Item
+						-Clone trooper P2 helmet (985th Iceman),												SWLA_985th_Iceman_Helmet,												Legion Armory | Legacy,										blacklisted //Duplicate Item
+						-Clone trooper P2 helmet (985th Jaeger),												SWLA_985th_Jaeger_Helmet,												Legion Armory | Legacy,										blacklisted //Duplicate Item
+						-Clone trooper P2 helmet (985th Magnum),												SWLA_985th_Magnum_Helmet,												Legion Armory | Legacy,										blacklisted //Duplicate Item
+						-Clone trooper P2 helmet (985th Medic),													SWLA_985th_Medic_Helmet,												Legion Armory | Legacy,										blacklisted //Duplicate Item
+						-Clone trooper P2 helmet (985th Nutt),													SWLA_985th_Nutt_Helmet,													Legion Armory | Legacy,										blacklisted //Duplicate Item
+						-Clone trooper P2 helmet (985th Redeye),												SWLA_985th_Redeye_Helmet,												Legion Armory | Legacy,										blacklisted //Duplicate Item
+						-Clone trooper P2 helmet (985th Sharp),													SWLA_985th_Sharp_Helmet,												Legion Armory | Legacy,										blacklisted //Duplicate Item
+						-Clone trooper P2 helmet (985th Shoga),													SWLA_985th_Shoga_Helmet,												Legion Armory | Legacy,										blacklisted //Duplicate Item
+						-Clone trooper P2 helmet (985th Smokey),												SWLA_985th_Smokey_Helmet,												Legion Armory | Legacy,										blacklisted //Duplicate Item
+						-Clone trooper P2 helmet (985th Trooper),												SWLA_985th_Trooper_Helmet,												Legion Armory | Legacy,										blacklisted //Duplicate Item
+						-Clone trooper P2 helmet (985th Veteran),												SWLA_985th_Veteran_Helmet,												Legion Armory | Legacy,										blacklisted //Duplicate Item
+						-Clone trooper P2 helmet (BL 1st Plt HQ),												SWLA_BL_HQ_Helmet,														Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P2 helmet (BL Bishop),													SWLA_BL_Bishop_Helmet,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P2 helmet (BL Cadet),													SWLA_BL_Cadet_Helmet,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P2 helmet (BL Crowh),													SWLA_BL_Crowh_Helmet,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P2 helmet (BL Gimps),													SWLA_BL_Gimps_Helmet,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P2 helmet (BL Lance),													SWLA_BL_Lance_Helmet,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P2 helmet (BL Painmace),													SWLA_BL_Painmace_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P2 helmet (BL Shock Trooper),											SWLA_BL_Shock_Trooper_Helmet,											Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P2 helmet (BL Trooper Alt 1),											SWLA_BL_Trooper_Alt1_Helmet,											Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P2 helmet (BL Trooper Alt 2),											SWLA_BL_Trooper_Alt2_Helmet,											Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P2 helmet (BL Trooper Alt 3),											SWLA_BL_Trooper_Alt3_Helmet,											Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P2 helmet (BL Trooper Alt 4),											SWLA_BL_Trooper_Alt4_Helmet,											Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P2 helmet (BL Trooper Alt 5),											SWLA_BL_Trooper_Alt5_Helmet,											Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P2 helmet (BL Trooper),													SWLA_BL_Trooper_Helmet,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P2 helmet (Dev Apex),													SWLA_Dev_Apex_Helmet,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P2 helmet (Dev Dezi),													SWLA_Dev_Dezi_Helmet,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P2 helmet (Dev Gambit),													SWLA_Dev_Gambit_Helmet,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P2 helmet (Dev Hydra),													SWLA_Dev_Hydra_Helmet,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P2 helmet (Dev Omega),													SWLA_Dev_Omega_Helmet,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P2 helmet (Dev Schlabbie),												SWLA_Dev_Schlabbie_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P2 helmet (Dev Whiplash),												SWLA_Dev_Whiplash_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P2 helmet (Ghost Captain),												SWLA_Ghost_Captain_Helmet,												Legion Armory | Legacy,										whitelisted
+						-Clone trooper P2 helmet (Ghost Commander),												SWLA_Ghost_Commander_Helmet,											Legion Armory | Legacy,										whitelisted
+						-Clone trooper P2 helmet (Ghost Corporal),												SWLA_Ghost_Corporal_Helmet,												Legion Armory | Legacy,										whitelisted
+						-Clone trooper P2 helmet (Ghost Lieutenant),											SWLA_Ghost_Lieutenant_Helmet,											Legion Armory | Legacy,										whitelisted
+						-Clone trooper P2 helmet (Ghost Oak),													SWLA_Ghost_Oak_Helmet,													Legion Armory | Legacy,										whitelisted
+						-Clone trooper P2 helmet (Ghost Recruit),												SWLA_Ghost_Recruit_Helmet,												Legion Armory | Legacy,										whitelisted
+						-Clone trooper P2 helmet (Ghost Sergeant),												SWLA_Ghost_Sergeant_Helmet,												Legion Armory | Legacy,										whitelisted
+						-Clone trooper P2 helmet (Ghost Trooper),												SWLA_Ghost_Trooper_Helmet,												Legion Armory | Legacy,										whitelisted
+						
+		//============================================= Stealth Helmets:
+
+				Workshop Mods:
+						-Clone trooper BARC helmet (115th BARC),												SWLA_115th_BARC_Helmet,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper BARC helmet (268th BARC),												SWLA_268th_BARC_Helmet,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper BARC helmet (985th Checker),												SWLA_985th_Checker_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper BARC helmet (985th Krieger),												SWLA_985th_Krieger_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper BARC helmet (985th),														SWLA_985th_BARC_Helmet,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper BARC helmet (BL BARC TL),												SWLA_BL_BARC_TL_Helmet,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper BARC helmet (BL BARC),													SWLA_BL_BARC_Helmet,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper BARC helmet (Dev Ghost),													SWLA_Dev_Ghost_Helmet,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper BARC helmet (Dev Kripto),												SWLA_Dev_Kripto_helmet,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper engineer helmet (115th Engineer),										SWLA_115th_Engineer_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper p1-2 helmet (74th Sparrow),												SWLA_74th_Sparrow_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper p1-2 helmet (985th Shad),												SWLA_985th_Shad_Helmet,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper p1-2 helmet (Dev Slakk),													SWLA_Dev_Slakk_Helmet,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P1 ARF helmet (104th ARF),												SWLA_104th_ARF_Helmet,													Legion Armory | Legacy,										whitelisted
+						-Clone trooper P1 ARF helmet (115th ARF),												SWLA_115th_ARF_Helmet,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P1 ARF helmet (115th Dave),												SWLA_115th_Dave_Helmet,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P1 ARF helmet (115th Lenarch),											SWLA_115th_Lenarch_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P1 ARF helmet (268th ARF Medic),											SWLA_268th_ARF_Medic_Helmet,											Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P1 ARF helmet (268th ARF NCO),											SWLA_268th_ARF_NCO_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P1 ARF helmet (268th ARF Officer),										SWLA_268th_ARF_Officer_Helmet,											Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P1 ARF helmet (268th ARF),												SWLA_268th_ARF_Helmet,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P1 ARF helmet (268th Stealth ARF),										SWLA_268th_Stealth_ARF_Helmet,											Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P1 ARF helmet (502nd ARF CP),											SWLA_502nd_ARF_CP_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P1 ARF helmet (502nd ARF CS),											SWLA_502nd_ARF_CS_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P1 ARF helmet (502nd ARF),												SWLA_502nd_ARF_Helmet,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P1 ARF helmet (502nd Sagisu),											SWLA_502nd_Sagisu_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P1 ARF helmet (796th ARF NCO),											SWLA_796th_ARF_NCO_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P1 ARF helmet (796th ARF),												SWLA_796th_ARF_Helmet,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P1 ARF helmet (985th ARF Forest),										SWLA_985th_ARF_Forest_Helmet,											Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P1 ARF helmet (985th ARF UCP),											SWLA_985th_ARF_UCP_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P1 ARF helmet (985th ARF),												SWLA_985th_ARF_Helmet,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P1 ARF helmet (BL ARF),													SWLA_BL_ARF_Helmet,														Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P1 ARF helmet (Dev Scythe),												SWLA_Dev_Scythe_Helmet,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P1 ARF helmet (Ghost ARF Forest Leader),									SWLA_Ghost_ARF_Leader_Forest_Helmet,									Legion Armory | Legacy,										whitelisted
+						-Clone trooper P1 ARF helmet (Ghost ARF Forest Trooper),								SWLA_Ghost_ARF_Trooper_Forest_Helmet,									Legion Armory | Legacy,										whitelisted
+						-Clone trooepr P1 ARF helmet (Ghost ARF Leader),										SWLA_Ghost_ARF_Leader_Helmet,											Legion Armory | Legacy,										whitelisted
+						-Clone trooper P1 ARF helmet (Ghost ARF Trooper),										SWLA_Ghost_ARF_Trooper_Helmet,											Legion Armory | Legacy,										whitelisted
+						-Clone trooper P1 SpecOps helmet (796th Armoured),										SWLA_796th_Armoured_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P1 SpecOps helmet (796th Blitzer),										SWLA_796th_Blitzer_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P1 SpecOps helmet (796th Havoc),											SWLA_796th_Havoc_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P1 SpecOps helmet (796th Mookie),										SWLA_796th_Mookie_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P1 SpecOps helmet (796th Zany),											SWLA_796th_Zany_Helmet,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone trooper P1 SpecOps Helmet (Dev Zany),											SWLA_Dev_Zany_Helmet,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Katarn I clone commando helmet (416th Bridger),										SWLA_416th_Bridger_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Katarn I clone commando helmet (416th Commando),										SWLA_416th_Commando_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Katarn I clone commando helmet (Dev Corvus),											SWLA_Dev_Corvus_Helmet,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Katarn I clone commando helmet (Dev Dutch),											SWLA_Dev_Dutch_Helmet,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Katarn I clone commando helmet (Dev N3rf),												SWLA_Dev_Nerf_Helmet,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+
+		//============================================= Non-Combat Helmets:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Pilot Helmets:
+
+				Workshop Mods:
+						-Clone P1 Pilot helmet (796th),															SWLA_796th_P1_Pilot_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone pilot P2 helmet (104th Pilot),													SWLA_104th_Pilot_Helmet,												Legion Armory | Legacy,										whitelisted
+						-Clone pilot P2 helmet (115th Pilot),													SWLA_115th_Pilot_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone pilot P2 helmet (115th Sosa),													SWLA_115th_Sosa_Helmet,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone pilot P2 helmet (172nd Pilot),													SWLA_172nd_Pilot_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone pilot P2 helmet (268th Pilot),													SWLA_268th_Pilot_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone pilot P2 helmet (74th Pilot),													SWLA_74th_Pilot_Helmet,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone pilot P2 helmet (796th Ash),														SWLA_796th_Ash_Helmet,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone pilot P2 helmet (796th Pilot),													SWLA_796th_Pilot_Helmet,												Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone pilot P2 helmet (985th Krieger),													SWLA_985th_Krieger_Pilot_Helmet,										Legion Armory | Legacy,										blacklisted //Duplicate Item
+						-Clone pilot P2 helmet (985th Shyrack),													SWLA_985th_Shyrack_Helmet,												Legion Armory | Legacy,										blacklisted //Duplicate Item
+						-Clone pilot P2 helmet (BL Pilot),														SWLA_BL_Pilot_Helmet,													Legion Armory | Legacy,										blacklisted //Insufficient Permissions
+						-Clone pilot P2 helmet (Ghost Pilot),													SWLA_Ghost_Pilot_Helmet,												Legion Armory | Legacy,										whitelisted
+						-Clone pilot P2 helmet (Ghost Wing Leader),												SWLA_Ghost_WingLeader_Helmet,											Legion Armory | Legacy,										whitelisted
+
+		//============================================= Hats:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+==========
+EQUIPMENT:
+==========
+
+		//============================================= Night Vision Goggles:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+		//============================================= Binoculars:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+			
+		//============================================= Maps:
+
+				Vanilla:
+						-,																						,																		,															whitelisted
+
+		//============================================= Terminals:
+
+				Vanilla:
+						-,																						,																		,															whitelisted
+
+		//============================================= Radios:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Navigation:
+
+				Vanilla:
+						-,																						,																		,															whitelisted
+		//============================================= Watches:
+
+				Vanilla:
+						-,																						,																		,															whitelisted
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+						
+		//============================================= Inventory Items
+
+				Vanilla:
+						-,																						,																		,															whitelisted
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted

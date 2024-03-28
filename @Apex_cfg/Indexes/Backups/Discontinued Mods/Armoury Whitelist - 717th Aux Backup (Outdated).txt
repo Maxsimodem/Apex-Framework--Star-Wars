@@ -1,0 +1,547 @@
+==================
+TEMPLATE CATEGORY:
+==================
+
+		//============================================= Template Sub-Category:
+
+				Vanilla:
+						-Example Name,																			example_variable,														Example Expansion,											whitelisted
+
+				Workshop Mods:
+						-Example Name,																			example_variable,														Example Expansion,											whitelisted
+					
+========
+WEAPONS:
+========
+
+		//============================================= Pistols:
+
+				Workshop Mods:
+						-[717th] CA-13,																			Poly_CA13,																717th Auxiliary Assets										whitelisted
+						-[717th] Cat's DC-17S,																	Poly_Cat_17S,															717th Auxiliary Assets										blacklisted //Non-Canon
+						-[717th] Datapad,																		Poly_Datapad,															717th Auxiliary Assets										blacklisted //Not a weapon
+						-[717th] DC-15SA,																		717th_DC15SA,															717th Auxiliary Assets										whitelisted
+						-[717th] DC-17S,																		Poly_DC17,																717th Auxiliary Assets										whitelisted
+						-[717th] Heavy Sidearm,																	Poly_SidearmHeavy,														717th Auxiliary Assets										blacklisted //Non-Canon
+						-[717th] Orion's DC-17S,																Poly_Orion_17S_Unpaid,													717th Auxiliary Assets										blacklisted //Non-Canon
+						-[717th] Westar 55,																		Poly_Westar,															717th Auxiliary Assets										blacklisted //INDEPFOR
+						-DC-17S Dual,																			Dual_Poly_DC17,															717th Auxiliary Assets										whitelisted
+						-Double Bladed Lightsaber (Purple),														DoubleBladed_Hilt,														717th Auxiliary Assets										blacklisted //Not accomodating jedi
+						
+		//============================================= Sub-Machine Guns:
+
+				Workshop Mods:
+						-[717th IA] E-11,																		Poly_E11_Scoped,														717th Auxiliary Assets,										blacklisted //Duplicate Item
+						-[717th IA] E-11,																		Poly_E11,																717th Auxiliary Assets,										whitelisted
+						-[717th] Cat's DC-15S,																	Poly_Cat_SC15S,															717th Auxiliary Assets,										blacklisted //Non-Canon
+						-[717th] DC-15S,																		Poly_DC15S,																717th Auxiliary Assets,										whitelisted
+						-[717th] E-1 Civil Protection Carbine,													Poly_E1,																717th Auxiliary Assets,										whitelisted
+						-[717th] RX-9,																			Poly_SMG,																717th Auxiliary Assets,										blacklisted //Immersion Breaking
+						-[717th] TX-19 Carbine																	Poly_TX19,																717th Auxiliary Assets,										blacklisted //Immersion Breaking
+
+		//============================================= Light Machine Guns:
+
+				Workshop Mods:
+						-[717th] DC-15LE,																		Poly_DC15LE,															717th Auxiliary Assets,										whitelisted
+						-[717th] Z6,																			Poly_Z6,																717th Auxiliary Assets,										whitelisted
+
+		//============================================= Assault Rifles:
+
+				Workshop Mods:
+						-[717th] A280																			Poly_A280,																717th Auxiliary Assets,										whitelisted
+						-[717th] Test,																			Poly_Wrist,																717th Auxiliary Assets,										blacklisted //Immersion Breaking
+						
+		//============================================= Underbarrel Grenade Launcher Rifles:
+		
+				workshop Mods:
+						-[717th] DC-15A (UGL),																	Poly_DC15A_UGL,															717th Auxiliary Assets,										whitelisted
+
+		//============================================= Designated Marksman/Battle Rifles:
+
+				Workshop Mods:
+						-[717th] DC-15A,																		Poly_DC15A,																717th Auxiliary Assets,										whitelisted
+						-[717th] DC-15A (Tug's),																Poly_DC15A_Tug,															717th Auxiliary Assets,										blacklisted //Non-Canon
+						-[717th] DC-15A (Vector's),																Poly_DC15A_Vector,														717th Auxiliary Assets,										blacklisted //Non-Canon
+						-[717th] DC-17M,																		717th_DC17M,															717th Auxiliary Assets,										whitelisted
+						-[717th] EE3																			Poly_EE3,																717th Auxiliary Assets,										whitelisted
+						-[717th] Proton Carbine,																Poly_ProtonCarbine,														717th Auxiliary Assets,										blacklisted //OPFOR
+						-[717th] Valken-38X,																	Valken38X_F,															717th Auxiliary Assets,										whitelisted
+						-[717th] Westar M1,																		773_Firepuncher,														717th Auxiliary Assets,										whitelisted
+						-[717th] YEET Cannon,																	Rail_Gun,																717th Auxiliary Assets,										blacklisted //Overpowered
+
+		//============================================= Sniper Rifles:
+
+				Workshop Mods:
+						-[717th] DC-15X,																		Poly_DC15X,																717th Auxiliary Assets,										whitelisted
+						-[717th] IQA-11,																		Poly_IQA,																717th Auxiliary Assets,										whitelisted
+
+		//============================================= Shotguns:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Light Rocket Launchers:
+
+				Workshop Mods:
+						-[717th] PLX-2,																			Poly_PLX2,																717th Auxiliary Assets,										whitelisted
+						-[717th] RPS-5 Disposible Launcher (HEAT),												RPS5_HE_Loaded,															717th Auxiliary Assets,										whitelisted
+						
+		//============================================= Heavy Rocket Launchers:
+
+				Workshop Mods:
+						-[717th] RPS-5 Disposible Launcher,														RPS5_Loaded,															717th Auxiliary Assets,										whitelisted
+						-[717th] RPS-6 Launcher,																RPS6,																	717th Auxiliary Assets,										whitelisted
+						-[717th] HH16,																			Poly_HH16,																717th Auxiliary Assets,										whitelisted
+						-[717th] PLX-1																			Poly_PLX1,																717th Auxiliary Assets,										whitelisted
+						
+==========
+Magazines:
+==========
+
+		//============================================= Pistol Magazines
+
+				Workshop Mods:
+						-32 Round EC20 Cell,																	Poly_DualMag,															717th Auxiliary Assets,										whitelisted
+		
+		//============================================= Submachine Gun Magazines:
+
+				Workshop Mods:
+						-E11 Engergy Cell,																		Poly_E11_Mag,															717th Auxiliary Assets,										whitelisted
+						-DC-15A Low Power Energy Cell,															Poly_DC15A_magLP,														717th Auxiliary Assets,										whitelisted
+		
+		//============================================= Light Machine Gun Magazines:
+
+				Workshop Mods:
+						-DC-15A Energy Cell,																	Poly_DC15A_mag,															717th Auxiliary Assets,										whitelisted
+						-DC-15A OverCharged Energy Cell,														Poly_DC15A_magHP,														717th Auxiliary Assets,										whitelisted
+						-DC-15LE Energy Cell,																	Poly_DC15LE_mag,														717th Auxiliary Assets,										whitelisted
+						-DC-15LE POLYmag,																		Poly_DC15LE_mag_Meme,													717th Auxiliary Assets,										blacklisted //Immersion Breaking
+
+		//============================================= Assault Rifle Magazines:
+		
+				Workshop Mods:
+						-[717th] 60 Round EC40 Cell,															Poly_60Rnd_EC40,														717th Auxiliary Assets,										whitelisted
+						-A280 Energy Cell,																		Poly_A280_mag,															717th Auxiliary Assets,										whitelisted
+		
+		//============================================= DMR/Battle Rifle Magazines:
+		
+				Workshop Mods:
+						-DC-15A Energy Cell,																	Poly_DC15A_mag,															717th Auxiliary Assets,										whitelisted
+						-DC-15A OverCharged Energy Cell,														Poly_DC15A_magHP,														717th Auxiliary Assets,										whitelisted
+						-[717th] Westar M1 Energy Cell,															Poly_773_Magazine,														717th Auxiliary Assets,										whitelisted
+				
+		//============================================= Sniper Rifle Magazines:
+
+				Workshop Mods:
+						-[717th] 5Rnd Round 80 Cell,															Poly_5Rnd_EC80,															717th Auxiliary Assets,										whitelisted
+						-[717th] DC15X Energy Cell,																Poly_DC15X_Magazine,													717th Auxiliary Assets,										whitelisted
+						-[717th] IQA-11 Energy Cell,															Poly_IQA_Magazine,														717th Auxiliary Assets,										whitelisted
+						-[717th] Valken Energy Cell,															Poly_Valken38X_Magazine,												717th Auxiliary Assets,										whitelisted
+						
+		//============================================= Shotgun Magazines:
+		
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+				
+		//============================================= Light Rockets:
+				
+				Workshop Mods:
+						-[717th] Anti Material Charge,															Poly_AntiArmour_mag,													717th Auxiliary Assets,										whitelisted
+
+		//============================================= Heavy Rockets:
+				
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+						
+		//============================================= Grenades:
+				
+				Workshop Mods:
+						-[717th] Class A Detonator,																Poly_ThermalDetonator,													717th Auxiliary Assets,										whitelisted
+						-[717th] Droid Popper,																	Droid_Popper_Mag,														717th Auxiliary Assets,										whitelisted
+						
+		//============================================= Sheilds:
+				
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+						
+		//============================================= Explosives:
+				
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+						
+		//============================================= Special Explosives:
+				
+				Vanilla:
+						-,																						,																		,															whitelisted
+				
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+=================
+UNIFORM ELEMENTS:
+=================
+			
+		//============================================= Helmet Attachments:
+
+				Workshop Mods:
+						-[717th] Commanders visor,																Phase1CC_Visor,															717th Auxiliary Assets,										whitelisted
+						-[717th] Commanders visor (Red),														Phase1CC_Visor_red,														717th Auxiliary Assets,										blacklisted //Non-Canon
+						-[717th] Heavy visor,																	Heavy_Visor,															717th Auxiliary Assets,										whitelisted
+						-[717th] Heavy visor (Red),																Heavy_Visor_red,														717th Auxiliary Assets,										blacklisted //Non-Canon
+						-[717th] Katarn Visor,																	Poly_RepublicCommandoHUD,												717th Auxiliary Assets,										whitelisted
+						-[717th] Katarn Visor (EOD Attachment),													Poly_RepublicCommandoEOD_HUD,											717th Auxiliary Assets,										whitelisted
+						-[717th] Sun visor,																		Phase1_Visor,															717th Auxiliary Assets,										whitelisted
+						-[717th] Sun visor (Red),																Phase1_Visor_red,														717th Auxiliary Assets,										blacklisted //Non-Canon
+						
+		//============================================= Cloth Coverings:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Masks:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+						
+		//============================================= Formalwear/Uniforms:
+
+				Workshop Mods:
+						-[717th] Director Uniform,																Officer_Director,														717th Auxiliary Assets,										whitelisted
+						-[717th] Formal Uniform,																Officer_Formal,															717th Auxiliary Assets,										whitelisted
+						-[717th] Formal Uniform (Flight),														Officer_Flight,															717th Auxiliary Assets,										whitelisted
+						-[717th] Formal Uniform (Intel),														Officer_Spook,															717th Auxiliary Assets,										whitelisted
+						-[717th] Formal Uniform (Medical),														Officer_Medic,															717th Auxiliary Assets,										whitelisted
+
+		//============================================= Combat Fatigues:
+
+				Workshop Mods:
+						-[597th] Clone Uniform,																	P1_597th_Uni,															717th Auxiliary Assets,										blacklisted //Non-Canon
+						-[717th IA] Imperial Pilot Uniform,														Poly_ImperialPilot,														717th Auxiliary Assets,										whitelisted
+						-[717th] Bear's Uniform,																Bear_Uniform,															717th Auxiliary Assets,										blacklisted //Non-Canon
+						-[717th] Beard's Uniform,																Beard_Uniform,															717th Auxiliary Assets,										blacklisted //Non-Canon
+						-[717th] Cadet Uniform,																	717th_Cadet_Uniform,													717th Auxiliary Assets,										blacklisted //Non-Canon
+						-[717th] Cam's Uniform,																	Cam_Uniform,															717th Auxiliary Assets,										blacklisted //Non-Canon
+						-[717th] Castle's Uniform,																Castle_Uniform,															717th Auxiliary Assets,										blacklisted //Non-Canon
+						-[717th] Cat's Uniform,																	Cat_Uniform,															717th Auxiliary Assets,										blacklisted //Non-Canon
+						-[717th] Commander Droid (Training),													Poly_Officer_Training,													717th Auxiliary Assets,										blacklisted //OPFOR
+						-[717th] Fett Armor,																	Fett_Uniform,															717th Auxiliary Assets,										blacklisted //INDEPFOR
+						-[717th] Green Armor,																	Green_Uniform,															717th Auxiliary Assets,										blacklisted //INDEPFOR
+						-[717th] Heavy Droid (Training),														Poly_Heavy_Training,													717th Auxiliary Assets,										blacklisted //OPFOR
+						-[717th] Krahe's Uniform,																Krahe_Uniform,															717th Auxiliary Assets,										blacklisted //Non-Canon
+						-[717th] Krieg's Uniform,																Krieg_Uniform,															717th Auxiliary Assets,										blacklisted //Non-Canon
+						-[717th] Orion's Uniform,																Orion_Uniform,															717th Auxiliary Assets,										blacklisted //Non-Canon
+						-[717th] Paramilitary Uniform,															Poly_ParaMilitary,														717th Auxiliary Assets,										blacklisted //OPFOR
+						-[717th] Paramilitary Uniform (Short Sleeved),											Poly_ParaMilitary_Short,												717th Auxiliary Assets,										blacklisted //OPFOR
+						-[717th] Poly's Uniform,																Poly_Uniform,															717th Auxiliary Assets,										blacklisted //Non-Canon
+						-[717th] Republic Katarn Armor,															717th_CommandoUniform,													717th Auxiliary Assets,										blacklisted //Non-Canon
+						-[717th] Republic Katarn Armor (Alt),													717th_CommandoUniform_Alt,												717th Auxiliary Assets,										blacklisted //Non-Canon
+						-[717th] Republic Katarn Armor (Night Ops),												717th_CommandoUniform_NightOps,											717th Auxiliary Assets,										whitelisted
+						-[717th] Republic Katarn Armor (Recon),													717th_CommandoUniform_Recon,											717th Auxiliary Assets,										whitelisted
+						-[717th] Republic Katarn Armor (Standard),												717th_CommandoBaseUniform,												717th Auxiliary Assets,										whitelisted
+						-[717th] Republic Katarn Armor (Urban Fighter),											717th_CommandoUniform_UrbanFighter,										717th Auxiliary Assets,										whitelisted
+						-[717th] Ryycon's Uniform,																Ryycon_Uniform,															717th Auxiliary Assets,										blacklisted //Non-Canon
+						-[717th] Skelly's Uniform,																717th_Skelly_Uniform,													717th Auxiliary Assets,										blacklisted //Non-Canon
+						-[717th] Slack's Uniform,																Slacks_Uniform,															717th Auxiliary Assets,										blacklisted //Non-Canon
+						-[717th] Sniper Droid (Training),														Poly_Sniper_Training,													717th Auxiliary Assets,										blacklisted //OPFOR
+						-[717th] Trooper Uniform,																717th_Trooper_Uniform,													717th Auxiliary Assets,										blacklisted //Non-Canon
+						-[717th] Trooper Uniform (Medic),														717th_TrooperMedic_Uniform,												717th Auxiliary Assets,										blacklisted //Non-Canon
+						-[717th] Tug's Uniform,																	717th_Tug_Uniform,														717th Auxiliary Assets,										blacklisted //Non-Canon
+						-[717th] Vector's Uniform,																717th_Vector_Uniform,													717th Auxiliary Assets,										blacklisted //Non-Canon
+						-[Dev] Republic Katarn Armor [Lava],													Dev_RepCommandoUniform,													717th Auxiliary Assets,										blacklisted //Non-Canon
+						-Battle Droid (Aqua),																	Poly_AquaDroid,															717th Auxiliary Assets,										blacklisted //OPFOR
+						-Battle Droid (Commander Desert),														Poly_Droid_Officer_Desert,												717th Auxiliary Assets,										blacklisted //OPFOR
+						-Battle Droid (Commander Winter),														Poly_Droid_Officer_Winter,												717th Auxiliary Assets,										blacklisted //OPFOR
+						-Battle Droid (Commander Woodland),														Poly_Droid_Officer_Woodland,											717th Auxiliary Assets,										blacklisted //OPFOR
+						-Battle Droid (Desert),																	Poly_Droid_Desert,														717th Auxiliary Assets,										blacklisted //OPFOR
+						-Battle Droid (Winter),																	Poly_Droid_Winter,														717th Auxiliary Assets,										blacklisted //OPFOR
+						-Battle Droid (Woodland),																Poly_Droid_Woodland,													717th Auxiliary Assets,										blacklisted //OPFOR
+						-Clone Heavy (Legacy),																	Poly_Legacy_HeavyUniform,												717th Auxiliary Assets,										whitelisted
+						-Clone JetTrooper (Legacy),																Poly_Legacy_JumpUniform,												717th Auxiliary Assets,										whitelisted
+						-Clone Pilot (Legacy),																	Poly_Legacy_PilotUniform,												717th Auxiliary Assets,										whitelisted
+						-Clone Sharpshooter (Legacy),															Poly_Legacy_SniperUniform,												717th Auxiliary Assets,										whitelisted
+						-Coruscant Guard Uniform,																P1_CG_Uni,																717th Auxiliary Assets,										whitelisted
+						-Prototype B1.5,																		JLTS_DroidB1_Prototype_SF,												717th Auxiliary Assets,										blacklisted //OPFOR
+						-Prototype B1.5B,																		JLTS_DroidB1_Prototype_BigBoom,											717th Auxiliary Assets,										blacklisted //OPFOR
+						-Prototype B1.5E,																		JLTS_DroidB1_Prototype_GasBOI,											717th Auxiliary Assets,										blacklisted //OPFOR
+						-Prototype B1.5E,																		JLTS_DroidB1_Prototype_EMPBOI,											717th Auxiliary Assets,										blacklisted //OPFOR
+						-Prototype B1.7,																		Poly_Prototype_B1_Uniform_Cloak,										717th Auxiliary Assets,										blacklisted //OPFOR
+						-Prototype B1.8,																		Poly_Prototype_B1_Uniform,												717th Auxiliary Assets,										blacklisted //OPFOR
+						-Special Operations Uniform,															Poly_SpecOps_Uni,														717th Auxiliary Assets,										whitelisted
+
+		//============================================= Coveralls:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+					
+======
+VESTS:
+======
+
+		//============================================= Heavy Combat Vests:
+
+				Workshop Mods:
+						-[717th] ARC Vest (Beard),																Poly_ARC_Beard,															717th Auxiliary Assets,										blacklisted //Non-Canon
+						-[717th] ARC Vest (Cpt/Maj),															Poly_ARC_CCP,															717th Auxiliary Assets,										blacklisted //Non-Canon
+						-[717th] ARC Vest (CSM),																Poly_ARC_CSM,															717th Auxiliary Assets,										whitelisted
+						-[717th] ARC Vest (LT),																	Poly_ARC_LT,															717th Auxiliary Assets,										whitelisted
+						-[717th] Clone Pauldron (Commander),													717th_Officer_Commander,												717th Auxiliary Assets,										blacklisted //Non-Canon
+						-[717th] Clone Pauldron (Lieutenant),													717th_Officer_Lieutenant,												717th Auxiliary Assets,										blacklisted //Non-Canon
+						-[717th] Clone Pauldron (Officer + Reversed),											717th_Officer_Reverse,													717th Auxiliary Assets,										blacklisted //Non-Canon
+						-[717th] Clone Pauldron (Officer),														717th_Officer,															717th Auxiliary Assets,										blacklisted //Non-Canon
+						-Clone Gunner Rig,																		CloneGunner_ChestRig,													717th Auxiliary Assets,										whitelisted
+
+		//============================================= Light Combat Vests:
+
+				Workshop Mods:
+						-[717th] Clone Medical Vest,															Poly_Medical_armor,														717th Auxiliary Assets,										whitelisted
+						-[717th] Clone Quarter Pauldron (Medical),												717th_MedicNCO,															717th Auxiliary Assets,										whitelisted
+						-[717th] Clone Quarter Pauldron (MP),													717th_MP_Strap,															717th Auxiliary Assets,										whitelisted
+						-[717th] Clone Vest,																	Poly_Basic_armor,														717th Auxiliary Assets,										whitelisted
+						-[717th] Katarn Vest,																	Poly_Katarn_armor,														717th Auxiliary Assets,										whitelisted
+
+		//============================================= Crew Vests:
+
+				Workshop Mods:
+						-[717th IA] Imperial Pilot Vest,														Poly_ImperialVest,														717th Auxiliary Assets,										whitelisted
+						-[717th] Corporal Flash (Army),															Rank_CP_Army,															717th Auxiliary Assets,										whitelisted
+						-[717th] Corporal Flash (Naval),														Rank_CP_Naval,															717th Auxiliary Assets,										whitelisted
+						-[717th] Lieutenant Flash (Army),														Rank_LT_Army,															717th Auxiliary Assets,										whitelisted
+						-[717th] Lieutenant Flash (Naval),														Rank_LT_Naval,															717th Auxiliary Assets,										whitelisted
+						-[717th] Sergeant Flash (Army),															Rank_SGT_Army,															717th Auxiliary Assets,										whitelisted
+						-[717th] Sergeant Flash (Naval),														Rank_SGT_Naval,															717th Auxiliary Assets,										whitelisted
+						
+		//============================================= Straps, Harnesses, and Bandoliers:
+
+				Workshop Mods:
+						-[717th] Knife Holster,																	Poly_KnifeHolster,														717th Auxiliary Assets,										whitelisted
+						-[717th] Mandalorian Knife Holster,														Mando_KnifeHolster,														717th Auxiliary Assets,										whitelisted
+						-[717th] Officer's Holster,																Poly_OfficerHolster,													717th Auxiliary Assets,										whitelisted
+
+		//============================================= Rebreathers:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+==========
+BACKPACKS:
+==========
+
+		//============================================= Packs:
+
+				Workshop Mods:
+						-[717th] Assault Pack,																	Endor_Rebel_bag,														717th Auxiliary Assets,										blacklisted //OPFOR
+						-[717th] Assault Pack (Black),															Black_Rebel_bag,														717th Auxiliary Assets,										blacklisted //OPFOR
+						-[717th] Bri-ish's Pack,																BriPack,																717th Auxiliary Assets,										blacklisted //Non-Canon
+						-[717th] Cat's Pack,																	CatPack,																717th Auxiliary Assets,										blacklisted //Non-Canon
+						-[717th] Cosmic's Pack,																	CosmicPack,																717th Auxiliary Assets,										blacklisted //Non-Canon
+						-[717th] Ryycon's Pack,																	RyyconPack,																717th Auxiliary Assets,										blacklisted //Non-Canon
+					
+		//============================================= Radios:
+
+				Workshop Mods:
+						-[717th] Bear's Radio Pack,																BearPack_RTO,															717th Auxiliary Assets,										blacklisted //Non-Canon
+						-[717th] Castle's Radio Pack,															CastlePack_RTO,															717th Auxiliary Assets,										blacklisted //Non-Canon
+						-[717th] Engineer Backpack,																Poly_Engineer_Backpack,													717th Auxiliary Assets,										blacklisted //Non-Canon
+						-[717th] Longrange Radio,																Poly_LR_Backpack,														717th Auxiliary Assets,										blacklisted //Non-Canon
+						-[717th] Orion's Pack,																	OrionPack,																717th Auxiliary Assets,										blacklisted //Non-Canon
+						-[717th] Republic Katarn Backpack,														717th_Commando_Backpack,												717th Auxiliary Assets,										blacklisted //Non-Canon
+						-[717th] Republic Katarn Backpack (Alternate),											717th_Commando_Backpack_Alt,											717th Auxiliary Assets,										blacklisted //Non-Canon
+						-[717th] Republic Katarn Backpack (Urban Fighter),										717th_Commando_Backpack_Urban,											717th Auxiliary Assets,										blacklisted //Non-Canon
+						-[717th] Slack's Radio Pack,															SlacksPack_RTO,															717th Auxiliary Assets,										blacklisted //Non-Canon
+						-[717th] Standard Katarn Backpack,														717th_Katarn_Base,														717th Auxiliary Assets,										blacklisted //Non-Canon
+						-[717th] Tug's Pack,																	TugPack,																717th Auxiliary Assets,										blacklisted //Non-Canon
+						-[717th] Vector's Pack,																	VectorPack,																717th Auxiliary Assets,										blacklisted //Non-Canon
+						-[717th] Zeus's Radio Pack,																Zeus_InvisLR,															717th Auxiliary Assets,										blacklisted //For Zeus
+						-[Dev] Republic Katarn Backpack (Night Ops),											717th_Commando_Backpack_Night,											717th Auxiliary Assets,										blacklisted //Non-Canon
+						-[Dev] Republic Katarn Backpack (Recon),												717th_Commando_Backpack_Recon,											717th Auxiliary Assets,										blacklisted //Non-Canon
+						-[Dev] Republic Katarn Backpack [Lava],													Lava_Commando_Backpack,													717th Auxiliary Assets,										blacklisted //Non-Canon
+					
+		//============================================= Respirators:
+
+				Workshop Mods:
+						-[717th] Thruster Pack (Single Use),													Poly_ThrustPack,														717th Auxiliary Assets,										whitelisted
+					
+		//============================================= Parachutes:
+
+				Vanilla:
+						-,																						,																		,															whitelisted
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+						
+		//============================================= Static Machine Guns:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+			
+		//============================================= Mortars:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+					
+		//============================================= Bipods and Tripods:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+					
+		//============================================= UAVs:
+
+				Workshop Mods:
+						-[717th] UAV Carrier (Police),															Poly_PoliceDrone_backpack,												717th Auxiliary Assets,										whitelisted
+					
+		//============================================= Deployable Cover
+				
+				Vanilla:
+						-,																						,																		,															whitelisted
+				
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+==========
+HEAD GEAR:
+==========
+
+		//============================================= Combat Helmets:
+
+				Workshop Mods:
+						-[717th IA] Phase 3 Helmet,																Poly_Base_Triton,														717th Auxiliary Assets,										whitelisted
+						-[717th IA] Phase 3 Helmet [597th],														Poly_Triton_597th,														717th Auxiliary Assets,										blacklisted //Non-Canon
+						-[717th IA] Phase 3 Helmet [717th IA],													Poly_Triton_717th,														717th Auxiliary Assets,										blacklisted //Non-Canon
+						-[717th] Alfie's Helmet,																717th_Alfie_Helmet,														717th Auxiliary Assets,										blacklisted //Non-Canon
+						-[717th] Bear's Helmet,																	717th_Bear_Helmet,														717th Auxiliary Assets,										blacklisted //Non-Canon
+						-[717th] Beard's Helmet,																717th_Beard_Helmet,														717th Auxiliary Assets,										blacklisted //Non-Canon
+						-[717th] Bri-ish's Helmet,																717th_British_Helmet,													717th Auxiliary Assets,										blacklisted //Non-Canon
+						-[717th] Cadet Helmet,																	717th_Cadet_Helmet,														717th Auxiliary Assets,										blacklisted //Non-Canon
+						-[717th] Cadet Helmet,																	717th_CadetHelmet,														717th Auxiliary Assets,										blacklisted //Non-Canon
+						-[717th] Cam's Helmet,																	717th_Cam_Helmet,														717th Auxiliary Assets,										blacklisted //Non-Canon
+						-[717th] Castle's Helmet,																717th_Castle_Helmet,													717th Auxiliary Assets,										blacklisted //Non-Canon
+						-[717th] Cat's Helmet,																	717th_Cat_Helmet,														717th Auxiliary Assets,										blacklisted //Non-Canon
+						-[717th] Cat's Pilot Helmet,															Cat_Pilot_Helmet,														717th Auxiliary Assets,										blacklisted //Non-Canon
+						-[717th] Cosmic's Helmet,																717th_Cosmic_Helmet,													717th Auxiliary Assets,										blacklisted //Non-Canon
+						-[717th] Fett Helmet,																	Poly_GreenHelmet,														717th Auxiliary Assets,										blacklisted //INDEPFOR
+						-[717th] Fett Helmet,																	Poly_FettHelmet,														717th Auxiliary Assets,										blacklisted //INDEPFOR
+						-[717th] Frost's Helmet,																717th_Frost_Hlmet,														717th Auxiliary Assets,										blacklisted //Non-Canon
+						-[717th] Grizzly's Helmet,																717th_Grizzly_Helmet,													717th Auxiliary Assets,										blacklisted //Non-Canon
+						-[717th] Hazardous Operators Helmet,													Poly_HazOp_Helmet,														717th Auxiliary Assets,										blacklisted //Non-Canon
+						-[717th] Jarl's Helmet,																	717th_Jarl_Helmet,														717th Auxiliary Assets,										blacklisted //Non-Canon
+						-[717th] Klink's Helmet,																717th_Klink_Helmet,														717th Auxiliary Assets,										blacklisted //Non-Canon
+						-[717th] Korvus's Helmet,																717th_Korvus_Helmet,													717th Auxiliary Assets,										blacklisted //Non-Canon
+						-[717th] Krahe's Helmet,																717th_Krahe_Helmet,														717th Auxiliary Assets,										blacklisted //Non-Canon
+						-[717th] Krieg's Helmet,																717th_Krieg_Helmet,														717th Auxiliary Assets,										blacklisted //Non-Canon
+						-[717th] Light Combat Helmet,															Poly_ParaMilitary_Helmet,												717th Auxiliary Assets,										blacklisted //OPFOR
+						-[717th] Lilly's Helmet,																717th_Lilly_Helmet,														717th Auxiliary Assets,										blacklisted //Non-Canon
+						-[717th] Orion's Helmet,																717th_Orion_Helmet,														717th Auxiliary Assets,										blacklisted //Non-Canon
+						-[717th] Phase 1 (EOD),																	Poly_P1_EOD_Helmet,														717th Auxiliary Assets,										whitelisted
+						-[717th] Phase 1 Captain,																Poly_P1_CPT,															717th Auxiliary Assets,										whitelisted
+						-[717th] Phase 1 Commander,																Poly_P1_CC,																717th Auxiliary Assets,										whitelisted
+						-[717th] Phase 1 Helmet,																Poly_Base_P1,															717th Auxiliary Assets,										whitelisted
+						-[717th] Phase 1 Lieutenant,															Poly_P1_LT,																717th Auxiliary Assets,										whitelisted
+						-[717th] Phase 1 Sergeant,																Poly_P1_Sgt,															717th Auxiliary Assets,										whitelisted
+						-[717th] Poly's Helmet,																	717th_Poly_Helmet,														717th Auxiliary Assets,										blacklisted //Non-Canon
+						-[717th] Ryycon's Helmet,																717th_Ryycon_Helmet,													717th Auxiliary Assets,										blacklisted //Non-Canon
+						-[717th] Sarge's Helmet,																717th_Sarge_Helmet,														717th Auxiliary Assets,										blacklisted //Non-Canon
+						-[717th] Skelly's Helmet,																717th_Skelly_Helmet,													717th Auxiliary Assets,										blacklisted //Non-Canon
+						-[717th] Slack's Helmet,																717th_Slack_Helmet,														717th Auxiliary Assets,										blacklisted //Non-Canon
+						-[717th] Special's Helmet,																717th_Special_Helmet,													717th Auxiliary Assets,										blacklisted //Non-Canon
+						-[717th] Trooper Helmet,																717th_Trooper_Helmet,													717th Auxiliary Assets,										blacklisted //Non-Canon
+						-[717th] Tug's Helmet,																	717th_Tug_Helmet,														717th Auxiliary Assets,										blacklisted //Non-Canon
+						-[717th] Vector's Helmet,																717th_Vector_Helmet,													717th Auxiliary Assets,										blacklisted //Non-Canon
+						-[717th] Yngvar's Helmet,																717th_Yngvar_Helmet,													717th Auxiliary Assets,										blacklisted //Non-Canon
+						-Clone Heavy Helmet (Legacy),															Poly_Legacy_HeavyHelmet,												717th Auxiliary Assets,										whitelisted
+						-Clone JetTrooper Helmet (Legacy),														Poly_Legacy_JetHelmet,													717th Auxiliary Assets,										whitelisted
+						-Clone Sharpshooter Helmet (Legacy),													Poly_Legacy_SharpShooterHelmet,											717th Auxiliary Assets,										whitelisted
+						-Hazardous Operators Helmet,															HazOp_Helmet,															717th Auxiliary Assets,										whitelisted
+						-Phase 1 Helmet (597th),																P1_597th_Helmet,														717th Auxiliary Assets,										blacklisted //Non-Canon
+						-Phase 1 Helmet (CG),																	CG_P1_Helmet,															717th Auxiliary Assets,										whitelisted
+						-Radio Operators Helmet,																Clone_RTO_Helmet,														717th Auxiliary Assets,										whitelisted
+						
+		//============================================= Stealth Helmets:
+
+				Workshop Mods:
+						-[717th] ARF Helmet,																	717th_ARF Helmet,														717th Auxiliary Assets,										blacklisted //Non-Canon
+						-[717th] Poly's ARF Helmet,																Poly_ARF_Helmet,														717th Auxiliary Assets,										blacklisted //Non-Canon
+						-[717th] Radio Operators Helmet,														Poly_RTO_Helmet,														717th Auxiliary Assets,										blacklisted //Non-Canon
+						-[717th] Republic Katarn Helmet,														717th_CommandoHelmet,													717th Auxiliary Assets,										blacklisted //Non-Canon
+						-[717th] Republic Katarn Helmet (Alt),													717th_CommandoHelmet_Alt,												717th Auxiliary Assets,										blacklisted //Non-Canon
+						-[717th] Republic Katarn Helmet (Night Ops),											717th_CommandoHelmet_NightOps,											717th Auxiliary Assets,										whitelisted
+						-[717th] Republic Katarn Helmet (Recon),												717th_CommandoHelmet_Recon,												717th Auxiliary Assets,										whitelisted
+						-[717th] Republic Katarn Helmet (Standard),												717th_CommandoHelmet_Base,												717th Auxiliary Assets,										whitelisted
+						-[717th] Republic Katarn Helmet (Urban Fighter),										717th_CommandoHelmet_UrbanFighter,										717th Auxiliary Assets,										whitelisted
+						-[Dev] Republic Katarn Helmet [Lava],													Lava_CommandoHelmet,													717th Auxiliary Assets,										blacklisted //Non-Canon
+						-Phase 1 Helmet (Spec Ops),																SpecOps_P1_Helmet,														717th Auxiliary Assets,										whitelisted
+						-Special Operations Helmet,																Poly_SpecOps_Helmet,													717th Auxiliary Assets,										whitelisted
+						-Special Operations Helmet (Prototype),													Poly_Trition_SOB,														717th Auxiliary Assets,										whitelisted
+
+		//============================================= Non-Combat Helmets:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+						
+		//============================================= Pilot Helmets:
+
+				Workshop Mods:
+						-[717th IA] Pilot Helmet,																Poly_ImperialPilot_Helmet,												717th Auxiliary Assets,										whitelisted
+						-[717th] Pilot Helmet,																	Base_Pilot_Helmet,														717th Auxiliary Assets,										blacklisted //Non-Canon
+						-[717th] Pilot Helmet (Indep),															Poly_IndepPilot_Helmet,													717th Auxiliary Assets,										blacklisted //INDEPFOR
+						-[717th] Ryycon's Pilot Helmet,															Ryycon_Pilot_Helmet,													717th Auxiliary Assets,										blacklisted //Non-Canon
+
+		//============================================= Hats:
+
+				Workshop Mods:
+						-[717th] Directors Cap,																	717th_DirectorCap,														717th Auxiliary Assets,										whitelisted
+						-[717th] Flight Cap,																	717th_FlightCap,														717th Auxiliary Assets,										whitelisted
+						-[717th] Formal Cap,																	Poly_NavalCap,															717th Auxiliary Assets,										whitelisted
+						-[717th] Intelligence Cap,																717th_IntelCap,															717th Auxiliary Assets,										whitelisted
+						-[717th] Medical Cap,																	717th_MedicalCap,														717th Auxiliary Assets,										whitelisted
+
+==========
+EQUIPMENT:
+==========
+
+		//============================================= Night Vision Goggles:
+
+				Workshop Mods:
+						-[717th] Phase 1 headlamp,																Poly_Headlamps,															717th Auxiliary Assets,										whitelisted
+						-[717th] Phase 1 MacroBinocular,														Poly_MacroBinocular,													717th Auxiliary Assets,										whitelisted
+						-[717th] Phase 1 RangeFinder,															Poly_RangeFinder,														717th Auxiliary Assets,										whitelisted
+						-Phase 1 Gunner Attachment,																CloneGunner_Attachment,													717th Auxiliary Assets,										whitelisted
+
+		//============================================= Binoculars:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+			
+		//============================================= Maps:
+
+				Vanilla:
+						-,																						,																		,															whitelisted
+
+		//============================================= Terminals:
+
+				Vanilla:
+						-,																						,																		,															whitelisted
+
+		//============================================= Radios:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Navigation:
+
+				Vanilla:
+						-,																						,																		,															whitelisted
+
+		//============================================= Watches:
+
+				Vanilla:
+						-,																						,																		,															whitelisted
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+						
+		//============================================= Inventory Items
+
+				Vanilla:
+						-,																						,																		,															whitelisted
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted

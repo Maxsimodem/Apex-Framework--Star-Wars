@@ -1,0 +1,13 @@
+1. To add an Arsenal-enabled crate in the editor.
+
+2. Use the green supply box model.
+
+3. Toggle "simple object" on.
+
+4. The supply box will now be an arsenal crate.
+
+_____
+
+To give any entity Arsenal, simply use this line from the server:
+
+<entity> setVariable ['QS_arsenal_object',TRUE,TRUE];		

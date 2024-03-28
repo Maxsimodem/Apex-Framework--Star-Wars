@@ -1,0 +1,494 @@
+==================
+TEMPLATE CATEGORY:
+==================
+
+		//============================================= Template Sub-Category:
+
+				Vanilla:
+						-Example Name,																			example_class,															Example Expansion,											whitelisted
+
+				Workshop Mods:
+						-Example Name,																			example_class,															Example Expansion,											whitelisted
+					
+========
+WEAPONS:
+========
+
+		//============================================= Pistols:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+						
+		//============================================= Sub-Machine Guns:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Light Machine Guns:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Assault Rifles:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Underbarrel Grenade Launcher Rifles:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+				
+		//============================================= Designated Marksman/Battle Rifles:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Sniper Rifles:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Shotguns:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Light Rocket Launchers:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Heavy Rocket Launchers:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+========
+WEAPON ATTACHMENTS:
+========
+
+		//============================================= Reflex Sights:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+						
+		//============================================= ACOG Sights:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+						
+		//============================================= Sniper Sights:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+						
+==========
+Magazines:
+==========
+
+		//============================================= Pistol Magazines
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+		
+		//============================================= Submachine Gun Magazines:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+		
+		//============================================= Light Machine Gun Magazines:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Assault Rifle Magazines:
+		
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+		
+		//============================================= DMR/Battle Rifle Magazines:
+		
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+				
+		//============================================= Sniper Rifle Magazines:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+						
+		//============================================= Shotgun Magazines:
+		
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+				
+		//============================================= Light Rockets:
+				
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Heavy Rockets:
+				
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+						
+		//============================================= Grenades:
+				
+				Vanilla
+						-,																						,																		,															whitelisted
+				
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+						
+		//============================================= Shields:
+				
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Explosives:
+				
+				Vanilla:
+						-,																						,																		,															whitelisted
+				
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+						
+		//============================================= Special Explosives:
+				
+				Vanilla:
+						-,																						,																		,															whitelisted
+				
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+		
+=================
+UNIFORM ELEMENTS:
+=================
+			
+		//============================================= Helmet Attachments:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Cloth Coverings:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Masks:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+						
+		//============================================= Formalwear/Uniforms:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Combat Fatigues:
+
+				Workshop Mods:
+						-[GD]Clone Medic Stealth uniform (Casper - Clean),										GD_Stealth_CasperMedicUniform,											Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clone Medic Stealth uniform (Casper - Weathered),									GD_Stealth_casperMedicUniform_Weathered,								Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clone Medic Stealth uniform (Clean),												GD_Stealth_MedicUniform,												Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clone Medic Stealth uniform (Devil - Clean),										GD_Stealth_DevilMedicUniform,											Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clone Medic Stealth Uniform (Devil - Weathered),									GD_Stealth_DevilMedicUniform_Weathered,									Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clone Medic Stealth uniform (Division Lead - Clean),								GD_Stealth_DLMedicUniform,												Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clone Medic Stealth uniform (Division Lead - Weathered),							GD_Stealth_DLMedicUniform_Weathered,									Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clone Medic Stealth uniform (Phantom - Clean),										GD_Stealth_PhantomMedicUniform,											Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clone Medic Stealth uniform (Phantom - Weathered),									GD_Stealth_PhantomMedicUniform_Weathered,								Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clone Medic Stealth uniform (Reaper - Clean),										GD_Stealth_ReaperMedicUniform,											Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clone Medic Stealth uniform (Reaper - Weathered),									GD_Stealth_ReaperMedicUniform_Weathered,								Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clone Medic Stealth uniform (Weathered),											GD_Stealth_MedicUniform_Weathered,										Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clone Medic uniform (Casper - Clean),												GD_CasperMedicUniform,													Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clone Medic uniform (Casper - Weathered),											GD_CasperMedicUniform_Weathered,										Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clone Medic uniform (Clean),														GD_MedicUniform,														Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clone Medic uniform (Devil - Clean),												GD_DevilMedicUniform,													Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clone Medic uniform (Devil - Weathered),											GD_DevilMedicUniform_Weathered,											Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clone Medic uniform (Division Lead - Clean),										GD_DL_MedicUniform,														Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clone Medic uniform (Division Lead - Weathered),									GD_DL_MedicUniform_Weathered,											Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clone Medic uniform (Phantom - Clean),												GD_PhantomMedicUniform,													Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clone Medic uniform (Phantom - Weathered),											GD_PhantomMedicUniform_Weathered,										Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clone Medic uniform (Reaper - Clean),												GD_ReaperMedicUniform,													Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clone Medic uniform (Reaper - Weathered),											GD_ReaperMedicUniform_Weathered,										Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clone Medic uniform (Weathered),													GD_MedicUniform_Weathered,												Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clone Officer uniform (Clean),														GD_OfficerUniform,														Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clone Officer uniform (Division Lead - Clean),										GD_OfficerDLUniform,													Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clone Officer uniform (Division Lead - Weathered),									GD_OfficerDLUniform_Weathered,											Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clone Officer uniform (Weathered),													GD_OfficerUniform_Weathered,											Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clone Recruit uniform (Clean),														GD_RecruitUniform,														Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clone Recruit uniform (Weathered),													GD_RecruitUniform_Weathered,											Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clonetrooper Stealth uniform (Casper - Clean),										GD_Stealth_CasperUniform,												Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clonetrooper Stealth uniform (Casper - Weathered),									GD_Stealth_CasperUniform_Weathered,										Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clonetrooper Stealth uniform (Clean),												GD_Stealth_BasicUniform,												Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clonetrooper Stealth uniform (Devil - Clean),										GD_Stealth_DevilUniform,												Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clonetrooper Stealth uniform (Devil - Weathered),									GD_Stealth_DevilUniform_Weathered,										Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clonetrooper Stealth uniform (Division Lead - Clean),								GD_Stealth_DLUniform,													Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clonetrooper Stealth uniform (Division Lead - Weathered),							GD_StealthDLUniform_Weathered,											Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clonetrooper Stealth uniform (Phantom - Clean),									GD_Stealth_PhantomUniform,												Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clonetrooper Stealth uniform (Phantom - Weathered),								GD_Stealth_PhantomUniform_Weathered,									Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clonetrooper Stealth uniform (Reaper - Clean),										GD_Stealth_ReaperUniform,												Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clonetrooper Stealth uniform (Reaper - Weathered),									GD_Stealth_ReaperUniform_Weathered,										Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clonetrooper Stealth uniform (Weathered),											GD_Stealth_BasicUniform_Weathered,										Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clonetrooper uniform (Casper - Clean),												GD_CasperUniform,														Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clonetrooper uniform (Casper - Weathered),											GD_CasperUniform_Weathered,												Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clonetrooper uniform (Clean),														GD_BasicUniform,														Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clonetrooper uniform (Devil - Clean),												GD_DevilUniform,														Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clonetrooper uniform (Devil - Weathered),											GD_DevilUniform_Weathered,												Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clonetrooper uniform (Division Lead - Clean),										GD_DL_BasicUniform,														Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clonetrooper uniform (Division Lead - Weathered),									GD_DL_BasicUniform_Weathered,											Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clonetrooper uniform (Phantom - Clean),											GD_PhantomUniform,														Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clonetrooper uniform (Phantom - Weathered),										GD_PhantomUniform_Weathered,											Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clonetrooper uniform (Reaper - Clean),												GD_ReaperUniform,														Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clonetrooper uniform (Reaper - Weathered),											GD_ReaperUniform_Weathered,												Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clonetrooper uniform (Weathered),													GD_BasicUniform_Weathered,												Ghost Division Auxiliary Assets,							whitelisted
+						-[Schlabbie]Clonetrooper Stealth uniform (Clean),										GD_Stealth_SchlabbieUniform,											Ghost Division Auxiliary Assets,							whitelisted
+						-[Schlabbie]Clonetrooper Stealth uniform (Division Lead - Clean),						GD_Stealth_DLSchlabbieUniform,											Ghost Division Auxiliary Assets,							whitelisted
+						-[Schlabbie]Clonetrooper Stealth uniform (Division Lead - Weathered),					GD_Stealth_DLSchlabbieUniform_Weathered,								Ghost Division Auxiliary Assets,							whitelisted
+						-[Schlabbie]Clonetrooper Stealth uniform (Weathered),									GD_Stealth_SchlabbieUniform_Weathered,									Ghost Division Auxiliary Assets,							whitelisted
+						-[Schlabbie]Clonetrooper uniform (Clean),												GD_SchlabbieUniform,													Ghost Division Auxiliary Assets,							whitelisted
+						-[Schlabbie]Clonetrooper uniform (Division Lead - Clean),								GD_DL_SchlabbieUniform,													Ghost Division Auxiliary Assets,							whitelisted
+						-[Schlabbie]Clonetrooper uniform (Division Lead - Weathered),							GD_DL_SchlabbieUniform_Weathered,										Ghost Division Auxiliary Assets,							whitelisted
+						-[Schlabbie]Clonetrooper uniform (Weathered),											GD_SchlabbieUniform_Weathered,											Ghost Division Auxiliary Assets,							whitelisted
+
+		//============================================= Coveralls:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+					
+======
+VESTS:
+======
+
+		//============================================= Heavy Combat Vests:
+
+				Workshop Mods:
+						-[GD]Clone ARC-Trooper Vest (Clean),													GD_Vest_ARC,															Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clone ARC-Trooper VEst (Weathered),												GD_Vest_ARC_Weathered,													Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clone Commander Vest (Black),														GD_Vest_Commander_Black,												Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clone Lieutenant Vest (Black),														GD_Vest_Lieutenant,														Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clone Officer Vest,																GD_Vest_Officer_Black,													Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clone Reversed-Officer Vest,														GD_Cest_Officer2_Black,													Ghost Division Auxiliary Assets,							whitelisted
+
+		//============================================= Light Combat Vests:
+
+				Workshop Mods:
+						-[GD]Medic NCO Vest,																	GD_Vest_Medic_Decal_NCO,												Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Medic Officer Vest,																GD_Vest_Medic_Decal_Officer_Black,										Ghost Division Auxiliary Assets,							whitelisted
+
+		//============================================= Crew Vests:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Straps, Harnesses, and Bandoliers:
+
+				Workshop Mods:
+						-[GD]Clone Kama Vest (Black),															GD_Vest_Kama_Black,														Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Medic Vest,																		GD_Vest_Medic_Decal,													Ghost Division Auxiliary Assets,							whitelisted
+
+		//============================================= Rebreathers:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+==========
+BACKPACKS:
+==========
+
+		//============================================= Packs:
+
+				Workshop Mods:
+						-[GD]Clonetrooper Backpack,																GD_Backpack_Basic,														Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clonetrooper Backpack (Straps),													GD_Backpack_Basic_S,													Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clonetrooper EOD Backpack,															GD_Backpack_EOD,														Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clonetrooper EOD Backpack (Straps),												GD_Backpack_EOD_S,														Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clonetrooper Heavy Backpack,														GD_Backpack_Heavy,														Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clonetrooper Heavy Backpack (Straps),												GD_Backpack_Heavy_S,													Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clonetrooper Medic Backpack,														GD_Backpack_Medic,														Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clonetrooper Medic Backpack (Straps),												GD_Backpack_Medic_S,													Ghost Division Auxiliary Assets,							whitelisted
+					
+		//============================================= Radios:
+
+				Workshop Mods:
+						-[GD]Clonetrooper Mini RTO Pack,														GD_Backpack_RTO_mini,													Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clonetrooper RTO Backpack,															GD_Backpack_RTO,														Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clonetrooper RTO Backpack,															GD_Backpack_RTO_S,														Ghost Division Auxiliary Assets,							whitelisted
+					
+		//============================================= Respirators:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+					
+		//============================================= Parachutes:
+
+				Vanilla:
+						-,																						,																		,															whitelisted
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+						
+		//============================================= Static Machine Guns:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+			
+		//============================================= Mortars:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+					
+		//============================================= Bipods and Tripods:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+					
+		//============================================= UAVs:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+					
+		//============================================= Deployable Cover
+				
+				Vanilla:
+						-,																						,																		,															whitelisted
+				
+				Workshop Mods:
+						-
+						
+==========
+HEAD GEAR:
+==========
+
+		//============================================= Combat Helmets:
+
+				Workshop Mods:
+						-[GD]Clone Airborne Corporal Helmet (Clean),											GD_Helmet_Airborne_Tier_Two,											Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clone Airborne Corporal Helmet (Weathered),										GD_Helmet_Airborne_Tier_Two_Weathered,									Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clone Airborne Officer Helmet (Clean),												GD_Helmet_Airborne_Tier_Four,											Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clone Airborne Officer Helmet (Weathered),											GD_Helmet_Airborne_Tier_Four_Weathered,									Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clone Airborne Recruit Helmet (Clean),												GD_Helmet_Airborne_CR,													Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clone Airborne Recruit Helmet (Weathered),											GD_Helmet_Airborne_CR_Weathered,										Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clone Airborne Sergeant Helmet (Clean),											GD_Helmet_Airborne_Tier_Three,											Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clone Airborne Sergeant Helmet (Weathered),										GD_Helmet_Airborne_Tier_Three_Weathered,								Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clone Airborne Trooper Helmet (Clean),												GD_Helmet_Airborne_Tier_One,											Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clone Airborne Trooper Helmet (Weathered),											GD_Helmet_Airborne_Tier_One_Weathered,									Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clone Captain Helmet (CC - Clean),													GD_Helmet_CX,															Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clone Captain Helmet (CC - Weathered),												GD_Helmet_CX_Weathered,													Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clone Corporal Helmet (CP - Clean),												GD_Helmet_CP,															Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clone Corporal Helmet (CP - Weathered),											GD_Helmet_CP_Weathered,													Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clone Engineer Helmet (Clean),														GD_Helmet_Engineer_T1,													Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clone Engineer Helmet (Weathered),													GD_Helmet_Engineer_T1_Weathered,										Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clone Engineer NCO Helmet (Clean),													GD_Helmet_Engineer_T2,													Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clone Engineer NCO Helmet (Weathered),												GD_Helmet_Engineer_T2_Weathered,										Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clone Engineer Officer Helmet (Clean),												GD_Helmet_Engineer_T3,													Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clone Engineer Officer Helmet (Weathered),											GD_Helmet_Engineer_T3_Weathered,										Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clone Lieutenant Helmet (CL - Clean),												GD_Helmet_CL,															Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clone Recruit Helmet (CR - Weathered),												GD_Helmet_CR_Weathered,													Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clone Senior-trooper Helmet (SCT - Clean),											GD_Helmet_SCT,															Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clone Senior-trooper Helmet (SCT - Weathered),										GD_Helmet_SCT_Weathered,												Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clone Sergeant-Major Helmet (CSM - Clean),											GD_Helmet_CSM,															Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clone Sergeant-Major Helmet (CSM - Weathered),										GD_Helmet_CSM_Weathered,												Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clone Sergeant Helmet (CS - Clean),												GD_Helmet_CS,															Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clone Sergeant Helmet (CS - Weathered),											GD_Helmet_CS_Weathered,													Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clone Spec-Ops Helmet (Longrange - Clean),											GD_Helmet_SpecOps_T1_LR,												Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clone Spec-Ops Helmet (Longrange - Weathered),										GD_Helmet_SpecOps_T1_LR_Weathered,										Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clone Spec-Ops Helmet (Shortrange - Clean),										GD_Helmet_SpecOps_T1_SR,												Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clone Spec-Ops Helmet (Shortrange - Weathered),									GD_Helmet_SpecOps_T1_SR_Weathered,										Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clone Spec-Ops NCO Helmet (Longrange - Clean),										GD_Helmet_SpecOps_T2_LR,												Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clone Spec-Ops NCO Helmet (Longrange - Weathered),									GD_Helmet_SpecOps_T2_LR_Weathered,										Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clone Spec-Ops NCO Helmet (Shortrange - Clean),									GD_Helmet_SpecOps_T2_SR,												Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clone Spec-Ops NCO Helmet (Shortrange - Weathered),								GD_Helmet_SpecOps_T2_SR_Weathered,										Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clone Spec-Ops Officer Helmet (Longrange - Clean),									GD_Helmet_SpecOps_T3_LR,												Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clone Spec-Ops Officer Helmet (Longrange - Weathered),								GD_Helmet_SpecOps_T3_LR_Weathered,										Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clone Spec-Ops Officer Helmet (Shortrange - Clean),								GD_Helmet_SpecOps_T3_SR,												Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clone Spec-Ops Officer Helmet (Shortrange - Weathered),							GD_Helmet_SpecOps_T3_SR_Weathered,										Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clone trooper Helmet (CR - Clean),													GD_Helmet_CR,															Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clone trooper Helmet (CT - Clean),													GD_Helmet_CT,															Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clone trooper Helmet (CT - Weathered),												GD_Helmet_CT_Weathered,													Ghost Division Auxiliary Assets,							whitelisted
+						-Clonetrooper Engineer Helmet,															GD_Helmet_Engineer_Base,												Ghost Division Auxiliary Assets,							whitelisted
+						-Clonetrooper Phase 1 Helmet,															GD_Helmet_P1_Base,														Ghost Division Auxiliary Assets,							whitelisted
+						-Clonetrooper Phase 1 Spec-Ops Helmet (Longrange),										GD_Helmet_SpecOps_LR_Base,												Ghost Division Auxiliary Assets,							whitelisted
+						-Clonetrooper Phase 1 Spec-Ops Helmet (Shortrange),										GD_Helmet_SpecOps_SR_Base,												Ghost Division Auxiliary Assets,							whitelisted
+						
+		//============================================= Stealth Helmets:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Non-Combat Helmets:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Pilot Helmets:
+
+				Workshop Mods:
+						-[GD]Clone Pilot Corporal Helmet (Clean),												GD_Helmet_Pilot_Tier_Two,												Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clone Pilot Corporal Helmet (Weathered).											GD_Helmet_Pilot_Tier_Two_Weathered,										Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clone Pilot Helmet (Clean),														GD_Helmet_Pilot_Tier_One,												Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clone Pilot Helmet (Weathered),													GD_Helmet_Pilot_Tier_One_Weathered,										Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clone Pilot Officer Helmet (Clean),												GD_Helmet_Pilot_Tier_Four,												Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clone Pilot Officer Helmet (Weathered),											GD_Helmet_Pilot_Tier_Four_Weathered,									Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clone Pilot Sergeant Helmet (Clean),												GD_Helmet_Pilot_Tier_Three,												Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clone Pilot Sergeant Helmet (Weathered),											GD_Helmet_Pilot_Tier_Three_Weathered,									Ghost Division Auxiliary Assets,							whitelisted
+						-Clonetrooper Phase 1 Pilot Helmet,														LSGD_Helmet_Pilot_P1_Base,												Ghost Division Auxiliary Assets,							whitelisted
+
+		//============================================= Hats:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+==========
+EQUIPMENT:
+==========
+
+		//============================================= Night Vision Goggles:
+
+				Workshop Mods:
+						-[GD]Clonetrooper NVG (Clean),															GD_Visor_NVG,															Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clonetrooper NVG (Down - Clean),													GD_Visor_NVG_Low,														Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clonetrooper NVG (Down - Weathered),												GD_Visor_NVG_low_Weathered,												Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clonetrooper NVG (Weathered),														GD_Visor_NVG_Weathered,													Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clonetrooper Phase 1 Rangefinder,													GD_P1_Rangefinder,														Ghost Division Auxiliary Assets,							whitelisted
+						-[GD]Clonetrooper Phase 1 Rangefinder (Black),											GD_P1_Rangefinder_black,												Ghost Division Auxiliary Assets,							whitelisted
+
+		//============================================= Binoculars:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+			
+		//============================================= Maps:
+
+				Vanilla:
+						-,																						,																		,															whitelisted
+
+		//============================================= Terminals:
+
+				Vanilla:
+						-,																						,																		,															whitelisted
+
+		//============================================= Radios:
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+
+		//============================================= Navigation:
+
+				Vanilla:
+						-,																						,																		,															whitelisted
+
+		//============================================= Watches:
+
+				Vanilla:
+						-,																						,																		,															whitelisted
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted
+						
+		//============================================= Inventory Items
+
+				Vanilla:
+						-,																						,																		,															whitelisted
+
+				Workshop Mods:
+						-,																						,																		,															whitelisted

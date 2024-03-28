@@ -39,417 +39,866 @@ params [
 //=========================================== At this point you could build up lists of weapons like "normalguns + marksmanguns + sniperguns + LMGguns + HMGguns" and use those variables instead of the default copy-paste used below.
 // These variables are just suggestions, you would add them together like this:   (_weaponsBasic + _weaponsMarksman + _weaponsHandgun)
 // All weapons including pistols, launchers, binoculars (yes they are classified as a weapon).
-_weaponsAll = [
-	'','arifle_arx_ghex_f','hgun_pistol_heavy_02_f','arifle_ak12_f','arifle_ak12_gl_f','arifle_akm_f','arifle_aks_f','srifle_dmr_04_f',
-	'srifle_dmr_04_tan_f','arifle_ctars_blk_f','arifle_ctars_ghex_f','arifle_ctars_hex_f','arifle_ctar_blk_f','arifle_ctar_ghex_f','arifle_ctar_hex_f',
-	'arifle_ctar_gl_blk_f','arifle_ctar_gl_ghex_f','arifle_ctar_gl_hex_f','srifle_dmr_07_blk_f','srifle_dmr_07_ghex_f','srifle_dmr_07_hex_f','srifle_dmr_05_blk_f',
-	'srifle_dmr_05_hex_f','srifle_dmr_05_tan_f','srifle_gm6_ghex_f','srifle_gm6_f','srifle_gm6_camo_f','arifle_katiba_f','arifle_katiba_c_f','arifle_katiba_gl_f',
-	'lmg_03_f','srifle_lrr_f','srifle_lrr_camo_f','srifle_lrr_tna_f','srifle_dmr_02_f','srifle_dmr_02_camo_f','srifle_dmr_02_sniper_f','srifle_dmr_03_f','srifle_dmr_03_multicam_f',
-	'srifle_dmr_03_khaki_f','srifle_dmr_03_tan_f','srifle_dmr_03_woodland_f','srifle_dmr_06_camo_f','srifle_dmr_06_olive_f','srifle_ebr_f','arifle_mk20_plain_f','arifle_mk20_f',
-	'arifle_mk20_gl_plain_f','arifle_mk20_gl_f','lmg_mk200_f','arifle_mk20c_plain_f','arifle_mk20c_f','arifle_mx_gl_black_f','arifle_mx_gl_khk_f','arifle_mx_gl_f','arifle_mx_black_f',
-	'arifle_mx_khk_f','arifle_mx_f','arifle_mx_sw_black_f','arifle_mx_sw_khk_f','arifle_mx_sw_f','arifle_mxc_black_f','arifle_mxc_khk_f','arifle_mxc_f','arifle_mxm_black_f','arifle_mxm_khk_f',
-	'arifle_mxm_f','mmg_01_hex_f','mmg_01_tan_f','hgun_pdw2000_f','smg_05_f','srifle_dmr_01_f','arifle_sdar_f','arifle_spar_01_blk_f','arifle_spar_01_khk_f','arifle_spar_01_snd_f',
-	'arifle_spar_01_gl_blk_f','arifle_spar_01_gl_khk_f','arifle_spar_01_gl_snd_f','arifle_spar_02_blk_f','arifle_spar_02_khk_f','arifle_spar_02_snd_f','arifle_spar_03_blk_f','arifle_spar_03_khk_f',
-	'arifle_spar_03_snd_f','mmg_02_black_f','mmg_02_camo_f','mmg_02_sand_f','smg_02_f','arifle_trg20_f','arifle_trg21_f','arifle_trg21_gl_f','arifle_arx_blk_f','arifle_arx_hex_f','smg_01_f',
-	'lmg_zafir_f','hgun_pistol_heavy_01_f','hgun_acpc2_f','hgun_p07_khk_f','hgun_p07_f','hgun_pistol_01_f','hgun_p07_blk_f',
-	'smg_03_black','smg_03_camo','smg_03_hex','smg_03_khaki','smg_03_tr_black','smg_03_tr_camo','smg_03_tr_hex','smg_03_tr_khaki',
-	'smg_03c_black','smg_03c_camo','smg_03c_hex','smg_03c_khaki','smg_03c_tr_black','smg_03c_tr_camo','smg_03c_tr_hex','smg_03c_tr_khaki',
-	'hgun_rook40_f','hgun_pistol_signal_f','binocular','laserdesignator_02_ghex_f','laserdesignator_02','laserdesignator_01_khk_f','laserdesignator_03','laserdesignator','rangefinder',
-	'launch_nlaw_f','launch_rpg32_f','launch_rpg32_ghex_f','launch_rpg7_f','launch_i_titan_f','launch_o_titan_ghex_f','launch_o_titan_f','launch_b_titan_f','launch_b_titan_tna_f',
-	'launch_o_titan_short_f','launch_o_titan_short_ghex_f','launch_i_titan_short_f','launch_b_titan_short_tna_f','launch_b_titan_short_f',
-	'launch_o_vorona_brown_f','launch_o_vorona_green_f','launch_mraws_green_rail_f','launch_mraws_olive_rail_f','launch_mraws_sand_rail_f','launch_mraws_green_f','launch_mraws_olive_f','launch_mraws_sand_f',
-	'arifle_ak12_arid_f','arifle_ak12_lush_f','arifle_ak12_gl_arid_f','arifle_ak12_gl_lush_f',
-	'arifle_ak12u_f','arifle_ak12u_arid_f','arifle_ak12u_lush_f',
-	'sgun_huntershotgun_01_f','sgun_huntershotgun_01_sawedoff_f',
-	'srifle_dmr_06_hunter_f',
-	'lmg_mk200_black_f',
-	'arifle_msbs65_f','arifle_msbs65_black_f','arifle_msbs65_camo_f','arifle_msbs65_sand_f','arifle_msbs65_gl_f','arifle_msbs65_gl_black_f','arifle_msbs65_gl_camo_f','arifle_msbs65_gl_sand_f',
-	'arifle_msbs65_mark_f','arifle_msbs65_mark_black_f','arifle_msbs65_mark_camo_f','arifle_msbs65_mark_sand_f','arifle_msbs65_ubs_f','arifle_msbs65_ubs_black_f','arifle_msbs65_ubs_camo_f','arifle_msbs65_ubs_sand_f',
-	'arifle_rpk12_f','arifle_rpk12_arid_f','arifle_rpk12_lush_f',
-	'launch_rpg32_green_f',
-	'launch_i_titan_eaf_f','launch_b_titan_olive_f',
-	'hgun_pistol_heavy_01_green_f'	
-];
 
-// General infantry rifles + marksman rifles
-_weaponsBasic = [
-	'','arifle_arx_ghex_f','arifle_ak12_f','arifle_ak12_gl_f','arifle_akm_f','arifle_aks_f','srifle_dmr_04_f',
-	'srifle_dmr_04_tan_f','arifle_ctar_blk_f','arifle_ctar_ghex_f','arifle_ctar_hex_f',
-	'arifle_ctar_gl_blk_f','arifle_ctar_gl_ghex_f','arifle_ctar_gl_hex_f','srifle_dmr_07_blk_f','srifle_dmr_07_ghex_f','srifle_dmr_07_hex_f',
-	'arifle_katiba_f','arifle_katiba_c_f','arifle_katiba_gl_f',
-	'srifle_dmr_03_f','srifle_dmr_03_multicam_f',
-	'srifle_dmr_03_khaki_f','srifle_dmr_03_tan_f','srifle_dmr_03_woodland_f','srifle_dmr_06_camo_f','srifle_dmr_06_olive_f','srifle_ebr_f','arifle_mk20_plain_f','arifle_mk20_f',
-	'arifle_mk20_gl_plain_f','arifle_mk20_gl_f','arifle_mk20c_plain_f','arifle_mk20c_f','arifle_mx_gl_black_f','arifle_mx_gl_khk_f','arifle_mx_gl_f','arifle_mx_black_f',
-	'arifle_mx_khk_f','arifle_mx_f','arifle_mxc_black_f','arifle_mxc_khk_f','arifle_mxc_f','arifle_mxm_black_f','arifle_mxm_khk_f',
-	'arifle_mxm_f','srifle_dmr_01_f','arifle_sdar_f','arifle_spar_01_blk_f','arifle_spar_01_khk_f','arifle_spar_01_snd_f',
-	'arifle_spar_01_gl_blk_f','arifle_spar_01_gl_khk_f','arifle_spar_01_gl_snd_f','arifle_spar_03_blk_f','arifle_spar_03_khk_f',
-	'arifle_spar_03_snd_f','arifle_trg20_f','arifle_trg21_f','arifle_trg21_gl_f','arifle_arx_blk_f','arifle_arx_hex_f','arifle_sdar_f',
-	'smg_03_black','smg_03_camo','smg_03_hex','smg_03_khaki','smg_03_tr_black','smg_03_tr_camo','smg_03_tr_hex','smg_03_tr_khaki',
-	'arifle_ak12_arid_f','arifle_ak12_lush_f','arifle_ak12_gl_arid_f','arifle_ak12_gl_lush_f',
-	'arifle_ak12u_f','arifle_ak12u_arid_f','arifle_ak12u_lush_f',
-	'sgun_huntershotgun_01_f','sgun_huntershotgun_01_sawedoff_f',
-	'srifle_dmr_06_hunter_f',
-	'arifle_msbs65_f','arifle_msbs65_black_f','arifle_msbs65_camo_f','arifle_msbs65_sand_f','arifle_msbs65_gl_f','arifle_msbs65_gl_black_f','arifle_msbs65_gl_camo_f','arifle_msbs65_gl_sand_f',
-	'arifle_msbs65_mark_f','arifle_msbs65_mark_black_f','arifle_msbs65_mark_camo_f','arifle_msbs65_mark_sand_f','arifle_msbs65_ubs_f','arifle_msbs65_ubs_black_f','arifle_msbs65_ubs_camo_f','arifle_msbs65_ubs_sand_f'
-];
-// marksman rifles
-_weaponsMarksman = [
-	'srifle_dmr_02_f','srifle_dmr_02_camo_f','srifle_dmr_02_sniper_f',
-	'srifle_dmr_03_f','srifle_dmr_03_multicam_f','srifle_dmr_03_khaki_f','srifle_dmr_03_tan_f','srifle_dmr_03_woodland_f',
-	'srifle_ebr_f'
-];
-// heavy marksman rifles
-_weaponsMarksmanHeavy = [
-	'srifle_dmr_02_f','srifle_dmr_02_camo_f','srifle_dmr_02_sniper_f',
-	'srifle_dmr_05_blk_f','srifle_dmr_05_hex_f','srifle_dmr_05_tan_f'
-];
-// Sniper rifles
-_weaponsSniper = [
-	'srifle_gm6_ghex_f','srifle_gm6_f','srifle_gm6_camo_f','srifle_lrr_f','srifle_lrr_camo_f','srifle_lrr_tna_f',
-	'srifle_gm6_lrps_f','srifle_gm6_sos_f','srifle_gm6_camo_lrps_f','srifle_gm6_camo_sos_f',
-	'srifle_lrr_camo_lrps_f','srifle_lrr_camo_sos_f','srifle_lrr_tna_lrps_f','srifle_gm6_ghex_lrps_f','srifle_lrr_lrps_f','srifle_lrr_sos_f'
-];
-// high-capacity variants of rifles (drum magazines, variants with 100 round mags,etc)
-_weaponsSW = [
-	'arifle_ctars_blk_f','arifle_ctars_ghex_f','arifle_ctars_hex_f','arifle_mx_sw_black_f','arifle_mx_sw_khk_f','arifle_mx_sw_f','arifle_spar_02_blk_f','arifle_spar_02_khk_f','arifle_spar_02_snd_f'
-];
-// light machine guns
-_weaponsLMG = [
-	'lmg_03_f','lmg_mk200_f','lmg_zafir_f','arifle_rpk12_f','arifle_rpk12_arid_f','arifle_rpk12_lush_f','lmg_mk200_black_f'
-];
-// medium machine guns
-_weaponsMMG = [
-	'mmg_01_hex_f','mmg_01_tan_f','mmg_02_black_f','mmg_02_camo_f','mmg_02_sand_f'
-];
-// compact weapons
-_weaponsCompact = [
-	'arifle_aks_f','arifle_ctar_blk_f','arifle_ctar_ghex_f','arifle_ctar_hex_f','arifle_katiba_c_f','arifle_mk20_plain_f','arifle_mk20_f','arifle_mxc_f',
-	'arifle_mxc_black_f','arifle_mxc_khk_f','arifle_sdar_f','arifle_spar_01_blk_f','arifle_spar_01_khk_f','arifle_spar_01_snd_f','arifle_trg20_f',
-	'arifle_ak12u_f','arifle_ak12u_arid_f','arifle_ak12u_lush_f',
-	'arifle_msbs65_f','arifle_msbs65_black_f','arifle_msbs65_camo_f','arifle_msbs65_sand_f'
-];
-// all launchers
-_weaponsLauncherAll = [
-	'launch_nlaw_f','launch_rpg32_f','launch_rpg32_ghex_f','launch_rpg7_f','launch_i_titan_f','launch_o_titan_ghex_f','launch_o_titan_f','launch_b_titan_f','launch_b_titan_tna_f',
-	'launch_o_titan_short_f','launch_o_titan_short_ghex_f','launch_i_titan_short_f','launch_b_titan_short_tna_f','launch_b_titan_short_f',
-	'launch_o_vorona_brown_f','launch_o_vorona_green_f','launch_mraws_green_rail_f','launch_mraws_olive_rail_f','launch_mraws_sand_rail_f','launch_mraws_green_f','launch_mraws_olive_f','launch_mraws_sand_f',
-	'launch_rpg32_green_f','launch_i_titan_eaf_f','launch_b_titan_olive_f'
-];
-// basic launchers (rpg)
-_weaponsLauncherBasic = [
-	'launch_rpg7_f'
-];
-// regular launchers 
-_weaponsLauncherRegular = [
-	'launch_nlaw_f','launch_rpg32_f','launch_rpg32_ghex_f','launch_i_titan_f','launch_o_titan_ghex_f','launch_o_titan_f','launch_b_titan_f','launch_b_titan_tna_f',
-	'launch_o_titan_short_f','launch_o_titan_short_ghex_f','launch_i_titan_short_f','launch_b_titan_short_tna_f','launch_b_titan_short_f',
-	'launch_o_vorona_brown_f','launch_o_vorona_green_f','launch_mraws_green_rail_f','launch_mraws_olive_rail_f','launch_mraws_sand_rail_f','launch_mraws_green_f','launch_mraws_olive_f','launch_mraws_sand_f',
-	'launch_rpg32_green_f','launch_i_titan_eaf_f','launch_b_titan_olive_f'
-];
-// light AT
-_weaponsLauncherLAT = [
-	'launch_nlaw_f','launch_rpg32_f','launch_rpg32_ghex_f','launch_rpg7_f','launch_i_titan_f','launch_o_titan_ghex_f','launch_o_titan_f','launch_b_titan_f','launch_b_titan_tna_f',
-	'launch_mraws_green_rail_f','launch_mraws_olive_rail_f','launch_mraws_sand_rail_f','launch_rpg32_green_f','launch_i_titan_eaf_f','launch_b_titan_olive_f'
-];
-// heavy AT
-_weaponsLauncherHAT = [
-	'launch_rpg7_f','launch_i_titan_f','launch_o_titan_ghex_f','launch_o_titan_f','launch_b_titan_f','launch_b_titan_tna_f',
-	'launch_o_titan_short_f','launch_o_titan_short_ghex_f','launch_i_titan_short_f','launch_b_titan_short_tna_f','launch_b_titan_short_f','launch_o_vorona_brown_f','launch_o_vorona_green_f',
-	'launch_i_titan_eaf_f','launch_b_titan_olive_f'
-];
-// pistols / handguns
-_weaponsHandgun = [
-	'hgun_pistol_heavy_02_f','hgun_pistol_heavy_01_f','hgun_acpc2_f','hgun_p07_khk_f','hgun_p07_f','hgun_pistol_01_f','hgun_rook40_f','hgun_pistol_signal_f','arifle_sdar_f','hgun_pistol_heavy_01_green_f','hgun_p07_blk_f'
-];
-// submachine guns
-_weaponsSMG = [
-	'smg_01_f','smg_02_f','smg_05_f','hgun_pdw2000_f','arifle_aks_f',
-	'smg_03c_black','smg_03c_camo','smg_03c_hex','smg_03c_khaki','smg_03c_tr_black','smg_03c_tr_camo','smg_03c_tr_hex','smg_03c_tr_khaki'
-];
-// underwater weapons
-_weaponsUW = [
-	'arifle_sdar_f'
-];
-// binoculars, rangefinders, designators
-_viewersAll = [
-	'binocular','laserdesignator_02_ghex_f','laserdesignator_02','laserdesignator_01_khk_f','laserdesignator_03','laserdesignator','rangefinder'
-];
-// Binoculars and rangefinders (no lasers)
-_viewersBasic = [
-	'binocular','rangefinder'
-];
-// Laser designators
-_viewersLaser = [
-	'laserdesignator_02_ghex_f','laserdesignator_02','laserdesignator_01_khk_f','laserdesignator_03','laserdesignator'
-];
-// all uniforms
-_uniformsAll = [
-	'','u_i_c_soldier_bandit_4_f','u_i_c_soldier_bandit_1_f','u_i_c_soldier_bandit_2_f','u_i_c_soldier_bandit_5_f','u_i_c_soldier_bandit_3_f','u_c_man_casual_2_f',
-	'u_c_man_casual_3_f','u_c_man_casual_1_f','u_b_combatuniform_mcam','u_b_combatuniform_mcam_tshirt','u_i_g_resistanceleader_f','u_b_t_soldier_f','u_b_t_soldier_ar_f',
-	'u_i_combatuniform','u_i_officeruniform','u_i_combatuniform_shortsleeve','u_c_poloshirt_blue','u_c_poloshirt_burgundy','u_c_poloshirt_redwhite','u_c_poloshirt_salmon',
-	'u_c_poloshirt_stripped','u_c_poloshirt_tricolour','u_competitor','u_c_constructioncoverall_black_f','u_c_constructioncoverall_blue_f','u_c_constructioncoverall_red_f',
-	'u_c_constructioncoverall_vrana_f','u_b_ctrg_1','u_b_ctrg_3','u_b_ctrg_2','u_b_ctrg_soldier_f','u_b_ctrg_soldier_3_f','u_b_ctrg_soldier_2_f','u_b_ctrg_soldier_urb_1_f',
-	'u_b_ctrg_soldier_urb_3_f','u_b_ctrg_soldier_urb_2_f','u_b_fullghillie_ard','u_b_t_fullghillie_tna_f','u_b_fullghillie_lsh','u_b_fullghillie_sard','u_b_gen_commander_f',
-	'u_b_gen_soldier_f','u_b_t_sniper_f','u_b_ghilliesuit','u_bg_guerrilla_6_1','u_bg_guerilla1_1','u_bg_guerilla1_2_f','u_bg_guerilla2_2','u_bg_guerilla2_1','u_bg_guerilla2_3',
-	'u_bg_guerilla3_1','u_bg_leader','u_b_helipilotcoveralls','u_i_helipilotcoveralls','u_c_hunterbody_grn','u_i_ghilliesuit','u_o_ghilliesuit','u_c_journalist','u_marshal',
-	'u_c_mechanic_01_f','u_c_paramedic_01_f','u_i_c_soldier_para_2_f','u_i_c_soldier_para_3_f','u_i_c_soldier_para_5_f','u_i_c_soldier_para_4_f','u_i_c_soldier_para_1_f','u_i_pilotcoveralls',
-	'u_b_pilotcoveralls','u_rangemaster','u_b_combatuniform_mcam_vest','u_b_t_soldier_sl_f','u_c_man_casual_6_f','u_c_man_casual_4_f','u_c_man_casual_5_f','u_b_survival_uniform',
-	'u_i_c_soldier_camo_f','u_b_wetsuit','u_i_wetsuit','u_c_workercoveralls','u_c_poor_1','u_i_g_story_protagonist_f','u_b_combatuniform_mcam_worn',
-	'u_tank_green_f','u_c_cbrn_suit_01_blue_f','u_b_cbrn_suit_01_mtp_f','u_b_cbrn_suit_01_tropic_f','u_c_cbrn_suit_01_white_f','u_b_cbrn_suit_01_wdl_f','u_i_cbrn_suit_01_aaf_f',
-	'u_i_e_cbrn_suit_01_eaf_f','u_i_e_uniform_01_officer_f','u_i_e_uniform_01_shortsleeve_f','u_i_e_uniform_01_tanktop_f','u_b_combatuniform_mcam_wdl_f','u_b_combatuniform_tshirt_mcam_wdl_f',
-	'u_i_e_uniform_01_f','u_c_uniform_farmer_01_f','u_o_r_gorka_01_f','u_o_r_gorka_01_brown_f','u_o_r_gorka_01_camo_f','u_i_e_uniform_01_coveralls_f','u_i_l_uniform_01_camo_f','u_i_l_uniform_01_deserter_f',
-	'u_c_e_looterjacket_01_f','u_i_l_uniform_01_tshirt_black_f','u_i_l_uniform_01_tshirt_olive_f','u_i_l_uniform_01_tshirt_skull_f','u_i_l_uniform_01_tshirt_sport_f','u_c_uniform_scientist_01_formal_f',
-	'u_c_uniform_scientist_01_f','u_c_uniform_scientist_02_f','u_c_uniform_scientist_02_formal_f','u_o_r_gorka_01_black_f','u_b_ctrg_soldier_arid_f','u_b_ctrg_soldier_3_arid_f','u_b_ctrg_soldier_2_arid_f'
-];
-// basic uniforms
-_uniformsBasic = [
+//=================
+//EXAMPLE CATEGORY:
+//=================
 
-];
-// sniper uniforms
-_uniformsSniper = [
-	'u_b_t_sniper_f','u_b_ghilliesuit','u_b_fullghillie_ard','u_b_t_fullghillie_tna_f','u_b_fullghillie_lsh','u_b_fullghillie_sard'
-];
-// pilot uniforms
-_uniformsPilot = [
-	'u_b_helipilotcoveralls','u_i_helipilotcoveralls','u_i_pilotcoveralls','u_b_pilotcoveralls'
-];
-// all helmets, except for thermal stuff
-_headgearBasic = [
-	'','h_bandanna_gry','h_bandanna_blu','h_bandanna_cbr','h_bandanna_khk_hs','h_bandanna_khk','h_bandanna_mcamo','h_bandanna_sgg','h_bandanna_sand',
-	'h_bandanna_surfer','h_bandanna_surfer_blk','h_bandanna_surfer_grn','h_bandanna_camo','h_pasgt_basic_black_f','h_pasgt_basic_blue_f','h_pasgt_basic_olive_f',
-	'h_pasgt_basic_white_f','h_watchcap_blk','h_watchcap_cbr','h_watchcap_camo','h_watchcap_khk','h_beret_blk','h_beret_gen_f','h_beret_02','h_beret_colonel',
-	'h_booniehat_khk_hs','h_booniehat_khk','h_booniehat_mcamo','h_booniehat_oli','h_booniehat_tan','h_booniehat_tna_f','h_booniehat_dgtl','h_cap_grn_bi','h_cap_blk',
-	'h_cap_black_idap_f','h_cap_blu','h_cap_blk_cmmg','h_cap_grn','h_cap_blk_ion','h_cap_oli','h_cap_oli_hs','h_cap_orange_idap_f','h_cap_police','h_cap_press','h_cap_red',
-	'h_cap_surfer','h_cap_tan','h_cap_khaki_specops_uk','h_cap_usblack','h_cap_tan_specops_us','h_cap_white_idap_f','h_cap_blk_raven','h_cap_brn_specops','h_helmetb','h_helmetb_black',
-	'h_helmetb_camo','h_helmetb_desert','h_helmetb_grass','h_helmetb_sand','h_helmetb_snakeskin','h_helmetb_tna_f','h_helmetcrew_i','h_helmetcrew_b','h_earprotectors_black_f',
-	'h_earprotectors_orange_f','h_earprotectors_red_f','h_earprotectors_white_f','h_earprotectors_yellow_f','h_helmetspecb','h_helmetspecb_blk','h_helmetspecb_paint2','h_helmetspecb_paint1',
-	'h_helmetspecb_sand','h_helmetspecb_snakeskin','h_helmetb_enh_tna_f','h_construction_basic_black_f','h_construction_earprot_black_f','h_construction_headset_black_f','h_construction_basic_orange_f',
-	'h_construction_earprot_orange_f','h_construction_headset_orange_f','h_construction_basic_red_f','h_construction_earprot_red_f','h_construction_headset_red_f','h_construction_basic_vrana_f',
-	'h_construction_earprot_vrana_f','h_construction_headset_vrana_f','h_construction_basic_white_f','h_construction_earprot_white_f','h_construction_headset_white_f','h_construction_basic_yellow_f',
-	'h_construction_earprot_yellow_f','h_construction_headset_yellow_f','h_hat_blue','h_hat_brown','h_hat_camo','h_hat_checker','h_hat_grey','h_hat_tan','h_headbandage_clean_f','h_headbandage_stained_f',
-	'h_headbandage_bloody_f','h_headset_black_f','h_headset_orange_f','h_headset_red_f','h_headset_white_f','h_headset_yellow_f','h_crewhelmetheli_i','h_crewhelmetheli_b','h_pilothelmetheli_i',
-	'h_pilothelmetheli_b','h_helmetb_light','h_helmetb_light_black','h_helmetb_light_desert','h_helmetb_light_grass','h_helmetb_light_sand','h_helmetb_light_snakeskin','h_helmetb_light_tna_f',
-	'h_cap_marshal','h_milcap_blue','h_milcap_gen_f','h_milcap_gry','h_milcap_mcamo','h_milcap_tna_f','h_milcap_dgtl','h_helmetia','h_pilothelmetfighter_b','h_pasgt_basic_blue_press_f',
-	'h_pasgt_neckprot_blue_press_f','h_cap_headphones','h_hat_safari_olive_f','h_hat_safari_sand_f','h_shemag_olive','h_shemag_olive_hs','h_shemagopen_tan','h_shemagopen_khk','h_helmet_skate',
-	'h_helmetb_ti_tna_f','h_strawhat','h_strawhat_dark','h_wirelessearpiece_f',
-	'h_tank_black_f','h_helmethbk_headset_f','h_helmethbk_chops_f','h_helmethbk_ear_f','h_helmethbk_f','h_helmetaggressor_f','h_helmetaggressor_cover_f','h_helmetaggressor_cover_taiga_f',
-	'h_beret_eaf_01_f','h_booniehat_mgrn','h_booniehat_taiga','h_booniehat_wdl','h_booniehat_eaf','h_helmetb_plain_wdl','h_tank_eaf_f','h_helmetcrew_i_e','h_helmetspecb_wdl',
-	'h_crewhelmetheli_i_e','h_pilothelmetheli_i_e','h_helmetb_light_wdl','h_milcap_grn','h_milcap_taiga','h_milcap_wdl','h_milcap_eaf','h_pilothelmetfighter_i_e','h_hat_tinfoil_f','h_helmetb_ti_arid_f'
-];
-// thermal helmets
-_headgearThermal = [
-	'h_helmeto_vipersp_ghex_f','h_helmeto_vipersp_hex_f'
-];
-// all vests
-_vestsAll = [
-	'','v_platecarrier2_rgr_noflag_f','v_platecarriergl_blk','v_platecarriergl_rgr','v_platecarriergl_mtp','v_platecarriergl_tna_f','v_platecarrier1_blk','v_platecarrier1_rgr',
-	'v_platecarrier1_rgr_noflag_f','v_platecarrier1_tna_f','v_platecarrier2_blk','v_platecarrier2_rgr','v_platecarrier2_tna_f','v_platecarrierspec_blk','v_platecarrierspec_rgr',
-	'v_platecarrierspec_mtp','v_platecarrierspec_tna_f','v_chestrig_blk','v_chestrig_rgr','v_chestrig_khk','v_chestrig_oli','v_platecarrierl_ctrg','v_platecarrierh_ctrg',
-	'v_deckcrew_blue_f','v_deckcrew_brown_f','v_deckcrew_green_f','v_deckcrew_red_f','v_deckcrew_violet_f','v_deckcrew_white_f','v_deckcrew_yellow_f','v_eod_blue_f',
-	'v_eod_coyote_f','v_eod_olive_f','v_platecarrieriagl_dgtl','v_platecarrieriagl_oli','v_platecarrieria1_dgtl','v_platecarrieria2_dgtl','v_tacvest_gen_f','v_plain_crystal_f',
-	'v_harnessogl_brn','v_harnessogl_ghex_f','v_harnessogl_gry','v_harnesso_brn','v_harnesso_ghex_f','v_harnesso_gry','v_legstrapbag_black_f','v_legstrapbag_coyote_f','v_legstrapbag_olive_f',
-	'v_pocketed_black_f','v_pocketed_coyote_f','v_pocketed_olive_f','v_rangemaster_belt','v_tacvestir_blk','v_rebreatherb','v_safety_blue_f','v_safety_orange_f','v_safety_yellow_f',
-	'v_bandollierb_blk','v_bandollierb_cbr','v_bandollierb_ghex_f','v_bandollierb_rgr','v_bandollierb_khk','v_bandollierb_oli','v_tacchestrig_cbr_f','v_tacchestrig_grn_f','v_tacchestrig_oli_f',
-	'v_tacvest_blk','v_tacvest_brn','v_tacvest_camo','v_tacvest_khk','v_tacvest_oli','v_tacvest_blk_police','v_i_g_resistanceleader_f','v_platecarrier_kerry','v_press_f',
-	'v_carrierrigkbt_01_eaf_f','v_platecarriergl_wdl','v_platecarrier1_wdl','v_platecarrier2_wdl','v_platecarrierspec_wdl','v_smershvest_01_f','v_smershvest_01_radio_f','v_carrierrigkbt_01_heavy_eaf_f',
-	'v_carrierrigkbt_01_heavy_olive_f','v_carrierrigkbt_01_light_eaf_f','v_carrierrigkbt_01_light_olive_f','v_carrierrigkbt_01_eaf_f','v_carrierrigkbt_01_olive_f'
-];
-// all backpacks
-_backpacksAll = [
-	'','b_bergen_mcamo_f','b_assaultpack_blk','b_assaultpack_cbr','b_assaultpack_dgtl','b_assaultpack_rgr','b_assaultpack_ocamo','b_assaultpack_khk','b_assaultpack_mcamo',
-	'b_assaultpack_sgg','b_assaultpack_tna_f','b_bergen_dgtl_f','b_bergen_hex_f','b_bergen_tna_f','b_bergen_rgr','b_carryall_cbr','b_carryall_ghex_f','b_carryall_ocamo','b_carryall_khk',
-	'b_carryall_mcamo','b_carryall_oli','b_carryall_oucamo','b_hmg_01_high_weapon_f','b_hmg_01_weapon_f','b_gmg_01_high_weapon_f','b_gmg_01_weapon_f','b_fieldpack_blk',
-	'b_fieldpack_cbr','b_fieldpack_ghex_f','b_fieldpack_ocamo','b_fieldpack_khk','b_fieldpack_oli','b_fieldpack_oucamo','b_mortar_01_support_f','b_mortar_01_weapon_f',
-	'b_hmg_01_support_high_f','b_hmg_01_support_f','b_kitbag_cbr','b_kitbag_rgr','b_kitbag_mcamo','b_kitbag_sgg','b_legstrapbag_black_f','b_legstrapbag_coyote_f',
-	'b_legstrapbag_olive_f','b_messenger_black_f','b_messenger_coyote_f','b_messenger_gray_f','b_messenger_olive_f','b_static_designator_01_weapon_f','b_aa_01_weapon_f',
-	'b_at_01_weapon_f','b_parachute','b_tacticalpack_blk','b_tacticalpack_rgr','b_tacticalpack_ocamo','b_tacticalpack_mcamo','b_tacticalpack_oli','b_uav_06_backpack_f',
-	'b_uav_06_medical_backpack_f','b_uav_01_backpack_f','b_assaultpack_kerry','b_viperharness_blk_f','b_viperharness_ghex_f','b_viperharness_hex_f','b_viperharness_khk_f',
-	'b_viperharness_oli_f','b_viperlightharness_blk_f','b_viperlightharness_ghex_f','b_viperlightharness_hex_f','b_viperlightharness_khk_f','b_viperlightharness_oli_f',
-	'b_mortar_01_weapon_grn_f','b_radiobag_01_f',
-	'b_assaultpack_eaf_f','b_assaultpack_wdl_f','b_carryall_eaf_f','b_carryall_green_f','b_carryall_taiga_f','b_carryall_wdl_f','b_fieldpack_green_f','b_fieldpack_taiga_f','b_combinationunitrespirator_01_f',
-	'b_radiobag_01_black_f','b_radiobag_01_digi_f','b_radiobag_01_eaf_f','b_radiobag_01_ghex_f','b_radiobag_01_hex_f','b_radiobag_01_mtp_f','b_radiobag_01_tropic_f','b_radiobag_01_oucamo_f','b_radiobag_01_wdl_f',
-	'b_scba_01_f','b_carryall_blk'
-];
-// Regular sized backpacks (all backpacks except for the big ones)
-_backpacksBasic = [
-	'','b_assaultpack_blk','b_assaultpack_cbr','b_assaultpack_dgtl','b_assaultpack_rgr','b_assaultpack_ocamo','b_assaultpack_khk','b_assaultpack_mcamo',
-	'b_assaultpack_sgg','b_assaultpack_tna_f','b_bergen_rgr',
-	'b_hmg_01_high_weapon_f','b_hmg_01_weapon_f','b_gmg_01_high_weapon_f','b_gmg_01_weapon_f','b_fieldpack_blk',
-	'b_fieldpack_cbr','b_fieldpack_ghex_f','b_fieldpack_ocamo','b_fieldpack_khk','b_fieldpack_oli','b_fieldpack_oucamo','b_mortar_01_support_f','b_mortar_01_weapon_f',
-	'b_hmg_01_support_high_f','b_hmg_01_support_f','b_kitbag_cbr','b_kitbag_rgr','b_kitbag_mcamo','b_kitbag_sgg','b_legstrapbag_black_f','b_legstrapbag_coyote_f',
-	'b_legstrapbag_olive_f','b_messenger_black_f','b_messenger_coyote_f','b_messenger_gray_f','b_messenger_olive_f','b_static_designator_01_weapon_f','b_aa_01_weapon_f',
-	'b_at_01_weapon_f','b_parachute','b_tacticalpack_blk','b_tacticalpack_rgr','b_tacticalpack_ocamo','b_tacticalpack_mcamo','b_tacticalpack_oli','b_uav_06_backpack_f',
-	'b_uav_06_medical_backpack_f','b_uav_01_backpack_f','b_assaultpack_kerry','b_viperharness_blk_f','b_viperharness_ghex_f','b_viperharness_hex_f','b_viperharness_khk_f',
-	'b_viperharness_oli_f','b_viperlightharness_blk_f','b_viperlightharness_ghex_f','b_viperlightharness_hex_f','b_viperlightharness_khk_f','b_viperlightharness_oli_f',
-	'b_mortar_01_weapon_grn_f',
-	'b_assaultpack_eaf_f','b_assaultpack_wdl_f','b_fieldpack_green_f','b_fieldpack_taiga_f','b_combinationunitrespirator_01_f',
-	'b_scba_01_f','b_w_static_designator_01_weapon_f',
-	'b_g_hmg_02_high_weapon_f','b_g_hmg_02_support_f','b_g_hmg_02_support_high_f','b_g_hmg_02_weapon_f',
-	'i_c_hmg_02_support_f','i_c_hmg_02_weapon_f','i_c_hmg_02_high_weapon_f','i_c_hmg_02_support_high_f'
-];
-// Large backpacks
-_backpacksLarge = [
-	'b_bergen_dgtl_f','b_bergen_hex_f','b_bergen_mcamo_f','b_bergen_tna_f',
-	'b_carryall_cbr','b_carryall_ghex_f','b_carryall_ocamo','b_carryall_khk','b_carryall_mcamo','b_carryall_oli','b_carryall_oucamo',
-	'b_carryall_eaf_f','b_carryall_green_f','b_carryall_taiga_f','b_carryall_wdl_f','b_carryall_blk'
-];
-// NATO backpacks which can be assembled into static turrets (tripods + weapon)
-_backpacksStatic = [
-	'b_hmg_01_high_weapon_f','b_hmg_01_weapon_f','b_gmg_01_high_weapon_f','b_gmg_01_weapon_f',
-	'b_mortar_01_support_f','b_mortar_01_weapon_f',
-	'b_hmg_01_support_high_f','b_hmg_01_support_f',
-	'b_static_designator_01_weapon_f','b_w_static_designator_01_weapon_f',
-	'b_aa_01_weapon_f','b_at_01_weapon_f',
-	'b_mortar_01_weapon_grn_f',
-	'b_g_hmg_02_high_weapon_f','b_g_hmg_02_support_f','b_g_hmg_02_support_high_f','b_g_hmg_02_weapon_f',
-	'i_c_hmg_02_support_f','i_c_hmg_02_weapon_f','i_c_hmg_02_high_weapon_f','i_c_hmg_02_support_high_f'
-];
-// UAV backpacks
-_backpacksUAV = [
-	'b_uav_01_backpack_f','b_uav_06_medical_backpack_f','b_ugv_02_demining_backpack_f','b_ugv_02_science_backpack_f'
-];
-// Radio backpacks
-_backpacksRadio = [
-	'b_radiobag_01_black_f','b_radiobag_01_digi_f','b_radiobag_01_eaf_f','b_radiobag_01_ghex_f','b_radiobag_01_hex_f','b_radiobag_01_mtp_f','b_radiobag_01_tropic_f','b_radiobag_01_oucamo_f','b_radiobag_01_wdl_f'
-];
-// all goggles
-_gogglesAll = [
-	'','none','g_spectacles','g_spectacles_tinted','g_combat','g_lowprofile','g_shades_black','g_shades_green','g_shades_red','g_squares','g_squares_tinted','g_sport_blackwhite',
-	'g_sport_blackyellow','g_sport_greenblack','g_sport_checkered','g_sport_red','g_tactical_black','g_aviator','g_lady_mirror','g_lady_dark','g_lady_red','g_lady_blue','g_diving',
-	'g_b_diving','g_o_diving','g_i_diving','g_goggles_vr','g_balaclava_blk','g_balaclava_oli','g_balaclava_combat','g_balaclava_lowprofile','g_bandanna_blk','g_bandanna_oli','g_bandanna_khk',
-	'g_bandanna_tan','g_bandanna_beast','g_bandanna_shades','g_bandanna_sport','g_bandanna_aviator','g_shades_blue','g_sport_blackred','g_tactical_clear','g_balaclava_ti_blk_f','g_balaclava_ti_tna_f',
-	'g_balaclava_ti_g_blk_f','g_balaclava_ti_g_tna_f','g_combat_goggles_tna_f','g_respirator_base_f','g_respirator_white_f','g_respirator_yellow_f','g_respirator_blue_f','g_eyeprotectors_base_f',
-	'g_eyeprotectors_f','g_eyeprotectors_earpiece_f','g_wirelessearpiece_base_f','g_wirelessearpiece_f',
-	'g_airpurifyingrespirator_02_black_f','g_airpurifyingrespirator_02_olive_f','g_airpurifyingrespirator_02_sand_f','g_airpurifyingrespirator_01_f','g_blindfold_01_black_f','g_blindfold_01_white_f','g_regulatormask_f'
-];
-// armor piercing missiles
-_magazinesAT = [
-	'vorona_heat','mraws_heat_f','titan_at'
-];
-// all magazines and ammo
-_magazinesAll = [
-	'','30rnd_65x39_caseless_green','6rnd_45acp_cylinder','smokeshellyellow','smokeshell','smokeshellred','smokeshellpurple','smokeshellorange','smokeshellgreen','smokeshellblue','handgrenade',
-	'minigrenade','b_ir_grenade','chemlight_blue','chemlight_green','chemlight_red','chemlight_yellow','o_ir_grenade','i_ir_grenade','titan_at','10rnd_338_mag','130rnd_338_mag','7rnd_408_mag',
-	'11rnd_45acp_mag','30rnd_45acp_mag_smg_01','30rnd_45acp_mag_smg_01_tracer_green','30rnd_45acp_mag_smg_01_tracer_red','30rnd_45acp_mag_smg_01_tracer_yellow','9rnd_45acp_mag','10rnd_50bw_mag_f',
-	'5rnd_127x108_mag','10rnd_127x54_mag','5rnd_127x108_apds_mag','3rnd_ugl_flaregreen_f','3rnd_ugl_flarecir_f','3rnd_ugl_flarered_f','3rnd_ugl_flarewhite_f','3rnd_ugl_flareyellow_f',
-	'3rnd_smokeblue_grenade_shell','3rnd_smokegreen_grenade_shell','3rnd_smokeorange_grenade_shell','3rnd_smokepurple_grenade_shell','3rnd_smokered_grenade_shell','3rnd_smoke_grenade_shell',
-	'3rnd_smokeyellow_grenade_shell','3rnd_he_grenade_shell','1rnd_he_grenade_shell','30rnd_545x39_mag_green_f','30rnd_545x39_mag_f','30rnd_545x39_mag_tracer_green_f','30rnd_545x39_mag_tracer_f',
-	'150rnd_556x45_drum_mag_f','150rnd_556x45_drum_mag_tracer_f','titan_ap','titan_aa','1rnd_smokeyellow_grenade_shell','1rnd_smoke_grenade_shell','1rnd_smokered_grenade_shell',
-	'1rnd_smokepurple_grenade_shell','1rnd_smokeorange_grenade_shell','1rnd_smokegreen_grenade_shell','1rnd_smokeblue_grenade_shell','rpg32_f','rpg32_he_f','rpg7_f','nlaw_f',
-	'ugl_flareyellow_f','ugl_flarewhite_f','ugl_flarered_f','ugl_flarecir_f','ugl_flaregreen_f','flareyellow_f','flarewhite_f','flaregreen_f','flarered_f','laserbatteries',
-	'150rnd_93x64_mag','10rnd_93x64_dmr_05_mag','30rnd_9x21_mag_smg_02_tracer_yellow','30rnd_9x21_yellow_mag','30rnd_9x21_mag_smg_02_tracer_red','30rnd_9x21_red_mag',
-	'30rnd_9x21_mag_smg_02_tracer_green','30rnd_9x21_green_mag','30rnd_9x21_mag_smg_02','200rnd_556x45_box_red_f','200rnd_556x45_box_f','200rnd_556x45_box_tracer_red_f',
-	'200rnd_556x45_box_tracer_f','20rnd_556x45_uw_mag','30rnd_556x45_stanag_red','30rnd_556x45_stanag_green','30rnd_556x45_stanag','30rnd_556x45_stanag_tracer_green',
-	'30rnd_556x45_stanag_tracer_red','30rnd_556x45_stanag_tracer_yellow','100rnd_580x42_mag_f','100rnd_580x42_mag_tracer_f','30rnd_580x42_mag_f','30rnd_580x42_mag_tracer_f',
-	'100rnd_65x39_caseless_mag','100rnd_65x39_caseless_mag_tracer','200rnd_65x39_cased_box','200rnd_65x39_cased_box_tracer','20rnd_650x39_cased_mag_f','30rnd_65x39_caseless_mag',
-	'30rnd_65x39_caseless_green_mag_tracer','30rnd_65x39_caseless_mag_tracer','6rnd_greensignal_f','6rnd_redsignal_f','150rnd_762x54_box','150rnd_762x51_box','150rnd_762x54_box_tracer',
-	'150rnd_762x51_box_tracer','20rnd_762x51_mag','30rnd_762x39_mag_green_f','30rnd_762x39_mag_f','30rnd_762x39_mag_tracer_green_f','30rnd_762x39_mag_tracer_f','10rnd_762x51_mag',
-	'10rnd_762x54_mag','10rnd_9x21_mag','16rnd_9x21_mag','16rnd_9x21_green_mag','16rnd_9x21_red_mag','16rnd_9x21_yellow_mag','30rnd_9x21_mag','50rnd_570x28_smg_03',
-	'apersboundingmine_range_mag','apersmine_range_mag','aperstripmine_wire_mag','atmine_range_mag','claymoredirectionalmine_remote_mag','democharge_remote_mag',
-	'satchelcharge_remote_mag','iedlandbig_remote_mag','iedurbanbig_remote_mag','slamdirectionalmine_wire_mag','iedlandsmall_remote_mag','iedurbansmall_remote_mag',
-	'vorona_he','mraws_heat_f','mraws_he_f',
-	'30rnd_762x39_ak12_mag_f','30rnd_762x39_ak12_mag_tracer_f','30rnd_556x45_stanag_sand','30rnd_556x45_stanag_sand_green','30rnd_556x45_stanag_sand_red','30rnd_556x45_stanag_sand_tracer_red',
-	'30rnd_556x45_stanag_sand_tracer_green','30rnd_556x45_stanag_sand_tracer_yellow','150rnd_556x45_drum_sand_mag_f','150rnd_556x45_drum_sand_mag_tracer_f','150rnd_556x45_drum_green_mag_f',
-	'150rnd_556x45_drum_green_mag_tracer_f','30rnd_65x39_caseless_khaki_mag','30rnd_65x39_caseless_black_mag','30rnd_65x39_caseless_khaki_mag_tracer','30rnd_65x39_caseless_black_mag_tracer',
-	'100rnd_65x39_caseless_khaki_mag','100rnd_65x39_caseless_black_mag','100rnd_65x39_caseless_khaki_mag_tracer','100rnd_65x39_caseless_black_mag_tracer','100rnd_580x42_hex_mag_f',
-	'100rnd_580x42_hex_mag_tracer_f','100rnd_580x42_ghex_mag_f','100rnd_580x42_ghex_mag_tracer_f',
-	'30rnd_65x39_caseless_msbs_mag','30rnd_65x39_caseless_msbs_mag_tracer','2rnd_12gauge_pellets','2rnd_12gauge_slug',
-	'30rnd_762x39_ak12_arid_mag_f','30rnd_762x39_ak12_arid_mag_tracer_f','30rnd_762x39_ak12_lush_mag_f','30rnd_762x39_ak12_lush_mag_tracer_f','30rnd_762x39_ak12_mag_green_f','30rnd_762x39_ak12_mag_tracer_green_f',
-	'75rnd_762x39_mag_tracer_f','75rnd_762x39_mag_f','75rnd_762x39_ak12_mag_tracer_f','75rnd_762x39_ak12_mag_f','75rnd_762x39_ak12_lush_mag_tracer_f','75rnd_762x39_ak12_lush_mag_f',
-	'75rnd_762x39_ak12_arid_mag_tracer_f','75rnd_762x39_ak12_arid_mag_f',
-	'6rnd_12gauge_pellets','6rnd_12gauge_slug'
-];
-// all weapon attachments
-_attachmentsAll = [
-	'optic_nightstalker','optic_tws','optic_tws_mg',
-	'','optic_aco_grn','optic_aco','optic_aco_grn_smg','optic_aco_smg','optic_ams','optic_ams_khk','optic_ams_snd','optic_arco','optic_arco_blk_f','optic_arco_ghex_f',
-	'optic_dms','optic_dms_ghex_f','optic_erco_blk_f','optic_erco_khk_f','optic_erco_snd_f','optic_khs_blk','optic_khs_hex','optic_khs_old','optic_khs_tan','optic_lrps',
-	'optic_lrps_ghex_f','optic_lrps_tna_f','optic_holosight','optic_holosight_blk_f','optic_holosight_khk_f','optic_holosight_smg','optic_holosight_smg_blk_f',
-	'optic_holosight_smg_khk_f','optic_sos','optic_sos_khk_f','optic_mrco','optic_nvs','optic_hamr','optic_hamr_khk_f',
-	'acc_flashlight','acc_pointer_ir','muzzle_snds_b_khk_f','muzzle_snds_b_snd_f','muzzle_snds_b','bipod_03_f_blk','bipod_02_f_blk','bipod_01_f_blk','bipod_02_f_hex',
-	'bipod_01_f_khk','bipod_01_f_mtp','bipod_03_f_oli','bipod_01_f_snd','bipod_02_f_tan','muzzle_snds_m','muzzle_snds_m_khk_f','muzzle_snds_m_snd_f','muzzle_snds_93mmg',
-	'muzzle_snds_93mmg_tan','muzzle_snds_l','muzzle_snds_58_blk_f','muzzle_snds_58_ghex_f','muzzle_snds_58_hex_f','muzzle_snds_65_ti_blk_f','muzzle_snds_65_ti_ghex_f',
-	'muzzle_snds_65_ti_hex_f','muzzle_snds_h_snd_f','muzzle_snds_h_khk_f','muzzle_snds_h','muzzle_snds_338_black','muzzle_snds_338_green','muzzle_snds_338_sand','muzzle_snds_acp',
-	'optic_mrd','acc_flashlight_pistol','acc_flashlight_smg_01','optic_yorris','muzzle_snds_570',
-	'optic_arco_arid_f','optic_arco_lush_f','optic_arco_ak_arid_f','optic_arco_ak_blk_f','optic_arco_ak_lush_f','optic_dms_weathered_f',
-	'optic_dms_weathered_kir_f','optic_holosight_arid_f','optic_holosight_lush_f','muzzle_snds_b_arid_f','muzzle_snds_b_lush_f','bipod_02_f_arid',
-	'bipod_02_f_lush','optic_ico_01_f','optic_ico_01_black_f','optic_ico_01_camo_f','optic_ico_01_sand_f','optic_mrd_black'
-];
-// all weapon attachments
-_attachmentsBasic = [
-	'','optic_aco_grn','optic_aco','optic_aco_grn_smg','optic_aco_smg','optic_ams','optic_ams_khk','optic_ams_snd','optic_arco','optic_arco_blk_f','optic_arco_ghex_f',
-	'optic_dms','optic_dms_ghex_f','optic_erco_blk_f','optic_erco_khk_f','optic_erco_snd_f','optic_khs_blk','optic_khs_hex','optic_khs_old','optic_khs_tan','optic_lrps',
-	'optic_lrps_ghex_f','optic_lrps_tna_f','optic_holosight','optic_holosight_blk_f','optic_holosight_khk_f','optic_holosight_smg','optic_holosight_smg_blk_f',
-	'optic_holosight_smg_khk_f','optic_sos','optic_sos_khk_f','optic_mrco','optic_nvs','optic_hamr','optic_hamr_khk_f',
-	'acc_flashlight','acc_pointer_ir','muzzle_snds_b_khk_f','muzzle_snds_b_snd_f','muzzle_snds_b','bipod_03_f_blk','bipod_02_f_blk','bipod_01_f_blk','bipod_02_f_hex',
-	'bipod_01_f_khk','bipod_01_f_mtp','bipod_03_f_oli','bipod_01_f_snd','bipod_02_f_tan','muzzle_snds_m','muzzle_snds_m_khk_f','muzzle_snds_m_snd_f','muzzle_snds_93mmg',
-	'muzzle_snds_93mmg_tan','muzzle_snds_l','muzzle_snds_58_blk_f','muzzle_snds_58_ghex_f','muzzle_snds_58_hex_f','muzzle_snds_65_ti_blk_f','muzzle_snds_65_ti_ghex_f',
-	'muzzle_snds_65_ti_hex_f','muzzle_snds_h_snd_f','muzzle_snds_h_khk_f','muzzle_snds_h','muzzle_snds_338_black','muzzle_snds_338_green','muzzle_snds_338_sand','muzzle_snds_acp',
-	'optic_mrd','acc_flashlight_pistol','acc_flashlight_smg_01','optic_yorris','muzzle_snds_570',
-	'optic_arco_arid_f','optic_arco_lush_f','optic_arco_ak_arid_f','optic_arco_ak_blk_f','optic_arco_ak_lush_f','optic_dms_weathered_f',
-	'optic_dms_weathered_kir_f','optic_holosight_arid_f','optic_holosight_lush_f','muzzle_snds_b_arid_f','muzzle_snds_b_lush_f','bipod_02_f_arid',
-	'bipod_02_f_lush','optic_ico_01_f','optic_ico_01_black_f','optic_ico_01_camo_f','optic_ico_01_sand_f','optic_mrd_black'
-];
-// thermal weapon attachments
-_attachmentsThermal = [
-	'optic_nightstalker','optic_tws','optic_tws_mg'
-];
-// special inventory items + head-mounted displays like NVG, including thermal
-_assignedItemsAll = [
-	'nvgogglesb_blk_f','nvgogglesb_grn_f','nvgogglesb_gry_f',
-	'','itemmap','itemcompass','itemwatch','itemradio','itemgps','chemicaldetector_01_watch_f',
-	'nvgoggles_tna_f','o_nvgoggles_ghex_f','o_nvgoggles_hex_f','o_nvgoggles_urb_f','o_nvgoggles_grn_f','nvgoggles_opfor','nvgoggles','nvgoggles_indep'
-];
-// same as above but with no thermal
-_assignedItemsBasic = [
-	'','itemmap','itemcompass','itemwatch','itemradio','itemgps','chemicaldetector_01_watch_f',
-	'nvgoggles_tna_f','o_nvgoggles_ghex_f','o_nvgoggles_hex_f','o_nvgoggles_urb_f','o_nvgoggles_grn_f','nvgoggles_opfor','nvgoggles','nvgoggles_indep'
-];
-// uav terminal
-_assignedItemsUAV = [
-	'b_uavterminal'
-];
-// thermal head-mounted displays
-_assignedItemsThermal = [
-	'nvgogglesb_blk_f','nvgogglesb_grn_f','nvgogglesb_gry_f'
-];
-// other inventory items
-_inventoryAll = [
-	'','firstaidkit','medikit','minedetector','toolkit'
-];
-_o_weapons = [
-	'','arifle_ak12_f','arifle_ak12_gl_f','arifle_akm_f','arifle_aks_f','arifle_ctars_blk_f','arifle_ctars_ghex_f','arifle_ctars_hex_f','arifle_ctar_blk_f','arifle_ctar_ghex_f',
-	'arifle_ctar_hex_f','arifle_ctar_gl_blk_f','arifle_ctar_gl_ghex_f','arifle_ctar_gl_hex_f','srifle_dmr_07_blk_f','srifle_dmr_07_ghex_f','srifle_dmr_07_hex_f','arifle_katiba_f',
-	'arifle_katiba_c_f','arifle_katiba_gl_f','lmg_03_f','arifle_mk20_plain_f','arifle_mk20_f','arifle_mk20_gl_plain_f','arifle_mk20_gl_f','arifle_mk20c_plain_f','arifle_mk20c_f',
-	'hgun_pdw2000_f','smg_05_f','smg_02_f','arifle_trg20_f','arifle_trg21_f','arifle_trg21_gl_f','arifle_arx_blk_f','arifle_arx_ghex_f','arifle_arx_hex_f','smg_01_f'
-];
-_o_uniforms = [
-	'','u_i_c_soldier_bandit_4_f','u_i_c_soldier_bandit_1_f','u_i_c_soldier_bandit_2_f','u_i_c_soldier_bandit_5_f','u_i_c_soldier_bandit_3_f','u_o_t_soldier_f',
-	'u_o_combatuniform_ocamo','u_o_combatuniform_oucamo','u_o_fullghillie_ard','u_o_t_fullghillie_tna_f','u_o_fullghillie_lsh','u_o_fullghillie_sard','u_o_t_sniper_f',
-	'u_o_ghilliesuit','u_bg_guerrilla_6_1','u_bg_guerilla1_1','u_bg_guerilla1_2_f','u_bg_guerilla2_2','u_bg_guerilla2_1','u_bg_guerilla2_3','u_bg_guerilla3_1','u_bg_leader',
-	'u_o_officer_noinsignia_hex_f','u_o_t_officer_f','u_o_officeruniform_ocamo','u_i_c_soldier_para_2_f','u_i_c_soldier_para_3_f','u_i_c_soldier_para_5_f','u_i_c_soldier_para_4_f',
-	'u_i_c_soldier_para_1_f','u_o_pilotcoveralls','u_o_specopsuniform_ocamo','u_i_c_soldier_camo_f'
-];
-_o_vests = [
-	'','v_harnessogl_brn','v_harnessogl_ghex_f','v_harnesso_brn','v_harnesso_ghex_f','v_harnesso_gry','v_bandollierb_cbr','v_tacchestrig_cbr_f','v_tacvest_khk'
-];
-_o_backpacks = [
-	'','b_assaultpack_ocamo','b_fieldpack_ghex_f','b_fieldpack_ocamo','b_tacticalpack_ocamo','b_viperharness_ghex_f','b_viperharness_hex_f','b_viperlightharness_blk_f',
-	'b_viperlightharness_ghex_f','b_viperlightharness_hex_f'
-];
-_o_headgear = [
-	'','h_helmetspeco_blk','h_helmetspeco_ghex_f','h_helmetspeco_ocamo','h_bandanna_gry','h_bandanna_blu','h_bandanna_cbr','h_bandanna_khk_hs','h_bandanna_khk',
-	'h_bandanna_mcamo','h_cap_brn_specops','h_helmetcrew_o','h_helmetleadero_ghex_f','h_helmetleadero_ocamo','h_helmetleadero_oucamo','h_milcap_ghex_f','h_milcap_ocamo',
-	'h_milcap_dgtl','h_helmeto_ghex_f','h_helmeto_ocamo','h_helmeto_oucamo','h_shemag_olive','h_shemag_olive_hs','h_shemagopen_tan','h_shemagopen_khk'
-];
-_o_magazines = [
-	''
-];
-_o_attachments = [
-	''
-];
+	// List Template
+	_exampleSubCategory =
+	[
+		'',''
+	];
 
+//===================
+//General Categories:
+//===================
 
+	//All weapons
+	_weaponsAll = 
+	[
+		//LS
+		'ls_weapon_westar35sa_secondary','ls_weapon_westar_35c_primary','ls_weapon_westar_35s_primary',
+		
+		//JLTS
+		'JLTS_DC17SA','JLTS_RG4D','JLTS_DC15S','JLTS_E5','JLTS_Z6','JLTS_E5C','JLTS_E5C_stock','JLTS_EPL2','JLTS_DC15A_ugl_plastic','JLTS_DC15A_ugl','JLTS_DC15A_plastic','JLTS_DC15A','JLTS_DC15X','JLTS_E5S','JLTS_DW32S',
+		'JLTS_DP23','JLTS_SBB3','JLTS_RPS6','JLTS_E60R_AT','JLTS_PLX1_AT',
+		
+		//3AS
+		'3AS_pistol_DC15SA_F','3AS_DC15L_F','3AS_Chaingun','3AS_DC15C_F','3AS_DC15C_GL','3AS_DC17M_F','3AS_WestarM5_F','3AS_WestarM5_GL','3AS_Valken38X_F','3AS_RPS6_F','3AS_RPS6_G'
+	];
+
+	//All attachments
+	_attachmentsAll = 
+	[
+		//LS
+		'SWLW_Westar35S_scope',
+		
+		//JLTS
+		'JLTS_DC15X_scope',
+		
+		//3AS
+		'3AS_optic_reflec_DC15C','3AS_optic_holo_DC15S','3AS_Optic_LE_Scope_DC15A','3AS_Optic_VK38X','3AS_Optic_Scope_WestarM5','3AS_bipod_vk38x_f'
+	];
+	
+	//All magazines
+	_magazinesAll = 
+	[
+		//LS
+		'SWLW_westar35Sa_Mag','SWLW_westar35c_Mag','SWLW_Westar35S_Mag','SWLW_Westar35S_scatter_Mag',
+		
+		//JLTS
+		'JLTS_DC17SA_mag','JLTS_RG4D_mag','JLTS_E5_mag','JLTS_DC15S_mag','JLTS_Z6_mag','JLTS_E5C_mag','JLTS_DC15A_mag','JLTS_DW32S_mag','JLTS_E5S_mag','JLTS_DP23_mag','JLTS_SBB3_mag','JLTS_RPS6_HE_mag','JLTS_RPS6_mag',
+		'JLTS_PLX1_AP_mag','JLTS_PLX1_AT_mag','JLTS_E60R_AP_mag','JLTS_E60R_AT_mag','JLTS_stun_mag_long','JLTS_stun_mag_short','JLTS_EPL2_mag',
+		
+		//3AS
+		'3AS_15Rnd_EC30_mag','3AS_15Rnd_EM30_mag','3AS_60Rnd_EM50_RedPlasma','3AS_200Rnd_EC40_Mag','3AS_200Rnd_EM40_Mag','3AS_Chaingun_Drum_Mag','3AS_100Rnd_EC40_mag','3AS_100Rnd_EM40_mag','3AS_40Rnd_EC40_Mag',
+		'3AS_40Rnd_EM40_Mag','3AS_60Rnd_EC50_Mag','3AS_10Rnd_EC80_Mag','3AS_5Rnd_EC80_mag','3AS_10Rnd_EC80_Mag','3AS_MK41_AT','3AS_MK42_HE','3AS_AntiArmour_mag','3AS_6Rnd_HE_Grenade_shell'
+	];
+
+	//All grenades
+	_grenadesAll = 
+	[
+		//Base Arma3
+		'Chemlight_blue','Chemlight_green','Chemlight_red','Chemlight_yellow','SmokeShellBlue','SmokeShellGreen','SmokeShellOrange','SmokeShellPurple','SmokeShellYellow','SmokeShell',
+		
+		//JLTS
+		'JLTS_grenade_emp_mag',
+		
+		//3AS
+		'ShieldGrenade_Mag','SquadShieldMagazine'
+	];
+
+	//All explosives
+	_explosivesAll = [
+		//Base Arma3
+		'DemoCharge_Remote_Mag','SatchelCharge_Remote_Mag',
+		
+		//Legion Base
+		'ls_mag_detPack_remoteCharge','ls_mag_demo_remoteCharge','ls_mag_breach_remoteCharge','ls_mag_caltrops_dispenser',
+
+		//JLTS
+		'JLTS_explosive_emp_10_mag','JLTS_explosive_emp_20_mag','JLTS_explosive_emp_50_mag',
+		
+		//3AS
+		'3AS_DetPack','EC01_RemoteMagazine','RTX_RemoteMagazine','HX_AT_Mine_Mag',
+		
+		//Operation TREBUCHET
+		'M168_Remote_Mag'
+	];
+	
+//========
+//WEAPONS:
+//========
+
+	//Blaster Pistols
+	_pistolsPlasma =
+	[
+		//LS
+		'ls_weapon_westar35sa_secondary',
+		
+		//JLTS
+		'JLTS_DC17SA','JLTS_RG4D',
+		
+		//3AS
+		'3AS_pistol_DC15SA_F'
+	];
+	
+	//Blaster Carbines
+	_carbinesPlasma =
+	[
+		//JLTS
+		'JLTS_DC15S','JLTS_E5'
+	];
+	
+	//Blaster Rifles
+	_riflesPlasma =
+	[
+		//JLTS
+		'JLTS_DC15A_plastic','JLTS_DC15A'
+	];
+	
+	//Repeating Blasters
+	_blastersSquadAutomatic =
+	[
+		//JLTS
+		'JLTS_Z6','JLTS_E5C','JLTS_E5C_stock',
+		
+		//3AS
+		'3AS_DC15L_F','3AS_Chaingun'
+	];
+	
+	//Assault Blasters
+	_blastersAssault =
+	[
+		//LS
+		'ls_weapon_westar_35c_primary','ls_weapon_westar_35s_primary',
+		
+		//3AS
+		'3AS_DC15C_F','3AS_DC17M_F','3AS_WestarM5_F'
+	];
+	
+	//Underbarrel Grenade Blasters
+	_blastersUGL =
+	[
+		//JLTS
+		'JLTS_DC15A_ugl_plastic','JLTS_DC15A_ugl',
+		
+		//3AS
+		'3AS_DC15C_GL','3AS_WestarM5_GL'
+	];
+	
+	//Grenade Launchers
+	_launchersGrenade =
+	[
+		//JLTS
+		'JLTS_EPL2'
+	];
+	
+	//Sniper Blasters
+	_blastersSniper =
+	[
+		//JLTS
+		'JLTS_DC15X','JLTS_E5S','JLTS_DW32S',
+		
+		//3AS
+		'3AS_Valken38X_F'
+	];
+	
+	//Scatter Blasters
+	_blastersScatter =
+	[
+		//JLTS
+		'JLTS_DP23','JLTS_SBB3'
+	];
+	
+	//Disposable Launchers
+	_launchersDisposable =
+	[
+		//3AS
+		'3AS_RPS6_F'
+	];
+	
+	//Unguided Launchers
+	_launchersUnguided =
+	[
+		//JLTS
+		'JLTS_RPS6'
+	];
+	
+	//Guided Launchers
+	_launchersGuided =
+	[
+		//JLTS
+		'JLTS_E60R_AT','JLTS_PLX1_AT',
+		
+		//3AS
+		'3AS_RPS6_G'
+	];
+	
+//===================
+//WEAPON ATTACHMENTS:
+//===================
+
+	// List Template
+	_attachmentsSniper =
+	[	
+		//JLTS
+		'JLTS_DC15X_scope',
+		
+		//3AS
+		'3AS_Optic_VK38X','3AS_bipod_vk38x_f'
+	];
+	
+	// List Template
+	_attachmentsRifle =
+	[
+		//3AS
+		'3AS_optic_reflec_DC15C','3AS_optic_holo_DC15S','3AS_Optic_LE_Scope_DC15A','3AS_Optic_Scope_WestarM5'
+	];
+
+//==========
+//MAGAZINES:
+//==========
+
+	//Pisol Magazines
+	_magazinesPistol =
+	[
+		//LS
+		'SWLW_westar35Sa_Mag',
+		
+		//JLTS
+		'JLTS_DC17SA_mag','JLTS_RG4D_mag',
+		
+		//3AS
+		'3AS_15Rnd_EC30_mag','3AS_15Rnd_EM30_mag'
+	];
+	
+	//Carbine Magazines
+	_magazinesCarbine =
+	[
+		//JLTS
+		'JLTS_E5_mag','JLTS_DC15S_mag'
+	];
+	
+	//Blaster Rifles
+	_magazinesRifle =
+	[
+		//JLTS
+		'JLTS_DC15A_mag'
+	];
+	
+	//Repeating Blasters
+	_magazinesRepeater =
+	[
+		//JLTS
+		'JLTS_Z6_mag','JLTS_E5C_mag',
+		
+		//3AS
+		'3AS_200Rnd_EC40_Mag','3AS_200Rnd_EM40_Mag','3AS_Chaingun_Drum_Mag'
+	];
+	
+	//Assault Blasters
+	_magazinesAssault =
+	[
+		//LS
+		'SWLW_westar35c_Mag','SWLW_Westar35S_Mag','SWLW_Westar35S_scatter_Mag',
+		
+		//3AS
+		'3AS_100Rnd_EC40_mag','3AS_100Rnd_EM40_mag','3AS_40Rnd_EC40_Mag','3AS_40Rnd_EM40_Mag','3AS_60Rnd_EC50_Mag','3AS_60Rnd_EM50_RedPlasma'
+	];
+	
+	//Underbarrel Grenade Blasters
+	_magazinesUGL =
+	[
+		//Base Arma3
+		'1Rnd_HE_Grenade_shell','3Rnd_HE_Grenade_shell','1Rnd_Smoke_Grenade_shell','3Rnd_HE_Grenade_shell','UGL_FlareWhite_F','UGL_FlareRed_F','3Rnd_UGL_FlareWhite_F','3Rnd_UGL_FlareRed_F',
+		
+		//JLTS
+		'JLTS_DC15A_mag',
+		
+		//3AS
+		'3AS_40Rnd_EC40_Mag','3AS_40Rnd_EM40_Mag','3AS_60Rnd_EC50_Mag','3AS_60Rnd_EM50_RedPlasma','3AS_6Rnd_HE_Grenade_shell'
+	];
+	
+	//Grenade Launchers
+	_magazinesGrenade =
+	[
+		//JLTS
+		'JLTS_EPL2_mag'
+	];
+	
+	//Sniper Blasters
+	_magazinesSniper =
+	[
+		//JLTS
+		'JLTS_DC15X_mag','JLTS_DW32S_mag','JLTS_E5S_mag',
+		
+		//3AS
+		'3AS_5Rnd_EC80_mag','3AS_10Rnd_EC80_Mag'
+	];
+	
+	//Scatter Blasters
+	_magazinesScatter =
+	[
+		//JLTS
+		'JLTS_DP23','JLTS_SBB3'
+	];
+	
+	//Stuns
+	_magazinesStun =
+	[
+		//JLTS
+		'JLTS_stun_mag_long','JLTS_stun_mag_short'
+	];
+	
+	//Anti-Tank Rifle Magazines
+	_magazinesAntiTank =
+	[
+		'3AS_AntiArmour_mag'
+	];
+	
+	//Unguided Launchers
+	_rocketsUnguided =
+	[
+		//JLTS
+		'JLTS_RPS6_HE_mag','JLTS_RPS6_mag'
+	];
+	
+	//Guided Launchers
+	_rocketsGuided =
+	[
+		//JLTS
+		'JLTS_PLX1_AP_mag','JLTS_PLX1_AT_mag','JLTS_E60R_AP_mag','JLTS_E60R_AT_mag'
+	];
+
+//=========
+//GRENADES:
+//=========
+
+	//Chemlights
+	_grenadesChemlights =
+	[
+		//Base Arma3
+		'Chemlight_blue','Chemlight_green','Chemlight_red','Chemlight_yellow'
+	];
+	
+	//Smoke Grenades
+	_grenadesSmoke =
+	[
+		//Base Arma3
+		'SmokeShellBlue','SmokeShellGreen','SmokeShellOrange','SmokeShellPurple','SmokeShellYellow','SmokeShell'
+	];
+	
+	//Offensive Grenades
+	_grenadesOffensive =
+	[
+		//JLTS
+		'JLTS_grenade_emp_mag',
+		
+		//3AS
+		'3AS_ThermalDetonator'
+	];
+	
+	//Sheild Grenades
+	_grenadesShield =
+	[
+		//3AS
+		'ShieldGrenade_Mag','SquadShieldMagazine'
+	];
+
+//===========
+//EXPLOSIVES:
+//===========
+
+	//Infantry Explosives
+	_explosivesInfantry =
+	[
+		//Base Arma3
+		'DemoCharge_Remote_Mag',
+		
+		//LS
+		'ls_mag_detPack_remoteCharge','ls_mag_demo_remoteCharge',
+		
+		//JLTS
+		'JLTS_explosive_emp_10_mag','JLTS_explosive_emp_20_mag','JLTS_explosive_emp_50_mag',
+		
+		//3AS
+		'3AS_DetPack','EC01_RemoteMagazine','RTX_RemoteMagazine'
+	];
+	
+	//Engineer Explosives
+	_explosivesEngineer =
+	[
+		//Base Arma3
+		'SatchelCharge_Remote_Mag',
+		
+		//LS
+		'ls_mag_breach_remoteCharge','ls_mag_caltrops_dispenser',
+		
+		//3AS
+		'HX_AT_Mine_Mag',
+		
+		//Operation TREBUCHET
+		'M168_Remote_Mag'
+	];
+
+//=================
+//UNIFORM ELEMENTS:
+//=================
+
+	//All Uniforms
+	_uniformsAll =
+	[
+		//LS
+		'lsd_gar_republicCommando_hud','lsd_gar_p1Interior_hud','SWLB_CEE_Clone_Hood','SWLB_CEE_Clone_Scarf','SWLB_CEE_Clone_Scarf_Blue','SWLB_CEE_Clone_Scarf_Green','SWLB_CEE_Clone_Scarf_Orange','SWLB_CEE_Scarf_Red',
+		'SWLB_CEE_Clone_Scarf_Stewart','SWLB_CEE_Clone_Scarf_White','ls_misc_poncho_facewear','ls_misc_poncho_partnerBlack_facewear','ls_misc_poncho_partnerWhite_facewear','ls_misc_poncho_peaceBlue_facewear',
+		'ls_misc_poncho_peaceGrean_facewear','ls_misc_poncho_peaceRed_facewear','ls_misc_poncho_sideStripeBlue_facewear','ls_misc_poncho_sideStripeBrown_facewear','ls_misc_poncho_sideStripeRed_faceweat',
+		'ls_misc_poncho_sideStripeWhite_facewear',
+		
+		//JLTS
+		'JLTS_Clone_helmetInterior_AB','JLTS_Clone_helmetInterior_P2','JLTS_CloneArmorMC','JLTS_CloneArmorMC_104_Wolffe','JLTS_CloneArmorMC_212_Cody','JLTS_CloneArmorMC_501_Vaughn','JLTS_CloneArmorMC_CG_Thorn',
+		'JLTS_CloneArmor_DC_Doom','JLTS_CloneArmorMC_HC_Lock','JLTS_CloneArmorMC_KS_commander','JLTS_CloneArmor','JLTS_CloneArmor_104','JLTS_CloneArmor_187_airborne','JLTS_CloneArmor_187','JLTS_CloneArmor_212_airborne',
+		'JLTS_CloneArmor_212','JLTS_CloneArmor_327_Bly','JLTS_CloneArmor_327','JLTS_CloneArmor_41','JLTS_CloneArmor_442','JLTS_CloneArmor_501_airborne','JLTS_CloneArmor_501_Appo','JLTS_CloneArmor_501_Rex',
+		'JLTS_CloneArmor_501_Vill','JLTS_CloneArmor_501','JLTS_CloneArmor_5','JLTS_CloneArmor_91','JLTS_CloneArmor_ARC_Blitz','JLTS_CloneArmor_501_Fives','JLTS_CloneArmor_ARC_Fordo','JLTS_CloneArmor_ARC_Hammer',
+		'JLTS_CloneArmor_501_Jesse','JLTS_CloneArmor_ARC_Predator','JLTS_CloneArmor_CG_Fox','JLTS_CloneArmor_CG_Thire','JLTS_CloneArmor_CG','JLTS_CloneArmor_Commander','JLTS_CloneArmor_DC','JLTS_CloneArmor_HC',
+		'JLTS_CloneArmor_KC','JLTS_CloneArmor_KS','JLTS_CloneArmor_Lieutenant','JLTS_CloneArmor_bomb','JLTS_CloneArmor_Purge','JLTS_CloneArmor_Sergeant','JLTS_CloneArmor_Shadow','JLTS_CloneArmorGrenadier',
+		'JLTS_CloneArmorGrenadier_104','JLTS_CloneArmorGrenadier_187','JLTS_CloneArmorGrenadier_212','JLTS_CloneArmorGrenadier_41','JLTS_CloneArmorGrenadier_442','JLTS_CloneArmorGrenadier_501','JLTS_CloneArmorGrenadier_5',
+		'JLTS_CloneArmorGrenadier_91','JLTS_CloneArmorGrenadier_CG','JLTS_CloneArmorGrenadier_DC','JLTS_CloneArmorGrenadier_HC','JLTS_CloneArmorGrenadier_KS','JLTS_CloneArmorGrenadier_Purge','JLTS_CloneArmorGrenadier_Shadow',
+		'JLTS_CloneArmorRecon','JLTS_CloneArmorRecon_91','JLTS_CloneArmorSupport','JLTS_CloneArmorSupport_104','JLTS_CloneArmorSupport_187','JLTS_CloneArmorSupport_212','JLTS_CloneArmorSupport_327',
+		'JLTS_CloneArmorSupport_41_Gree','JLTS_CloneArmorSupport_41','JLTS_CloneArmorSupport_442','JLTS_CloneArmorSupport_501','JLTS_CloneArmorSupport_5','JLTS_CloneArmorSupport_91','JLTS_CloneArmorSupport_CG',
+		'JLTS_CloneArmorSupport_DC','JLTS_CloneArmorSupport_HC','JLTS_CloneArmorSupport_KS','JLTS_CloneArmorSupport_Shadow','JLTS_CloneArmor_SC','JLTS_CloneArmor_SC_commander','JLTS_CloneArmor_SC_medic',
+		'JLTS_CloneArmor_104_medic','JLTS_CloneArmor_187_medic','JLTS_CloneArmor_212_medic','JLTS_CloneArmor_327_medic','JLTS_CloneArmor_41_medic','JLTS_CloneArmor_442_medic','JLTS_CloneArmor_501_medic',
+		'JLTS_CloneArmor_5_medic','JLTS_CloneArmor_91_medic','JLTS_CloneArmor_CG_medic','JLTS_CloneArmor_DC_medic','JLTS_CloneArmor_HC_medic','JLTS_CloneArmor_KC_medic','JLTS_CloneArmor_KS_medic','JLTS_CloneArmor_medic',
+		'JLTS_CloneArmor_Purge_medic','JLTS_CloneArmor_Shadow_medic',
+		
+		//3AS
+		'3AS_Clone_Phase1_Armor','3AS_Clone_Phase1_Armor_Captain','3AS_Clone_Phase1_Dirty_Armor_Captain','3AS_Clone_Phase1_Armor_Commander','3AS_Clone_Phase1_Dirty_Armor_Commander','3AS_Clone_Phase1_Dirty_Armor',
+		'3AS_Clone_Phase1_Armor_Lieutenant','3AS_Clone_Phase1_Dirty_Armor_Lieutenant','3AS_Clone_Phase1_Armor_Sergeant','3AS_Clone_Phase1_Dirty_Armor_Sergeant','3AS_U_Rep_Katarn_Armor','3AS_U_Rep_Katarn_Armor_Boss',
+		'3AS_U_Rep_Katarn_Armor_Fixer','3AS_U_Rep_Katarn_Armor_Gregor','3AS_U_Rep_Katarn_Armor_Niner','3AS_U_Rep_Katarn_Armor_Omega','3AS_U_Rep_Katarn_Armor_Scorch','3AS_U_Rep_Katarn_Armor_Sev','3AS_U_501st_Pilot_Phase3',
+		'3AS_U_Pilot_Phase3'
+	];
+
+	//Helmet Attachments
+	_attachmentsHelmet =
+	[
+		//LS
+		'lsd_gar_republicCommando_hud','lsd_gar_p1Interior_hud',
+		
+		//JLTS
+		'JLTS_Clone_helmetInterior_AB','JLTS_Clone_helmetInterior_P2'
+	];
+	
+	//Cloth Coverings
+	_uniformsClothCovering =
+	[
+		//LS
+		'SWLB_CEE_Clone_Hood','SWLB_CEE_Clone_Scarf','SWLB_CEE_Clone_Scarf_Blue','SWLB_CEE_Clone_Scarf_Green','SWLB_CEE_Clone_Scarf_Orange','SWLB_CEE_Scarf_Red','SWLB_CEE_Clone_Scarf_Stewart','SWLB_CEE_Clone_Scarf_White',
+		'ls_misc_poncho_facewear','ls_misc_poncho_partnerBlack_facewear','ls_misc_poncho_partnerWhite_facewear','ls_misc_poncho_peaceBlue_facewear','ls_misc_poncho_peaceGrean_facewear','ls_misc_poncho_peaceRed_facewear',
+		'ls_misc_poncho_sideStripeBlue_facewear','ls_misc_poncho_sideStripeBrown_facewear','ls_misc_poncho_sideStripeRed_faceweat','ls_misc_poncho_sideStripeWhite_facewear'
+	];
+	
+	//Masks
+	_uniformsMasks =
+	[
+		'',''
+	];
+	
+	//Formalwear
+	_uniformsFormal =
+	[
+		'',''
+	];
+	
+	//Armour
+	_uniformsArmour =
+	[
+		//JLTS
+		'JLTS_CloneArmorMC','JLTS_CloneArmorMC_104_Wolffe','JLTS_CloneArmorMC_212_Cody','JLTS_CloneArmorMC_501_Vaughn','JLTS_CloneArmorMC_CG_Thorn','JLTS_CloneArmor_DC_Doom','JLTS_CloneArmorMC_HC_Lock',
+		'JLTS_CloneArmorMC_KS_commander','JLTS_CloneArmor','JLTS_CloneArmor_104','JLTS_CloneArmor_187_airborne','JLTS_CloneArmor_187','JLTS_CloneArmor_212_airborne','JLTS_CloneArmor_212','JLTS_CloneArmor_327_Bly',
+		'JLTS_CloneArmor_327','JLTS_CloneArmor_41','JLTS_CloneArmor_442','JLTS_CloneArmor_501_airborne','JLTS_CloneArmor_501_Appo','JLTS_CloneArmor_501_Rex','JLTS_CloneArmor_501_Vill','JLTS_CloneArmor_501','JLTS_CloneArmor_5',
+		'JLTS_CloneArmor_91','JLTS_CloneArmor_ARC_Blitz','JLTS_CloneArmor_501_Fives','JLTS_CloneArmor_ARC_Fordo','JLTS_CloneArmor_ARC_Hammer','JLTS_CloneArmor_501_Jesse','JLTS_CloneArmor_ARC_Predator','JLTS_CloneArmor_CG_Fox',
+		'JLTS_CloneArmor_CG_Thire','JLTS_CloneArmor_CG','JLTS_CloneArmor_Commander','JLTS_CloneArmor_DC','JLTS_CloneArmor_HC','JLTS_CloneArmor_KC','JLTS_CloneArmor_KS','JLTS_CloneArmor_Lieutenant','JLTS_CloneArmor_bomb',
+		'JLTS_CloneArmor_Purge','JLTS_CloneArmor_Sergeant','JLTS_CloneArmor_Shadow','JLTS_CloneArmorGrenadier','JLTS_CloneArmorGrenadier_104','JLTS_CloneArmorGrenadier_187','JLTS_CloneArmorGrenadier_212',
+		'JLTS_CloneArmorGrenadier_41','JLTS_CloneArmorGrenadier_442','JLTS_CloneArmorGrenadier_501','JLTS_CloneArmorGrenadier_5','JLTS_CloneArmorGrenadier_91','JLTS_CloneArmorGrenadier_CG','JLTS_CloneArmorGrenadier_DC',
+		'JLTS_CloneArmorGrenadier_HC','JLTS_CloneArmorGrenadier_KS','JLTS_CloneArmorGrenadier_Purge','JLTS_CloneArmorGrenadier_Shadow','JLTS_CloneArmorRecon','JLTS_CloneArmorRecon_91','JLTS_CloneArmorSupport',
+		'JLTS_CloneArmorSupport_104','JLTS_CloneArmorSupport_187','JLTS_CloneArmorSupport_212','JLTS_CloneArmorSupport_327','JLTS_CloneArmorSupport_41_Gree','JLTS_CloneArmorSupport_41','JLTS_CloneArmorSupport_442',
+		'JLTS_CloneArmorSupport_501','JLTS_CloneArmorSupport_5','JLTS_CloneArmorSupport_91','JLTS_CloneArmorSupport_CG','JLTS_CloneArmorSupport_DC','JLTS_CloneArmorSupport_HC','JLTS_CloneArmorSupport_KS',
+		'JLTS_CloneArmorSupport_Shadow','JLTS_CloneArmor_SC','JLTS_CloneArmor_SC_commander','JLTS_CloneArmor_SC_medic',
+		
+		//3AS
+		'3AS_Clone_Phase1_Armor','3AS_Clone_Phase1_Armor_Captain','3AS_Clone_Phase1_Dirty_Armor_Captain','3AS_Clone_Phase1_Armor_Commander','3AS_Clone_Phase1_Dirty_Armor_Commander','3AS_Clone_Phase1_Dirty_Armor',
+		'3AS_Clone_Phase1_Armor_Lieutenant','3AS_Clone_Phase1_Dirty_Armor_Lieutenant','3AS_Clone_Phase1_Armor_Sergeant','3AS_Clone_Phase1_Dirty_Armor_Sergeant','3AS_U_Rep_Katarn_Armor','3AS_U_Rep_Katarn_Armor_Boss',
+		'3AS_U_Rep_Katarn_Armor_Fixer','3AS_U_Rep_Katarn_Armor_Gregor','3AS_U_Rep_Katarn_Armor_Niner','3AS_U_Rep_Katarn_Armor_Omega','3AS_U_Rep_Katarn_Armor_Scorch','3AS_U_Rep_Katarn_Armor_Sev'
+	];
+	
+	//Medic Armour
+	_uniformsMedic =
+	[
+		//JLTS
+		'JLTS_CloneArmor_104_medic','JLTS_CloneArmor_187_medic','JLTS_CloneArmor_212_medic','JLTS_CloneArmor_327_medic','JLTS_CloneArmor_41_medic','JLTS_CloneArmor_442_medic','JLTS_CloneArmor_501_medic',
+		'JLTS_CloneArmor_5_medic','JLTS_CloneArmor_91_medic','JLTS_CloneArmor_CG_medic','JLTS_CloneArmor_DC_medic','JLTS_CloneArmor_HC_medic','JLTS_CloneArmor_KC_medic','JLTS_CloneArmor_KS_medic','JLTS_CloneArmor_medic',
+		'JLTS_CloneArmor_Purge_medic','JLTS_CloneArmor_Shadow_medic'
+	];
+	
+	//Coveralls
+	_uniformsCoveralls =
+	[
+		//3AS
+		'3AS_U_501st_Pilot_Phase3','3AS_U_Pilot_Phase3'
+	];
+	
+//======
+//VESTS:
+//======
+
+	//All Vests
+	_vestsAll =
+	[
+		//JLTS
+		'JLTS_CloneVestARCCadet','JLTS_CloneVestARC','JLTS_CloneVestARC_ARC_Blitz','JLTS_CloneVest_ARC_501_Fives','JLTS_CloneVestARC_ARC_Hammer','JLTS_CloneVestARC_501_Jesse','JLTS_CloneVestARC_ARC_Predator',
+		'JLTS_CloneVestCommander','JLTS_CloneVestCommander_212','JLTS_CloneVestCommander_442','JLTS_CloneVestCommander_501_Rex','JLTS_CloneVestCommander_501','JLTS_CloneVestCommander_91','JLTS_CloneVestCommander_CG',
+		'JLTS_CloneVestCommander_DC','JLTS_CloneVestCommander_KS','JLTS_CloneVestLieutenant','JLTS_CloneVestLieutenant_212','JLTS_CloneVestLieutenant_442','JLTS_CloneVestLieutenant_501','JLTS_CloneVestLieutenant_91',
+		'JLTS_CloneVestLieutenant_CG','JLTS_CloneVestLieutenant_DC','JLTS_CloneVestLieutenant_KS','JLTS_CloneVestOfficer','JLTS_CloneVestOfficer_212','JLTS_CloneVestOfficer_327_Bly','JLTS_CloneVestOfficer_327_brown',
+		'JLTS_CloneVestOfficer_327','JLTS_CloneVestOfficer_442','JLTS_CloneVestOfficer_501_Appo','JLTS_CloneVestOfficer_501_Vill','JLTS_CloneVestOfficer_501','JLTS_CloneVestOfficer_91','JLTS_CloneVestOfficer_CG_Thire',
+		'JLTS_CloneVestOfficer_CG','JLTS_CloneVestOfficer_DC','JLTS_CloneVestOfficer_KC_Deviss','JLTS_CloneVestOfficer_KC','JLTS_CloneVestOfficer_KS','LTS_CloneVestOfficer2','JLTS_CloneVestOfficer2_212',
+		'JLTS_CloneVestOfficer2_327','JLTS_CloneVestOfficer2_442','JLTS_CloneVestOfficer2_501','JLTS_CloneVestOfficer2_91','JLTS_CloneVestOfficer2_CG','JLTS_CloneVestOfficer2_DC','JLTS_CloneVestOfficer2_KC',
+		'JLTS_CloneVestOfficer2_KS','JLTS_CloneVestPurge','JLTS_CloneVestPurge_commander','JLTS_CloneVestPurge_officer','JLTS_CloneVestAirborneNCO','JLTS_CloneVestAirborneNCO_212','JLTS_CloneVestAirborneNCO_501',
+		'JLTS_CloneVestReconNCO','JLTS_CloneVestReconNCO_ARC_Fordo','JLTS_CloneVestReconOfficer','JLTS_CloneVestReconOfficer_91','JLTS_CloneVestReconOfficer_DC','JLTS_CloneVestAirborne','JLTS_CloneVestAirborne_212',
+		'JLTS_CloneVestAirborne_501','JLTS_CloneVestHolster','JLTS_CloneVestKama','JLTS_CloneVestKama_104_Wolffe','JLTS_CloneVestKama_91','JLTS_CloneVestKama_DC_Doom','JLTS_CloneVestKama_DC','JLTS_CloneVestRecon',
+		'JLTS_CloneVestSuspender_41_Gree','JLTS_CloneVestSuspender_white','JLTS_CloneVestSuspender',
+		
+		//3AS
+		'3AS_V_Katarn_Vest_Demo','3AS_V_Katarn_Vest_Tech','3AS_V_Katarn_Vest_Tech_Foxtrot','3AS_V_Katarn_Vest_Tech_Omega','3AS_Pilot_Vest'
+	];
+
+	//Heavy Vests
+	_vestsHeavy =
+	[
+		//JLTS
+		'JLTS_CloneVestARCCadet','JLTS_CloneVestARC','JLTS_CloneVestARC_ARC_Blitz','JLTS_CloneVest_ARC_501_Fives','JLTS_CloneVestARC_ARC_Hammer','JLTS_CloneVestARC_501_Jesse','JLTS_CloneVestARC_ARC_Predator',
+		'JLTS_CloneVestCommander','JLTS_CloneVestCommander_212','JLTS_CloneVestCommander_442','JLTS_CloneVestCommander_501_Rex','JLTS_CloneVestCommander_501','JLTS_CloneVestCommander_91','JLTS_CloneVestCommander_CG',
+		'JLTS_CloneVestCommander_DC','JLTS_CloneVestCommander_KS','JLTS_CloneVestLieutenant','JLTS_CloneVestLieutenant_212','JLTS_CloneVestLieutenant_442','JLTS_CloneVestLieutenant_501','JLTS_CloneVestLieutenant_91',
+		'JLTS_CloneVestLieutenant_CG','JLTS_CloneVestLieutenant_DC','JLTS_CloneVestLieutenant_KS','JLTS_CloneVestOfficer','JLTS_CloneVestOfficer_212','JLTS_CloneVestOfficer_327_Bly','JLTS_CloneVestOfficer_327_brown',
+		'JLTS_CloneVestOfficer_327','JLTS_CloneVestOfficer_442','JLTS_CloneVestOfficer_501_Appo','JLTS_CloneVestOfficer_501_Vill','JLTS_CloneVestOfficer_501','JLTS_CloneVestOfficer_91','JLTS_CloneVestOfficer_CG_Thire',
+		'JLTS_CloneVestOfficer_CG','JLTS_CloneVestOfficer_DC','JLTS_CloneVestOfficer_KC_Deviss','JLTS_CloneVestOfficer_KC','JLTS_CloneVestOfficer_KS','LTS_CloneVestOfficer2','JLTS_CloneVestOfficer2_212',
+		'JLTS_CloneVestOfficer2_327','JLTS_CloneVestOfficer2_442','JLTS_CloneVestOfficer2_501','JLTS_CloneVestOfficer2_91','JLTS_CloneVestOfficer2_CG','JLTS_CloneVestOfficer2_DC','JLTS_CloneVestOfficer2_KC',
+		'JLTS_CloneVestOfficer2_KS','JLTS_CloneVestPurge','JLTS_CloneVestPurge_commander','JLTS_CloneVestPurge_officer'
+	];
+	
+	//Light Vests
+	_vestsLight =
+	[
+		//JLTS
+		'JLTS_CloneVestAirborneNCO','JLTS_CloneVestAirborneNCO_212','JLTS_CloneVestAirborneNCO_501','JLTS_CloneVestReconNCO','JLTS_CloneVestReconNCO_ARC_Fordo','JLTS_CloneVestReconOfficer','JLTS_CloneVestReconOfficer_91',
+		'JLTS_CloneVestReconOfficer_DC',
+		
+		//3AS
+		'3AS_V_Katarn_Vest_Demo','3AS_V_Katarn_Vest_Tech','3AS_V_Katarn_Vest_Tech_Foxtrot','3AS_V_Katarn_Vest_Tech_Omega'
+	];
+	
+	//Medic Vests
+	_vestsMedic =
+	[
+		'',''
+	];
+	
+	//Crew Vests
+	_vestsCrew =
+	[
+		//3AS
+		'3AS_Pilot_Vest'
+	];
+	
+	//Straps and Bandoliers
+	_vestsStrapsBandoliers =
+	[
+		//JLTS
+		'JLTS_CloneVestAirborne','JLTS_CloneVestAirborne_212','JLTS_CloneVestAirborne_501','JLTS_CloneVestHolster','JLTS_CloneVestKama','JLTS_CloneVestKama_104_Wolffe','JLTS_CloneVestKama_91','JLTS_CloneVestKama_DC_Doom',
+		'JLTS_CloneVestKama_DC','JLTS_CloneVestRecon','JLTS_CloneVestSuspender_41_Gree','JLTS_CloneVestSuspender_white','JLTS_CloneVestSuspender'
+	];
+
+//==========
+//BACKPACKS:
+//==========
+
+	//All Backpacks
+	_backpacksAll =
+	[
+		//Base Arma3
+		'B_Parachute',
+	
+		//LS
+		'ls_gar_glidepackClosed_backpack',
+		
+		//JLTS
+		'JLTS_Clone_backpack','JLTS_Clone_backpack_eod_DC','JLTS_Clone_backpack_DC','JLTS_Clone_backpack_eod','JLTS_Clone_backpack_bomb','JLTS_Clone_backpack_Purge','JLTS_Clone_backpack_s','JLTS_Clone_belt_bag',
+		'JLTS_Clone_backpack_medic_DC','JLTS_Clone_backpack_medic','JLTS_Clone_backpack_Purge_medic','JLTS_Clone_ARC_backpack','JLTS_Clone_LR_attachment','JLTS_Clone_RTO_pack','JLTS_Clone_RTO_pack_41_Gree',
+		'JLTS_Clone_backpack_RTO','JLTS_Clone_backpack_rto_DC','JLTS_Clone_backpack_s_RTO','JLTS_Clone_jumppack_mc','JLTS_Clone_jumppack_Chicken','JLTS_Clone_backpack_DC','JLTS_Clone_jumppack_chicken_501',
+		'JLTS_Clone_jumppack_chicken_black','JLTS_Clone_jumppack_chicken_DC','JLTS_Clone_jumppack_JT12','JLTS_Clone_jumppack_JT12_104','JLTS_Clone_jumppack_JT12_501','JLTS_Clone_jumppack_JT12_black',
+		'LTS_Clone_jumppack_JT12_DC','JLTS_Clone_jumppack','JLTS_Clone_jumppack_DC','JLTS_UST_turret_GAR_backpack','JLTS_UAV_prowler_gar_backpack',
+		
+		//JLTS:EA
+		'SEA_Backpack_Heavy','SEA_Backpack_Heavy_s','SEA_Backpack_Heavy_invis',
+		
+		//3AS
+		'3AS_Republic_Mortar_Bag'
+	];
+
+	//Carrier Packs
+	_backpacksCarrier =
+	[
+		//JLTS
+		'JLTS_Clone_backpack','JLTS_Clone_backpack_eod_DC','JLTS_Clone_backpack_DC','JLTS_Clone_backpack_eod','JLTS_Clone_backpack_bomb','JLTS_Clone_backpack_Purge','JLTS_Clone_backpack_s','JLTS_Clone_belt_bag',
+		
+		//JLTS:EA
+		'SEA_Backpack_Heavy','SEA_Backpack_Heavy_s','SEA_Backpack_Heavy_invis'
+	];
+	
+	//Medic Packs
+	_backpacksMedic =
+	[
+		//JLTS
+		'JLTS_Clone_backpack_medic_DC','JLTS_Clone_backpack_medic','JLTS_Clone_backpack_Purge_medic'
+	];
+	
+	//Radio Packs
+	_backpacksRadio =
+	[
+		//JLTS
+		'JLTS_Clone_ARC_backpack','JLTS_Clone_LR_attachment','JLTS_Clone_RTO_pack','JLTS_Clone_RTO_pack_41_Gree','JLTS_Clone_backpack_RTO','JLTS_Clone_backpack_rto_DC','JLTS_Clone_backpack_s_RTO',
+		
+		//JLTS:EA
+		'SEA_Backpack_RTO_invis','SEA_Backpack_RTO_Attachment','SEA_Backpack_RTO_Pack'
+	];
+	
+	//Jetpacks
+	_backpacksJet =
+	[
+		//JLTS
+		'JLTS_Clone_jumppack_mc','JLTS_Clone_jumppack_Chicken','JLTS_Clone_backpack_DC','JLTS_Clone_jumppack_chicken_501','JLTS_Clone_jumppack_chicken_black','JLTS_Clone_jumppack_chicken_DC','JLTS_Clone_jumppack_JT12',
+		'JLTS_Clone_jumppack_JT12_104','JLTS_Clone_jumppack_JT12_501','JLTS_Clone_jumppack_JT12_black','LTS_Clone_jumppack_JT12_DC','JLTS_Clone_jumppack','JLTS_Clone_jumppack_DC'
+	];
+	
+	//Respirators
+	_backpacksRespirator =
+	[
+		'',''
+	];
+	
+	//Parachutes
+	_backpacksParachute =
+	[
+		//Base Arma3
+		'B_Parachute',
+		
+		//LS
+		'ls_gar_glidepackClosed_backpack'
+	];
+	
+	//Static MGs
+	_backpacksTurret =
+	[
+		//JLTS
+		'JLTS_UST_turret_GAR_backpack'
+	];
+	
+	//Mortars
+	_backpacksMortar =
+	[
+		//LS
+		'ls_gar_mortar_backpack',
+		
+		//3AS
+		'3AS_Republic_Mortar_Bag'
+	];
+	
+	//UAVs
+	_backpacksUAV =
+	[
+		//JLTS
+		'JLTS_UAV_prowler_gar_backpack'
+	];
+	
+//========
+//Helmets:
+//========
+
+	//All Helmets
+	_helmetsAll =
+	[
+		//JLTS
+		'JLTS_CloneHelmetAB','JLTS_CloneHelmetAB_187','JLTS_CloneHelmetAB_212','JLTS_CloneHelmetAB_501','JLTS_CloneHelmetAB_Purge','JLTS_CloneHelmetP2MC','JLTS_CloneHelmetP2MC_212_Cody','JLTS_CloneHelmetARC',
+		'JLTS_CloneHelmetP2','JLTS_CloneHelmetP2_104','JLTS_CloneHelmetP2_187','JLTS_CloneHelmetP2_212','JLTS_CloneHelmetP2_327_Bly','JLTS_CloneHelmetP2_327','JLTS_CloneHelmetP2_332_Vaughn','JLTS_CloneHelmetP2_332',
+		'JLTS_CloneHelmetP2_41_Gree','JLTS_CloneHelmetP2_442','JLTS_CloneHelmetP2_501_Rex','JLTS_CloneHelmetP2_501','JLTS_CloneHelmetP2_5','JLTS_CloneHelmetP2_91','JLTS_CloneHelmetP2_ARC_Blitz','JLTS_CloneHelmetP2_501_Fives',
+		'JLTS_CloneHelmetP2_ARC_Hammer','JLTS_CloneHelmetP2_501_Jesse','JLTS_CloneHelmetP2_ARC_Predator','JLTS_CloneHelmetP2_Captain','JLTS_CloneHelmetP2_CG_Fox','JLTS_CloneHelmetP2_CG_Thorn','JLTS_CloneHelmetP2_CG',
+		'JLTS_CloneHelmetP2_Commander','JLTS_CloneHelmetP2_DC_Doom','JLTS_CloneHelmetP2_DC','JLTS_CloneHelmetP2_HC_Lock','JLTS_CloneHelmetP2_HC','JLTS_CloneHelmetP2_KC','JLTS_CloneHelmetP2_KS','JLTS_CloneHelmetP2_Lieutenant',
+		'JLTS_CloneHelmetP2_bomb','JLTS_CloneHelmetP2_Sergeant','JLTS_CloneHelmetSC_SC','JLTS_CloneHelmet_SCC_SC','JLTS_CloneHelmet_SCC_SC_commander','JLTS_CloneHelmetBARC','JLTS_CloneHelmetBARC_104_Wolffe',
+		'JLTS_CloneHelmetBARC_91','JLTS_CloneHelmetBARC_ARC_Fordo','JLTS_CloneHelmetP2_Shadow',
+		
+		//JLTS:EA
+		'SEA_Helmet_ARC','SEA_Helmet_ARF_base','SEA_Helmet Engineer_Base','SEA_Helmet_Hazard_Base','SEA_Helmet_P1_Base','LSEA_Helmet_Pilot_P1_Base','SEA_Helmet_SpecOps_LR_Base','SEA_Helmet_SpecOps_SR_Base',
+		
+		//3AS
+		'3as_ATRT_Helmet','3as_P1_212th','3as_P1_327th','3as_P1_501A','3as_P1_501','3as_P1_91st','3as_P1_EOD_Helmet','3as_P1_CPT','3as_P1_CC','3as_P1_LT','3as_P1_Sgt','3AS_ARF_Helmet','3AS_H_Katarn_Helmet',
+		'3AS_H_Katarn_Helmet_Boss','3AS_H_Katarn_Helmet_Fixer','3AS_H_Katarn_Helmet_Gregor','3AS_H_Katarn_Helmet_Omega','3AS_H_Katarn_Helmet_Scorch','3AS_H_Katarn_Helmet_Sev','3AS_P2_Pilot_helmet_101st',
+		'3AS_P2_Pilot_helmet_212th','3AS_P2_Pilot_helmet_327th','3AS_P2_Pilot_helmet_91st','3AS_P2_Pilot_helmet_Razor','3AS_P2_Pilot_helmet_Republic','3as_P2_Pilot_alt_helmet','3AS_P2_Pilot_helmet_Razor_alt',
+		'3AS_P3_Pilot_Helmet_P','3AS_P3_Pilot_Helmet_501st'
+	];
+
+	//Combat Helmets
+	_helmetsCombat =
+	[
+		//JLTS
+		'JLTS_CloneHelmetAB','JLTS_CloneHelmetAB_187','JLTS_CloneHelmetAB_212','JLTS_CloneHelmetAB_501','JLTS_CloneHelmetAB_Purge','JLTS_CloneHelmetP2MC','JLTS_CloneHelmetP2MC_212_Cody','JLTS_CloneHelmetARC',
+		'JLTS_CloneHelmetP2','JLTS_CloneHelmetP2_104','JLTS_CloneHelmetP2_187','JLTS_CloneHelmetP2_212','JLTS_CloneHelmetP2_327_Bly','JLTS_CloneHelmetP2_327','JLTS_CloneHelmetP2_332_Vaughn','JLTS_CloneHelmetP2_332',
+		'JLTS_CloneHelmetP2_41_Gree','JLTS_CloneHelmetP2_442','JLTS_CloneHelmetP2_501_Rex','JLTS_CloneHelmetP2_501','JLTS_CloneHelmetP2_5','JLTS_CloneHelmetP2_91','JLTS_CloneHelmetP2_ARC_Blitz','JLTS_CloneHelmetP2_501_Fives',
+		'JLTS_CloneHelmetP2_ARC_Hammer','JLTS_CloneHelmetP2_501_Jesse','JLTS_CloneHelmetP2_ARC_Predator','JLTS_CloneHelmetP2_Captain','JLTS_CloneHelmetP2_CG_Fox','JLTS_CloneHelmetP2_CG_Thorn','JLTS_CloneHelmetP2_CG',
+		'JLTS_CloneHelmetP2_Commander','JLTS_CloneHelmetP2_DC_Doom','JLTS_CloneHelmetP2_DC','JLTS_CloneHelmetP2_HC_Lock','JLTS_CloneHelmetP2_HC','JLTS_CloneHelmetP2_KC','JLTS_CloneHelmetP2_KS','JLTS_CloneHelmetP2_Lieutenant',
+		'JLTS_CloneHelmetP2_bomb','JLTS_CloneHelmetP2_Sergeant','JLTS_CloneHelmetSC_SC','JLTS_CloneHelmet_SCC_SC','JLTS_CloneHelmet_SCC_SC_commander',
+		
+		//JLTS:EA
+		'SEA_Helmet_ARC','SEA_Helmet_ARF_base','SEA_Helmet Engineer_Base','SEA_Helmet_Hazard_Base','SEA_Helmet_P1_Base','LSEA_Helmet_Pilot_P1_Base',
+		
+		//3AS
+		'3as_ATRT_Helmet','3as_P1_212th','3as_P1_327th','3as_P1_501A','3as_P1_501','3as_P1_91st','3as_P1_EOD_Helmet','3as_P1_CPT','3as_P1_CC','3as_P1_LT','3as_P1_Sgt'
+	];
+	
+	//Stealth Helmets
+	_helmetsStealth =
+	[
+		//JLTS
+		'JLTS_CloneHelmetBARC','JLTS_CloneHelmetBARC_104_Wolffe','JLTS_CloneHelmetBARC_91','JLTS_CloneHelmetBARC_ARC_Fordo','JLTS_CloneHelmetP2_Shadow',
+		
+		//JLTS:EA
+		'SEA_Helmet_SpecOps_LR_Base','SEA_Helmet_SpecOps_SR_Base',
+		
+		//3AS
+		'3AS_ARF_Helmet','3AS_H_Katarn_Helmet','3AS_H_Katarn_Helmet_Boss','3AS_H_Katarn_Helmet_Fixer','3AS_H_Katarn_Helmet_Gregor','3AS_H_Katarn_Helmet_Omega','3AS_H_Katarn_Helmet_Scorch','3AS_H_Katarn_Helmet_Sev'
+	];
+	
+	//Pilot Helmets
+	_helmetsPilot =
+	[
+		//3AS
+		'3AS_P2_Pilot_helmet_101st','3AS_P2_Pilot_helmet_212th','3AS_P2_Pilot_helmet_327th','3AS_P2_Pilot_helmet_91st','3AS_P2_Pilot_helmet_Razor','3AS_P2_Pilot_helmet_Republic','3as_P2_Pilot_alt_helmet',
+		'3AS_P2_Pilot_helmet_Razor_alt','3AS_P3_Pilot_Helmet_P','3AS_P3_Pilot_Helmet_501st'
+	];
+	
+//==========
+//Equipment:
+//==========
+
+	//NVGs
+	_equipmentNVGs =
+	[
+		//JLTS
+		'JLTS_CloneNVGCC','JLTS_CloneNVGCC_CG','JLTS_CloneNVGCC_DC_Doom','JLTS_CloneNVGCC_HC_Lock','JLTS_CloneNVGCC_KS','JLTS_CloneNVGMC','JLTS_CloneNVGMC_212_Cody','JLTS_CloneNVGMC_332_Vaughn','JLTS_CloneNVG',
+		'JLTS_CloneNVG_327_Bly','JLTS_CloneNVG_327','JLTS_CloneNVG_black','JLTS_CloneNVG_DC','JLTS_CloneNVG_KC','JLTS_CloneNVGRange_ARC_Blitz','JLTS_CloneNVGRange_ARC_Hammer','JLTS_CloneNVGRange','JLTS_CloneNVGRange_black',
+		'JLTS_CloneNVG_spec','JLTS_CloneNVG_spec_327','JLTS_CloneNVG_spec_black','JLTS_CloneNVG_spec_DC','JLTS_CloneNVG_spec_KC','JLTS_NVG_droid_chip_2','JLTS_NVG_droid_chip_1',
+		
+		//JLTS:EA
+		'SEA_CloneNVG_TI','SEA_P1_Rangefinder','SEA_Rangefinder_Black',
+		
+		//Operation TREBUCHET
+		'OPTRE_NVGT_C','OPTRE_NVG'
+	];
+
+	//Assigned Items
+	_equipmentAssignedItems =
+	[
+		// Maps
+		'ItemMap',
+		
+		// Terminals
+		'ItemGPS',
+		
+		// Radios
+		'ItemRadio',
+		
+		// Compasses
+		'ItemCompass',
+		
+		// Watches
+		'ItemWatch','ChemicalDetector_01_watch_F'
+	];
+	
+	//UAV Operater items
+	_equipmentUAV =
+	[
+		//Base Arma3
+		'I_UavTerminal','O_UavTerminal','B_UavTerminal','I_E_UavTerminal','C_UavTerminal'
+	];
+	
+	//Miscellaneous Equipment
+	_equipmentInventory =
+	[
+		//Vanilla
+		'firstaidkit','minedetector','Laserbatteries',
+		
+		//JLTS
+		'JLTS_riot_shield_item','JLTS_riot_shield_101_item','JLTS_riot_shield_212_item','JLTS_riot_shield_501_item','JLTS_riot_shield_CG_item','JLTS_riot_shield_GD_item','JLTS_ids_gar_army','JLTS_repairkit_weapon_mini'
+	];
+	
+		//Medic items
+	_equipmentMedic =
+	[
+		//Base Arma3
+		'medikit'
+	];
+	
+	//Engineer items
+	_equipmentEngineer =
+	[
+		//Base Arma3
+		'toolkit','JLTS_repairkit_weapon'
+	];
+	
+	//Binoculars
+	_equipmentbinoculars =
+	[
+		// Legion Base - Stable
+		'SWLB_clone_commander_binocular','SWLB_clone_commander_binocular_night','SWLB_clone_binocular',
+		
+		// Just Like The Simulations - The Great War
+		'JLTS_CloneBinocular','JLTS_CloneBinocular_black'
+	];
+
+//====================
+//OPFOR SUBCATEGORIES:
+//====================
+
+	_o_weapons = [
+		'','arifle_ak12_f','arifle_ak12_gl_f','arifle_akm_f','arifle_aks_f','arifle_ctars_blk_f','arifle_ctars_ghex_f','arifle_ctars_hex_f','arifle_ctar_blk_f','arifle_ctar_ghex_f',
+		'arifle_ctar_hex_f','arifle_ctar_gl_blk_f','arifle_ctar_gl_ghex_f','arifle_ctar_gl_hex_f','srifle_dmr_07_blk_f','srifle_dmr_07_ghex_f','srifle_dmr_07_hex_f','arifle_katiba_f',
+		'arifle_katiba_c_f','arifle_katiba_gl_f','lmg_03_f','arifle_mk20_plain_f','arifle_mk20_f','arifle_mk20_gl_plain_f','arifle_mk20_gl_f','arifle_mk20c_plain_f','arifle_mk20c_f',
+		'hgun_pdw2000_f','smg_05_f','smg_02_f','arifle_trg20_f','arifle_trg21_f','arifle_trg21_gl_f','arifle_arx_blk_f','arifle_arx_ghex_f','arifle_arx_hex_f','smg_01_f'
+	];
+	_o_uniforms = [
+		'','u_i_c_soldier_bandit_4_f','u_i_c_soldier_bandit_1_f','u_i_c_soldier_bandit_2_f','u_i_c_soldier_bandit_5_f','u_i_c_soldier_bandit_3_f','u_o_t_soldier_f',
+		'u_o_combatuniform_ocamo','u_o_combatuniform_oucamo','u_o_fullghillie_ard','u_o_t_fullghillie_tna_f','u_o_fullghillie_lsh','u_o_fullghillie_sard','u_o_t_sniper_f',
+		'u_o_ghilliesuit','u_bg_guerrilla_6_1','u_bg_guerilla1_1','u_bg_guerilla1_2_f','u_bg_guerilla2_2','u_bg_guerilla2_1','u_bg_guerilla2_3','u_bg_guerilla3_1','u_bg_leader',
+		'u_o_officer_noinsignia_hex_f','u_o_t_officer_f','u_o_officeruniform_ocamo','u_i_c_soldier_para_2_f','u_i_c_soldier_para_3_f','u_i_c_soldier_para_5_f','u_i_c_soldier_para_4_f',
+		'u_i_c_soldier_para_1_f','u_o_pilotcoveralls','u_o_specopsuniform_ocamo','u_i_c_soldier_camo_f'
+	];
+	_o_vests = [
+		'','v_harnessogl_brn','v_harnessogl_ghex_f','v_harnesso_brn','v_harnesso_ghex_f','v_harnesso_gry','v_bandollierb_cbr','v_tacchestrig_cbr_f','v_tacvest_khk'
+	];
+	_o_backpacks = [
+		'','b_assaultpack_ocamo','b_fieldpack_ghex_f','b_fieldpack_ocamo','b_tacticalpack_ocamo','b_viperharness_ghex_f','b_viperharness_hex_f','b_viperlightharness_blk_f',
+		'b_viperlightharness_ghex_f','b_viperlightharness_hex_f'
+	];
+	_o_headgear = [
+		'','h_helmetspeco_blk','h_helmetspeco_ghex_f','h_helmetspeco_ocamo','h_bandanna_gry','h_bandanna_blu','h_bandanna_cbr','h_bandanna_khk_hs','h_bandanna_khk',
+		'h_bandanna_mcamo','h_cap_brn_specops','h_helmetcrew_o','h_helmetleadero_ghex_f','h_helmetleadero_ocamo','h_helmetleadero_oucamo','h_milcap_ghex_f','h_milcap_ocamo',
+		'h_milcap_dgtl','h_helmeto_ghex_f','h_helmeto_ocamo','h_helmeto_oucamo','h_shemag_olive','h_shemag_olive_hs','h_shemagopen_tan','h_shemagopen_khk'
+	];
+	_o_magazines = [
+		''
+	];
+	_o_attachments = [
+		''
+	];
 
 //=========================================== GET [BLACKLIST + WHITELIST] FOR PLAYER ROLE
 
@@ -488,23 +937,24 @@ if (_role isEqualTo '') exitWith {
 			
 			]
 		],
-		[	// -------------------------------------------------------------- WHITELIST
-			[								// ITEMS
-				_uniformsAll,				// whitelisted UNIFORMS
-				_vestsAll,					// whitelisted VESTS
-				_inventoryAll,					// whitelisted Inventory
-				_assignedItemsAll,			// whitelisted ASSIGNED ITEMS
-				_headgearBasic,				// whitelisted HEADGEAR
-				_gogglesAll,				// whitelisted goggles
-				_attachmentsAll				// whitelisted Attachments
+		// -------------------------------------------------------------- WHITELIST
+		[	// ITEMS
+			[	
+				(_uniformsFormal + _uniformsArmour),																																									// whitelisted UNIFORMS
+				(_vestsHeavy + _vestsLight + _vestsCrew + _vestsStrapsBandoliers),																																		// whitelisted VESTS
+				(_equipmentInventory),																																													// whitelisted INVENTORY
+				(_equipmentNVGs + _equipmentAssignedItems),																																								// whitelisted ASSIGNED ITEMS + NVGs
+				(_helmetsCombat + _helmetsStealth),																																										// whitelisted HEADGEAR
+				(_uniformsClothCovering + _attachmentsHelmet + _uniformsMasks),																																			// whitelisted FACEWEAR
+				(_attachmentsRifle)																																														// whitelisted WEAPON ATTACHMENTS
 			],
-			_magazinesAll,					// whitelisted MAGAZINES
-			_backpacksAll,					// whitelisted BACKPACKS
-			_weaponsAll						// whitelisted WEAPONS
+			(_magazinesAll + _grenadesAll + _explosivesAll),																																							// whitelisted MAGAZINES
+			(_backpacksAll),																																															// whitelisted BACKPACKS
+			(_weaponsAll + _equipmentBinoculars)																																										// whitelisted WEAPONS
 		]
 	]
 };
-// Rifleman role (Grenadier, marksman, engineer, medic, mortar gunner, etc)
+// Rifleman role
 if (_role isEqualTo 'rifleman') exitWith {
 	[
 		[	// -------------------------------------------------------------- BLACKLIST
@@ -537,72 +987,24 @@ if (_role isEqualTo 'rifleman') exitWith {
 			],
 			(_weaponsMMG + _weaponsSniper + _weaponsLauncherRegular)	// blacklisted WEAPONS
 		],
-		[	// -------------------------------------------------------------- WHITELIST
-			[	// ITEMS
-				_uniformsAll,			// whitelisted UNIFORMS
-				_vestsAll,				// whitelisted VESTS
-				_inventoryAll,			// whitelisted Inventory
-				_assignedItemsAll,		// whitelisted ASSIGNED ITEMS
-				_headgearBasic,			// whitelisted HEADGEAR
-				_gogglesAll,			// whitelisted goggles
-				_attachmentsAll			// whitelisted Attachments
+		// -------------------------------------------------------------- WHITELIST
+		[	// ITEMS
+			[	
+				(_uniformsFormal + _uniformsArmour),																																									// whitelisted UNIFORMS
+				(_vestsHeavy + _vestsLight + _vestsCrew + _vestsStrapsBandoliers),																																		// whitelisted VESTS
+				(_equipmentInventory),																																													// whitelisted INVENTORY
+				(_equipmentNVGs + _equipmentAssignedItems),																																								// whitelisted ASSIGNED ITEMS + NVGs
+				(_helmetsCombat + _helmetsStealth),																																										// whitelisted HEADGEAR
+				(_uniformsClothCovering + _attachmentsHelmet + _uniformsMasks),																																			// whitelisted FACEWEAR
+				(_attachmentsRifle)																																														// whitelisted WEAPON ATTACHMENTS
 			],
-			_magazinesAll,				// whitelisted MAGAZINES
-			_backpacksAll,				// whitelisted BACKPACKS
-			(_weaponsBasic + _weaponsMarksmanHeavy + _weaponsHandgun + _weaponsSMG + _weaponsLauncherBasic + _viewersAll)	// whitelisted WEAPONS
+			(_magazinesPistol + _magazinesCarbine + _magazinesRifle + _magazinesAssault + _magazinesUGL + _magazinesStun + _grenadesChemlights + _grenadesSmoke + _grenadesOffensive + _explosivesInfantry),			// whitelisted MAGAZINES
+			(_backpacksCarrier + _backpacksRadio + _backpacksParachute),																																				// whitelisted BACKPACKS
+			(_pistolsPlasma + _carbinesPlasma + _riflesPlasma + _blastersAssault + _blastersUGL + _equipmentBinoculars)																									// whitelisted WEAPONS
 		]
 	]
 };
-// Rifleman role (Grenadier, marksman, engineer, medic, mortar gunner, etc)
-if (_role in ['engineer','medic','mortar_gunner','medic_WL']) exitWith {
-	[
-		[	// -------------------------------------------------------------- BLACKLIST
-			[	// ITEMS
-				[	// blacklisted uniforms
-				
-				],
-				[	// blacklisted vests
-				
-				],
-				[	// blacklisted inventory
-				
-				],
-				[	// blacklisted assigned items
-					'b_uavterminal'
-				],
-				_headgearThermal,	// blacklisted Headgear
-				[	// blacklisted goggles
-				
-				],
-				[	// blacklisted attachments
-				
-				]
-			],
-			[	// blacklisted MAGAZINES
-				
-			],
-			[	// blacklisted BACKPACKS
-			
-			],
-			(_weaponsMMG + _weaponsSniper + _weaponsLauncherRegular)	// blacklisted WEAPONS
-		],
-		[	// -------------------------------------------------------------- WHITELIST
-			[	// ITEMS
-				_uniformsAll,			// whitelisted UNIFORMS
-				_vestsAll,				// whitelisted VESTS
-				_inventoryAll,			// whitelisted Inventory
-				_assignedItemsAll,		// whitelisted ASSIGNED ITEMS
-				_headgearBasic,			// whitelisted HEADGEAR
-				_gogglesAll,			// whitelisted goggles
-				_attachmentsAll			// whitelisted Attachments
-			],
-			_magazinesAll,				// whitelisted MAGAZINES
-			_backpacksAll,				// whitelisted BACKPACKS
-			(_weaponsBasic + _weaponsHandgun + _weaponsSMG + _weaponsLauncherBasic + _viewersAll)	// whitelisted WEAPONS
-		]
-	]
-};
-// Machine gunner, autorifleman, etc
+// Autorifleman role
 if (_role isEqualTo 'autorifleman') exitWith {
 	[
 		[	// -------------------------------------------------------------- BLACKLIST
@@ -637,22 +1039,24 @@ if (_role isEqualTo 'autorifleman') exitWith {
 			
 			]
 		],
-		[	// -------------------------------------------------------------- WHITELIST
-			[	// ITEMS
-				_uniformsAll,						// whitelisted UNIFORMS
-				_vestsAll,							// whitelisted VESTS
-				_inventoryAll,						// whitelisted Inventory
-				_assignedItemsAll,					// whitelisted ASSIGNED ITEMS
-				_headgearBasic,						// whitelisted HEADGEAR
-				_gogglesAll,						// whitelisted goggles
-				_attachmentsAll						// whitelisted Attachments
+		// -------------------------------------------------------------- WHITELIST
+		[	// ITEMS
+			[	
+				(_uniformsFormal + _uniformsArmour),																																									// whitelisted UNIFORMS
+				(_vestsHeavy + _vestsLight + _vestsCrew + _vestsStrapsBandoliers),																																		// whitelisted VESTS
+				(_equipmentInventory),																																													// whitelisted INVENTORY
+				(_equipmentNVGs + _equipmentAssignedItems),																																								// whitelisted ASSIGNED ITEMS + NVGs
+				(_helmetsCombat + _helmetsStealth),																																										// whitelisted HEADGEAR
+				(_uniformsClothCovering + _attachmentsHelmet + _uniformsMasks),																																			// whitelisted FACEWEAR
+				(_attachmentsRifle)																																														// whitelisted WEAPON ATTACHMENTS
 			],
-			_magazinesAll,							// whitelisted MAGAZINES
-			_backpacksAll,							// whitelisted BACKPACKS
-			(_weaponsSW + _weaponsLMG + _weaponsHandgun + _viewersAll + _weaponsUW)	// whitelisted WEAPONS
+			(_magazinesPistol + _magazinesCarbine + _magazinesAssault + _magazinesStun + _grenadesChemlights + _grenadesSmoke + _grenadesOffensive + _grenadesShield + _explosivesInfantry),							// whitelisted MAGAZINES
+			(_backpacksCarrier + _backpacksRadio + _backpacksParachute),																																				// whitelisted BACKPACKS
+			(_pistolsPlasma + _carbinesPlasma + _blastersAssault + _equipmentBinoculars)																																// whitelisted WEAPONS
 		]
 	]
 };
+// Machine Gunner role
 if (_role in ['machine_gunner','machine_gunner_WL']) exitWith {
 	[
 		[	// -------------------------------------------------------------- BLACKLIST
@@ -687,23 +1091,24 @@ if (_role in ['machine_gunner','machine_gunner_WL']) exitWith {
 			
 			]
 		],
-		[	// -------------------------------------------------------------- WHITELIST
-			[	// ITEMS
-				_uniformsAll,						// whitelisted UNIFORMS
-				_vestsAll,							// whitelisted VESTS
-				_inventoryAll,						// whitelisted Inventory
-				_assignedItemsAll,					// whitelisted ASSIGNED ITEMS
-				_headgearBasic,						// whitelisted HEADGEAR
-				_gogglesAll,						// whitelisted goggles
-				_attachmentsAll						// whitelisted Attachments
+		// -------------------------------------------------------------- WHITELIST
+		[	// ITEMS
+			[	
+				(_uniformsFormal + _uniformsArmour),																																									// whitelisted UNIFORMS
+				(_vestsHeavy + _vestsLight + _vestsCrew + _vestsStrapsBandoliers),																																		// whitelisted VESTS
+				(_equipmentInventory),																																													// whitelisted INVENTORY
+				(_equipmentNVGs + _equipmentAssignedItems),																																								// whitelisted ASSIGNED ITEMS + NVGs
+				(_helmetsCombat + _helmetsStealth),																																										// whitelisted HEADGEAR
+				(_uniformsClothCovering + _attachmentsHelmet + _uniformsMasks),																																			// whitelisted FACEWEAR
+				(_attachmentsRifle)																																														// whitelisted WEAPON ATTACHMENTS
 			],
-			_magazinesAll,							// whitelisted MAGAZINES
-			_backpacksAll,							// whitelisted BACKPACKS
-			(_weaponsMMG + _weaponsHandgun + _viewersAll + _weaponsUW)	// whitelisted WEAPONS
+			(_magazinesPistol + _magazinesCarbine + _magazinesRepeater + _magazinesStun + _grenadesChemlights + _grenadesSmoke + _grenadesOffensive + _explosivesInfantry),												// whitelisted MAGAZINES
+			(_backpacksCarrier + _backpacksRadio + _backpacksParachute),																																				// whitelisted BACKPACKS
+			(_pistolsPlasma + _carbinesPlasma + _blastersSquadAutomatic + _equipmentBinoculars)																															// whitelisted WEAPONS
 		]
 	]
 };
-// AT / AA / Missile soldiers, etc
+// Unguided Anti-Tank role
 if (_role isEqualTo 'rifleman_lat') exitWith {
 	[
 		[	// -------------------------------------------------------------- BLACKLIST
@@ -738,22 +1143,24 @@ if (_role isEqualTo 'rifleman_lat') exitWith {
 			
 			]
 		],
-		[	// -------------------------------------------------------------- WHITELIST
-			[	// ITEMS
-				_uniformsAll,							// whitelisted UNIFORMS
-				_vestsAll,								// whitelisted VESTS
-				_inventoryAll,							// whitelisted Inventory
-				_assignedItemsAll,						// whitelisted ASSIGNED ITEMS
-				_headgearBasic,							// whitelisted HEADGEAR
-				_gogglesAll,							// whitelisted goggles
-				_attachmentsAll							// whitelisted Attachments
+		// -------------------------------------------------------------- WHITELIST
+		[	// ITEMS
+			[	
+				(_uniformsFormal + _uniformsArmour),																																									// whitelisted UNIFORMS
+				(_vestsHeavy + _vestsLight + _vestsCrew + _vestsStrapsBandoliers),																																		// whitelisted VESTS
+				(_equipmentInventory),																																													// whitelisted INVENTORY
+				(_equipmentNVGs + _equipmentAssignedItems),																																								// whitelisted ASSIGNED ITEMS + NVGs
+				(_helmetsCombat + _helmetsStealth),																																										// whitelisted HEADGEAR
+				(_uniformsClothCovering + _attachmentsHelmet + _uniformsMasks),																																			// whitelisted FACEWEAR
+				(_attachmentsRifle)																																														// whitelisted WEAPON ATTACHMENTS
 			],
-			_magazinesAll,								// whitelisted MAGAZINES
-			_backpacksAll,								// whitelisted BACKPACKS
-			(_weaponsBasic + _weaponsLauncherLAT + _weaponsHandgun + _weaponsSMG + _viewersAll)	// whitelisted WEAPONS
+			(_magazinesPistol + _magazinesCarbine + _magazinesRifle + _magazinesAssault + _rocketsUnguided + _magazinesStun + _grenadesChemlights + _grenadesSmoke + _grenadesOffensive),								// whitelisted MAGAZINES
+			(_backpacksCarrier + _backpacksRadio + _backpacksParachute),																																				// whitelisted BACKPACKS
+			(_pistolsPlasma + _carbinesPlasma + _riflesPlasma + _blastersAssault + _launchersUnguided + _equipmentBinoculars)																							// whitelisted WEAPONS
 		]
 	]
 };
+// Guided Anti-Tank role
 if (_role isEqualTo 'rifleman_hat') exitWith {
 	[
 		[	// -------------------------------------------------------------- BLACKLIST
@@ -788,19 +1195,170 @@ if (_role isEqualTo 'rifleman_hat') exitWith {
 			
 			]
 		],
-		[	// -------------------------------------------------------------- WHITELIST
-			[	// ITEMS
-				_uniformsAll,							// whitelisted UNIFORMS
-				_vestsAll,								// whitelisted VESTS
-				_inventoryAll,							// whitelisted Inventory
-				_assignedItemsAll,						// whitelisted ASSIGNED ITEMS
-				_headgearBasic,							// whitelisted HEADGEAR
-				_gogglesAll,							// whitelisted goggles
-				_attachmentsAll							// whitelisted Attachments
+		// -------------------------------------------------------------- WHITELIST
+		[	// ITEMS
+			[	
+				(_uniformsFormal + _uniformsArmour),																																									// whitelisted UNIFORMS
+				(_vestsHeavy + _vestsLight + _vestsCrew + _vestsStrapsBandoliers),																																		// whitelisted VESTS
+				(_equipmentInventory),																																													// whitelisted INVENTORY
+				(_equipmentNVGs + _equipmentAssignedItems),																																								// whitelisted ASSIGNED ITEMS + NVGs
+				(_helmetsCombat + _helmetsStealth),																																										// whitelisted HEADGEAR
+				(_uniformsClothCovering + _attachmentsHelmet + _uniformsMasks),																																			// whitelisted FACEWEAR
+				(_attachmentsRifle)																																														// whitelisted WEAPON ATTACHMENTS
 			],
-			_magazinesAll,								// whitelisted MAGAZINES
-			_backpacksAll,								// whitelisted BACKPACKS
-			(_weaponsBasic + _weaponsLauncherHAT + _weaponsHandgun + _weaponsSMG + _viewersAll)	// whitelisted WEAPONS
+			(_magazinesPistol + _magazinesCarbine + _magazinesAssault + _rocketsGuided + _magazinesStun + _grenadesChemlights + _grenadesSmoke + _grenadesOffensive),													// whitelisted MAGAZINES
+			(_backpacksCarrier + _backpacksRadio + _backpacksParachute),																																				// whitelisted BACKPACKS
+			(_pistolsPlasma + _carbinesPlasma + _blastersAssault + _launchersGuided + _equipmentBinoculars)																												// whitelisted WEAPONS
+		]
+	]
+};
+// Medic role
+if (_role in ['medic','medic_WL']) exitWith {
+	[
+		[	// -------------------------------------------------------------- BLACKLIST
+			[	// ITEMS
+				[	// blacklisted uniforms
+				
+				],
+				[	// blacklisted vests
+				
+				],
+				[	// blacklisted inventory
+				
+				],
+				[	// blacklisted assigned items
+					'b_uavterminal'
+				],
+				_headgearThermal,	// blacklisted Headgear
+				[	// blacklisted goggles
+				
+				],
+				[	// blacklisted attachments
+				
+				]
+			],
+			[	// blacklisted MAGAZINES
+				
+			],
+			[	// blacklisted BACKPACKS
+			
+			],
+			(_weaponsMMG + _weaponsSniper + _weaponsLauncherRegular)	// blacklisted WEAPONS
+		],
+		// -------------------------------------------------------------- WHITELIST
+		[	// ITEMS
+			[	
+				(_uniformsFormal + _uniformsArmour + _uniformsMedic),																																					// whitelisted UNIFORMS
+				(_vestsHeavy + _vestsLight + _vestsCrew + _vestsStrapsBandoliers),																																		// whitelisted VESTS
+				(_equipmentInventory + _equipmentInventory),																																							// whitelisted INVENTORY
+				(_equipmentNVGs + _equipmentAssignedItems),																																								// whitelisted ASSIGNED ITEMS + NVGs
+				(_helmetsCombat + _helmetsStealth),																																										// whitelisted HEADGEAR
+				(_uniformsClothCovering + _attachmentsHelmet + _uniformsMasks),																																			// whitelisted FACEWEAR
+				(_attachmentsRifle)																																														// whitelisted WEAPON ATTACHMENTS
+			],
+			(_magazinesPistol + _magazinesRifle + _magazinesAssault + _magazinesUGL+ _magazinesStun + _grenadesChemlights + _grenadesSmoke + _grenadesOffensive),														// whitelisted MAGAZINES
+			(_backpacksCarrier + _backpacksMedic + _backpacksRadio + _backpacksParachute),																																// whitelisted BACKPACKS
+			(_pistolsPlasma + _riflesPlasma + _blastersAssault + _blastersUGL + _launchersDisposable + _equipmentBinoculars)																							// whitelisted WEAPONS
+		]
+	]
+};
+// Engineer role
+if (_role in ['engineer']) exitWith {
+	[
+		[	// -------------------------------------------------------------- BLACKLIST
+			[	// ITEMS
+				[	// blacklisted uniforms
+				
+				],
+				[	// blacklisted vests
+				
+				],
+				[	// blacklisted inventory
+				
+				],
+				[	// blacklisted assigned items
+					'b_uavterminal'
+				],
+				_headgearThermal,	// blacklisted Headgear
+				[	// blacklisted goggles
+				
+				],
+				[	// blacklisted attachments
+				
+				]
+			],
+			[	// blacklisted MAGAZINES
+				
+			],
+			[	// blacklisted BACKPACKS
+			
+			],
+			(_weaponsMMG + _weaponsSniper + _weaponsLauncherRegular)	// blacklisted WEAPONS
+		],
+		// -------------------------------------------------------------- WHITELIST
+		[	// ITEMS
+			[	
+				(_uniformsFormal + _uniformsArmour + _uniformsMedic),																																					// whitelisted UNIFORMS
+				(_vestsHeavy + _vestsLight + _vestsCrew + _vestsStrapsBandoliers),																																		// whitelisted VESTS
+				(_equipmentEngineer + _equipmentInventory),																																								// whitelisted INVENTORY
+				(_equipmentNVGs + _equipmentAssignedItems),																																								// whitelisted ASSIGNED ITEMS + NVGs
+				(_helmetsCombat + _helmetsStealth + _helmetsPilot),																																						// whitelisted HEADGEAR
+				(_uniformsClothCovering + _attachmentsHelmet + _uniformsMasks),																																			// whitelisted FACEWEAR
+				(_attachmentsRifle)																																														// whitelisted WEAPON ATTACHMENTS
+			],
+			(_magazinesPistol + _magazinesCarbine + _magazinesScatter + _magazinesAssault + _magazinesStun + _explosivesInfantry + _explosivesEngineer + _grenadesChemlights + _grenadesSmoke),							// whitelisted MAGAZINES
+			(_backpacksCarrier + _backpacksTurret + _backpacksRadio + _backpacksParachute),																																// whitelisted BACKPACKS
+			(_pistolsPlasma + _carbinesPlasma + _blastersScatter + _blastersAssault + _equipmentBinoculars)																												// whitelisted WEAPONS
+		]
+	]
+};
+// Mortar Gunner role
+if (_role in ['mortar_gunner']) exitWith {
+	[
+		[	// -------------------------------------------------------------- BLACKLIST
+			[	// ITEMS
+				[	// blacklisted uniforms
+				
+				],
+				[	// blacklisted vests
+				
+				],
+				[	// blacklisted inventory
+				
+				],
+				[	// blacklisted assigned items
+					'b_uavterminal'
+				],
+				_headgearThermal,	// blacklisted Headgear
+				[	// blacklisted goggles
+				
+				],
+				[	// blacklisted attachments
+				
+				]
+			],
+			[	// blacklisted MAGAZINES
+				
+			],
+			[	// blacklisted BACKPACKS
+			
+			],
+			(_weaponsMMG + _weaponsSniper + _weaponsLauncherRegular)	// blacklisted WEAPONS
+		],
+		// -------------------------------------------------------------- WHITELIST
+		[	// ITEMS
+			[	
+				(_uniformsFormal + _uniformsArmour + _uniformsMedic),																																					// whitelisted UNIFORMS
+				(_vestsHeavy + _vestsLight + _vestsCrew + _vestsStrapsBandoliers),																																		// whitelisted VESTS
+				(_equipmentEngineer + _equipmentInventory),																																								// whitelisted INVENTORY
+				(_equipmentNVGs + _equipmentAssignedItems),																																								// whitelisted ASSIGNED ITEMS + NVGs
+				(_helmetsCombat + _helmetsStealth),																																										// whitelisted HEADGEAR
+				(_uniformsClothCovering + _attachmentsHelmet + _uniformsMasks),																																			// whitelisted FACEWEAR
+				(_attachmentsRifle)																																														// whitelisted WEAPON ATTACHMENTS
+			],
+			(_magazinesPistol + _magazinesCarbine + _magazinesRifle + _magazinesAssault + _magazinesUGL+ _magazinesStun),																								// whitelisted MAGAZINES
+			(_backpacksCarrier + _backpacksRadio + _backpacksParachute + _backpacksMortar),																																// whitelisted BACKPACKS
+			(_pistolsPlasma + _carbinesPlasma + _riflesPlasma + _blastersAssault + _blastersUGL + _equipmentBinoculars)																									// whitelisted WEAPONS
 		]
 	]
 };
@@ -839,19 +1397,20 @@ if (_role in ['sniper','sniper_WL']) exitWith {
 			
 			]
 		],
-		[	// -------------------------------------------------------------- WHITELIST
-			[	// ITEMS
-				_uniformsAll,						// whitelisted UNIFORMS
-				_vestsAll,							// whitelisted VESTS
-				_inventoryAll,						// whitelisted Inventory
-				_assignedItemsAll,					// whitelisted ASSIGNED ITEMS
-				_headgearBasic,						// whitelisted HEADGEAR
-				_gogglesAll,						// whitelisted goggles
-				_attachmentsAll						// whitelisted Attachments
+		// -------------------------------------------------------------- WHITELIST
+		[	// ITEMS
+			[	
+				(_uniformsFormal + _uniformsArmour + _uniformsMedic),																																					// whitelisted UNIFORMS
+				(_vestsHeavy + _vestsLight + _vestsCrew + _vestsStrapsBandoliers),																																		// whitelisted VESTS
+				(_equipmentEngineer + _equipmentInventory),																																								// whitelisted INVENTORY
+				(_equipmentNVGs + _equipmentAssignedItems),																																								// whitelisted ASSIGNED ITEMS + NVGs
+				(_helmetsCombat + _helmetsStealth),																																										// whitelisted HEADGEAR
+				(_uniformsClothCovering + _attachmentsHelmet + _uniformsMasks),																																			// whitelisted FACEWEAR
+				(_attachmentsRifle)																																														// whitelisted WEAPON ATTACHMENTS
 			],
-			_magazinesAll,							// whitelisted MAGAZINES
-			_backpacksAll,							// whitelisted BACKPACKS
-			(_weaponsSniper + _weaponsSMG + _weaponsHandgun + _viewersAll)	// whitelisted WEAPONS
+			(_magazinesPistol + _magazinesSniper + _magazinesStun + _grenadesChemlights + _grenadesSmoke),																												// whitelisted MAGAZINES
+			(_backpacksCarrier + _backpacksRadio + _backpacksParachute),																																				// whitelisted BACKPACKS
+			(_pistolsPlasma + _blastersSniper + _equipmentBinoculars)																																					// whitelisted WEAPONS
 		]
 	]
 };
@@ -889,23 +1448,24 @@ if (_role isEqualTo 'crewman') exitWith {
 			
 			]
 		],
-		[	// -------------------------------------------------------------- WHITELIST
-			[	// ITEMS
-				_uniformsAll,						// whitelisted UNIFORMS
-				_vestsAll,							// whitelisted VESTS
-				_inventoryAll,						// whitelisted Inventory
-				_assignedItemsAll,					// whitelisted ASSIGNED ITEMS
-				_headgearBasic,						// whitelisted HEADGEAR
-				_gogglesAll,						// whitelisted goggles
-				_attachmentsAll						// whitelisted Attachments
+		// -------------------------------------------------------------- WHITELIST
+		[	// ITEMS
+			[	
+				(_attachmentsHelmet + _uniformsClothCovering + _uniformsMasks + _uniformsFormal + _uniformsArmour),																										// whitelisted UNIFORMS
+				(_vestsHeavy + _vestsLight + _vestsCrew + _vestsStrapsBandoliers),																																		// whitelisted VESTS
+				(_equipmentInventory),																																													// whitelisted Inventory
+				(_equipmentAssignedItems),																																												// whitelisted ASSIGNED ITEMS + NVGs
+				(_helmetsCombat + _helmetsStealth),																																										// whitelisted HEADGEAR
+				(_equipmentNVGs),																																														// whitelisted goggles (facewear)
+				(_attachmentsRifle + _attachmentsSniper)																																								// whitelisted Attachments
 			],
-			_magazinesAll,							// whitelisted MAGAZINES
-			_backpacksAll,							// whitelisted BACKPACKS
-			(_weaponsCompact + _weaponsSMG + _weaponsHandgun + _weaponsLauncherBasic + _viewersAll)	// whitelisted WEAPONS
+			(_magazinesPistol + _magazinesCarbine + _blastersScatter + _magazinesStun + _grenadesChemlights + _grenadesSmoke),																							// whitelisted MAGAZINES
+			(_backpacksCarrier + _backpacksRadio + _backpacksParachute),																																				// whitelisted BACKPACKS
+			(_pistolsPlasma + _carbinesPlasma + _magazinesScatter + _equipmentBinoculars)																																// whitelisted WEAPONS
 		]
 	]
 };
-// JTAC role
+// RTO role
 if (_role isEqualTo 'jtac') exitWith {
 	[
 		[	// -------------------------------------------------------------- BLACKLIST
@@ -940,19 +1500,20 @@ if (_role isEqualTo 'jtac') exitWith {
 			
 			]
 		],
-		[	// -------------------------------------------------------------- WHITELIST
-			[	// ITEMS
-				_uniformsAll,							// whitelisted UNIFORMS
-				_vestsAll,								// whitelisted VESTS
-				_inventoryAll,							// whitelisted Inventory
-				_assignedItemsAll,						// whitelisted ASSIGNED ITEMS
-				_headgearBasic,							// whitelisted HEADGEAR
-				_gogglesAll,							// whitelisted goggles
-				_attachmentsAll							// whitelisted Attachments
+		// -------------------------------------------------------------- WHITELIST
+		[	// ITEMS
+			[	
+				(_uniformsFormal + _uniformsArmour + _uniformsMedic),																																					// whitelisted UNIFORMS
+				(_vestsHeavy + _vestsLight + _vestsCrew + _vestsStrapsBandoliers),																																		// whitelisted VESTS
+				(_equipmentEngineer + _equipmentInventory),																																								// whitelisted INVENTORY
+				(_equipmentNVGs + _equipmentAssignedItems),																																								// whitelisted ASSIGNED ITEMS + NVGs
+				(_helmetsCombat + _helmetsStealth),																																										// whitelisted HEADGEAR
+				(_uniformsClothCovering + _attachmentsHelmet + _uniformsMasks),																																			// whitelisted FACEWEAR
+				(_attachmentsRifle)																																														// whitelisted WEAPON ATTACHMENTS
 			],
-			_magazinesAll,								// whitelisted MAGAZINES
-			_backpacksRadio,							// whitelisted BACKPACKS
-			(_weaponsBasic + _weaponsHandgun + _weaponsSMG + _weaponsLauncherBasic + _viewersAll)	// whitelisted WEAPONS
+			(_magazinesPistol + _magazinesCarbine + _magazinesRifle + _magazinesAssault + _magazinesUGL + _magazinesStun + _grenadesChemlights + _grenadesSmoke + _grenadesOffensive + _explosivesInfantry),			// whitelisted MAGAZINES
+			(_backpacksCarrier + _backpacksRadio + _backpacksParachute),																																				// whitelisted BACKPACKS
+			(_pistolsPlasma + _carbinesPlasma + _riflesPlasma + _blastersAssault + _blastersUGL + _equipmentBinoculars)																									// whitelisted WEAPONS
 		]
 	]
 };
@@ -991,19 +1552,20 @@ if (_role in ['pilot','pilot_plane','pilot_cas','pilot_heli','pilot_heli_WL']) e
 			
 			]
 		],
-		[	// -------------------------------------------------------------- WHITELIST
-			[	// ITEMS
-				_uniformsAll,						// whitelisted UNIFORMS
-				_vestsAll,							// whitelisted VESTS
-				_inventoryAll,						// whitelisted Inventory
-				_assignedItemsAll,					// whitelisted ASSIGNED ITEMS
-				_headgearBasic,						// whitelisted HEADGEAR
-				_gogglesAll,						// whitelisted goggles
-				_attachmentsAll						// whitelisted Attachments
+		// -------------------------------------------------------------- WHITELIST
+		[	// ITEMS
+			[	
+				(_uniformsFormal + _uniformsArmour + _uniformsMedic),																																					// whitelisted UNIFORMS
+				(_vestsHeavy + _vestsLight + _vestsCrew + _vestsStrapsBandoliers),																																		// whitelisted VESTS
+				(_equipmentEngineer + _equipmentInventory),																																								// whitelisted INVENTORY
+				(_equipmentNVGs + _equipmentAssignedItems),																																								// whitelisted ASSIGNED ITEMS + NVGs
+				(_helmetsCombat + _helmetsStealth),																																										// whitelisted HEADGEAR
+				(_uniformsClothCovering + _attachmentsHelmet + _uniformsMasks),																																			// whitelisted FACEWEAR
+				(_attachmentsRifle)																																														// whitelisted WEAPON ATTACHMENTS
 			],
-			_magazinesAll,							// whitelisted MAGAZINES
-			_backpacksAll,							// whitelisted BACKPACKS
-			(_weaponsHandgun + _weaponsSMG + _weaponsLauncherBasic + _viewersAll)	// whitelisted WEAPONS
+			(_magazinesPistol + _magazinesCarbine + _magazinesRifle + _magazinesAssault + _magazinesUGL + _magazinesStun + _grenadesChemlights + _grenadesSmoke + _grenadesOffensive + _explosivesInfantry),			// whitelisted MAGAZINES
+			(_backpacksCarrier + _backpacksRadio + _backpacksParachute),																																				// whitelisted BACKPACKS
+			(_pistolsPlasma + _carbinesPlasma + _riflesPlasma + _blastersAssault + _blastersUGL + _equipmentBinoculars)																									// whitelisted WEAPONS
 		]
 	]
 };
@@ -1042,19 +1604,20 @@ if (_role isEqualTo 'commander') exitWith {
 			
 			]
 		],
-		[	// -------------------------------------------------------------- WHITELIST
-			[	// ITEMS
-				_uniformsAll,						// whitelisted UNIFORMS
-				_vestsAll,							// whitelisted VESTS
-				_inventoryAll,						// whitelisted Inventory
-				_assignedItemsAll,					// whitelisted ASSIGNED ITEMS
-				_headgearBasic,						// whitelisted HEADGEAR
-				_gogglesAll,						// whitelisted goggles
-				_attachmentsAll						// whitelisted Attachments
+		// -------------------------------------------------------------- WHITELIST
+		[	//	Items
+			[	
+				(_uniformsFormal + _uniformsArmour),																																									// whitelisted UNIFORMS
+				(_vestsHeavy + _vestsLight + _vestsCrew + _vestsStrapsBandoliers),																																		// whitelisted VESTS
+				(_equipmentInventory),																																													// whitelisted INVENTORY
+				(_equipmentNVGs + _equipmentAssignedItems),																																								// whitelisted ASSIGNED ITEMS + NVGs
+				(_helmetsCombat + _helmetsStealth),																																										// whitelisted HEADGEAR
+				(_uniformsClothCovering + _attachmentsHelmet + _uniformsMasks),																																			// whitelisted FACEWEAR
+				(_attachmentsRifle)																																														// whitelisted WEAPON ATTACHMENTS
 			],
-			_magazinesAll,							// whitelisted MAGAZINES
-			_backpacksAll,							// whitelisted BACKPACKS
-			(_weaponsHandgun + _viewersAll)	// whitelisted WEAPONS
+			(_magazinesAll + _grenadesAll + _explosivesAll),																																							// whitelisted MAGAZINES
+			(_backpacksAll),																																															// whitelisted BACKPACKS
+			(_weaponsAll + _equipmentBinoculars)																																										// whitelisted WEAPONS
 		]
 	]
 };
@@ -1093,19 +1656,20 @@ if (_role in ['leader']) exitWith {
 			
 			]
 		],
-		[	// -------------------------------------------------------------- WHITELIST
-			[	// ITEMS
-				_uniformsAll,						// whitelisted UNIFORMS
-				_vestsAll,							// whitelisted VESTS
-				_inventoryAll,						// whitelisted Inventory
-				_assignedItemsAll,					// whitelisted ASSIGNED ITEMS
-				_headgearBasic,						// whitelisted HEADGEAR
-				_gogglesAll,						// whitelisted goggles
-				_attachmentsAll						// whitelisted Attachments
+		// -------------------------------------------------------------- WHITELIST
+		[	// ITEMS
+			[	
+				(_uniformsFormal + _uniformsArmour),																																									// whitelisted UNIFORMS
+				(_vestsHeavy + _vestsLight + _vestsCrew + _vestsStrapsBandoliers),																																		// whitelisted VESTS
+				(_equipmentInventory),																																													// whitelisted INVENTORY
+				(_equipmentNVGs + _equipmentAssignedItems),																																								// whitelisted ASSIGNED ITEMS + NVGs
+				(_helmetsCombat + _helmetsStealth),																																										// whitelisted HEADGEAR
+				(_uniformsClothCovering + _attachmentsHelmet + _uniformsMasks),																																			// whitelisted FACEWEAR
+				(_attachmentsRifle)																																														// whitelisted WEAPON ATTACHMENTS
 			],
-			_magazinesAll,							// whitelisted MAGAZINES
-			_backpacksAll,							// whitelisted BACKPACKS
-			(_weaponsBasic + _weaponsHandgun + _weaponsSMG + _weaponsLauncherBasic + _viewersAll)	// whitelisted WEAPONS
+			(_magazinesAll + _grenadesAll + _explosivesAll),																																							// whitelisted MAGAZINES
+			(_backpacksAll),																																															// whitelisted BACKPACKS
+			(_weaponsAll + _equipmentBinoculars)																																										// whitelisted WEAPONS
 		]
 	]
 };
@@ -1144,19 +1708,20 @@ if (_role isEqualTo 'uav') exitWith {
 			
 			]
 		],
-		[	// -------------------------------------------------------------- WHITELIST
-			[	// ITEMS
-				_uniformsAll,								// whitelisted UNIFORMS
-				_vestsAll,									// whitelisted VESTS
-				_inventoryAll,								// whitelisted Inventory
-				(_assignedItemsAll + _assignedItemsUAV),	// whitelisted ASSIGNED ITEMS
-				_headgearBasic,								// whitelisted HEADGEAR
-				_gogglesAll,								// whitelisted goggles
-				_attachmentsAll								// whitelisted Attachments
+		// -------------------------------------------------------------- WHITELIST
+		[	// ITEMS
+			[	
+				(_uniformsFormal + _uniformsArmour + _uniformsMedic),																																					// whitelisted UNIFORMS
+				(_vestsHeavy + _vestsLight + _vestsCrew + _vestsStrapsBandoliers),																																		// whitelisted VESTS
+				(_equipmentEngineer + _equipmentInventory),																																								// whitelisted INVENTORY
+				(_equipmentNVGs + _equipmentAssignedItems),																																								// whitelisted ASSIGNED ITEMS + NVGs
+				(_helmetsCombat + _helmetsStealth),																																										// whitelisted HEADGEAR
+				(_uniformsClothCovering + _attachmentsHelmet + _uniformsMasks),																																			// whitelisted FACEWEAR
+				(_attachmentsRifle)																																														// whitelisted WEAPON ATTACHMENTS
 			],
-			_magazinesAll,									// whitelisted MAGAZINES
-			_backpacksAll,									// whitelisted BACKPACKS
-			(_weaponsBasic + _weaponsHandgun + _weaponsSMG + _viewersAll)	// whitelisted WEAPONS
+			(_magazinesPistol + _magazinesCarbine + _blastersScatter + _magazinesStun + _grenadesChemlights + _grenadesSmoke),																							// whitelisted MAGAZINES
+			(_backpacksUAV + _backpacksParachute),																																									// whitelisted BACKPACKS
+			(_pistolsPlasma + _carbinesPlasma + _magazinesScatter + _equipmentBinoculars)																																// whitelisted WEAPONS
 		]
 	]
 };
@@ -1192,19 +1757,20 @@ if (_role isEqualTo 'o_rifleman') exitWith {
 			],
 			(_weaponsMMG + _weaponsSniper + _weaponsLauncherRegular)	// blacklisted WEAPONS
 		],
-		[	// -------------------------------------------------------------- WHITELIST
-			[	// ITEMS
-				_o_uniforms,			// whitelisted UNIFORMS
-				_o_vests,				// whitelisted VESTS
-				_inventoryAll,			// whitelisted Inventory
-				_assignedItemsAll,		// whitelisted ASSIGNED ITEMS
-				_o_headgear,			// whitelisted HEADGEAR
-				_gogglesAll,			// whitelisted goggles
-				_o_attachments			// whitelisted Attachments
+		// -------------------------------------------------------------- WHITELIST
+		[	// ITEMS
+			[	
+				(_uniformsFormal + _uniformsArmour),																																									// whitelisted UNIFORMS
+				(_vestsHeavy + _vestsLight + _vestsCrew + _vestsStrapsBandoliers),																																		// whitelisted VESTS
+				(_equipmentInventory),																																													// whitelisted INVENTORY
+				(_equipmentNVGs + _equipmentAssignedItems),																																								// whitelisted ASSIGNED ITEMS + NVGs
+				(_helmetsCombat + _helmetsStealth),																																										// whitelisted HEADGEAR
+				(_uniformsClothCovering + _attachmentsHelmet + _uniformsMasks),																																			// whitelisted FACEWEAR
+				(_attachmentsRifle)																																														// whitelisted WEAPON ATTACHMENTS
 			],
-			_magazinesAll,				// whitelisted MAGAZINES
-			_o_backpacks,				// whitelisted BACKPACKS
-			((_o_weapons - [_weaponsSW + _weaponsLMG]) + _weaponsHandgun + _weaponsLauncherBasic + _viewersAll)	// whitelisted WEAPONS
+			(_magazinesAll + _grenadesAll + _explosivesAll),																																							// whitelisted MAGAZINES
+			(_backpacksAll),																																															// whitelisted BACKPACKS
+			(_weaponsAll + _equipmentBinoculars)																																										// whitelisted WEAPONS
 		]
 	]
 };
@@ -1240,19 +1806,20 @@ if (_role isEqualTo 'o_autorifleman') exitWith {
 			],
 			(_weaponsMMG + _weaponsSniper + _weaponsLauncherRegular)	// blacklisted WEAPONS
 		],
-		[	// -------------------------------------------------------------- WHITELIST
-			[	// ITEMS
-				_o_uniforms,			// whitelisted UNIFORMS
-				_o_vests,				// whitelisted VESTS
-				_inventoryAll,			// whitelisted Inventory
-				_assignedItemsAll,		// whitelisted ASSIGNED ITEMS
-				_o_headgear,			// whitelisted HEADGEAR
-				_gogglesAll,			// whitelisted goggles
-				_o_attachments			// whitelisted Attachments
+		// -------------------------------------------------------------- WHITELIST
+		[	// ITEMS
+			[	
+				(_uniformsFormal + _uniformsArmour),																																									// whitelisted UNIFORMS
+				(_vestsHeavy + _vestsLight + _vestsCrew + _vestsStrapsBandoliers),																																		// whitelisted VESTS
+				(_equipmentInventory),																																													// whitelisted INVENTORY
+				(_equipmentNVGs + _equipmentAssignedItems),																																								// whitelisted ASSIGNED ITEMS + NVGs
+				(_helmetsCombat + _helmetsStealth),																																										// whitelisted HEADGEAR
+				(_uniformsClothCovering + _attachmentsHelmet + _uniformsMasks),																																			// whitelisted FACEWEAR
+				(_attachmentsRifle)																																														// whitelisted WEAPON ATTACHMENTS
 			],
-			_magazinesAll,				// whitelisted MAGAZINES
-			_o_backpacks,				// whitelisted BACKPACKS
-			(_o_weapons + _weaponsHandgun + _weaponsLauncherBasic + _viewersAll)	// whitelisted WEAPONS
+			(_magazinesAll + _grenadesAll + _explosivesAll),																																							// whitelisted MAGAZINES
+			(_backpacksAll),																																															// whitelisted BACKPACKS
+			(_weaponsAll + _equipmentBinoculars)																																										// whitelisted WEAPONS
 		]
 	]
 };

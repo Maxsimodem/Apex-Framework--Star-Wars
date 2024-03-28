@@ -1,0 +1,229 @@
+//Invade and Annex: Apex Edition weapon index
+
+//Created by Maxsimodem, 2021-10-25
+//Written in Notepad++
+
+//Last modification made by/on:	-Maxsimodem, 2021-10-25
+
+/*Modification description(s):
+*
+*						-Created all combat Gear allowcations
+*/
+
+/*This file is used to determine what weapons, equipment and uniforms
+*that each role can use. It is to be used in reference to Invade and
+*Annex: Apex Edition and was created to make sense of the arsenal.sqf
+*file as well as make mod expansion easier.*/
+
+/*NOTICE:
+*THIS IS NOT FUNCTIONING CODE DESPITE USING PROGRAMMER NOTE SYNTAX
+*DO NOT USE THIS AS THE ARSENAL.SQF*/
+
+/*NOTICE:
+*THIS IS NOT FUNCTIONING CODE DESPITE USING PROGRAMMER NOTE SYNTAX
+*DO NOT USE THIS AS THE ARSENAL.SQF*/
+
+==============
+TEMPLATE ROLE:
+==============
+
+		-Example Category:						-Example Category:								-Example Category:							-Example Category:							-Example Category:							-Example Category:
+		*		-Example Sub-Category						-Example Sub-Category						-Example Sub-Category						-Example Sub-Category						-Example Sub-Category						-Example Sub-Category
+		*
+
+===============
+UNDEFINED ROLE:
+===============
+
+		-Weapons:								-Uniform Elements:								-Vests:										-Backpacks:									-Headgear:									-Equipment:
+		*		_blasterPistols								_helmetWear									_heavyCombatVests							_packs										_combatHelmets								_nightVisionGoggles
+		*		_subMachineBlasters							_clothWear									_lightCombatVests							_radios										_stealthHelmets								_binoculars
+		*		_lightMachineBlasters						_masks										_crewVests									_respirators								_nonCombatHelmets							_maps
+		*		_assaultBlasters							_officerUniforms							_strapsHarnessesBandoliers					_parachutes									_officerHats								_terminals
+		*		_battleBlastersAndDMBs						_armourSets									_rebreathers								_staticMachineGuns							_pilotHelmets								_radios
+		*		_sniperBlasters								_coverAlls																				_bipodsAndTripods																		_compasses
+		*		_slugThrowers																														_deployableCover																		_watches
+		*		_lightRocketLaunchers																												_mortars																				_inventoryAll
+		*		_heavyRocketLaunchers
+
+=========
+RIFLEMAN:
+=========
+
+		-Weapons:								-Uniform Elements:								-Vests:										-Backpacks:									-Headgear:									-Equipment:
+		*		_blasterPistols								_helmetWear									_heavyCombatVests							_packs										_combatHelmets								_nightVisionGoggles
+		*		_subMachineBlasters							_clothWear									_lightCombatVests							_radios										_stealthHelmets								_binoculars
+		*		_assaultBlasters							_masks										_strapsHarnessesBandoliers					_respirators								_nonCombatHelmets							_maps
+		*		_battleBlastersAndDMBs						_officerUniforms							_rebreathers								_parachutes									_officerHats								_terminals
+		*		_slugThrowers								_armourSets																																										_radios
+		*													_coverAlls																																										_compasses
+		*																																																									_watches
+		*																																																									_inventoryAll
+
+=============
+AUTORIFLEMAN:
+=============
+
+		-Weapons:								-Uniform Elements:								-Vests:										-Backpacks:									-Headgear:									-Equipment:
+		*		_blasterPistols								_helmetWear									_heavyCombatVests							_packs										_combatHelmets								_nightVisionGoggles
+		*		_assaultBlasters							_clothWear									_lightCombatVests							_radios										_stealthHelmets								-Binoculars
+		*		_lightMachineBlasters						_masks										_strapsHarnessesBandoliers					_respirators								_nonCombatHelmets							-Maps
+		*													_officerUniforms							_rebreathers								_parachutes									_officerHats								-Terminals
+		*													_armourSets																				_deployableCover																		-Radios
+		*													_coverAlls																																										-Navigation
+		*																																																									-Watches
+		*																																																									_inventoryAll
+
+===============
+MACHINE GUNNER:
+===============
+
+		-Weapons:								-Uniform Elements:								-Vests:										-Backpacks:									-Headgear:									-Equipment:
+		*		_blasterPistols								_helmetWear									_heavyCombatVests							_packs										_combatHelmets								_nightVisionGoggles
+		*		_assaultBlasters							_clothWear									_lightCombatVests							_staticMachineGuns							_stealthHelmets								-Binoculars
+		*		_lightMachineBlasters						_masks										_strapsHarnessesBandoliers					_bipodsAndTripods							_nonCombatHelmets							-Maps
+		*													_officerUniforms							_rebreathers								_parachutes									_officerHats								-Terminals
+		*													_armourSets																				_deployableCover																		-Radios
+		*													_coverAlls																																										-Navigation
+		*																																																									-Watches
+		*																																																									_inventoryAll
+
+===============
+RIFLEMAN [LAT]:
+===============
+
+		-Weapons:								-Uniform Elements:								-Vests:										-Backpacks:									-Headgear:									-Equipment:
+		*		_blasterPistols								_helmetWear									_heavyCombatVests							_packs										_combatHelmets								_nightVisionGoggles
+		*		_subMachineBlasters							_clothWear									_lightCombatVests							_radios										_stealthHelmets								-Binoculars
+		*		_assaultBlasters							_masks										_strapsHarnessesBandoliers					_parachutes									_nonCombatHelmets							-Maps
+		*		_battleBlastersAndDMBs						_officerUniforms							_rebreathers																			_officerHats								-Terminals
+		*		_lightRocketLaunchers						_armourSets																																										-Radios
+		*		_slugThrowers								_coverAlls																																										-Navigation
+		*																																																									-Watches
+		*																																																									_inventoryAll
+
+===============
+RIFLEMAN [HAT]:
+===============
+
+		-Weapons:								-Uniform Elements:								-Vests:										-Backpacks:									-Headgear:									-Equipment:
+		*		_blasterPistols								_helmetWear									_heavyCombatVests							_packs										_combatHelmets								_nightVisionGoggles
+		*		_subMachineBlasters							_clothWear									_lightCombatVests							_parachutes									_stealthHelmets								-Binoculars
+		*		_assaultBlasters							_masks										_crewVests																				_nonCombatHelmets							-Maps
+		*		_battleBlastersAndDMBs						_officerUniforms							_strapsHarnessesBandoliers																_officerHats								-Terminals
+		*		_heavyRocketLaunchers						_armourSets									_rebreathers																														-Radios
+		*		_slugThrowers								_coverAlls																																										-Navigation
+		*																																																									-Watches
+		*																																																									_inventoryAll
+
+======
+MEDIC:
+======
+
+		-Weapons:								-Uniform Elements:								-Vests:										-Backpacks:									-Headgear:									-Equipment:
+		*		_blasterPistols								_helmetWear									_heavyCombatVests							_packs										_combatHelmets								_nightVisionGoggles
+		*		_subMachineBlasters							_clothWear									_lightCombatVests							_radios										_stealthHelmets								-Binoculars
+		*		_assaultBlasters							_masks										_crewVests									_respirators								_nonCombatHelmets							-Maps
+		*		_battleBlastersAndDMBs						_officerUniforms							_strapsHarnessesBandoliers					_parachutes									_officerHats								-Terminals
+		*		_rPGs										_armourSets									_rebreathers								_deployableCover																		-Radios
+		*		_slugThrowers								_coverAlls																																										-Navigation
+		*																																																									-Watches
+		*																																																									_inventoryAll
+
+=========
+Engineer:
+=========
+
+		-Weapons:								-Uniform Elements:								-Vests:										-Backpacks:									-Headgear:									-Equipment:
+		*		_blasterPistols								_helmetWear									_heavyCombatVests							_packs										_combatHelmets								_nightVisionGoggles
+		*		_subMachineBlasters							_clothWear									_lightCombatVests							_radios										_stealthHelmets								-Binoculars
+		*		_assaultBlasters							_masks										_crewVests									_respirators								_nonCombatHelmets							-Maps
+		*		_battleBlastersAndDMBs						_officerUniforms							_strapsHarnessesBandoliers					_parachutes									_officerHats								-Terminals
+		*		_slugThrowers								_armourSets									_rebreathers								_deployableCover																		-Radios
+		*													_coverAlls																																										-Navigation
+		*																																																									-Watches
+		*																																																									_inventoryAll
+
+==============
+Mortar Gunner:
+==============
+
+		-Weapons:								-Uniform Elements:								-Vests:										-Backpacks:									-Headgear:									-Equipment:
+		*		_blasterPistols								_helmetWear									_heavyCombatVests							_packs										_combatHelmets								_nightVisionGoggles
+		*		_subMachineBlasters							_clothWear									_lightCombatVests							_bipodsAndTripods							_stealthHelmets								-Binoculars
+		*		_assaultBlasters							_masks										_crewVests									_mortars									_nonCombatHelmets							-Maps
+		*		_battleBlastersAndDMBs						_officerUniforms							_strapsHarnessesBandoliers					_parachutes									_officerHats								-Terminals
+		*		_slugThrowers								_armourSets									_rebreathers																														-Radios
+		*													_coverAlls																																										-Navigation
+		*																																																									-Watches
+		*																																																									_inventoryAll
+
+==============
+SNIPER:
+==============
+
+		-Weapons:								-Uniform Elements:								-Vests:										-Backpacks:									-Headgear:									-Equipment:
+		*		_blasterPistols								_helmetWear									_lightCombatVests							_packs										_combatHelmets								_nightVisionGoggles
+		*		_battleBlastersAndDMBs						_clothWear									_crewVests									_radios										_stealthHelmets								-Binoculars
+		*		_sniperBlasters								_masks										_strapsHarnessesBandoliers					_respirators								_nonCombatHelmets							-Maps
+		*													_armourSets																				_parachutes																				-Terminals
+		*																																																									-Radios
+		*																																																									-Navigation
+		*																																																									-Watches
+		*																																																									_inventoryAll
+
+=====
+JTAC:
+=====
+
+		-Weapons:								-Uniform Elements:								-Vests:										-Backpacks:									-Headgear:									-Equipment:
+		*		_blasterPistols								_helmetWear									_heavyCombatVests							_packs										_combatHelmets								_nightVisionGoggles
+		*		_subMachineBlasters							_clothWear									_lightCombatVests							_radios										_stealthHelmets								-Binoculars
+		*		_assaultBlasters							_masks										_crewVests									_respirators								_nonCombatHelmets							-Maps
+		*		_battleBlastersAndDMBs						_officerUniforms							_strapsHarnessesBandoliers					_parachutes									_officerHats								-Terminals
+		*		_slugThrowers								_armourSets									_rebreathers																														-Radios
+		*													_coverAlls																																										-Navigation
+		*																																																									-Watches
+		*																																																									_inventoryAll
+
+=============
+UAV Operator:
+=============
+
+		-Weapons:								-Uniform Elements:								-Vests:										-Backpacks:									-Headgear:									-Equipment:
+		*		_blasterPistols								_helmetWear									_heavyCombatVests							_packs										_combatHelmets								_nightVisionGoggles
+		*		_subMachineBlasters							_clothWear									_lightCombatVests							_radios										_stealthHelmets								-Binoculars
+		*		_assaultBlasters							_masks										_crewVests									_respirators								_nonCombatHelmets							-Maps
+		*		_battleBlastersAndDMBs						_officerUniforms							_strapsHarnessesBandoliers					_parachutes									_officerHats								-Terminals
+		*		_slugThrowers								_armourSets									_rebreathers								_uavs																					-Radios
+		*													_coverAlls																																										-Navigation
+		*																																																									-Watches
+		*																																																									_inventoryAll
+
+================
+Transport Pilot:
+================
+
+		-Weapons:								-Uniform Elements:								-Vests:										-Backpacks:									-Headgear:									-Equipment:
+		*		_blasterPistols								_helmetWear									_lightCombatVests							_radios										_combatHelmets								_nightVisionGoggles
+		*		_subMachineBlasters							_clothWear									_crewVests									_parachutes									_nonCombatHelmets							-Binoculars
+		*		_slugThrowers								_masks										_strapsHarnessesBandoliers																_pilotHelmets								-Maps
+		*													_armourSets																																										-Terminals
+		*													_coverAlls																																										-Radios
+		*																																																									-Navigation
+		*																																																									-Watches
+		*																																																									_inventoryAll
+
+==============
+Fighter Pilot:
+==============
+
+		-Weapons:								-Uniform Elements:								-Vests:										-Backpacks:									-Headgear:									-Equipment:
+		*		_blasterPistols								_helmetWear									_lightCombatVests							_radios										_pilotHelmets								_nightVisionGoggles
+		*		_subMachineBlasters							_clothWear									_crewVests									_parachutes																				-Binoculars
+		*		_slugThrowers								_masks										_strapsHarnessesBandoliers																											-Maps
+		*													_armourSets																																										-Terminals
+		*													_coverAlls																																										-Radios
+		*																																																									-Navigation
+		*																																																									-Watches
+		*																																																									_inventoryAll

@@ -1,0 +1,2 @@
+@echo off
+"E:\Documents\Games\steamapps\common\Arma 3 Server\arma3server_x64.exe" "-profiles=E:\Documents\Games\steamapps\common\Arma 3 Server\Users" -name="server" -cfg=basic.cfg -config=server.cfg -filePatching -mod="@3AS Beta;@3AS Beta Terrains;@A2C;@Arsenal Search;@Atlas Hitmarkers;@Better Inventory;@CBA_A3;@CH View Distance;@DUI;@Enhanced Movement;@FIR AWS;@JLTS-Arsenal;@JLTS-TGW;@LS-Base;@LS-Battlefields;@LS-NoBlasterDrop;@No Weapon Sway;@OpTre;@Roots Effects;@SciFi Support;@SwimAllUniforms;@Zeus Enhanced" -servermod=@Apex -port=2302 -world=empty
