@@ -1,3 +1,11 @@
+This repository is a fork of the Apex Framework originally written by Quiksilver.
+
+Its main goal is to create a playable Star Wars version of the Invade and Annex game mode, as it was my introduction to the game.
+
+Please be aware that this project has not actually been worked on in months at time of writing, so there may be issues with the current state of the mission file that I cannot recall.
+
+Specific setup instruction will be revised after the project has been completed. Until that time, please be aware that the instructions below are for a VANILLA INSTANCE of Invade and Annex
+
 Apex Framework 1.5.6 (Stable) 14/10/2023 A3 2.14
 by Quiksilver       ( armacombatgroup@gmail.com ) ( https://www.patreon.com/QS )
 
