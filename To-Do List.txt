@@ -4,9 +4,8 @@ To Do:
 		-Complete arsenal.sqf
 			-Weapon attachments
 			-Reconfigure for JLTS/3AS-based gear
-		-Mods
-			-Add No Bullet Drop for legion studios
 		-Transfer custom HQ from mission.sqm to QS_missionObjects.sqf
+			-Redesign base; Increase size
 			-Tinker with boat spawn heights
 			-Tinker with vehicle/crate spawn heights and times
 			-Tinker with Infantry spawn positions, stop from spawning behind the billboards
@@ -20,7 +19,6 @@ To Do:
 				-Line 854
 		-Update Default kits
 			-Remove ACE items
-			-replace 717th items with JLTS EA
 			-Change image for Rifleman to DC-15A
 			-Reconfigure default Autorifleman loadout for DC-15LE
 			-Reconfigure default Machine Gunner loadout to use JLTS:EA Cold Assault Suit
@@ -32,6 +30,14 @@ To Do:
 			-If possible, add
 				-91st MRC
 				-"Returning to Base" phase 1 ranks, personal screenshot
+		-Replace default compositions
+			-Supply depot
+			-AAA Site 1
+			-AAA Site 2
+			-Mortar Pit
+			-All FOBs
+			-HQ compositions
+			-Datalink
 		-Playtest before transferring to paid server
 
 	-Complex/Unknown
@@ -42,6 +48,7 @@ To Do:
 			-check fnc_clientCore
 				-line 452
 				-line 2697
+		-Disable vanilla group module
 		-Disable fuel consumption module
 			-check fnc_clientCore
 				-line 741
@@ -69,15 +76,12 @@ Notes:
 				-Prisoner escorting needs to be made compatible with ACE Interaction
 				-ACE Arsenal needs to be tied into QS Arsenal
 				-ACE Breaks Medevac objectives due to conflicting unconscious state
-	-TFAR To be removed until after Star Wars Conversion is complete
+	-TFAR
 		-Requires compatibility
 			-Stop modded radios from being de-equipped
-				-Remove integrated radio system
-				-Message to chat anywhere radios are unequipped by mission file
-			-Disable Radio
-				-check fnc_clientCore
-					-line 985
-					-line 4610
+				-add TFAR radio variants (1000 each) to arsenal.sqf
+				 OR
+				-stop checking assigned items
 
 Solved Issues:
 	-OPTRE Biofoam crashes game. Reason: ACE3 OPTRE compat patch
@@ -98,14 +102,12 @@ Known Issues:
 			-line 958
 			-line 4471
 	-Missile Seara artillery sometimes spawns in undesired location; remove
-	-Mission-spawned LAATs canot be serviced at Helo station froum outside vehicle, apparently considered VTOLs
+	-Mission-spawned LAATs canot be serviced at Helo station from outside vehicle, apparently considered VTOLs
 	-Custom speed limit zone not working
 	-Gitmo and MedEvac locations need to be changed
 	-Modded radios de-equipped by apex framework, suspected extra arsenal filters
 	-Medevac missions cannot be completed; ACE3 affects unconsious states
 	-IMS forces players into perpetual busy state
-
-
 	-Remove Webknights Zombies
 		-Requires compatibility
 	-Remove 717th Aux
